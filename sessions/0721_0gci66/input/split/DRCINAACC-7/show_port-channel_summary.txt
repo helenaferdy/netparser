@@ -1,0 +1,69 @@
+DRCINAACC-7# show port-channel summary
+Flags:  D - Down        P - Up in port-channel (members)
+        I - Individual  H - Hot-standby (LACP only)
+        s - Suspended   r - Module-removed
+        b - BFD Session Wait
+        S - Switched    R - Routed
+        U - Up (port-channel)
+        p - Up in delay-lacp mode (member)
+        M - Not in use. Min-links not met
+--------------------------------------------------------------------------------
+Group Port-       Type     Protocol  Member Ports
+      Channel
+--------------------------------------------------------------------------------
+1     Po1(SU)     Eth      LACP      Eth2/3(P)
+2     Po2(RU)     Eth      LACP      Eth2/4(P)
+3     Po3(SU)     Eth      LACP      Eth2/1(D)    Eth2/2(D)    Eth2/5(P)
+                                     Eth2/6(D)
+11    Po11(SD)    Eth      NONE      --
+12    Po12(SD)    Eth      NONE      --
+13    Po13(SD)    Eth      NONE      --
+14    Po14(SD)    Eth      NONE      --
+15    Po15(SD)    Eth      NONE      --
+16    Po16(SD)    Eth      NONE      --
+17    Po17(SD)    Eth      LACP      Eth1/11(D)   Eth1/13(D)
+18    Po18(SU)    Eth      LACP      Eth1/12(P)   Eth1/14(P)
+19    Po19(SD)    Eth      LACP      Eth1/34(D)   Eth1/35(D)
+20    Po20(SD)    Eth      LACP      Eth1/36(D)
+21    Po21(SD)    Eth      LACP      Eth1/26(D)   Eth1/27(D)
+22    Po22(SD)    Eth      LACP      Eth1/28(D)   Eth1/29(D)
+23    Po23(SD)    Eth      NONE      --
+24    Po24(SD)    Eth      LACP      Eth1/42(D)   Eth1/43(D)
+25    Po25(SD)    Eth      LACP      Eth1/44(D)   Eth1/45(D)
+26    Po26(SD)    Eth      LACP      Eth1/30(D)
+27    Po27(SD)    Eth      LACP      Eth1/31(D)
+28    Po28(SD)    Eth      LACP      Eth1/32(D)
+29    Po29(SD)    Eth      LACP      Eth1/33(D)
+30    Po30(SD)    Eth      LACP      Eth1/37(D)
+31    Po31(SD)    Eth      LACP      Eth1/38(D)
+32    Po32(SD)    Eth      LACP      Eth1/39(D)
+33    Po33(SD)    Eth      LACP      Eth1/40(D)
+34    Po34(SD)    Eth      LACP      Eth1/41(D)
+35    Po35(SD)    Eth      LACP      Eth1/46(D)
+36    Po36(SD)    Eth      LACP      Eth1/22(D)
+37    Po37(SD)    Eth      LACP      Eth1/23(D)
+38    Po38(SD)    Eth      LACP      Eth1/24(D)
+39    Po39(SD)    Eth      LACP      Eth1/25(D)
+40    Po40(SD)    Eth      NONE      --
+41    Po41(SD)    Eth      NONE      --
+42    Po42(SU)    Eth      LACP      Eth1/9(P)
+43    Po43(SD)    Eth      LACP      Eth1/8(D)
+44    Po44(SU)    Eth      LACP      Eth1/7(P)
+45    Po45(SD)    Eth      LACP      Eth1/6(D)
+49    Po49(SD)    Eth      NONE      --
+54    Po54(SD)    Eth      LACP      Eth1/48(D)
+56    Po56(SD)    Eth      NONE      --
+64    Po64(SD)    Eth      NONE      --
+65    Po65(SD)    Eth      LACP      Eth1/15(D)
+66    Po66(SD)    Eth      LACP      Eth1/16(D)
+67    Po67(SD)    Eth      LACP      Eth1/17(D)
+68    Po68(SD)    Eth      LACP      Eth1/18(D)
+69    Po69(SD)    Eth      LACP      Eth1/19(D)
+72    Po72(SD)    Eth      NONE      --
+73    Po73(SD)    Eth      NONE      --
+74    Po74(SD)    Eth      NONE      --
+75    Po75(SD)    Eth      NONE      --
+76    Po76(SD)    Eth      NONE      --
+77    Po77(SD)    Eth      NONE      --
+78    Po78(SD)    Eth      LACP      Eth1/93(D)
+DRCINAACC-7#

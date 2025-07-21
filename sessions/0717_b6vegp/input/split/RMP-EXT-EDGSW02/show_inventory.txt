@@ -1,0 +1,67 @@
+RMP-EXT-EDGSW02# show inventory
+NAME: "Chassis",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis"      
+PID: N9K-C9504           ,  VID: V01 ,  SN: FOX2434PGXX          
+
+NAME: "Slot 4",  DESCR: "48x1/10G SFP+ 4x40G Ethernet Module"   
+PID: N9K-X9564PX         ,  VID: V01 ,  SN: SAL190696A6          
+
+NAME: "Slot 22",  DESCR: "Fabric Module"                         
+PID: N9K-C9504-FM        ,  VID: V01 ,  SN: FOC24164H93          
+
+NAME: "Slot 23",  DESCR: "Fabric Module"                         
+PID: N9K-C9504-FM        ,  VID: V01 ,  SN: FOC24164HAG          
+
+NAME: "Slot 24",  DESCR: "Fabric Module"                         
+PID: N9K-C9504-FM        ,  VID: V01 ,  SN: FOC24164H9T          
+
+NAME: "Slot 26",  DESCR: "Fabric Module"                         
+PID: N9K-C9504-FM        ,  VID: V01 ,  SN: FOC24164HAU          
+
+NAME: "Slot 27",  DESCR: "Supervisor Module"                     
+PID: N9K-SUP-A+          ,  VID: V01 ,  SN: FOC243232MY          
+
+NAME: "Slot 28",  DESCR: "Supervisor Module"                     
+PID: N9K-SUP-A+          ,  VID: V01 ,  SN: FOC243232W7          
+
+NAME: "Slot 29",  DESCR: "System Controller"                     
+PID: N9K-SC-A            ,  VID: V02 ,  SN: FOC24295837          
+
+NAME: "Slot 30",  DESCR: "System Controller"                     
+PID: N9K-SC-A            ,  VID: V02 ,  SN: FOC2429583B          
+
+NAME: "Power Supply 1",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V03 ,  SN: DTM243400Y1          
+
+NAME: "Power Supply 2",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V03 ,  SN: DTM243400WX          
+
+NAME: "Power Supply 3",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V03 ,  SN: DTM243400V6          
+
+NAME: "Power Supply 4",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V03 ,  SN: DTM243400VW          
+
+NAME: "Fan 1",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis Fan Module"
+PID: N9K-C9504-FAN       ,  VID: V01 ,  SN: FOX2432P2P8          
+
+NAME: "Fan 2",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis Fan Module"
+PID: N9K-C9504-FAN       ,  VID: V01 ,  SN: FOX2433P2RS          
+
+NAME: "Fan 3",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis Fan Module"
+PID: N9K-C9504-FAN       ,  VID: V01 ,  SN: FOX2433P2QW          
+
+NAME: "FEX 101 CHASSIS",  DESCR: "N2K-C2248TP-1GE  CHASSIS"              
+PID: N2K-C2248TP-1GE     ,  VID: V03 ,  SN: SSI1601001H          
+
+NAME: "FEX 101 Module 1",  DESCR: "Fabric Extender Module: 48x1GE, 4x10GE Supervisor"
+PID: N2K-C2248TP-1GE     ,  VID: V03 ,  SN: FOC16031XTB          
+
+NAME: "FEX 101 Fan 1",  DESCR: "Fabric Extender Fan module"            
+PID: N2K-C2248-FAN       ,  VID: N/A ,  SN: N/A                  
+
+NAME: "FEX 101 Power Supply 1",  DESCR: "Fabric Extender AC power supply"       
+PID: N2200-PAC-400W      ,  VID: V03 ,  SN: DTN1551P1QM          
+
+NAME: "FEX 101 Power Supply 2",  DESCR: "Fabric Extender AC power supply"       
+PID: N2200-PAC-400W      ,  VID: V03 ,  SN: DTN1551P1QN          
+

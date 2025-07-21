@@ -1,0 +1,647 @@
+﻿Start Recording 10.254.255.17 (10.254.255.17)
+C
+**************************************************************
+*                                                            *
+*                         WARNING!!!                         *
+*             This is a Private Computer System              *
+*       Access is restricted to Authorized Person Only       *
+*              Unauthorized Access is Prohibited             *
+*   All unauthorized attempt to access this system will be   *
+*                  logged and investigated.                  *
+* Violators will be prosecuted in conformance with local law *
+*                                                            *
+*                 IT INFRASTRUCTURE GROUP                    *
+*               NETWORK SERVICES DEPARTMENT                  *
+*                     LAN OPERATIONS                         *
+*                                                            *
+**************************************************************
+
+RMP-LAN-AGT01-CCLT01-BC#ssh 10.254.254.106
+User Access Verification
+
+Password: 
+
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (C) 2002-2023, Cisco and/or its affiliates.
+All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under their own
+licenses, such as open source.  This software is provided "as is," and unless
+otherwise stated, there is no warranty, express or implied, including but not
+limited to warranties of merchantability and fitness for a particular purpose.
+Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or 
+GNU General Public License (GPL) version 3.0  or the GNU
+Lesser General Public License (LGPL) Version 2.1 or 
+Lesser General Public License (LGPL) Version 2.0. 
+A copy of each such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://opensource.org/licenses/gpl-3.0.html and
+http://www.opensource.org/licenses/lgpl-2.1.php and
+http://www.gnu.org/licenses/old-licenses/library.txt.
+RMP-INT-ACS-02# terminal length 0
+RMP-INT-ACS-02# show cdp neighbors
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+Device-ID          Local Intrfce  Hldtme Capability  Platform      Port ID
+RMP-INT-ACS-01.bankmandiri.co.id(FLM27180BX0)
+                    mgmt0          136    R S s     N9K-C93180YC- mgmt0         
+RMP-INT-ACS-01.bankmandiri.co.id(FLM27180BX0)
+                    Eth1/43        156    R S s     N9K-C93180YC- Eth1/43       
+RMP-INT-ACS-01.bankmandiri.co.id(FLM27180BX0)
+                    Eth1/44        136    R S s     N9K-C93180YC- Eth1/44       
+RMP-INT-ACS-01.bankmandiri.co.id(FLM27180BX0)
+                    Eth1/51        156    R S I s   N9K-C93180YC- Eth1/51       
+RMP-INT-ACS-01.bankmandiri.co.id(FLM27180BX0)
+                    Eth1/52        156    R S I s   N9K-C93180YC- Eth1/52       
+
+Total entries displayed: 5
+RMP-INT-ACS-02# show interface description
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+mgmt0                    --
+
+-------------------------------------------------------------------------------
+Port          Type   Speed   Description
+-------------------------------------------------------------------------------
+Eth1/1        eth    10G     --
+Eth1/2        eth    10G     --
+Eth1/3        eth    10G     --
+Eth1/4        eth    10G     --
+Eth1/5        eth    10G     Server_T8
+Eth1/6        eth    10G     Server_T8
+Eth1/7        eth    10G     Server_T8
+Eth1/8        eth    10G     Server_T8
+Eth1/9        eth    10G     Server_T8
+Eth1/10       eth    10G     Server_T8
+Eth1/11       eth    10G     Server_T8
+Eth1/12       eth    10G     Server_T8
+Eth1/13       eth    10G     Server_T8
+Eth1/14       eth    10G     Server_T8
+Eth1/15       eth    10G     Server_T8
+Eth1/16       eth    10G     Server_T8
+Eth1/17       eth    10G     Server_T8
+Eth1/18       eth    10G     Server_T8
+Eth1/19       eth    10G     Server_T8
+Eth1/20       eth    10G     Server_T8
+Eth1/21       eth    10G     T8-MCM-Node-1-PCI-8
+Eth1/22       eth    10G     T8-MCM-Node-2-PCI-8
+Eth1/23       eth    1000    --
+Eth1/24       eth    1000    --
+Eth1/25       eth    25G     --
+Eth1/26       eth    25G     --
+Eth1/27       eth    25G     --
+Eth1/28       eth    25G     --
+Eth1/29       eth    25G     --
+Eth1/30       eth    10G     --
+Eth1/31       eth    25G     --
+Eth1/32       eth    25G     --
+Eth1/33       eth    25G     --
+Eth1/34       eth    25G     --
+Eth1/35       eth    25G     --
+Eth1/36       eth    25G     --
+Eth1/37       eth    25G     --
+Eth1/38       eth    25G     --
+Eth1/39       eth    10G     Server Exalogic
+Eth1/40       eth    10G     Server Exalogic
+Eth1/41       eth    10G     Server Exalogic
+Eth1/42       eth    10G     Server Exalogic
+Eth1/43       eth    10G     #VPCPeerLink#
+Eth1/44       eth    10G     #VPCPeerLink#
+Eth1/45       eth    25G     --
+Eth1/46       eth    25G     --
+Eth1/47       eth    25G     --
+Eth1/48       eth    25G     --
+Eth1/49       eth    100G    --
+Eth1/50       eth    100G    --
+Eth1/51       eth    40G     #RMP-DMZ-ACSSOL-01 Po1 (vPC PL)#
+Eth1/52       eth    40G     #RMP-DMZ-ACSSOL-01 Po1 (vPC PL)#
+Eth1/53       eth    40G     #CONNECTION TO RMP-02CC-INETEDGE-01#
+Eth1/54       eth    40G     #CONNECTION TO RMP-02CC-INETEDGE-02#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Po1                      #RMP-DMZ-ACSSOL-01 Po1 (vPC PL)#
+Po2                      #RMP-DMZ-ACSSOL-01 Po2 (KeepAlive)#
+Po3                      #RMP-INT-EDGSW0102 Po7#
+Po4                      Server_T8
+Po5                      Server_T8
+Po6                      Server_T8
+Po7                      Server_T8
+Po8                      Server_T8
+Po9                      Server_T8
+Po10                     Server_T8
+Po11                     Server_T8
+Po12                     #CONNECTION TO NEW INET EDGE#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Vlan1                    --
+Vlan11                   --
+Vlan91                   --
+Vlan911                  --
+RMP-INT-ACS-02# show interface status
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0         --                 connected routed    full    1000    --         
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Eth1/1        --                 disabled  trunk     auto    auto    10Gbase-SR 
+Eth1/2        --                 disabled  trunk     auto    auto    10Gbase-SR 
+Eth1/3        --                 disabled  trunk     auto    auto    10Gbase-SR 
+Eth1/4        --                 disabled  trunk     auto    auto    10Gbase-SR 
+Eth1/5        Server_T8          connected trunk     full    10G     10Gbase-SR 
+Eth1/6        Server_T8          connected trunk     full    10G     10Gbase-SR 
+Eth1/7        Server_T8          channelDo trunk     auto    auto    10Gbase-SR 
+Eth1/8        Server_T8          channelDo trunk     auto    auto    10Gbase-SR 
+Eth1/9        Server_T8          connected trunk     full    10G     10Gbase-SR 
+Eth1/10       Server_T8          connected trunk     full    10G     10Gbase-SR 
+Eth1/11       Server_T8          connected trunk     full    10G     10Gbase-SR 
+Eth1/12       Server_T8          connected trunk     full    10G     10Gbase-SR 
+Eth1/13       Server_T8          connected trunk     full    10G     10Gbase-SR 
+Eth1/14       Server_T8          connected trunk     full    10G     10Gbase-SR 
+Eth1/15       Server_T8          connected trunk     full    10G     10Gbase-SR 
+Eth1/16       Server_T8          connected trunk     full    10G     10Gbase-SR 
+Eth1/17       Server_T8          notconnec trunk     auto    auto    10Gbase-SR 
+Eth1/18       Server_T8          notconnec trunk     auto    auto    10Gbase-SR 
+Eth1/19       Server_T8          notconnec trunk     auto    auto    10Gbase-SR 
+Eth1/20       Server_T8          notconnec trunk     auto    auto    10Gbase-SR 
+Eth1/21       T8-MCM-Node-1-PCI- connected 23        full    10G     10Gbase-SR 
+Eth1/22       T8-MCM-Node-2-PCI- connected 23        full    10G     10Gbase-SR 
+Eth1/23       --                 disabled  routed    auto    auto    1000base-T 
+Eth1/24       --                 disabled  routed    auto    auto    1000base-T 
+Eth1/25       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/26       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/27       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/28       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/29       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/30       --                 disabled  routed    auto    auto    10Gbase-SR 
+Eth1/31       --                 disabled  routed    auto    auto    10/25Gbase-CSR
+Eth1/32       --                 disabled  routed    auto    auto    10/25Gbase-CSR
+Eth1/33       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/34       --                 disabled  routed    auto    auto    10/25Gbase-CSR
+Eth1/35       --                 disabled  routed    auto    auto    10/25Gbase-CSR
+Eth1/36       --                 disabled  routed    auto    auto    10/25Gbase-CSR
+Eth1/37       --                 disabled  routed    auto    auto    10/25Gbase-CSR
+Eth1/38       --                 disabled  routed    auto    auto    10/25Gbase-CSR
+Eth1/39       Server Exalogic    connected trunk     full    10G     10Gbase-SR 
+Eth1/40       Server Exalogic    connected trunk     full    10G     10Gbase-SR 
+Eth1/41       Server Exalogic    connected trunk     full    10G     10Gbase-SR 
+Eth1/42       Server Exalogic    connected trunk     full    10G     10Gbase-SR 
+Eth1/43       #VPCPeerLink#      connected routed    full    10G     10Gbase-SR 
+Eth1/44       #VPCPeerLink#      connected routed    full    10G     10Gbase-SR 
+Eth1/45       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/46       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/47       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/48       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/49       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/50       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/51       #RMP-DMZ-ACSSOL-01 connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/52       #RMP-DMZ-ACSSOL-01 connected trunk     full    40G     QSFP-100G40G-BIDI
+Eth1/53       #CONNECTION TO RMP connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/54       #CONNECTION TO RMP connected trunk     full    40G     QSFP-100G40G-BIDI
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Po1           #RMP-DMZ-ACSSOL-01 connected trunk     full    40G     --         
+Po2           #RMP-DMZ-ACSSOL-01 connected routed    full    10G     --         
+Po3           #RMP-INT-EDGSW0102 noOperMem trunk     auto    auto    --         
+Po4           Server_T8          connected trunk     full    10G     --         
+Po5           Server_T8          disabled  trunk     auto    auto    --         
+Po6           Server_T8          connected trunk     full    10G     --         
+Po7           Server_T8          connected trunk     full    10G     --         
+Po8           Server_T8          connected trunk     full    10G     --         
+Po9           Server_T8          connected trunk     full    10G     --         
+Po10          Server_T8          noOperMem trunk     auto    auto    --         
+Po11          Server_T8          noOperMem trunk     auto    auto    --         
+Po12          #CONNECTION TO NEW connected trunk     full    40G     --         
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Vlan1         --                 down      routed    auto    auto    --
+Vlan11        --                 connected routed    auto    auto    --
+Vlan91        --                 down      routed    auto    auto    --
+Vlan911       --                 connected routed    auto    auto    --
+RMP-INT-ACS-02# show interface trunk
+
+--------------------------------------------------------------------------------
+Port          Native  Status        Port
+              Vlan                  Channel
+--------------------------------------------------------------------------------
+Eth1/1        1       trnk-bndl     Po3
+Eth1/2        1       trnk-bndl     Po3
+Eth1/3        1       trnk-bndl     Po3
+Eth1/4        1       trnk-bndl     Po3
+Eth1/5        1       trnk-bndl     Po4
+Eth1/6        1       trnk-bndl     Po4
+Eth1/7        1       trnk-bndl     Po5
+Eth1/8        1       trnk-bndl     Po5
+Eth1/9        1       trnk-bndl     Po6
+Eth1/10       1       trnk-bndl     Po6
+Eth1/11       1       trnk-bndl     Po7
+Eth1/12       1       trnk-bndl     Po7
+Eth1/13       1       trnk-bndl     Po8
+Eth1/14       1       trnk-bndl     Po8
+Eth1/15       1       trnk-bndl     Po9
+Eth1/16       1       trnk-bndl     Po9
+Eth1/17       1       trnk-bndl     Po10
+Eth1/18       1       trnk-bndl     Po10
+Eth1/19       1       trnk-bndl     Po11
+Eth1/20       1       trnk-bndl     Po11
+Eth1/39       1       trunking      --
+Eth1/40       1       trunking      --
+Eth1/41       1       trunking      --
+Eth1/42       1       trunking      --
+Eth1/51       1       trnk-bndl     Po1
+Eth1/52       1       trnk-bndl     Po1
+Eth1/53       1       trnk-bndl     Po12
+Eth1/54       1       trnk-bndl     Po12
+Po1           1       trunking      --
+Po3           1       trunking      --
+Po4           1       trunking      --
+Po5           1       trunking      --
+Po6           1       trunking      --
+Po7           1       trunking      --
+Po8           1       trunking      --
+Po9           1       trunking      --
+Po10          1       trunking      --
+Po11          1       trunking      --
+Po12          1       trunking      --
+
+--------------------------------------------------------------------------------
+Port          Vlans Allowed on Trunk
+--------------------------------------------------------------------------------
+Eth1/1        1-4094
+Eth1/2        1-4094
+Eth1/3        1-4094
+Eth1/4        1-4094
+Eth1/5        32-33,911-912
+Eth1/6        32-33,911-912
+Eth1/7        32-33,911-912
+Eth1/8        32-33,911-912
+Eth1/9        32-33,911-912
+Eth1/10       32-33,911-912
+Eth1/11       32-33,911-912
+Eth1/12       32-33,911-912
+Eth1/13       32-33,911-912
+Eth1/14       32-33,911-912
+Eth1/15       32-33,911-912
+Eth1/16       32-33,911-912
+Eth1/17       32-33,911-912
+Eth1/18       32-33,911-912
+Eth1/19       32-33,911-912
+Eth1/20       32-33,911-912
+Eth1/39       22-23,73,911-912
+Eth1/40       22-23,73,911-912
+Eth1/41       22-23,73,911-912
+Eth1/42       22-23,73,911-912
+Eth1/51       11,22-23,32-33,73,301,911-912
+Eth1/52       11,22-23,32-33,73,301,911-912
+Eth1/53       22-23,32-33,73,911-912
+Eth1/54       22-23,32-33,73,911-912
+Po1           11,22-23,32-33,73,301,911-912
+Po3           1-4094
+Po4           32-33,911-912
+Po5           32-33,911-912
+Po6           32-33,911-912
+Po7           32-33,911-912
+Po8           32-33,911-912
+Po9           32-33,911-912
+Po10          32-33,911-912
+Po11          32-33,911-912
+Po12          22-23,32-33,73,911-912
+
+--------------------------------------------------------------------------------
+Port          Vlans Err-disabled on Trunk
+--------------------------------------------------------------------------------
+Eth1/1        none
+Eth1/2        none
+Eth1/3        none
+Eth1/4        none
+Eth1/5        none
+Eth1/6        none
+Eth1/7        none
+Eth1/8        none
+Eth1/9        none
+Eth1/10       none
+Eth1/11       none
+Eth1/12       none
+Eth1/13       none
+Eth1/14       none
+Eth1/15       none
+Eth1/16       none
+Eth1/17       none
+Eth1/18       none
+Eth1/19       none
+Eth1/20       none
+Eth1/39       none
+Eth1/40       none
+Eth1/41       none
+Eth1/42       none
+Eth1/51       none
+Eth1/52       none
+Eth1/53       none
+Eth1/54       none
+Po1           none
+Po3           none
+Po4           none
+Po5           none
+Po6           none
+Po7           none
+Po8           none
+Po9           none
+Po10          none
+Po11          none
+Po12          none
+
+--------------------------------------------------------------------------------
+Port          STP Forwarding
+--------------------------------------------------------------------------------
+Eth1/1        none
+Eth1/2        none
+Eth1/3        none
+Eth1/4        none
+Eth1/5        none
+Eth1/6        none
+Eth1/7        none
+Eth1/8        none
+Eth1/9        none
+Eth1/10       none
+Eth1/11       none
+Eth1/12       none
+Eth1/13       none
+Eth1/14       none
+Eth1/15       none
+Eth1/16       none
+Eth1/17       none
+Eth1/18       none
+Eth1/19       none
+Eth1/20       none
+Eth1/39       22-23,73,911-912
+Eth1/40       22-23,73,911-912
+Eth1/41       22-23,73,911-912
+Eth1/42       22-23,73,911-912
+Eth1/51       none
+Eth1/52       none
+Eth1/53       none
+Eth1/54       none
+Po1           11,22-23,32-33,73,911-912
+Po3           none
+Po4           32-33,911-912
+Po5           none
+Po6           32-33,911-912
+Po7           32-33,911-912
+Po8           32-33,911-912
+Po9           32-33,911-912
+Po10          none
+Po11          none
+Po12          22-23,32-33,73,911-912
+
+--------------------------------------------------------------------------------
+Port          Vlans in spanning tree forwarding state and not pruned
+--------------------------------------------------------------------------------
+Eth1/1        Feature VTP is not enabled
+none
+Eth1/2        Feature VTP is not enabled
+none
+Eth1/3        Feature VTP is not enabled
+none
+Eth1/4        Feature VTP is not enabled
+none
+Eth1/5        Feature VTP is not enabled
+none
+Eth1/6        Feature VTP is not enabled
+none
+Eth1/7        Feature VTP is not enabled
+none
+Eth1/8        Feature VTP is not enabled
+none
+Eth1/9        Feature VTP is not enabled
+none
+Eth1/10       Feature VTP is not enabled
+none
+Eth1/11       Feature VTP is not enabled
+none
+Eth1/12       Feature VTP is not enabled
+none
+Eth1/13       Feature VTP is not enabled
+none
+Eth1/14       Feature VTP is not enabled
+none
+Eth1/15       Feature VTP is not enabled
+none
+Eth1/16       Feature VTP is not enabled
+none
+Eth1/17       Feature VTP is not enabled
+none
+Eth1/18       Feature VTP is not enabled
+none
+Eth1/19       Feature VTP is not enabled
+none
+Eth1/20       Feature VTP is not enabled
+none
+Eth1/39       Feature VTP is not enabled
+22-23,73,911-912
+Eth1/40       Feature VTP is not enabled
+22-23,73,911-912
+Eth1/41       Feature VTP is not enabled
+22-23,73,911-912
+Eth1/42       Feature VTP is not enabled
+22-23,73,911-912
+Eth1/51       Feature VTP is not enabled
+none
+Eth1/52       Feature VTP is not enabled
+none
+Eth1/53       Feature VTP is not enabled
+none
+Eth1/54       Feature VTP is not enabled
+none
+Po1           Feature VTP is not enabled
+11,22-23,32-33,73,911-912
+Po3           Feature VTP is not enabled
+none
+Po4           Feature VTP is not enabled
+32-33,911-912
+Po5           Feature VTP is not enabled
+none
+Po6           Feature VTP is not enabled
+32-33,911-912
+Po7           Feature VTP is not enabled
+32-33,911-912
+Po8           Feature VTP is not enabled
+32-33,911-912
+Po9           Feature VTP is not enabled
+32-33,911-912
+Po10          Feature VTP is not enabled
+none
+Po11          Feature VTP is not enabled
+none
+Po12          Feature VTP is not enabled
+22-23,32-33,73,911-912
+RMP-INT-ACS-02# show inventory
+NAME: "Chassis",  DESCR: "Nexus9000 C93180YC-FX Chassis"         
+PID: N9K-C93180YC-FX     ,  VID: V10 ,  SN: FLM271703D3          
+
+NAME: "Slot 1",  DESCR: "48x10/25G/32G + 6x40/100G Ethernet/FC Module"
+PID: N9K-C93180YC-FX     ,  VID: V10 ,  SN: FLM271703D3          
+
+NAME: "Power Supply 1",  DESCR: "Nexus9000 C93180YC-FX Chassis Power Supply"
+PID: NXA-PAC-500W-PI     ,  VID: V01 ,  SN: LIT2707CTCC          
+
+NAME: "Power Supply 2",  DESCR: "Nexus9000 C93180YC-FX Chassis Power Supply"
+PID: NXA-PAC-500W-PI     ,  VID: V01 ,  SN: LIT2707CTCL          
+
+NAME: "Fan 1",  DESCR: "Nexus9000 C93180YC-FX Chassis Fan Module"
+PID: NXA-FAN-30CFM-B     ,  VID: V01 ,  SN: N/A                  
+
+NAME: "Fan 2",  DESCR: "Nexus9000 C93180YC-FX Chassis Fan Module"
+PID: NXA-FAN-30CFM-B     ,  VID: V01 ,  SN: N/A                  
+
+NAME: "Fan 3",  DESCR: "Nexus9000 C93180YC-FX Chassis Fan Module"
+PID: NXA-FAN-30CFM-B     ,  VID: V01 ,  SN: N/A                  
+
+NAME: "Fan 4",  DESCR: "Nexus9000 C93180YC-FX Chassis Fan Module"
+PID: NXA-FAN-30CFM-B     ,  VID: V01 ,  SN: N/A                  
+
+RMP-INT-ACS-02# show ip arp
+
+Flags: * - Adjacencies learnt on non-active FHRP router
+       + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+       CP - Added via L2RIB, Control plane Adjacencies
+       PS - Added via L2RIB, Peer Sync
+       RO - Re-Originated Peer Sync Entry
+       D - Static Adjacencies attached to down interface
+
+IP ARP Table for context default
+Total number of entries: 2
+Address         Age       MAC Address     Interface       Flags
+10.254.121.1    00:00:29  INCOMPLETE      Vlan11                   
+192.168.50.1    00:00:12  b40c.25e0.4001  Vlan911                  
+RMP-INT-ACS-02# show lldp neighbors
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+RMP-SWMGMT-ACS21     mgmt0           120        BR          GE1/0/7       
+RMP-INT-ACS-01.bankmandiri.co.id
+                     Eth1/43         120        BR          Ethernet1/43  
+RMP-INT-ACS-01.bankmandiri.co.id
+                     Eth1/44         120        BR          Ethernet1/44  
+RMP-INT-ACS-01.bankmandiri.co.id
+                     Eth1/51         120        BR          Ethernet1/51  
+RMP-INT-ACS-01.bankmandiri.co.id
+                     Eth1/52         120        BR          Ethernet1/52  
+RMP-02CC-INETEDGE-01 
+                     Eth1/53         120        BR          40GE4/0/3     
+RMP-02CC-INETEDGE-02 
+                     Eth1/54         120        BR          40GE4/0/3     
+Total entries displayed: 7
+RMP-INT-ACS-02# show mac address-table
+Legend: 
+        * - primary entry, G - Gateway MAC, (R) - Routed MAC, O - Overlay MAC
+        age - seconds since last seen,+ - primary entry using vPC Peer-Link,
+        (T) - True, (F) - False, C - ControlPlane MAC, ~ - vsan,
+        (NA)- Not Applicable
+   VLAN     MAC Address      Type      age     Secure NTFY Ports
+---------+-----------------+--------+---------+------+----+------------------
+*   22     0023.e99b.c606   dynamic  NA         F      F    Po12
++   22     0050.5680.3949   dynamic  NA         F      F    Po12
++   22     b40c.25e0.4001   dynamic  NA         F      F    Po12
++   22     b40c.25e0.8001   dynamic  NA         F      F    Po12
++   22     f415.638e.3806   dynamic  NA         F      F    Po12
++   23     0014.4ff8.8807   dynamic  NA         F      F    Po12
++   23     0014.4ff9.c250   dynamic  NA         F      F    Po12
++   23     0014.4ff9.d80e   dynamic  NA         F      F    Po12
++   23     0014.4ffa.0758   dynamic  NA         F      F    Po12
+*   23     0023.e99b.c606   dynamic  NA         F      F    Po12
+*   23     0050.5693.313f   dynamic  NA         F      F    Po12
+*   23     0050.5693.5523   dynamic  NA         F      F    Po12
++   23     0050.5693.73dc   dynamic  NA         F      F    Po12
++   23     0050.5693.e52c   dynamic  NA         F      F    Po12
+*   23     0050.5693.ed71   dynamic  NA         F      F    Po12
++   23     0208.2092.d0a0   dynamic  NA         F      F    Po12
++   23     0208.20bf.00e5   dynamic  NA         F      F    Po12
++   23     0215.638e.3807   dynamic  NA         F      F    Po12
++   23     b40c.25e0.4001   dynamic  NA         F      F    Po12
++   23     f415.638e.3806   dynamic  NA         F      F    Po12
++   32     b40c.25e0.4001   dynamic  NA         F      F    Po12
++   33     b40c.25e0.4001   dynamic  NA         F      F    Po12
++   73     0014.4ff8.07be   dynamic  NA         F      F    Po12
++   73     0014.4ff8.8807   dynamic  NA         F      F    Po12
++   73     0014.4ff9.2f8e   dynamic  NA         F      F    Po12
++   73     0014.4ff9.c250   dynamic  NA         F      F    Po12
++   73     0014.4ff9.d80e   dynamic  NA         F      F    Po12
++   73     0014.4ffa.0758   dynamic  NA         F      F    Po12
++   73     0014.4ffb.9272   dynamic  NA         F      F    Po12
++   73     0014.4ffb.ed33   dynamic  NA         F      F    Po12
+*   73     0023.e99b.c606   dynamic  NA         F      F    Po12
+*   73     0050.5693.313f   dynamic  NA         F      F    Po12
+*   73     0050.5693.5523   dynamic  NA         F      F    Po12
++   73     0050.5693.73dc   dynamic  NA         F      F    Po12
++   73     0050.5693.e52c   dynamic  NA         F      F    Po12
+*   73     0050.5693.ed71   dynamic  NA         F      F    Po12
++   73     b40c.25e0.4001   dynamic  NA         F      F    Po12
++   73     f415.638e.3806   dynamic  NA         F      F    Po12
+*  911     0023.e99b.c608   dynamic  NA         F      F    Po12
+*  911     b40c.25e0.4001   dynamic  NA         F      F    Po12
++  911     f415.638e.3808   dynamic  NA         F      F    Po12
++  912     b40c.25e0.4001   dynamic  NA         F      F    Po12
++   22     0208.2025.5619   dynamic  NA         F      F    vPC Peer-Link
++   22     0208.2030.8b46   dynamic  NA         F      F    vPC Peer-Link
++   23     0014.4ff8.07be   dynamic  NA         F      F    vPC Peer-Link
++   23     0014.4ff9.2f8e   dynamic  NA         F      F    vPC Peer-Link
++   23     0014.4ffb.9272   dynamic  NA         F      F    vPC Peer-Link
++   23     0014.4ffb.ed33   dynamic  NA         F      F    vPC Peer-Link
++   73     0208.2092.d0a0   dynamic  NA         F      F    vPC Peer-Link
++   73     0208.20bf.00e5   dynamic  NA         F      F    vPC Peer-Link
+*   11     3488.1831.d4a7   static   -         F      F    vPC Peer-Link(R)
+*  911     3488.1831.d4a7   static   -         F      F    vPC Peer-Link(R)
+G    -     ccb6.c8cf.adc7   static   -         F      F    sup-eth1(R)
+G   11     ccb6.c8cf.adc7   static   -         F      F    sup-eth1(R)
+G  911     ccb6.c8cf.adc7   static   -         F      F    sup-eth1(R)
+RMP-INT-ACS-02# show port-channel summary
+Flags:  D - Down        P - Up in port-channel (members)
+        I - Individual  H - Hot-standby (LACP only)
+        s - Suspended   r - Module-removed
+        b - BFD Session Wait
+        S - Switched    R - Routed
+        U - Up (port-channel)
+        p - Up in delay-lacp mode (member)
+        M - Not in use. Min-links not met
+--------------------------------------------------------------------------------
+Group Port-       Type     Protocol  Member Ports
+      Channel
+--------------------------------------------------------------------------------
+1     Po1(SU)     Eth      LACP      Eth1/51(P)   Eth1/52(P)   
+2     Po2(RU)     Eth      LACP      Eth1/43(P)   Eth1/44(P)   
+3     Po3(SD)     Eth      LACP      Eth1/1(D)    Eth1/2(D)    Eth1/3(D)
+                                     Eth1/4(D)    
+4     Po4(SU)     Eth      LACP      Eth1/5(P)    Eth1/6(P)    
+5     Po5(SD)     Eth      LACP      Eth1/7(D)    Eth1/8(D)    
+6     Po6(SU)     Eth      LACP      Eth1/9(P)    Eth1/10(P)   
+7     Po7(SU)     Eth      LACP      Eth1/11(P)   Eth1/12(P)   
+8     Po8(SU)     Eth      LACP      Eth1/13(P)   Eth1/14(P)   
+9     Po9(SU)     Eth      LACP      Eth1/15(P)   Eth1/16(P)   
+10    Po10(SD)    Eth      LACP      Eth1/17(D)   Eth1/18(D)   
+11    Po11(SD)    Eth      LACP      Eth1/19(D)   Eth1/20(D)   
+12    Po12(SU)    Eth      LACP      Eth1/53(P)   Eth1/54(P)   
+RMP-INT-ACS-02# exit
+
+[Connection to 10.254.254.106 closed by foreign host]
+RMP-LAN-AGT01-CCLT01-BC#exit
+End Recording 10.254.255.17 (10.254.255.17)

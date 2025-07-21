@@ -1,0 +1,11 @@
+RMP-SF-AGG02# show lldp neighbors
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+RMP-SWMGMT-ACS01     mgmt0           120        BR          GE1/0/4       
+RMP-CORE-SW01.bankmandiri.co.id
+                     Eth1/4          120        BR          Ethernet2/7   
+RMP-CORE-SW02.bankmandiri.co.id
+                     Eth2/4          120        BR          Ethernet2/7   
+Total entries displayed: 3

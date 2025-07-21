@@ -1,0 +1,55 @@
+DRCINAACC-2# show inventory
+NAME: "Chassis",  DESCR: "Nexus9000 C9396PX Chassis"
+PID: N9K-C9396PX         ,  VID: V02 ,  SN: SAL1917E0G5
+
+NAME: "Slot 1",  DESCR: "1/10G SFP+ Ethernet Module"
+PID: N9K-C9396PX         ,  VID: V02 ,  SN: SAL1917E0G5
+
+NAME: "Slot 2",  DESCR: "40G Ethernet Expansion Module"
+PID: N9K-M6PQ            ,  VID: V02 ,  SN: SAL1918EFEX
+
+NAME: "Power Supply 1",  DESCR: "Nexus9000 C9396PX Chassis Power Supply"
+PID: N9K-PAC-650W        ,  VID: V01 ,  SN: DCB1845X098
+
+NAME: "Power Supply 2",  DESCR: "Nexus9000 C9396PX Chassis Power Supply"
+PID: N9K-PAC-650W        ,  VID: V01 ,  SN: DCB1845X090
+
+NAME: "Fan 1",  DESCR: "Nexus9000 C9396PX Chassis Fan Module"
+PID: N9K-C9300-FAN2      ,  VID: V01 ,  SN: N/A
+
+NAME: "Fan 2",  DESCR: "Nexus9000 C9396PX Chassis Fan Module"
+PID: N9K-C9300-FAN2      ,  VID: V01 ,  SN: N/A
+
+NAME: "Fan 3",  DESCR: "Nexus9000 C9396PX Chassis Fan Module"
+PID: N9K-C9300-FAN2      ,  VID: V01 ,  SN: N/A
+
+NAME: "FEX 111 CHASSIS",  DESCR: "N2K-C2248TP-1GE  CHASSIS"
+PID: N2K-C2248TP-1GE     ,  VID: V03 ,  SN: SSI154303W1
+
+NAME: "FEX 111 Module 1",  DESCR: "Fabric Extender Module: 48x1GE, 4x10GE Supervisor"
+PID: N2K-C2248TP-1GE     ,  VID: V03 ,  SN: FOC15507C35
+
+NAME: "FEX 111 Fan 1",  DESCR: "Fabric Extender Fan module"
+PID: N2K-C2248-FAN       ,  VID: N/A ,  SN: N/A
+
+NAME: "FEX 111 Power Supply 1",  DESCR: "Fabric Extender AC power supply"
+PID: N2200-PAC-400W      ,  VID: V03 ,  SN: LIT154825FK
+
+NAME: "FEX 111 Power Supply 2",  DESCR: "Fabric Extender AC power supply"
+PID: N2200-PAC-400W      ,  VID: V03 ,  SN: LIT154825FQ
+
+NAME: "FEX 117 CHASSIS",  DESCR: "N2K-C2232PP-10GE  CHASSIS"
+PID: N2K-C2232PP-10GE    ,  VID: V04 ,  SN: SSI184600QH
+
+NAME: "FEX 117 Module 1",  DESCR: "Fabric Extender Module: 32x10GE, 8x10GE Supervisor"
+PID: N2K-C2232PP-10GE    ,  VID: V04 ,  SN: FOC19033HB9
+
+NAME: "FEX 117 Fan 1",  DESCR: "Fabric Extender Fan module"
+PID: N2K-C2232-FAN-B     ,  VID: N/A ,  SN: N/A
+
+NAME: "FEX 117 Power Supply 1",  DESCR: "Fabric Extender AC power supply"
+PID: N2200-PAC-400W-B    ,  VID: V02 ,  SN: LIT18491BL7
+
+NAME: "FEX 117 Power Supply 2",  DESCR: "Fabric Extender AC power supply"
+PID: N2200-PAC-400W-B    ,  VID: V02 ,  SN: LIT18491B37
+

@@ -1,0 +1,645 @@
+﻿Start Recording 10.254.255.17 (10.254.255.17)
+C
+**************************************************************
+*                                                            *
+*                         WARNING!!!                         *
+*             This is a Private Computer System              *
+*       Access is restricted to Authorized Person Only       *
+*              Unauthorized Access is Prohibited             *
+*   All unauthorized attempt to access this system will be   *
+*                  logged and investigated.                  *
+* Violators will be prosecuted in conformance with local law *
+*                                                            *
+*                 IT INFRASTRUCTURE GROUP                    *
+*               NETWORK SERVICES DEPARTMENT                  *
+*                     LAN OPERATIONS                         *
+*                                                            *
+**************************************************************
+
+RMP-LAN-AGT01-CCLT01-BC#ssh 10.254.254.119
+User Access Verification
+
+Password: 
+
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (C) 2002-2024, Cisco and/or its affiliates.
+All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under their own
+licenses, such as open source.  This software is provided "as is," and unless
+otherwise stated, there is no warranty, express or implied, including but not
+limited to warranties of merchantability and fitness for a particular purpose.
+Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or 
+GNU General Public License (GPL) version 3.0  or the GNU
+Lesser General Public License (LGPL) Version 2.1 or 
+Lesser General Public License (LGPL) Version 2.0. 
+A copy of each such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://opensource.org/licenses/gpl-3.0.html and
+http://www.opensource.org/licenses/lgpl-2.1.php and
+http://www.gnu.org/licenses/old-licenses/library.txt.
+RMP-INT-ACSDMZ02-new# terminal length 0
+RMP-INT-ACSDMZ02-new# show cdp neighbors
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+Device-ID          Local Intrfce  Hldtme Capability  Platform      Port ID
+RMP-INT-ACSDMZ01-new.supporting.corp.bankmandiri.co.id(FDO28360HB9)
+                    mgmt0          124    R S s     N9K-C93180YC-FX3 mgmt0         
+RMP-INT-ACSDMZ01-new.supporting.corp.bankmandiri.co.id(FDO28360HB9)
+                    Eth1/48        137    R S s     N9K-C93180YC-FX3 Eth1/48       
+RMP-INT-ACSDMZ01-new.supporting.corp.bankmandiri.co.id(FDO28360HB9)
+                    Eth1/53        124    R S I s   N9K-C93180YC-FX3 Eth1/53       
+RMP-INT-ACSDMZ01-new.supporting.corp.bankmandiri.co.id(FDO28360HB9)
+                    Eth1/54        124    R S I s   N9K-C93180YC-FX3 Eth1/54       
+
+Total entries displayed: 4
+RMP-INT-ACSDMZ02-new# show interface description
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+mgmt0                    --
+
+-------------------------------------------------------------------------------
+Port          Type   Speed   Description
+-------------------------------------------------------------------------------
+Eth1/1        eth    10G     Controller_Port1
+Eth1/2        eth    10G     Service_Port2
+Eth1/3        eth    10G     Controller_Port2
+Eth1/4        eth    10G     Service_Port2
+Eth1/5        eth    1000    IRONPORT_ESA
+Eth1/6        eth    1000    IRONPORT_ESA
+Eth1/7        eth    10G     Server Non HPS (DELL)
+Eth1/8        eth    10G     Server Non HPS (DELL)
+Eth1/9        eth    10G     MX9116N
+Eth1/10       eth    10G     MX9116N
+Eth1/11       eth    25G     --
+Eth1/12       eth    25G     --
+Eth1/13       eth    25G     --
+Eth1/14       eth    25G     --
+Eth1/15       eth    25G     --
+Eth1/16       eth    25G     --
+Eth1/17       eth    25G     --
+Eth1/18       eth    25G     --
+Eth1/19       eth    25G     --
+Eth1/20       eth    25G     --
+Eth1/21       eth    25G     --
+Eth1/22       eth    25G     --
+Eth1/23       eth    25G     --
+Eth1/24       eth    25G     --
+Eth1/25       eth    25G     --
+Eth1/26       eth    25G     --
+Eth1/27       eth    25G     --
+Eth1/28       eth    25G     --
+Eth1/29       eth    25G     --
+Eth1/30       eth    25G     --
+Eth1/31       eth    25G     --
+Eth1/32       eth    25G     --
+Eth1/33       eth    25G     --
+Eth1/34       eth    25G     --
+Eth1/35       eth    25G     --
+Eth1/36       eth    25G     --
+Eth1/37       eth    25G     --
+Eth1/38       eth    25G     --
+Eth1/39       eth    25G     --
+Eth1/40       eth    25G     --
+Eth1/41       eth    25G     --
+Eth1/42       eth    25G     --
+Eth1/43       eth    25G     --
+Eth1/44       eth    25G     --
+Eth1/45       eth    25G     --
+Eth1/46       eth    25G     --
+Eth1/47       eth    25G     --
+Eth1/48       eth    10G     #Peer-Keepalive#
+Eth1/49       eth    100G    --
+Eth1/50       eth    100G    --
+Eth1/51       eth    40G     #CONNECTION TO NEW INET EDGE#
+Eth1/52       eth    40G     #CONNECTION TO NEW INET EDGE#
+Eth1/53       eth    100G    #VPC-Peerlink#
+Eth1/54       eth    100G    #VPC-Peerlink#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Po1                      T7_1 Controller
+Po2                      T7_1 Service
+Po3                      T7_2 Controller
+Po4                      T7_2 Service
+Po7                      Server Non HPS (DELL)
+Po51                     #CONNECTION TO NEW INET EDGE#
+Po53                     #VPC-Peerlink#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Vlan1                    --
+RMP-INT-ACSDMZ02-new# show interface status
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0         --                 connected routed    full    1000    --         
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Eth1/1        Controller_Port1   connected trunk     full    10G     10Gbase-SR 
+Eth1/2        Service_Port2      connected trunk     full    10G     10Gbase-SR 
+Eth1/3        Controller_Port2   connected trunk     full    10G     10Gbase-SR 
+Eth1/4        Service_Port2      connected trunk     full    10G     10Gbase-SR 
+Eth1/5        IRONPORT_ESA       connected 806       full    1000    1000base-T 
+Eth1/6        IRONPORT_ESA       connected 806       full    1000    1000base-T 
+Eth1/7        Server Non HPS (DE connected trunk     full    10G     10Gbase-SR 
+Eth1/8        Server Non HPS (DE connected trunk     full    10G     10Gbase-SR 
+Eth1/9        MX9116N            connected 1         full    10G     10Gbase-SR 
+Eth1/10       MX9116N            connected 1         full    10G     10Gbase-SR 
+Eth1/11       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/12       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/13       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/14       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/15       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/16       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/17       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/18       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/19       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/20       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/21       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/22       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/23       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/24       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/25       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/26       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/27       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/28       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/29       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/30       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/31       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/32       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/33       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/34       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/35       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/36       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/37       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/38       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/39       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/40       --                 disabled  routed    auto    auto    10/25Gbase-CSR
+Eth1/41       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/42       --                 disabled  routed    auto    auto    10/25Gbase-CSR
+Eth1/43       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/44       --                 disabled  routed    auto    auto    10/25Gbase-CSR
+Eth1/45       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/46       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/47       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/48       #Peer-Keepalive#   connected routed    full    10G     10Gbase-SR 
+Eth1/49       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/50       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/51       #CONNECTION TO NEW connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/52       #CONNECTION TO NEW connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/53       #VPC-Peerlink#     connected trunk     full    100G    QSFP-100G-SR1.2
+Eth1/54       #VPC-Peerlink#     connected trunk     full    100G    QSFP-100G-SR1.2
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Po1           T7_1 Controller    connected trunk     full    10G     --         
+Po2           T7_1 Service       connected trunk     full    10G     --         
+Po3           T7_2 Controller    connected trunk     full    10G     --         
+Po4           T7_2 Service       connected trunk     full    10G     --         
+Po7           Server Non HPS (DE connected trunk     full    10G     --         
+Po51          #CONNECTION TO NEW connected trunk     full    40G     --         
+Po53          #VPC-Peerlink#     connected trunk     full    100G    --         
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Vlan1         --                 down      routed    auto    auto    --
+RMP-INT-ACSDMZ02-new# show interface trunk
+
+--------------------------------------------------------------------------------
+Port          Native  Status        Port
+              Vlan                  Channel
+--------------------------------------------------------------------------------
+Eth1/1        1       trnk-bndl     Po1
+Eth1/2        1       trnk-bndl     Po2
+Eth1/3        1       trnk-bndl     Po3
+Eth1/4        1       trnk-bndl     Po4
+Eth1/7        1       trnk-bndl     Po7
+Eth1/8        1       trnk-bndl     Po7
+Eth1/51       1       trnk-bndl     Po51
+Eth1/52       1       trnk-bndl     Po51
+Eth1/53       1       trnk-bndl     Po53
+Eth1/54       1       trnk-bndl     Po53
+Po1           1       trunking      --
+Po2           1       trunking      --
+Po3           1       trunking      --
+Po4           1       trunking      --
+Po7           1       trunking      --
+Po51          1       trunking      --
+Po53          1       trunking      --
+
+--------------------------------------------------------------------------------
+Port          Vlans Allowed on Trunk
+--------------------------------------------------------------------------------
+Eth1/1        21-23
+Eth1/2        21-23
+Eth1/3        21-23
+Eth1/4        21-23
+Eth1/7        19,22-23,30-31,110,120,130,806,911-912
+Eth1/8        19,22-23,30-31,110,120,130,806,911-912
+Eth1/51       1,19,21-23,30-31,110,120,130,221,806-807,902-904,911-912,1573,3653
+Eth1/52       1,19,21-23,30-31,110,120,130,221,806-807,902-904,911-912,1573,3653
+Eth1/53       1-4094
+Eth1/54       1-4094
+Po1           21-23
+Po2           21-23
+Po3           21-23
+Po4           21-23
+Po7           19,22-23,30-31,110,120,130,806,911-912
+Po51          1,19,21-23,30-31,110,120,130,221,806-807,902-904,911-912,1573,3653
+Po53          1-4094
+
+--------------------------------------------------------------------------------
+Port          Vlans Err-disabled on Trunk
+--------------------------------------------------------------------------------
+Eth1/1        none
+Eth1/2        none
+Eth1/3        none
+Eth1/4        none
+Eth1/7        none
+Eth1/8        none
+Eth1/51       none
+Eth1/52       none
+Eth1/53       none
+Eth1/54       none
+Po1           none
+Po2           none
+Po3           none
+Po4           none
+Po7           none
+Po51          none
+Po53          none
+
+--------------------------------------------------------------------------------
+Port          STP Forwarding
+--------------------------------------------------------------------------------
+Eth1/1        none
+Eth1/2        none
+Eth1/3        none
+Eth1/4        none
+Eth1/7        none
+Eth1/8        none
+Eth1/51       none
+Eth1/52       none
+Eth1/53       none
+Eth1/54       none
+Po1           21-23
+Po2           21-23
+Po3           21-23
+Po4           21-23
+Po7           19,22-23,30-31,110,120,130,806,911-912
+Po51          1,19,21-23,30-31,110,120,130,221,806-807,902-904,911-912,1573,3653
+Po53          1,19,21-23,30-31,110,120,130,221,806-807,902-904,911-912,1573,3653
+
+--------------------------------------------------------------------------------
+Port          Vlans in spanning tree forwarding state and not pruned
+--------------------------------------------------------------------------------
+Eth1/1        Feature VTP is not enabled
+none
+Eth1/2        Feature VTP is not enabled
+none
+Eth1/3        Feature VTP is not enabled
+none
+Eth1/4        Feature VTP is not enabled
+none
+Eth1/7        Feature VTP is not enabled
+none
+Eth1/8        Feature VTP is not enabled
+none
+Eth1/51       Feature VTP is not enabled
+none
+Eth1/52       Feature VTP is not enabled
+none
+Eth1/53       Feature VTP is not enabled
+none
+Eth1/54       Feature VTP is not enabled
+none
+Po1           Feature VTP is not enabled
+21-23
+Po2           Feature VTP is not enabled
+21-23
+Po3           Feature VTP is not enabled
+21-23
+Po4           Feature VTP is not enabled
+21-23
+Po7           Feature VTP is not enabled
+19,22-23,30-31,110,120,130,806,911-912
+Po51          Feature VTP is not enabled
+1,19,21-23,30-31,110,120,130,221,806-807,902-904,911-912,1573,3653
+Po53          Feature VTP is not enabled
+1,19,21-23,30-31,110,120,130,221,806-807,902-904,911-912,1573,3653
+RMP-INT-ACSDMZ02-new# show inventory
+NAME: "Chassis",  DESCR: "Nexus9000 C93180YC-FX3 Chassis"        
+PID: N9K-C93180YC-FX3    ,  VID: V06 ,  SN: FDO28360H9M          
+
+NAME: "Slot 1",  DESCR: "48x10/25G + 6x40/100G Ethernet Module" 
+PID: N9K-C93180YC-FX3    ,  VID: V06 ,  SN: FDO28360H9M          
+
+NAME: "Slot 27",  DESCR: "48x10/25G + 6x40/100G Ethernet Module" 
+PID: N9K-C93180YC-FX3    ,  VID: V06 ,  SN: FDO28360H9M          
+
+NAME: "Power Supply 1",  DESCR: "Nexus9000 C93180YC-FX3 Chassis Power Supply"
+PID: NXA-PAC-650W-PI     ,  VID: V04 ,  SN: LIT2745AF2N          
+
+NAME: "Power Supply 2",  DESCR: "Nexus9000 C93180YC-FX3 Chassis Power Supply"
+PID: NXA-PAC-650W-PI     ,  VID: V04 ,  SN: LIT2745AF55          
+
+NAME: "Fan 1",  DESCR: "Nexus9000 C93180YC-FX3 Chassis Fan Module"
+PID: NXA-FAN-35CFM-PI    ,  VID: V01 ,  SN: N/A                  
+
+NAME: "Fan 2",  DESCR: "Nexus9000 C93180YC-FX3 Chassis Fan Module"
+PID: NXA-FAN-35CFM-PI    ,  VID: V01 ,  SN: N/A                  
+
+NAME: "Fan 3",  DESCR: "Nexus9000 C93180YC-FX3 Chassis Fan Module"
+PID: NXA-FAN-35CFM-PI    ,  VID: V01 ,  SN: N/A                  
+
+NAME: "Fan 4",  DESCR: "Nexus9000 C93180YC-FX3 Chassis Fan Module"
+PID: NXA-FAN-35CFM-PI    ,  VID: V01 ,  SN: N/A                  
+
+RMP-INT-ACSDMZ02-new# show ip arp
+
+Flags: * - Adjacencies learnt on non-active FHRP router
+       + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+       CP - Added via L2RIB, Control plane Adjacencies
+       PS - Added via L2RIB, Peer Sync
+       RO - Re-Originated Peer Sync Entry
+       D - Static Adjacencies attached to down interface
+
+IP ARP Table for context default
+Total number of entries: 0
+Address         Age       MAC Address     Interface       Flags
+RMP-INT-ACSDMZ02-new# show lldp neighbors
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+RMP-SWMGMT-ACS20     mgmt0           120        BR          GE1/0/24      
+DRC-SW-MX9116nA2-R39E2
+                     Eth1/7          120        PBR         ethernet1/1/35:1
+DRC-SW-MX9116nA1-R39E1
+                     Eth1/8          120        PBR         ethernet1/1/35:1
+MX9116N-A1-RMP       Eth1/9          120        PBR         ethernet1/1/33:1
+MX9116N-A2-RMP       Eth1/10         120        PBR         ethernet1/1/33:1
+RMP-INT-ACSDMZ01-new.supporting.corp.bankmandiri.co.id
+                     Eth1/48         120        BR          Ethernet1/48  
+RMP-02CC-INETEDGE-01 
+                     Eth1/51         120        BR          40GE4/0/5     
+RMP-02CC-INETEDGE-02 
+                     Eth1/52         120        BR          40GE4/0/5     
+RMP-INT-ACSDMZ01-new.supporting.corp.bankmandiri.co.id
+                     Eth1/53         120        BR          Ethernet1/53  
+RMP-INT-ACSDMZ01-new.supporting.corp.bankmandiri.co.id
+                     Eth1/54         120        BR          Ethernet1/54  
+Total entries displayed: 10
+RMP-INT-ACSDMZ02-new# show mac address-table
+Legend: 
+        * - primary entry, G - Gateway MAC, (R) - Routed MAC, O - Overlay MAC
+        age - seconds since last seen,+ - primary entry using vPC Peer-Link,
+        (T) - True, (F) - False, C - ControlPlane MAC, ~ - vsan,
+        (NA)- Not Applicable
+   VLAN     MAC Address      Type      age     Secure NTFY Ports
+---------+-----------------+--------+---------+------+----+------------------
++   19     0000.5e00.0105   dynamic  NA         F      F    Po51
+*   19     3480.0ddf.7022   dynamic  NA         F      F    Po7
+*   19     3480.0ddf.70c4   dynamic  NA         F      F    Po7
+*   19     3480.0ddf.8a14   dynamic  NA         F      F    Po7
+*   19     3480.0ddf.8aec   dynamic  NA         F      F    Po7
+*   19     3480.0ddf.8bc4   dynamic  NA         F      F    Po7
+*   19     3480.0ddf.9b18   dynamic  NA         F      F    Po7
+*   19     3480.0ddf.da06   dynamic  NA         F      F    Po7
+*   19     d810.9f5e.5400   dynamic  NA         F      F    Po51
+*   19     d810.9f5e.5500   dynamic  NA         F      F    Po51
++   21     b40c.25e0.8001   dynamic  NA         F      F    Po51
++   21     b40c.25e0.8011   dynamic  NA         F      F    Po51
+*   22     0023.e99b.c606   dynamic  NA         F      F    Po51
++   22     0050.5680.3949   dynamic  NA         F      F    Po7
++   22     0050.569d.1c9e   dynamic  NA         F      F    Po7
++   22     0208.2025.5619   dynamic  NA         F      F    Po51
+*   22     0208.2030.8b46   dynamic  NA         F      F    Po51
+*   22     b40c.25e0.4001   dynamic  NA         F      F    Po51
++   22     b40c.25e0.8001   dynamic  NA         F      F    Po51
++   22     f415.638e.3806   dynamic  NA         F      F    Po51
++   23     0014.4ff8.07be   dynamic  NA         F      F    Po51
++   23     0014.4ff8.8807   dynamic  NA         F      F    Po2
+*   23     0014.4ff9.2f8e   dynamic  NA         F      F    Po51
++   23     0014.4ff9.c250   dynamic  NA         F      F    Po3
++   23     0014.4ff9.d80e   dynamic  NA         F      F    Po1
++   23     0014.4ffa.0758   dynamic  NA         F      F    Po3
++   23     0014.4ffa.afbe   dynamic  NA         F      F    Po4
++   23     0014.4ffa.fb19   dynamic  NA         F      F    Po4
++   23     0014.4ffb.2a82   dynamic  NA         F      F    Po1
++   23     0014.4ffb.6539   dynamic  NA         F      F    Po2
++   23     0014.4ffb.9272   dynamic  NA         F      F    Po51
++   23     0014.4ffb.ed33   dynamic  NA         F      F    Po51
++   23     0023.e99b.c605   dynamic  NA         F      F    Po51
+*   23     0023.e99b.c606   dynamic  NA         F      F    Po51
++   23     0050.5693.313f   dynamic  NA         F      F    Po7
++   23     0050.5693.5523   dynamic  NA         F      F    Po7
++   23     0050.5693.73dc   dynamic  NA         F      F    Po7
++   23     0050.5693.e52c   dynamic  NA         F      F    Po7
++   23     0050.5693.ed71   dynamic  NA         F      F    Po7
+*   23     0050.569d.0576   dynamic  NA         F      F    Po7
++   23     0050.569d.5278   dynamic  NA         F      F    Po7
++   23     0208.2092.d0a0   dynamic  NA         F      F    Po51
++   23     0208.20bf.00e5   dynamic  NA         F      F    Po51
++   23     0215.638e.3807   dynamic  NA         F      F    Po51
++   23     14a9.d058.de17   dynamic  NA         F      F    Po51
++   23     14a9.d058.df17   dynamic  NA         F      F    Po51
++   23     2004.0f8d.6d94   dynamic  NA         F      F    Po7
++   23     2004.0f90.8414   dynamic  NA         F      F    Po7
++   23     b40c.25e0.4001   dynamic  NA         F      F    Po51
++   23     f415.638e.3805   dynamic  NA         F      F    Po51
++   23     f415.638e.3806   dynamic  NA         F      F    Po51
+*   30     0023.e99b.c606   dynamic  NA         F      F    Po51
+*   30     0023.e99b.c612   dynamic  NA         F      F    Po51
+*   30     0050.5681.02b6   dynamic  NA         F      F    Po7
+*   30     0050.5681.02f6   dynamic  NA         F      F    Po7
+*   30     0050.5681.0ba3   dynamic  NA         F      F    Po7
+*   30     0050.5681.0c22   dynamic  NA         F      F    Po7
+*   30     0050.5681.1edf   dynamic  NA         F      F    Po7
+*   30     0050.5681.2906   dynamic  NA         F      F    Po7
+*   30     0050.5681.375f   dynamic  NA         F      F    Po7
+*   30     0050.5681.3e04   dynamic  NA         F      F    Po7
+*   30     0050.5681.50c4   dynamic  NA         F      F    Po7
++   30     0050.5681.7ef4   dynamic  NA         F      F    Po7
+*   30     0050.5681.7f82   dynamic  NA         F      F    Po7
+*   30     0050.5681.8bf5   dynamic  NA         F      F    Po7
+*   30     0050.5681.8f23   dynamic  NA         F      F    Po7
+*   30     0050.5681.bf90   dynamic  NA         F      F    Po7
+*   30     0050.5681.dba7   dynamic  NA         F      F    Po7
+*   30     0050.5681.ebfa   dynamic  NA         F      F    Po7
+*   30     0050.5693.1e38   dynamic  NA         F      F    Po7
++   30     0050.5693.7ab0   dynamic  NA         F      F    Po7
+*   30     0050.5693.df77   dynamic  NA         F      F    Po7
+*   30     0050.5693.f243   dynamic  NA         F      F    Po7
+*   30     0050.5693.f8c7   dynamic  NA         F      F    Po7
+*   30     0050.5693.fa9a   dynamic  NA         F      F    Po7
+*   30     0050.5695.b8eb   dynamic  NA         F      F    Po7
+*   30     0050.569d.032a   dynamic  NA         F      F    Po7
+*   30     0050.569d.101c   dynamic  NA         F      F    Po7
++   30     0050.569d.1221   dynamic  NA         F      F    Po7
+*   30     0050.569d.1c09   dynamic  NA         F      F    Po7
+*   30     0050.569d.237c   dynamic  NA         F      F    Po7
+*   30     0050.569d.2d4e   dynamic  NA         F      F    Po7
+*   30     0050.569d.356c   dynamic  NA         F      F    Po7
+*   30     0050.569d.3760   dynamic  NA         F      F    Po7
+*   30     0050.569d.3a68   dynamic  NA         F      F    Po7
+*   30     0050.569d.3eb5   dynamic  NA         F      F    Po7
+*   30     0050.569d.4540   dynamic  NA         F      F    Po7
+*   30     0050.569d.5084   dynamic  NA         F      F    Po7
+*   30     0050.569d.5437   dynamic  NA         F      F    Po7
+*   30     0050.569d.5634   dynamic  NA         F      F    Po7
+*   30     0050.569d.5740   dynamic  NA         F      F    Po7
+*   30     0050.569d.5839   dynamic  NA         F      F    Po7
+*   30     0050.569d.5e91   dynamic  NA         F      F    Po7
+*   30     0050.569d.6b06   dynamic  NA         F      F    Po7
+*   30     0050.569d.7618   dynamic  NA         F      F    Po7
++   30     0215.638e.3807   dynamic  NA         F      F    Po51
+*   30     14a9.d058.de17   dynamic  NA         F      F    Po51
++   30     14a9.d058.df17   dynamic  NA         F      F    Po51
+*   30     16a9.d058.df17   dynamic  NA         F      F    Po51
++   30     b40c.25e0.4001   dynamic  NA         F      F    Po51
++   30     f415.638e.3806   dynamic  NA         F      F    Po51
++   30     f415.638e.3812   dynamic  NA         F      F    Po51
++   31     0023.e99b.c60d   dynamic  NA         F      F    Po51
+*   31     0050.5681.059f   dynamic  NA         F      F    Po7
+*   31     0050.5681.47f9   dynamic  NA         F      F    Po7
+*   31     0050.5681.9037   dynamic  NA         F      F    Po7
+*   31     0050.5681.9fe1   dynamic  NA         F      F    Po7
+*   31     0050.5681.b616   dynamic  NA         F      F    Po7
+*   31     0050.5681.f3b0   dynamic  NA         F      F    Po7
++   31     0050.5681.f5c9   dynamic  NA         F      F    Po7
+*   31     0050.5681.fcb5   dynamic  NA         F      F    Po7
+*   31     0050.5693.454f   dynamic  NA         F      F    Po7
+*   31     0050.5693.4c24   dynamic  NA         F      F    Po7
+*   31     0050.5693.8f2b   dynamic  NA         F      F    Po7
+*   31     0050.5693.8feb   dynamic  NA         F      F    Po7
+*   31     0050.569d.1e78   dynamic  NA         F      F    Po7
+*   31     0050.569d.300d   dynamic  NA         F      F    Po7
+*   31     0050.569d.3636   dynamic  NA         F      F    Po7
+*   31     0050.569d.3778   dynamic  NA         F      F    Po7
++   31     0050.569d.43ff   dynamic  NA         F      F    Po7
+*   31     0050.569d.619f   dynamic  NA         F      F    Po7
+*   31     0050.569d.63ef   dynamic  NA         F      F    Po7
+*   31     0050.569d.6448   dynamic  NA         F      F    Po7
+*   31     0050.569d.660b   dynamic  NA         F      F    Po7
+*   31     0050.569d.7566   dynamic  NA         F      F    Po7
+*   31     0050.569d.7d6b   dynamic  NA         F      F    Po7
++   31     0215.638e.3807   dynamic  NA         F      F    Po51
+*   31     14a9.d021.d024   dynamic  NA         F      F    Po51
++   31     14a9.d048.1c24   dynamic  NA         F      F    Po51
+*   31     14a9.d058.de17   dynamic  NA         F      F    Po51
++   31     14a9.d058.df17   dynamic  NA         F      F    Po51
+*   31     16a9.d058.df17   dynamic  NA         F      F    Po51
++   31     2004.0f8d.6d94   dynamic  NA         F      F    Po7
++   31     2004.0f90.8414   dynamic  NA         F      F    Po7
++   31     b40c.25e0.4001   dynamic  NA         F      F    Po51
++   31     f415.638e.380d   dynamic  NA         F      F    Po51
+*  110     0023.e99b.c60e   dynamic  NA         F      F    Po51
++  110     b40c.25e0.4001   dynamic  NA         F      F    Po51
++  110     f415.638e.380e   dynamic  NA         F      F    Po51
+*  120     0023.e99b.c606   dynamic  NA         F      F    Po51
++  120     b40c.25e0.4001   dynamic  NA         F      F    Po51
++  120     b40c.25e0.8001   dynamic  NA         F      F    Po51
++  120     f415.638e.3806   dynamic  NA         F      F    Po51
++  130     0021.28b5.d5bb   dynamic  NA         F      F    Po51
++  130     b40c.25e0.8001   dynamic  NA         F      F    Po51
++  130     b40c.25e0.8011   dynamic  NA         F      F    Po51
+*  221     0023.e99b.c60a   dynamic  NA         F      F    Po51
++  221     f415.638e.380a   dynamic  NA         F      F    Po51
++  806     0000.5e00.0165   dynamic  NA         F      F    Po51
+*  806     000c.2972.f768   dynamic  NA         F      F    Po7
++  806     0023.e99b.c60b   dynamic  NA         F      F    Po51
++  806     0050.5680.103f   dynamic  NA         F      F    Po7
+*  806     0050.5681.0af8   dynamic  NA         F      F    Po7
++  806     0050.5681.1042   dynamic  NA         F      F    Po7
+*  806     0050.5681.150e   dynamic  NA         F      F    Po7
++  806     0050.5681.77d4   dynamic  NA         F      F    Po7
+*  806     0050.5681.c45b   dynamic  NA         F      F    Po7
++  806     0050.5681.d28e   dynamic  NA         F      F    Po7
++  806     0050.5681.f800   dynamic  NA         F      F    Po7
++  806     0050.5693.0249   dynamic  NA         F      F    Po7
+*  806     0050.5693.289b   dynamic  NA         F      F    Po7
++  806     0050.5693.4357   dynamic  NA         F      F    Po7
++  806     0050.5693.5583   dynamic  NA         F      F    Po7
++  806     0050.5693.604a   dynamic  NA         F      F    Po7
++  806     0050.5693.7685   dynamic  NA         F      F    Po7
++  806     0050.5693.82c0   dynamic  NA         F      F    Po7
++  806     0050.5693.ba9b   dynamic  NA         F      F    Po7
++  806     0050.5693.cc0b   dynamic  NA         F      F    Po7
+*  806     0050.569d.02c9   dynamic  NA         F      F    Po7
++  806     0050.569d.4b6d   dynamic  NA         F      F    Po7
++  806     0050.569d.7377   dynamic  NA         F      F    Po7
+*  806     0090.0bbf.fa03   dynamic  NA         F      F    Po51
+*  806     00d0.8307.aebc   dynamic  NA         F      F    Po51
+*  806     0215.638e.3807   dynamic  NA         F      F    Po51
+*  806     3c13.ccee.1c84   dynamic  NA         F      F    Po51
+*  806     78ac.440a.b8cb   dynamic  NA         F      F    Po51
++  806     ac1f.6b62.81d3   dynamic  NA         F      F    Po51
++  806     ac1f.6b62.f1af   dynamic  NA         F      F    Po51
++  806     b40c.25e2.8012   dynamic  NA         F      F    Po51
+*  806     b496.91a4.0bbc   dynamic  NA         F      F    Eth1/5
+*  806     b496.91a4.0be0   dynamic  NA         F      F    Eth1/6
++  806     cc48.3aeb.684b   dynamic  NA         F      F    Po51
+*  806     cc48.3af9.6b3f   dynamic  NA         F      F    Po51
++  806     e443.4bd2.4153   dynamic  NA         F      F    Po51
+*  806     f415.638e.380b   dynamic  NA         F      F    Po51
+*  807     b40c.25e2.8012   dynamic  NA         F      F    Po51
++  902     b40c.25e0.4001   dynamic  NA         F      F    Po51
+*  903     0023.e99b.c610   dynamic  NA         F      F    Po51
++  903     b40c.25e0.4001   dynamic  NA         F      F    Po51
++  903     b40c.25e0.8001   dynamic  NA         F      F    Po51
++  903     f415.638e.3810   dynamic  NA         F      F    Po51
++  904     b40c.25e0.8001   dynamic  NA         F      F    Po51
++  904     b40c.25e0.8011   dynamic  NA         F      F    Po51
+*  911     0023.e99b.c608   dynamic  NA         F      F    Po51
+*  911     0050.569d.7592   dynamic  NA         F      F    Po7
++  911     b40c.25e0.4001   dynamic  NA         F      F    Po51
++  911     f415.638e.3808   dynamic  NA         F      F    Po51
++  912     b40c.25e0.4001   dynamic  NA         F      F    Po51
+* 1573     ac16.2db2.1917   dynamic  NA         F      F    Po51
++ 3653     0000.5e00.0105   dynamic  NA         F      F    Po51
++ 3653     b40c.25e0.4001   dynamic  NA         F      F    Po51
++  806     549f.350c.1a38   dynamic  NA         F      F    vPC Peer-Link
++  806     549f.350c.29e4   dynamic  NA         F      F    vPC Peer-Link
+G    -     c4ab.4d9f.ad97   static   -         F      F    sup-eth1(R)
+RMP-INT-ACSDMZ02-new# show port-channel summary
+Flags:  D - Down        P - Up in port-channel (members)
+        I - Individual  H - Hot-standby (LACP only)
+        s - Suspended   r - Module-removed
+        b - BFD Session Wait
+        S - Switched    R - Routed
+        U - Up (port-channel)
+        p - Up in delay-lacp mode (member)
+        M - Not in use. Min-links not met
+--------------------------------------------------------------------------------
+Group Port-       Type     Protocol  Member Ports
+      Channel
+--------------------------------------------------------------------------------
+1     Po1(SU)     Eth      LACP      Eth1/1(P)    
+2     Po2(SU)     Eth      LACP      Eth1/2(P)    
+3     Po3(SU)     Eth      LACP      Eth1/3(P)    
+4     Po4(SU)     Eth      LACP      Eth1/4(P)    
+7     Po7(SU)     Eth      LACP      Eth1/7(P)    Eth1/8(P)    
+51    Po51(SU)    Eth      LACP      Eth1/51(P)   Eth1/52(P)   
+53    Po53(SU)    Eth      LACP      Eth1/53(P)   Eth1/54(P)   
+RMP-INT-ACSDMZ02-new# exit
+
+[Connection to 10.254.254.119 closed by foreign host]
+RMP-LAN-AGT01-CCLT01-BC#exit
+End Recording 10.254.255.17 (10.254.255.17)

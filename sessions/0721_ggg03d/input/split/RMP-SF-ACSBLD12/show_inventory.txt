@@ -1,0 +1,25 @@
+RMP-SF-ACSBLD12# show inventory
+NAME: "Chassis",  DESCR: "Nexus9000 93180YC-EX chassis"          
+PID: N9K-C93180YC-EX     ,  VID: V01 ,  SN: FDO21270U6H          
+
+NAME: "Slot 1",  DESCR: "48x10/25G + 6x40/100G Ethernet Module" 
+PID: N9K-C93180YC-EX     ,  VID: V01 ,  SN: FDO21270U6H          
+
+NAME: "Power Supply 1",  DESCR: "Nexus9000 93180YC-EX chassis Power Supply"
+PID: NXA-PAC-650W-PI     ,  VID: V02 ,  SN: LIT21182ZJK          
+
+NAME: "Power Supply 2",  DESCR: "Nexus9000 93180YC-EX chassis Power Supply"
+PID: NXA-PAC-650W-PI     ,  VID: V02 ,  SN: LIT21182ZKG          
+
+NAME: "Fan 1",  DESCR: "Nexus9000 93180YC-EX chassis Fan Module"
+PID: NXA-FAN-30CFM-B     ,  VID: V01 ,  SN: N/A                  
+
+NAME: "Fan 2",  DESCR: "Nexus9000 93180YC-EX chassis Fan Module"
+PID: NXA-FAN-30CFM-B     ,  VID: V01 ,  SN: N/A                  
+
+NAME: "Fan 3",  DESCR: "Nexus9000 93180YC-EX chassis Fan Module"
+PID: NXA-FAN-30CFM-B     ,  VID: V01 ,  SN: N/A                  
+
+NAME: "Fan 4",  DESCR: "Nexus9000 93180YC-EX chassis Fan Module"
+PID: NXA-FAN-30CFM-B     ,  VID: V01 ,  SN: N/A                  
+

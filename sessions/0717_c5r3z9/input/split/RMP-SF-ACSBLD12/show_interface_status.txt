@@ -1,0 +1,73 @@
+RMP-SF-ACSBLD12# show interface status
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0         --                 connected routed    full    1000    --         
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Eth1/1        --                 xcvrAbsen 746       auto    auto    --         
+Eth1/2        --                 xcvrAbsen 746       auto    auto    --         
+Eth1/3        --                 notconnec 746       auto    auto    1000base-T 
+Eth1/4        --                 notconnec routed    auto    auto    10Gbase-SR 
+Eth1/5        --                 notconnec routed    auto    auto    10Gbase-SR 
+Eth1/6        --                 notconnec routed    auto    auto    10Gbase-SR 
+Eth1/7        --                 notconnec routed    auto    auto    10Gbase-SR 
+Eth1/8        --                 notconnec routed    auto    auto    10Gbase-SR 
+Eth1/9        --                 notconnec routed    auto    auto    10Gbase-SR 
+Eth1/10       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/11       #CONNECTION TO SOL xcvrAbsen trunk     auto    auto    --         
+Eth1/12       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/13       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/14       New_Rubrik         xcvrAbsen 1172      auto    auto    --         
+Eth1/15       LEAF_TETRATION_2   xcvrAbsen 183       auto    auto    --         
+Eth1/16       New_Rubrik         xcvrAbsen 1172      auto    auto    --         
+Eth1/17       New VTL StoreOnce  xcvrAbsen 289       auto    auto    --         
+Eth1/18       New VTL StoreOnce  xcvrAbsen 289       auto    auto    --         
+Eth1/19       SAN Storage HITACH xcvrAbsen 289       auto    auto    --         
+Eth1/20       Object Storage     xcvrAbsen trunk     auto    auto    --         
+Eth1/21       Object Storage     xcvrAbsen trunk     auto    auto    --         
+Eth1/22       Object Storage     xcvrAbsen trunk     auto    auto    --         
+Eth1/23       Object Storage     xcvrAbsen trunk     auto    auto    --         
+Eth1/24       New_Rubrik_10.254. xcvrAbsen 1172      auto    auto    --         
+Eth1/25       New_Rubrik_10.254. xcvrAbsen 1172      auto    auto    --         
+Eth1/26       New_Rubrik_10.254. xcvrAbsen 1172      auto    auto    --         
+Eth1/27       New_Rubrik_10.254. xcvrAbsen 1172      auto    auto    --         
+Eth1/28       New_Rubrik_10.254. xcvrAbsen 1172      auto    auto    --         
+Eth1/29       New_Rubrik_10.254. xcvrAbsen 1172      auto    auto    --         
+Eth1/30       New_Rubrik_10.254. xcvrAbsen 1172      auto    auto    --         
+Eth1/31       New_Rubrik_10.254. xcvrAbsen 1172      auto    auto    --         
+Eth1/32       --                 disabled  1         auto    auto    10Gbase-SR 
+Eth1/33       HUAWEI-HPS-ENC-03  xcvrAbsen trunk     full    auto    --         
+Eth1/34       HUAWEI-HPS-ENC-03  xcvrAbsen trunk     full    auto    --         
+Eth1/35       HUAWEI-HPS-ENC-03  xcvrAbsen trunk     full    auto    --         
+Eth1/36       HUAWEI-HPS-ENC-03  xcvrAbsen trunk     full    auto    --         
+Eth1/37       HUAWEI-HPS-ENC-02  connected trunk     full    10G     10Gbase-SR 
+Eth1/38       HUAWEI-HPS-ENC-02  connected trunk     full    10G     10Gbase-SR 
+Eth1/39       HUAWEI-HPS-ENC-02  connected trunk     full    10G     10Gbase-SR 
+Eth1/40       HUAWEI-HPS-ENC-02  connected trunk     full    10G     10Gbase-SR 
+Eth1/41       HUAWEI-HPS-ENC-01  notconnec trunk     auto    auto    10Gbase-SR 
+Eth1/42       HUAWEI-HPS-ENC-01  notconnec trunk     auto    auto    10Gbase-SR 
+Eth1/43       HUAWEI-HPS-ENC-01  notconnec trunk     auto    auto    10Gbase-SR 
+Eth1/44       HUAWEI-HPS-ENC-01  notconnec trunk     auto    auto    10Gbase-SR 
+Eth1/45       MPS S924           xcvrAbsen 1173      auto    auto    --         
+Eth1/46       vPC peer-link to R connected trunk     full    10G     10Gbase-SR 
+Eth1/47       vPC peer-link to R connected trunk     full    10G     10Gbase-SR 
+Eth1/48       vPC peer-link to R notconnec trunk     auto    auto    10Gbase-SR 
+Eth1/49       Link to RMP-SF-AGG disabled  trunk     auto    auto    QSFP-40G-SR-BD
+Eth1/50       Link to RMP-SF-AGG disabled  trunk     auto    auto    QSFP-40G-SR-BD
+Eth1/51       Link to RMP-SF-AGG connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/52       Link to RMP-SF-AGG connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/53       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/54       --                 xcvrAbsen routed    auto    auto    --         
+Po1           #RMP-SF-ACSBLD11 P connected trunk     full    10G     --         
+Po2           Object Storage     noOperMem trunk     full    auto    --         
+Po3           Object Storage     noOperMem trunk     full    auto    --         
+Po4           HUAWEI-HPS-ENC-03- noOperMem trunk     full    auto    --         
+Po5           HUAWEI-HPS-ENC-02  connected trunk     full    10G     --         
+Po6           HUAWEI-HPS-ENC-01  noOperMem trunk     full    auto    --         
+Po7           New VTL StoreOnce  noOperMem 289       full    auto    --         
+Po8           New VTL StoreOnce  noOperMem 289       full    auto    --         
+Po28          PortChannel to RMP connected trunk     full    40G     --         

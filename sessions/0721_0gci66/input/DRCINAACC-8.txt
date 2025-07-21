@@ -1,0 +1,1280 @@
+DRCINAACC-8# show interface trunk
+DRCINAACC-8# show cdp neighbors
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+Device-ID          Local Intrfce  Hldtme Capability  Platform      Port ID
+DRCMGTAGG-2.corp.bi.go.id(FOC1914R0NZ)
+                    mgmt0          137    R S I s   N5K-C5672UP   Eth114/1/1
+DRCINAACC-7.corp.bi.go.id(SAL2005Y3J6)
+                    Eth2/3         155    R S I s   N9K-C93128TX  Eth2/3
+DRCINAACC-7.corp.bi.go.id(SAL2005Y3J6)
+                    Eth2/4         155    R S s     N9K-C93128TX  Eth2/4
+DRCINAAGG-43.corp.bi.go.id(JAF1552BHRS)
+                    Eth2/5         174    R S I s   N7K-C7009     Eth9/3
+DRCINAAGG-43.corp.bi.go.id(JAF1552BHRS)
+                    Eth2/6         174    R S I s   N7K-C7009     Eth9/4
+
+Total entries displayed: 5
+DRCINAACC-8# show interface description
+
+-------------------------------------------------------------------------------
+Interface                Description
+-------------------------------------------------------------------------------
+mgmt0                    --
+
+-------------------------------------------------------------------------------
+Port          Type   Speed   Description
+-------------------------------------------------------------------------------
+Eth1/1        eth    10G     Po2 DRCINAACC-7 Eth1/1
+Eth1/2        eth    10G     DRCINFRA01
+Eth1/3        eth    10G     DRCINFRA02
+Eth1/4        eth    10G     DRCINFRAHST11
+Eth1/5        eth    10G     DRCINFRAHST12
+Eth1/6        eth    10G     --
+Eth1/7        eth    10G     --
+Eth1/8        eth    10G     --
+Eth1/9        eth    10G     DRCMSAPPHST04-acc
+Eth1/10       eth    10G     DRCMSDEVHST18-acc
+Eth1/11       eth    10G     DRCMSDEVHST19-trunk
+Eth1/12       eth    10G     DRCMSDEVHST18-acc
+Eth1/13       eth    10G     DRCMSDEVHST18-trunk
+Eth1/14       eth    10G     --
+Eth1/15       eth    10G     DRCBIGHDP61
+Eth1/16       eth    10G     DRCBIGHDP62
+Eth1/17       eth    10G     HNAS
+Eth1/18       eth    10G     DRCNASAPP02-po17
+Eth1/19       eth    10G     DRCNASAPP02-po18
+Eth1/20       eth    10G     DRCNASAPP02-po17
+Eth1/21       eth    10G     DRCNASAPP02-po18
+Eth1/22       eth    10G     --
+Eth1/23       eth    10G     drcbighdp46
+Eth1/24       eth    10G     drcbighdp47
+Eth1/25       eth    10G     drcbighdp48
+Eth1/26       eth    10G     drcbighdp49
+Eth1/27       eth    10G     drcbighdp64
+Eth1/28       eth    10G     drcbighdp51
+Eth1/29       eth    10G     HB-DRCORADBO11
+Eth1/30       eth    10G     DRCORADBO12
+Eth1/31       eth    10G     --
+Eth1/32       eth    10G     --
+Eth1/33       eth    10G     drcbighdp56
+Eth1/34       eth    10G     drcbighdp57
+Eth1/35       eth    10G     drcbighdp58
+Eth1/36       eth    10G     drcbighdp59
+Eth1/37       eth    10G     drcbighdp60
+Eth1/38       eth    10G     drcbighdp52
+Eth1/39       eth    10G     drcbighdp53
+Eth1/40       eth    10G     drcbighdp54
+Eth1/41       eth    10G     drcbighdp55
+Eth1/42       eth    10G     devbighdp01
+Eth1/43       eth    10G     devbighdp02
+Eth1/44       eth    10G     devbighdp03
+Eth1/45       eth    10G     devbighdp04
+Eth1/46       eth    10G     devbighdp05
+Eth1/47       eth    10G     --
+Eth1/48       eth    10G     --
+Eth1/49       eth    10G     FMB-INTRANET-HOST
+Eth1/50       eth    10G     FMB-INTRANET-HB-MLT
+Eth1/51       eth    10G     FMB-INTRANET-LM-MLT
+Eth1/52       eth    10G     FMB-INTRANET-PRIV1-MLT
+Eth1/53       eth    10G     FMB-INTRANET-VM-APP
+Eth1/54       eth    10G     FMB-INTRANET-VM-APP
+Eth1/55       eth    10G     FMB-INTRANET-VM-DB
+Eth1/56       eth    10G     FMB-INTRANET-VM-DB
+Eth1/57       eth    10G     FMB-SPACE1
+Eth1/58       eth    10G     FMB-SPACE1
+Eth1/59       eth    10G     ERP-INTRANET-HOST
+Eth1/60       eth    10G     HB-ERP-INTRANET
+Eth1/61       eth    10G     HB-LM-ERP-INTRANET
+Eth1/62       eth    10G     ERP-INTRANET-PRIV1
+Eth1/63       eth    10G     ERP-INTRANET-VM-APP
+Eth1/64       eth    10G     ERP-INTRANET-VM-APP
+Eth1/65       eth    10G     ERP-INTRANET-VM-DB
+Eth1/66       eth    10G     ERP-INTRANET-VM-DB
+Eth1/67       eth    10G     ERP-INTRANET-PRIV2
+Eth1/68       eth    10G     ERP-INTRANET-HOST
+Eth1/69       eth    10G     HB-ERP-INTRANET
+Eth1/70       eth    10G     HB-LM-ERP-INTRANET
+Eth1/71       eth    10G     ERP-INTRANET-PRIV1
+Eth1/72       eth    10G     ERP2-INTRANET-VM-APP
+Eth1/73       eth    10G     ERP2-INTRANET-VM-APP
+Eth1/74       eth    10G     ERP-Intranet-VM-DB
+Eth1/75       eth    10G     ERP-Intranet-VM-DB
+Eth1/76       eth    10G     ERP-INTRANET-PRIV2
+Eth1/77       eth    10G     DRCINFRAAPP01
+Eth1/78       eth    10G     DRCADDS05
+Eth1/79       eth    10G     DRCINTRASAM11
+Eth1/80       eth    10G     DRCISEADM01-Backup (10.230.200.170)
+Eth1/81       eth    10G     DRCISEMNT01 (10.230.200.171)
+Eth1/82       eth    10G     DRCISEPSN01-Backup (10.230.200.172)
+Eth1/83       eth    10G     DRCISEPSN02-Backup (10.230.200.173)
+Eth1/84       eth    10G     DRCISEPSN03-Backup (10.230.200.174)
+Eth1/85       eth    10G     DRCBIGHDP49(04052020)
+Eth1/86       eth    10G     DRCBIGHDP50(04052020)
+Eth1/87       eth    10G     DRCBIGCDT01(04052020)
+Eth1/88       eth    10G     DRCBIGCDT02(04052020)
+Eth1/89       eth    10G     DRCROOTCA11
+Eth1/90       eth    10G     DRCINTRACA11
+Eth1/91       eth    10G     DRCADDS04
+Eth1/92       eth    10G     UATSKNSSKDBO01
+Eth1/93       eth    10G     --
+Eth1/94       eth    10G     --
+Eth1/95       eth    10G     --
+Eth1/96       eth    10G     --
+Eth2/1        eth    40G     DRCEXTAGG-33
+Eth2/2        eth    40G     DRCEXTAGG-43
+Eth2/3        eth    40G     DRCINAACC-7
+Eth2/4        eth    40G     TO PO2 INAACC7
+Eth2/5        eth    40G     INAAGG-33
+Eth2/6        eth    40G     INAAGG-43
+
+-------------------------------------------------------------------------------
+Interface                Description
+-------------------------------------------------------------------------------
+Po1                      VPC-PEERLINK
+Po2                      VPC-KEEPALIVE
+Po3                      To DRCEXTAGG-13/23 Po24
+Po11                     DRCINTRACA11
+Po12                     DRCINFRA01
+Po13                     DRCINFRA02
+Po14                     DRCINFRAHST11
+Po15                     DC1DEVDBS05
+Po16                     DRCINFRAAPP01
+Po17                     DRCNASAPP01
+Po18                     DRCNASAPP02
+Po19                     ERP-INTRANET-VM-APP
+Po20                     ERP-INTRANET-VM-DB
+Po21                     FMB-INTRANET-VM-APP
+Po22                     FMB-INTRANET-VM-DB
+Po23                     FMB-SPACE1
+Po24                     ERP2-INTRANET-VM-APP
+Po25                     ERP2-INTRANET-VM-DB
+Po26                     ERP-Intranet-Host
+Po27                     ERP-Intranet-HB
+Po28                     ERP-Intranet-LM
+Po29                     ERP-Intranet-Priv1
+Po30                     ERP-Intranet-Priv2
+Po31                     ERP-Intranet-Host
+Po32                     ERP-Intranet-HB
+Po33                     ERP-Intranet-LM
+Po34                     ERP-Intranet-Priv1
+Po35                     ERP-Intranet-Priv2
+Po36                     FMB-Intranet-Host
+Po37                     FMB-Intranet-HB
+Po38                     FMB-Intranet-LM
+Po39                     FMB-Intranet-Priv1
+Po40                     DRCROOTCA11
+Po41                     DRCMSAPPHST04-acc
+Po42                     DRCMSDEVHST18-trunk
+Po43                     DRCMSDEVHST18-acc
+Po44                     DRCMSDEVHST19-trunk
+Po45                     DRCMSDEVHST19-acc
+Po46                     drcbighdp46
+Po47                     drcbighdp47
+Po48                     drcbighdp48
+Po49                     drcbighdp49
+Po50                     drcbighdp50
+Po51                     drcbighdp51
+Po52                     DRCINTRASAM11
+Po53                     DRCADDS05
+Po54                     DRCADDS04
+Po55                     UATSKNSSKDBO01
+Po56                     drcbighdp56
+Po57                     drcbighdp57
+Po58                     drcbighdp58
+Po59                     drcbighdp59
+Po60                     drcbighdp60
+Po61                     drcbighdp52
+Po62                     drcbighdp53
+Po63                     drcbighdp54
+Po64                     drcbighdp55
+Po65                     devbighdp01
+Po66                     devbighdp02
+Po67                     devbighdp03
+Po68                     devbighdp04
+Po69                     devbighdp05
+Po70                     DRCBIGHDP61
+Po71                     DRCBIGHDP62
+Po72                     DRCINFRA01
+Po73                     DRCBIGHDP49(04052020)
+Po74                     DRCBIGHDP50(04052020)
+Po75                     DRCBIGCDT01(04052020)
+Po76                     DRCBIGCDT02(04052020)
+Po77                     DRCINTRACA11
+Po78                     DRMASTERBACKUP
+DRCINAACC-8# show interface status
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0         --                 connected routed    full    1000    --
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Eth1/1        Po2 DRCINAACC-7 Et notconnec routed    auto    auto    10g
+Eth1/2        DRCINFRA01         notconnec trunk     auto    auto    10g
+Eth1/3        DRCINFRA02         notconnec 1188      auto    auto    10g
+Eth1/4        DRCINFRAHST11      notconnec trunk     auto    auto    10g
+Eth1/5        DRCINFRAHST12      notconnec trunk     auto    auto    10g
+Eth1/6        --                 notconnec 1         auto    auto    10g
+Eth1/7        --                 notconnec 1         auto    auto    10g
+Eth1/8        --                 notconnec 1         auto    auto    10g
+Eth1/9        DRCMSAPPHST04-acc  notconnec 107       auto    auto    10g
+Eth1/10       DRCMSDEVHST18-acc  notconnec 1046      auto    auto    10g
+Eth1/11       DRCMSDEVHST19-trun vpcCmpFai trunk     auto    auto    10g
+Eth1/12       DRCMSDEVHST18-acc  notconnec 1046      auto    auto    10g
+Eth1/13       DRCMSDEVHST18-trun connected trunk     full    10G     10g
+Eth1/14       --                 notconnec 1         auto    auto    10g
+Eth1/15       DRCBIGHDP61        notconnec 8         auto    auto    10g
+Eth1/16       DRCBIGHDP62        notconnec 8         auto    auto    10g
+Eth1/17       HNAS               notconnec 1136      auto    auto    10g
+Eth1/18       DRCNASAPP02-po17   connected 1130      full    10G     10g
+Eth1/19       DRCNASAPP02-po18   connected 1130      full    10G     10g
+Eth1/20       DRCNASAPP02-po17   connected 1130      full    10G     10g
+Eth1/21       DRCNASAPP02-po18   connected 1130      full    10G     10g
+Eth1/22       --                 notconnec 1         auto    auto    10g
+Eth1/23       drcbighdp46        notconnec 8         auto    auto    10g
+Eth1/24       drcbighdp47        notconnec 8         auto    auto    10g
+Eth1/25       drcbighdp48        notconnec 8         auto    auto    10g
+Eth1/26       drcbighdp49        notconnec 8         auto    auto    10g
+Eth1/27       drcbighdp64        notconnec 8         full    10G     10g
+Eth1/28       drcbighdp51        notconnec 8         auto    auto    10g
+Eth1/29       HB-DRCORADBO11     notconnec 1202      auto    auto    10g
+Eth1/30       DRCORADBO12        notconnec 1002      auto    auto    10g
+Eth1/31       --                 notconnec routed    auto    auto    10g
+Eth1/32       --                 notconnec 1         auto    auto    10g
+Eth1/33       drcbighdp56        notconnec 8         auto    auto    10g
+Eth1/34       drcbighdp57        notconnec 8         auto    auto    10g
+Eth1/35       drcbighdp58        notconnec 8         auto    auto    10g
+Eth1/36       drcbighdp59        notconnec 8         auto    auto    10g
+Eth1/37       drcbighdp60        notconnec 8         auto    auto    10g
+Eth1/38       drcbighdp52        notconnec 8         auto    auto    10g
+Eth1/39       drcbighdp53        notconnec 8         auto    auto    10g
+Eth1/40       drcbighdp54        notconnec 8         auto    auto    10g
+Eth1/41       drcbighdp55        notconnec 8         auto    auto    10g
+Eth1/42       devbighdp01        notconnec 1044      auto    auto    10g
+Eth1/43       devbighdp02        notconnec 1044      auto    auto    10g
+Eth1/44       devbighdp03        notconnec 1044      auto    auto    10g
+Eth1/45       devbighdp04        notconnec 1044      auto    auto    10g
+Eth1/46       devbighdp05        notconnec 1044      auto    auto    10g
+Eth1/47       --                 notconnec 1         auto    auto    10g
+Eth1/48       --                 notconnec 1         auto    auto    10g
+Eth1/49       FMB-INTRANET-HOST  notconnec 1128      auto    10G     10g
+Eth1/50       FMB-INTRANET-HB-ML notconnec 1152      auto    auto    10g
+Eth1/51       FMB-INTRANET-LM-ML notconnec 1154      auto    10G     10g
+Eth1/52       FMB-INTRANET-PRIV1 notconnec 1156      auto    10G     10g
+Eth1/53       FMB-INTRANET-VM-AP notconnec trunk     auto    auto    10g
+Eth1/54       FMB-INTRANET-VM-AP notconnec trunk     auto    auto    10g
+Eth1/55       FMB-INTRANET-VM-DB notconnec trunk     auto    auto    10g
+Eth1/56       FMB-INTRANET-VM-DB notconnec trunk     auto    auto    10g
+Eth1/57       FMB-SPACE1         notconnec trunk     auto    auto    10g
+Eth1/58       FMB-SPACE1         notconnec trunk     auto    auto    10g
+Eth1/59       ERP-INTRANET-HOST  notconnec 1128      auto    10G     10g
+Eth1/60       HB-ERP-INTRANET    notconnec 1158      auto    auto    10g
+Eth1/61       HB-LM-ERP-INTRANET notconnec 1160      auto    10G     10g
+Eth1/62       ERP-INTRANET-PRIV1 notconnec 1162      auto    10G     10g
+Eth1/63       ERP-INTRANET-VM-AP notconnec trunk     auto    auto    10g
+Eth1/64       ERP-INTRANET-VM-AP notconnec trunk     auto    auto    10g
+Eth1/65       ERP-INTRANET-VM-DB notconnec trunk     auto    auto    10g
+Eth1/66       ERP-INTRANET-VM-DB notconnec trunk     auto    auto    10g
+Eth1/67       ERP-INTRANET-PRIV2 notconnec 1164      auto    10G     10g
+Eth1/68       ERP-INTRANET-HOST  notconnec 1128      auto    10G     10g
+Eth1/69       HB-ERP-INTRANET    notconnec 1158      auto    auto    10g
+Eth1/70       HB-LM-ERP-INTRANET notconnec 1160      auto    10G     10g
+Eth1/71       ERP-INTRANET-PRIV1 notconnec 1162      auto    10G     10g
+Eth1/72       ERP2-INTRANET-VM-A notconnec trunk     auto    auto    10g
+Eth1/73       ERP2-INTRANET-VM-A notconnec trunk     auto    auto    10g
+Eth1/74       ERP-Intranet-VM-DB notconnec trunk     auto    auto    10g
+Eth1/75       ERP-Intranet-VM-DB notconnec trunk     auto    auto    10g
+Eth1/76       ERP-INTRANET-PRIV2 notconnec 1164      auto    10G     10g
+Eth1/77       DRCINFRAAPP01      notconnec 81        auto    auto    10g
+Eth1/78       DRCADDS05          notconnec 81        auto    auto    10g
+Eth1/79       DRCINTRASAM11      notconnec 104       auto    auto    10g
+Eth1/80       DRCISEADM01-Backup notconnec 1196      auto    auto    10g
+Eth1/81       DRCISEMNT01 (10.23 notconnec 1196      auto    auto    10g
+Eth1/82       DRCISEPSN01-Backup notconnec 1196      auto    auto    10g
+Eth1/83       DRCISEPSN02-Backup notconnec 1196      auto    10G     10g
+Eth1/84       DRCISEPSN03-Backup notconnec 1196      auto    10G     10g
+Eth1/85       DRCBIGHDP49(040520 notconnec 8         auto    auto    10g
+Eth1/86       DRCBIGHDP50(040520 notconnec 8         auto    auto    10g
+Eth1/87       DRCBIGCDT01(040520 notconnec 8         auto    auto    10g
+Eth1/88       DRCBIGCDT02(040520 notconnec 8         auto    auto    10g
+Eth1/89       DRCROOTCA11        notconnec 112       auto    auto    10g
+Eth1/90       DRCINTRACA11       notconnec 111       auto    auto    10g
+Eth1/91       DRCADDS04          notconnec 81        auto    auto    10g
+Eth1/92       UATSKNSSKDBO01     notconnec 1198      auto    auto    10g
+Eth1/93       --                 notconnec 909       auto    auto    10g
+Eth1/94       --                 notconnec 1         auto    auto    10g
+Eth1/95       --                 notconnec 1         auto    auto    10g
+Eth1/96       --                 notconnec 1         auto    auto    10g
+Eth2/1        DRCEXTAGG-33       xcvrAbsen trunk     auto    auto    --
+Eth2/2        DRCEXTAGG-43       xcvrAbsen trunk     auto    auto    --
+Eth2/3        DRCINAACC-7        connected trunk     full    40G     QSFP-40G-SR-BD
+Eth2/4        TO PO2 INAACC7     connected routed    full    40G     QSFP-40G-SR-BD
+Eth2/5        INAAGG-33          connected trunk     full    40G     QSFP-40G-SR-BD
+Eth2/6        INAAGG-43          connected trunk     full    40G     QSFP-40G-SR-BD
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Po1           VPC-PEERLINK       connected trunk     full    40G     --
+Po2           VPC-KEEPALIVE      connected routed    full    40G     --
+Po3           To DRCEXTAGG-13/23 connected trunk     full    40G     --
+Po11          DRCINTRACA11       noOperMem 111       auto    auto    --
+Po12          DRCINFRA01         noOperMem 91        auto    auto    --
+Po13          DRCINFRA02         noOperMem 91        auto    auto    --
+Po14          DRCINFRAHST11      noOperMem 81        auto    auto    --
+Po15          DC1DEVDBS05        noOperMem trunk     auto    auto    --
+Po16          DRCINFRAAPP01      noOperMem 81        auto    auto    --
+Po17          DRCNASAPP01        connected 1130      full    10G     --
+Po18          DRCNASAPP02        connected 1130      full    10G     --
+Po19          ERP-INTRANET-VM-AP noOperMem trunk     auto    auto    --
+Po20          ERP-INTRANET-VM-DB noOperMem trunk     auto    auto    --
+Po21          FMB-INTRANET-VM-AP noOperMem trunk     auto    auto    --
+Po22          FMB-INTRANET-VM-DB noOperMem trunk     auto    auto    --
+Po23          FMB-SPACE1         noOperMem trunk     auto    auto    --
+Po24          ERP2-INTRANET-VM-A noOperMem trunk     auto    auto    --
+Po25          ERP2-INTRANET-VM-D noOperMem trunk     auto    auto    --
+Po26          ERP-Intranet-Host  noOperMem 1128      auto    10G     --
+Po27          ERP-Intranet-HB    noOperMem 1158      auto    auto    --
+Po28          ERP-Intranet-LM    noOperMem 1160      auto    10G     --
+Po29          ERP-Intranet-Priv1 noOperMem 1162      auto    10G     --
+Po30          ERP-Intranet-Priv2 noOperMem 1164      auto    10G     --
+Po31          ERP-Intranet-Host  noOperMem 1128      auto    10G     --
+Po32          ERP-Intranet-HB    noOperMem 1158      auto    auto    --
+Po33          ERP-Intranet-LM    noOperMem 1160      auto    10G     --
+Po34          ERP-Intranet-Priv1 noOperMem 1162      auto    10G     --
+Po35          ERP-Intranet-Priv2 noOperMem 1164      auto    10G     --
+Po36          FMB-Intranet-Host  noOperMem 1128      auto    10G     --
+Po37          FMB-Intranet-HB    noOperMem 1152      auto    auto    --
+Po38          FMB-Intranet-LM    noOperMem 1154      auto    10G     --
+Po39          FMB-Intranet-Priv1 noOperMem 1156      auto    10G     --
+Po40          DRCROOTCA11        noOperMem 112       auto    auto    --
+Po41          DRCMSAPPHST04-acc  noOperMem 107       auto    auto    --
+Po42          DRCMSDEVHST18-trun connected trunk     full    10G     --
+Po43          DRCMSDEVHST18-acc  noOperMem 1046      auto    auto    --
+Po44          DRCMSDEVHST19-trun noOperMem trunk     auto    auto    --
+Po45          DRCMSDEVHST19-acc  noOperMem 1046      auto    auto    --
+Po46          drcbighdp46        noOperMem 8         auto    auto    --
+Po47          drcbighdp47        noOperMem 8         auto    auto    --
+Po48          drcbighdp48        noOperMem 8         auto    auto    --
+Po49          drcbighdp49        noOperMem 8         auto    auto    --
+Po50          drcbighdp50        noOperMem 8         full    10G     --
+Po51          drcbighdp51        noOperMem 8         auto    auto    --
+Po52          DRCINTRASAM11      noOperMem 104       auto    auto    --
+Po53          DRCADDS05          noOperMem 81        auto    auto    --
+Po54          DRCADDS04          noOperMem 81        auto    auto    --
+Po55          UATSKNSSKDBO01     noOperMem 1198      auto    auto    --
+Po56          drcbighdp56        noOperMem 8         auto    auto    --
+Po57          drcbighdp57        noOperMem 8         auto    auto    --
+Po58          drcbighdp58        noOperMem 8         auto    auto    --
+Po59          drcbighdp59        noOperMem 8         auto    auto    --
+Po60          drcbighdp60        noOperMem 8         auto    auto    --
+Po61          drcbighdp52        noOperMem 8         auto    auto    --
+Po62          drcbighdp53        noOperMem 8         auto    auto    --
+Po63          drcbighdp54        noOperMem 8         auto    auto    --
+Po64          drcbighdp55        noOperMem 8         auto    auto    --
+Po65          devbighdp01        noOperMem 1044      auto    auto    --
+Po66          devbighdp02        noOperMem 1044      auto    auto    --
+Po67          devbighdp03        noOperMem 1044      auto    auto    --
+Po68          devbighdp04        noOperMem 1044      auto    auto    --
+Po69          devbighdp05        noOperMem 1044      auto    auto    --
+Po70          DRCBIGHDP61        noOperMem 8         auto    auto    --
+Po71          DRCBIGHDP62        noOperMem 8         auto    auto    --
+Po72          DRCINFRA01         noOperMem trunk     auto    auto    --
+Po73          DRCBIGHDP49(040520 noOperMem 8         auto    auto    --
+Po74          DRCBIGHDP50(040520 noOperMem 8         auto    auto    --
+Po75          DRCBIGCDT01(040520 noOperMem 8         auto    auto    --
+Po76          DRCBIGCDT02(040520 noOperMem 8         auto    auto    --
+Po77          DRCINTRACA11       noOperMem 111       auto    auto    --
+Po78          DRMASTERBACKUP     noOperMem 909       auto    auto    --
+DRCINAACC-8# show inventory
+NAME: "Chassis",  DESCR: "Nexus9000 C93128TX Chassis"
+PID: N9K-C93128TX        ,  VID: V03 ,  SN: SAL2022QW6E
+
+NAME: "Slot 1",  DESCR: "1/10G-T Ethernet Module"
+PID: N9K-C93128TX        ,  VID: V03 ,  SN: SAL2022QW6E
+
+NAME: "Slot 2",  DESCR: "40G Ethernet Expansion Module"
+PID: N9K-M6PQ-E          ,  VID: V01 ,  SN: SAL2029THXD
+
+NAME: "Power Supply 1",  DESCR: "Nexus9000 C93128TX Chassis Power Supply"
+PID: N9K-PAC-1200W       ,  VID: V01 ,  SN: DCH2018S019
+
+NAME: "Power Supply 2",  DESCR: "Nexus9000 C93128TX Chassis Power Supply"
+PID: N9K-PAC-1200W       ,  VID: V01 ,  SN: DCH2026S13R
+
+NAME: "Fan 1",  DESCR: "Nexus9000 C93128TX Chassis Fan Module"
+PID: N9K-C9300-FAN2      ,  VID: V01 ,  SN: N/A
+
+NAME: "Fan 2",  DESCR: "Nexus9000 C93128TX Chassis Fan Module"
+PID: N9K-C9300-FAN2      ,  VID: V01 ,  SN: N/A
+
+NAME: "Fan 3",  DESCR: "Nexus9000 C93128TX Chassis Fan Module"
+PID: N9K-C9300-FAN2      ,  VID: V01 ,  SN: N/A
+
+DRCINAACC-8# show ip arp
+
+Flags: * - Adjacencies learnt on non-active FHRP router
+       + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+       CP - Added via L2RIB, Control plane Adjacencies
+       PS - Added via L2RIB, Peer Sync
+       RO - Re-Originated Peer Sync Entry
+       D - Static Adjacencies attached to down interface
+
+IP ARP Table for context default
+Total number of entries: 0
+Address         Age       MAC Address     Interface       Flags
+DRCINAACC-8# show lldp neighbors
+                   ^
+% Invalid command at '^' marker.
+DRCINAACC-8# show mac address-table
+Legend:
+        * - primary entry, G - Gateway MAC, (R) - Routed MAC, O - Overlay MAC
+        age - seconds since last seen,+ - primary entry using vPC Peer-Link,
+        (T) - True, (F) - False, C - ControlPlane MAC, ~ - vsan
+   VLAN     MAC Address      Type      age     Secure NTFY Ports
+---------+-----------------+--------+---------+------+----+------------------
+*    3     80e0.1d58.9c8a   dynamic  0         F      F    Po3
++    8     0022.bdf8.19ff   dynamic  0         F      F    Po3
+*    8     5c6f.691a.5286   dynamic  0         F      F    Po3
+*    8     98be.9465.8d20   dynamic  0         F      F    Po3
++   21     6c9c.ed44.d142   dynamic  0         F      F    Po3
+*   81     0015.5da1.0600   dynamic  0         F      F    Po3
+*   81     0015.5da1.0700   dynamic  0         F      F    Po3
++   81     0022.bdf8.19ff   dynamic  0         F      F    Po3
++   81     48df.3792.0c28   dynamic  0         F      F    Po3
++   81     48df.3792.1504   dynamic  0         F      F    Po3
+*   81     6c92.cf5d.ede0   dynamic  0         F      F    Po3
++   81     6c92.cf5e.2fc1   dynamic  0         F      F    Po3
++   81     80e0.1d58.9db2   dynamic  0         F      F    Po3
+*   81     bc97.e1a3.6d15   dynamic  0         F      F    Po3
++   82     6c9c.ed44.d142   dynamic  0         F      F    Po3
++   91     48df.3792.0c2a   dynamic  0         F      F    Po3
++   92     0022.bdf8.19ff   dynamic  0         F      F    Po3
++   92     5a52.8590.0002   dynamic  0         F      F    Po3
+*   92     5a52.8590.000e   dynamic  0         F      F    Po3
++   92     5a52.8590.001b   dynamic  0         F      F    Po3
+*   92     5a52.8590.0032   dynamic  0         F      F    Po3
+*   92     5a52.8590.003e   dynamic  0         F      F    Po3
+*   92     80e0.1d58.9c8a   dynamic  0         F      F    Po3
+*   95     80e0.1d58.9c8a   dynamic  0         F      F    Po3
++  103     6c9c.ed44.d142   dynamic  0         F      F    Po3
+*  104     0015.5d0f.0291   dynamic  0         F      F    Po3
+*  104     0015.5d29.6514   dynamic  0         F      F    Po3
++  104     0022.bdf8.19ff   dynamic  0         F      F    Po3
++  104     6c92.cf5d.d551   dynamic  0         F      F    Po3
++  105     0022.bdf8.19ff   dynamic  0         F      F    Po3
++  105     4e91.40ac.c04b   dynamic  0         F      F    Po3
++  105     4e91.4179.db14   dynamic  0         F      F    Po3
+*  105     5e5d.716d.fc14   dynamic  0         F      F    Po3
++  105     5e5d.735a.d84b   dynamic  0         F      F    Po3
+*  105     80e0.1d58.9db2   dynamic  0         F      F    Po3
+*  106     f452.14cd.906c   dynamic  0         F      F    Po3
++  106     f452.14e3.78fe   dynamic  0         F      F    Po3
+*  107     0022.bdf8.19ff   dynamic  0         F      F    Po3
++  107     e666.5b80.0003   dynamic  0         F      F    Po3
+*  107     e666.5b80.000e   dynamic  0         F      F    Po3
++  107     e666.5b80.001a   dynamic  0         F      F    Po3
++  107     e666.5b80.0026   dynamic  0         F      F    Po3
+*  107     e666.5b80.0032   dynamic  0         F      F    Po3
++  108     000a.f76e.8cf0   dynamic  0         F      F    Po3
++  108     98be.9459.aa62   dynamic  0         F      F    Po3
+*  222     0894.ef04.c1ed   dynamic  0         F      F    Po3
+*  222     0894.ef04.c2ad   dynamic  0         F      F    Po3
+*  222     80e0.1d58.9c8a   dynamic  0         F      F    Po3
++  222     80e0.1d58.9db2   dynamic  0         F      F    Po3
++  223     0022.bdf8.19ff   dynamic  0         F      F    Po3
++  223     6cae.8b42.f678   dynamic  0         F      F    Po3
+*  223     6cae.8b42.f990   dynamic  0         F      F    Po3
+*  223     6cae.8b42.f991   dynamic  0         F      F    Po3
+*  223     98be.944b.b3fc   dynamic  0         F      F    Po3
++  223     98be.944b.b548   dynamic  0         F      F    Po3
++  223     98be.947e.a958   dynamic  0         F      F    Po3
++  223     98be.947e.aa4a   dynamic  0         F      F    Po3
++  223     98be.947e.b860   dynamic  0         F      F    Po3
++  808     0007.7d85.b701   dynamic  0         F      F    Po3
++  808     0015.5d64.699d   dynamic  0         F      F    Po3
++  808     0022.bdf8.19ff   dynamic  0         F      F    Po3
+*  808     0050.56b8.de5e   dynamic  0         F      F    Po3
+*  810     80e0.1d58.9c8a   dynamic  0         F      F    Po3
++  810     80e0.1d58.9db2   dynamic  0         F      F    Po3
+*  902     6c9c.ed42.61c2   dynamic  0         F      F    Po3
++  902     6c9c.ed44.d142   dynamic  0         F      F    Po3
+*  909     0014.4ffb.8a19   dynamic  0         F      F    Po3
+*  909     0021.5af6.1946   dynamic  0         F      F    Po3
++  909     0022.bdf8.19ff   dynamic  0         F      F    Po3
+*  909     6cae.8b42.f679   dynamic  0         F      F    Po3
++  909     bc97.e1a3.4dca   dynamic  0         F      F    Po3
++ 1026     0015.5d14.0603   dynamic  0         F      F    Po3
++ 1026     0015.5d14.0604   dynamic  0         F      F    Po3
+* 1026     0022.bdf8.19ff   dynamic  0         F      F    Po3
+* 1026     5c6f.691a.4e07   dynamic  0         F      F    Po3
++ 1030     0015.5d0b.5309   dynamic  0         F      F    Po3
++ 1030     0015.5d16.d010   dynamic  0         F      F    Po3
+* 1030     0015.5d76.5e0d   dynamic  0         F      F    Po3
++ 1030     0015.5d78.9609   dynamic  0         F      F    Po3
++ 1030     0015.5d78.960a   dynamic  0         F      F    Po3
++ 1030     0015.5d87.4629   dynamic  0         F      F    Po3
+* 1030     0015.5d92.0a1a   dynamic  0         F      F    Po3
++ 1030     0015.5da7.1b1e   dynamic  0         F      F    Po3
+* 1030     0015.5dba.ab10   dynamic  0         F      F    Po3
+* 1030     0015.5dc2.9919   dynamic  0         F      F    Po3
+* 1030     0015.5dd7.b711   dynamic  0         F      F    Po3
+* 1030     0015.5ddd.1301   dynamic  0         F      F    Po3
+* 1030     0015.5de9.9618   dynamic  0         F      F    Po3
+* 1030     0015.5dfa.1a15   dynamic  0         F      F    Po3
++ 1030     0022.bdf8.19ff   dynamic  0         F      F    Po3
+* 1042     0015.5d02.990a   dynamic  0         F      F    Po3
+* 1042     0015.5d04.d010   dynamic  0         F      F    Po3
+* 1042     0015.5d04.d013   dynamic  0         F      F    Po3
+* 1042     0015.5d04.d014   dynamic  0         F      F    Po3
+* 1042     0015.5d04.d01a   dynamic  0         F      F    Po3
++ 1042     0015.5d04.d01b   dynamic  0         F      F    Po3
+* 1042     0015.5d04.d01f   dynamic  0         F      F    Po3
+* 1042     0015.5d09.5e37   dynamic  0         F      F    Po3
++ 1042     0015.5d0b.2505   dynamic  0         F      F    Po3
+* 1042     0015.5d0b.2d04   dynamic  0         F      F    Po3
++ 1042     0015.5d0b.3708   dynamic  0         F      F    Po3
+* 1042     0015.5d0b.380d   dynamic  0         F      F    Po3
++ 1042     0015.5d0b.480e   dynamic  0         F      F    Po3
++ 1042     0015.5d0b.4907   dynamic  0         F      F    Po3
++ 1042     0015.5d0b.4c08   dynamic  0         F      F    Po3
++ 1042     0015.5d0b.520d   dynamic  0         F      F    Po3
+* 1042     0015.5d0b.520e   dynamic  0         F      F    Po3
++ 1042     0015.5d0d.7e0b   dynamic  0         F      F    Po3
++ 1042     0015.5d15.7808   dynamic  0         F      F    Po3
+* 1042     0015.5d15.780a   dynamic  0         F      F    Po3
++ 1042     0015.5d16.d011   dynamic  0         F      F    Po3
+* 1042     0015.5d16.d012   dynamic  0         F      F    Po3
+* 1042     0015.5d1b.5404   dynamic  0         F      F    Po3
++ 1042     0015.5d22.f8f5   dynamic  0         F      F    Po3
++ 1042     0015.5d2e.6114   dynamic  0         F      F    Po3
+* 1042     0015.5d2e.6118   dynamic  0         F      F    Po3
++ 1042     0015.5d2e.6119   dynamic  0         F      F    Po3
++ 1042     0015.5d30.6e0d   dynamic  0         F      F    Po3
+* 1042     0015.5d3c.1da7   dynamic  0         F      F    Po3
++ 1042     0015.5d4a.6019   dynamic  0         F      F    Po3
++ 1042     0015.5d4a.601e   dynamic  0         F      F    Po3
++ 1042     0015.5d4a.6020   dynamic  0         F      F    Po3
+* 1042     0015.5d4a.6021   dynamic  0         F      F    Po3
++ 1042     0015.5d4a.6022   dynamic  0         F      F    Po3
++ 1042     0015.5d4a.6023   dynamic  0         F      F    Po3
+* 1042     0015.5d4a.6024   dynamic  0         F      F    Po3
++ 1042     0015.5d4a.6025   dynamic  0         F      F    Po3
++ 1042     0015.5d4a.6026   dynamic  0         F      F    Po3
++ 1042     0015.5d4a.8504   dynamic  0         F      F    Po3
++ 1042     0015.5d4a.850b   dynamic  0         F      F    Po3
++ 1042     0015.5d4e.070e   dynamic  0         F      F    Po3
++ 1042     0015.5d4e.0712   dynamic  0         F      F    Po3
+* 1042     0015.5d4e.0713   dynamic  0         F      F    Po3
++ 1042     0015.5d4e.0714   dynamic  0         F      F    Po3
+* 1042     0015.5d4e.0719   dynamic  0         F      F    Po3
++ 1042     0015.5d63.984f   dynamic  0         F      F    Po3
++ 1042     0015.5d63.98f1   dynamic  0         F      F    Po3
+* 1042     0015.5d69.750a   dynamic  0         F      F    Po3
+* 1042     0015.5d69.750c   dynamic  0         F      F    Po3
+* 1042     0015.5d69.750e   dynamic  0         F      F    Po3
++ 1042     0015.5d69.7513   dynamic  0         F      F    Po3
+* 1042     0015.5d71.36af   dynamic  0         F      F    Po3
++ 1042     0015.5d71.3804   dynamic  0         F      F    Po3
++ 1042     0015.5d71.3805   dynamic  0         F      F    Po3
++ 1042     0015.5d71.3806   dynamic  0         F      F    Po3
++ 1042     0015.5d71.380d   dynamic  0         F      F    Po3
++ 1042     0015.5d71.ea07   dynamic  0         F      F    Po3
+* 1042     0015.5d76.5e1e   dynamic  0         F      F    Po3
+* 1042     0015.5d78.9604   dynamic  0         F      F    Po3
+* 1042     0015.5d78.9608   dynamic  0         F      F    Po3
++ 1042     0015.5d78.960c   dynamic  0         F      F    Po3
++ 1042     0015.5d86.d112   dynamic  0         F      F    Po3
+* 1042     0015.5d86.d114   dynamic  0         F      F    Po3
++ 1042     0015.5d86.d119   dynamic  0         F      F    Po3
++ 1042     0015.5d87.461a   dynamic  0         F      F    Po3
++ 1042     0015.5d87.461f   dynamic  0         F      F    Po3
++ 1042     0015.5d87.462c   dynamic  0         F      F    Po3
+* 1042     0015.5d87.4630   dynamic  0         F      F    Po3
++ 1042     0015.5d87.4634   dynamic  0         F      F    Po3
+* 1042     0015.5d87.a802   dynamic  0         F      F    Po3
++ 1042     0015.5d87.a803   dynamic  0         F      F    Po3
++ 1042     0015.5d87.a804   dynamic  0         F      F    Po3
++ 1042     0015.5d89.ad47   dynamic  0         F      F    Po3
++ 1042     0015.5d89.adf9   dynamic  0         F      F    Po3
++ 1042     0015.5d8d.4c07   dynamic  0         F      F    Po3
+* 1042     0015.5d8d.4c09   dynamic  0         F      F    Po3
++ 1042     0015.5d91.a010   dynamic  0         F      F    Po3
+* 1042     0015.5d91.a016   dynamic  0         F      F    Po3
+* 1042     0015.5d91.a019   dynamic  0         F      F    Po3
+* 1042     0015.5d92.0a06   dynamic  0         F      F    Po3
+* 1042     0015.5d92.0a15   dynamic  0         F      F    Po3
+* 1042     0015.5d92.0a18   dynamic  0         F      F    Po3
++ 1042     0015.5d92.0a19   dynamic  0         F      F    Po3
+* 1042     0015.5d92.0a21   dynamic  0         F      F    Po3
++ 1042     0015.5d9d.9411   dynamic  0         F      F    Po3
+* 1042     0015.5d9d.9413   dynamic  0         F      F    Po3
+* 1042     0015.5d9d.9417   dynamic  0         F      F    Po3
++ 1042     0015.5d9d.941a   dynamic  0         F      F    Po3
++ 1042     0015.5d9d.941c   dynamic  0         F      F    Po3
+* 1042     0015.5d9d.941e   dynamic  0         F      F    Po3
++ 1042     0015.5d9d.941f   dynamic  0         F      F    Po3
++ 1042     0015.5d9d.9424   dynamic  0         F      F    Po3
++ 1042     0015.5da4.0808   dynamic  0         F      F    Po3
+* 1042     0015.5da7.1b24   dynamic  0         F      F    Po3
+* 1042     0015.5da7.1b28   dynamic  0         F      F    Po3
++ 1042     0015.5db1.f505   dynamic  0         F      F    Po3
++ 1042     0015.5db1.f508   dynamic  0         F      F    Po3
+* 1042     0015.5db1.f509   dynamic  0         F      F    Po3
++ 1042     0015.5db1.f50b   dynamic  0         F      F    Po3
++ 1042     0015.5db1.f50c   dynamic  0         F      F    Po3
+* 1042     0015.5db1.f50d   dynamic  0         F      F    Po3
++ 1042     0015.5db1.f512   dynamic  0         F      F    Po3
++ 1042     0015.5dba.ab0f   dynamic  0         F      F    Po3
+* 1042     0015.5dba.ab12   dynamic  0         F      F    Po3
+* 1042     0015.5dba.ab13   dynamic  0         F      F    Po3
+* 1042     0015.5dba.ab1a   dynamic  0         F      F    Po3
++ 1042     0015.5dba.ab1c   dynamic  0         F      F    Po3
+* 1042     0015.5dba.ab1d   dynamic  0         F      F    Po3
+* 1042     0015.5dba.ab1e   dynamic  0         F      F    Po3
++ 1042     0015.5dbb.4a06   dynamic  0         F      F    Po3
++ 1042     0015.5dc2.9902   dynamic  0         F      F    Po3
++ 1042     0015.5dc2.990a   dynamic  0         F      F    Po3
+* 1042     0015.5dc2.990c   dynamic  0         F      F    Po3
++ 1042     0015.5dd0.1719   dynamic  0         F      F    Po3
++ 1042     0015.5dd8.a606   dynamic  0         F      F    Po3
++ 1042     0015.5dd8.a607   dynamic  0         F      F    Po3
++ 1042     0015.5dd8.a608   dynamic  0         F      F    Po3
+* 1042     0015.5dd8.a60a   dynamic  0         F      F    Po3
+* 1042     0015.5dd8.a60c   dynamic  0         F      F    Po3
+* 1042     0015.5ddb.97a6   dynamic  0         F      F    Po3
+* 1042     0015.5ddb.97d8   dynamic  0         F      F    Po3
+* 1042     0015.5ddf.bd11   dynamic  0         F      F    Po3
++ 1042     0015.5ddf.bd12   dynamic  0         F      F    Po3
+* 1042     0015.5ddf.bd2f   dynamic  0         F      F    Po3
++ 1042     0015.5ddf.bd35   dynamic  0         F      F    Po3
++ 1042     0015.5de6.1b13   dynamic  0         F      F    Po3
++ 1042     0015.5de9.961b   dynamic  0         F      F    Po3
++ 1042     0015.5de9.961c   dynamic  0         F      F    Po3
+* 1042     0015.5de9.961f   dynamic  0         F      F    Po3
++ 1042     0015.5de9.9621   dynamic  0         F      F    Po3
+* 1042     0015.5de9.9628   dynamic  0         F      F    Po3
++ 1042     0015.5dfa.1a1f   dynamic  0         F      F    Po3
++ 1042     0015.b2b1.b4e8   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.1c07   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.1c13   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.1e31   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.1e32   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.1e33   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.1e35   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.1e36   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.1e9c   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.1e9d   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.1e9e   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.2001   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.2016   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.2018   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.2019   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.201a   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.201c   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.201d   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.201e   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.201f   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.204c   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.204d   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.204e   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.2052   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.2053   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.2062   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.20c5   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.20c6   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.20c8   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.20c9   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.20cc   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.20cd   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.20ce   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.20cf   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.2143   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.2144   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.2146   dynamic  0         F      F    Po3
+* 1042     001d.d8b7.2147   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.2148   dynamic  0         F      F    Po3
++ 1042     001d.d8b7.2cdf   dynamic  0         F      F    Po3
+* 1042     0022.bdf8.19ff   dynamic  0         F      F    Po3
++ 1042     80e0.1d58.9c8a   dynamic  0         F      F    Po3
++ 1044     000a.f773.eb60   dynamic  0         F      F    Po3
++ 1044     0015.5d4a.6011   dynamic  0         F      F    Po3
++ 1044     0015.5d4a.6016   dynamic  0         F      F    Po3
++ 1044     0015.5d52.0148   dynamic  0         F      F    Po3
++ 1044     0015.5d9d.9420   dynamic  0         F      F    Po3
+* 1044     0015.5da1.1290   dynamic  0         F      F    Po3
++ 1044     0015.5ddc.2006   dynamic  0         F      F    Po3
++ 1044     0015.5ddf.bd2b   dynamic  0         F      F    Po3
++ 1044     0015.5dfa.1a16   dynamic  0         F      F    Po3
+* 1044     0022.bdf8.19ff   dynamic  0         F      F    Po3
++ 1044     48df.378f.e37a   dynamic  0         F      F    Po3
++ 1044     48df.378f.e948   dynamic  0         F      F    Po3
++ 1044     80e0.1d58.9db2   dynamic  0         F      F    Po3
+* 1044     9ab9.0430.0003   dynamic  0         F      F    Po3
++ 1048     0015.5d09.5e12   dynamic  0         F      F    Po3
+* 1048     0015.5d3c.1dab   dynamic  0         F      F    Po3
+* 1048     0015.5d71.3814   dynamic  0         F      F    Po3
+* 1048     0015.5d78.9607   dynamic  0         F      F    Po3
++ 1048     0015.5ddf.bd2c   dynamic  0         F      F    Po3
+* 1048     0015.5ddf.bd2e   dynamic  0         F      F    Po3
++ 1048     0015.5ddf.bd34   dynamic  0         F      F    Po3
+* 1048     0022.bdf8.19ff   dynamic  0         F      F    Po3
+* 1048     98be.940d.e830   dynamic  0         F      F    Po3
+* 1050     6c9c.ed42.61c2   dynamic  0         F      F    Po3
++ 1050     6c9c.ed44.d142   dynamic  0         F      F    Po3
+* 1052     6c9c.ed42.61c2   dynamic  0         F      F    Po3
+* 1052     6c9c.ed44.d142   dynamic  0         F      F    Po3
+* 1054     6c9c.ed42.61c2   dynamic  0         F      F    Po3
++ 1054     6c9c.ed44.d142   dynamic  0         F      F    Po3
++ 1056     3cfd.fe57.94f0   dynamic  0         F      F    Po3
++ 1056     3cfd.fe59.5670   dynamic  0         F      F    Po3
+* 1056     6c9c.ed42.61c2   dynamic  0         F      F    Po3
+* 1056     a036.9fc5.8832   dynamic  0         F      F    Po3
+* 1056     a036.9fc5.897e   dynamic  0         F      F    Po3
+* 1082     0025.b51a.000d   dynamic  0         F      F    Po3
+* 1082     0025.b51a.000f   dynamic  0         F      F    Po3
+* 1082     0025.b51a.002d   dynamic  0         F      F    Po3
+* 1082     0025.b51a.002e   dynamic  0         F      F    Po3
++ 1082     0025.b51a.002f   dynamic  0         F      F    Po3
+* 1082     0025.b51a.004d   dynamic  0         F      F    Po3
+* 1082     0025.b51a.004e   dynamic  0         F      F    Po3
++ 1082     0025.b51a.004f   dynamic  0         F      F    Po3
+* 1082     0025.b51a.006d   dynamic  0         F      F    Po3
+* 1082     0025.b51a.006e   dynamic  0         F      F    Po3
+* 1082     0025.b51a.006f   dynamic  0         F      F    Po3
++ 1082     0025.b51a.008d   dynamic  0         F      F    Po3
+* 1082     0025.b51a.008e   dynamic  0         F      F    Po3
+* 1082     0025.b51a.008f   dynamic  0         F      F    Po3
+* 1082     0025.b51a.00cd   dynamic  0         F      F    Po3
+* 1082     0025.b51a.00ce   dynamic  0         F      F    Po3
++ 1082     0025.b51a.00cf   dynamic  0         F      F    Po3
+* 1082     0025.b51a.00ed   dynamic  0         F      F    Po3
+* 1082     0025.b51a.00ee   dynamic  0         F      F    Po3
+* 1082     0025.b51a.00ef   dynamic  0         F      F    Po3
++ 1082     0025.b51a.00fc   dynamic  0         F      F    Po3
++ 1082     0025.b51a.00fd   dynamic  0         F      F    Po3
++ 1082     0025.b51a.00fe   dynamic  0         F      F    Po3
+* 1082     0025.b51a.00ff   dynamic  0         F      F    Po3
+* 1082     0025.b51b.003d   dynamic  0         F      F    Po3
+* 1084     0015.5d0b.6b09   dynamic  0         F      F    Po3
++ 1084     0015.5d0b.6b0a   dynamic  0         F      F    Po3
+* 1084     0015.5d0b.6b20   dynamic  0         F      F    Po3
++ 1084     001d.d8b7.1ceb   dynamic  0         F      F    Po3
++ 1084     001d.d8b7.1d0a   dynamic  0         F      F    Po3
+* 1084     001d.d8b7.1d17   dynamic  0         F      F    Po3
++ 1084     001d.d8b7.1d81   dynamic  0         F      F    Po3
++ 1084     001d.d8b7.1d8a   dynamic  0         F      F    Po3
+* 1084     001d.d8b7.1d98   dynamic  0         F      F    Po3
+* 1084     001d.d8b7.1ddc   dynamic  0         F      F    Po3
++ 1084     001d.d8b7.1e03   dynamic  0         F      F    Po3
++ 1084     001d.d8b7.1e06   dynamic  0         F      F    Po3
++ 1084     001d.d8b7.1e61   dynamic  0         F      F    Po3
+* 1084     001d.d8b7.1e62   dynamic  0         F      F    Po3
+* 1084     001d.d8b7.1e68   dynamic  0         F      F    Po3
++ 1084     001d.d8b7.1e8b   dynamic  0         F      F    Po3
++ 1084     001d.d8b7.1e93   dynamic  0         F      F    Po3
+* 1084     001d.d8b7.1ea0   dynamic  0         F      F    Po3
+* 1084     001d.d8b7.1eb4   dynamic  0         F      F    Po3
++ 1084     0025.b51a.00af   dynamic  0         F      F    Po3
++ 1084     6c9c.ed42.61c2   dynamic  0         F      F    Po3
+* 1084     6c9c.ed44.d142   dynamic  0         F      F    Po3
+* 1086     0015.5d0b.6a07   dynamic  0         F      F    Po3
++ 1086     0015.5d0b.6a0c   dynamic  0         F      F    Po3
++ 1086     0015.5d0b.6b06   dynamic  0         F      F    Po3
+* 1086     0015.5d0b.6b08   dynamic  0         F      F    Po3
++ 1086     0015.5d0b.6c05   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1cf2   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1cf3   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1cff   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1d10   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1d13   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1d35   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1d38   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1d3e   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1d47   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1d6d   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1da2   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1dc3   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1dc5   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1dc8   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1dc9   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1dca   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1dcb   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1dcd   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1dd4   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1dd8   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1de3   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1de4   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1df0   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1df1   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1df3   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1df5   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1df6   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1e04   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1e14   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1e48   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1e4a   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1e53   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1e5a   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1e5b   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1e7e   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1e7f   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1e81   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1ea7   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1eb1   dynamic  0         F      F    Po3
++ 1086     001d.d8b7.1eb2   dynamic  0         F      F    Po3
+* 1086     001d.d8b7.1eb5   dynamic  0         F      F    Po3
+* 1086     6c9c.ed42.61c2   dynamic  0         F      F    Po3
++ 1086     6c9c.ed44.d142   dynamic  0         F      F    Po3
++ 1088     0015.5d0b.6b14   dynamic  0         F      F    Po3
++ 1088     0015.5d0b.6b15   dynamic  0         F      F    Po3
++ 1088     0015.5d0b.6b16   dynamic  0         F      F    Po3
++ 1088     0015.5d0b.6b17   dynamic  0         F      F    Po3
++ 1088     0015.5d0b.6b18   dynamic  0         F      F    Po3
+* 1088     0015.5d0b.6b19   dynamic  0         F      F    Po3
++ 1088     0015.5d0b.6b1a   dynamic  0         F      F    Po3
++ 1088     0015.5d0b.6b1b   dynamic  0         F      F    Po3
++ 1088     0015.5d0b.6b1c   dynamic  0         F      F    Po3
+* 1088     0015.5d0b.6b1d   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1ccf   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1cd0   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1cda   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1ce8   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1cea   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1ced   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1cee   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1cf4   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1cf7   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1cfb   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1d0d   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1d0e   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1d11   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1d18   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1d1b   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1d22   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1d24   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1d3f   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1d51   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1d53   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1d60   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1da8   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1da9   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1db2   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1db6   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1db8   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1dbe   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1dbf   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1dc0   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1e05   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1e13   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1e34   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1e36   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1e38   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1e3c   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1e3e   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1e3f   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1e5f   dynamic  0         F      F    Po3
+* 1088     001d.d8b7.1e8f   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1e90   dynamic  0         F      F    Po3
++ 1088     001d.d8b7.1e91   dynamic  0         F      F    Po3
++ 1088     80e0.1d58.9db2   dynamic  0         F      F    Po3
++ 1090     0015.5d0b.620c   dynamic  0         F      F    Po3
++ 1090     0015.5d0b.6a04   dynamic  0         F      F    Po3
++ 1090     0015.5d0b.6a05   dynamic  0         F      F    Po3
++ 1090     0015.5d0b.6b03   dynamic  0         F      F    Po3
++ 1090     0015.5d0b.6b0d   dynamic  0         F      F    Po3
+* 1090     001d.d8b7.1cec   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1cef   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1cf1   dynamic  0         F      F    Po3
+* 1090     001d.d8b7.1cf8   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1d0c   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1d0f   dynamic  0         F      F    Po3
+* 1090     001d.d8b7.1d26   dynamic  0         F      F    Po3
+* 1090     001d.d8b7.1d27   dynamic  0         F      F    Po3
+* 1090     001d.d8b7.1d28   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1d29   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1d2a   dynamic  0         F      F    Po3
+* 1090     001d.d8b7.1d2f   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1d37   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1d42   dynamic  0         F      F    Po3
+* 1090     001d.d8b7.1d4a   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1d4e   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1d5d   dynamic  0         F      F    Po3
+* 1090     001d.d8b7.1d5e   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1d9e   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1db5   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1dcc   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1dce   dynamic  0         F      F    Po3
+* 1090     001d.d8b7.1dd6   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1e0b   dynamic  0         F      F    Po3
+* 1090     001d.d8b7.1e0c   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1e0d   dynamic  0         F      F    Po3
+* 1090     001d.d8b7.1e0e   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1e0f   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1e10   dynamic  0         F      F    Po3
++ 1090     001d.d8b7.1e47   dynamic  0         F      F    Po3
+* 1090     001d.d8b7.1e52   dynamic  0         F      F    Po3
+* 1090     001d.d8b7.1e54   dynamic  0         F      F    Po3
++ 1090     80e0.1d58.9db2   dynamic  0         F      F    Po3
++ 1092     0015.5d0b.6b1e   dynamic  0         F      F    Po3
+* 1092     0015.5d0b.6b1f   dynamic  0         F      F    Po3
++ 1092     001d.d8b7.1c95   dynamic  0         F      F    Po3
++ 1092     001d.d8b7.1e2d   dynamic  0         F      F    Po3
+* 1092     001d.d8b7.1e2e   dynamic  0         F      F    Po3
++ 1092     001d.d8b7.1e30   dynamic  0         F      F    Po3
++ 1092     001d.d8b7.1e31   dynamic  0         F      F    Po3
+* 1092     001d.d8b7.1e32   dynamic  0         F      F    Po3
++ 1092     001d.d8b7.1e33   dynamic  0         F      F    Po3
+* 1092     001d.d8b7.1e35   dynamic  0         F      F    Po3
+* 1092     001d.d8b7.1e37   dynamic  0         F      F    Po3
++ 1092     001d.d8b7.1e39   dynamic  0         F      F    Po3
++ 1092     001d.d8b7.1e55   dynamic  0         F      F    Po3
++ 1092     001d.d8b7.1e57   dynamic  0         F      F    Po3
++ 1092     001d.d8b7.1e58   dynamic  0         F      F    Po3
++ 1092     001d.d8b7.1e96   dynamic  0         F      F    Po3
+* 1092     001d.d8b7.1e9e   dynamic  0         F      F    Po3
+* 1092     0025.b51a.003f   dynamic  0         F      F    Po3
+* 1094     0015.5d0b.5f13   dynamic  0         F      F    Po3
+* 1094     0015.5d0b.6705   dynamic  0         F      F    Po3
+* 1094     0015.5d0b.6b07   dynamic  0         F      F    Po3
++ 1094     0015.5d0b.6b0b   dynamic  0         F      F    Po3
++ 1094     0015.5d0b.6b0e   dynamic  0         F      F    Po3
+* 1094     0015.5d0b.6b0f   dynamic  0         F      F    Po3
++ 1094     0015.5d0b.6b10   dynamic  0         F      F    Po3
++ 1094     0015.5d0b.6b11   dynamic  0         F      F    Po3
+* 1094     0015.5d0b.6b12   dynamic  0         F      F    Po3
+* 1094     0015.5d0b.6b13   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1ce3   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1cfa   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1d05   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1d0b   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1d12   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1d1c   dynamic  0         F      F    Po3
++ 1094     001d.d8b7.1d1d   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1d20   dynamic  0         F      F    Po3
++ 1094     001d.d8b7.1d21   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1d2b   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1d2d   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1d2e   dynamic  0         F      F    Po3
++ 1094     001d.d8b7.1d30   dynamic  0         F      F    Po3
++ 1094     001d.d8b7.1d32   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1d36   dynamic  0         F      F    Po3
++ 1094     001d.d8b7.1d41   dynamic  0         F      F    Po3
++ 1094     001d.d8b7.1d64   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1d6f   dynamic  0         F      F    Po3
++ 1094     001d.d8b7.1d76   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1d77   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1da5   dynamic  0         F      F    Po3
++ 1094     001d.d8b7.1daa   dynamic  0         F      F    Po3
++ 1094     001d.d8b7.1dba   dynamic  0         F      F    Po3
++ 1094     001d.d8b7.1dbb   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1dd1   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1e2b   dynamic  0         F      F    Po3
++ 1094     001d.d8b7.1e2c   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1e4c   dynamic  0         F      F    Po3
+* 1094     001d.d8b7.1e67   dynamic  0         F      F    Po3
++ 1094     001d.d8b7.1e97   dynamic  0         F      F    Po3
++ 1094     001d.d8b7.1e99   dynamic  0         F      F    Po3
++ 1094     001d.d8b7.1ea1   dynamic  0         F      F    Po3
++ 1096     001d.d8b7.1c5d   dynamic  0         F      F    Po3
+* 1096     001d.d8b7.1cf0   dynamic  0         F      F    Po3
++ 1096     001d.d8b7.1cfe   dynamic  0         F      F    Po3
+* 1096     001d.d8b7.1d15   dynamic  0         F      F    Po3
++ 1096     001d.d8b7.1d3c   dynamic  0         F      F    Po3
++ 1096     001d.d8b7.1d61   dynamic  0         F      F    Po3
+* 1096     001d.d8b7.1d78   dynamic  0         F      F    Po3
++ 1096     001d.d8b7.1d9b   dynamic  0         F      F    Po3
++ 1096     001d.d8b7.1e8c   dynamic  0         F      F    Po3
++ 1096     001d.d8b7.1e92   dynamic  0         F      F    Po3
+* 1096     001d.d8b7.1ea6   dynamic  0         F      F    Po3
++ 1096     0025.b51a.001f   dynamic  0         F      F    Po3
+* 1100     0022.bdf8.19ff   dynamic  0         F      F    Po3
+* 1116     0022.bdf8.19ff   dynamic  0         F      F    Po3
+* 1122     0015.5d0f.7900   dynamic  0         F      F    Po3
++ 1122     0015.5d10.0e00   dynamic  0         F      F    Po3
+* 1122     0015.5d12.0900   dynamic  0         F      F    Po3
++ 1122     0015.5d12.0a00   dynamic  0         F      F    Po3
+* 1122     0015.5d12.0b00   dynamic  0         F      F    Po3
+* 1122     0015.5d12.0e00   dynamic  0         F      F    Po3
+* 1122     0015.5d12.0f00   dynamic  0         F      F    Po3
++ 1122     0015.5d12.1000   dynamic  0         F      F    Po3
++ 1122     0015.5d12.1200   dynamic  0         F      F    Po3
+* 1122     0015.5d12.1300   dynamic  0         F      F    Po3
++ 1122     0015.5d12.1400   dynamic  0         F      F    Po3
+* 1122     0015.5d12.1500   dynamic  0         F      F    Po3
++ 1122     0015.5d12.1600   dynamic  0         F      F    Po3
+* 1122     0015.5d12.1700   dynamic  0         F      F    Po3
++ 1122     0015.5d21.b000   dynamic  0         F      F    Po3
+* 1122     0015.5d26.fa00   dynamic  0         F      F    Po3
+* 1122     0015.5d51.1100   dynamic  0         F      F    Po3
+* 1122     0015.5d74.7400   dynamic  0         F      F    Po3
+* 1122     0015.5dbb.0800   dynamic  0         F      F    Po3
++ 1122     0015.5dc4.7000   dynamic  0         F      F    Po3
++ 1122     0015.5dd5.8300   dynamic  0         F      F    Po3
+* 1122     0015.5dda.1b00   dynamic  0         F      F    Po3
++ 1122     0025.b51a.000d   dynamic  0         F      F    Po3
++ 1122     0025.b51a.000f   dynamic  0         F      F    Po3
+* 1122     0025.b51a.002d   dynamic  0         F      F    Po3
++ 1122     0025.b51a.004d   dynamic  0         F      F    Po3
++ 1122     0025.b51a.004e   dynamic  0         F      F    Po3
++ 1122     0025.b51a.004f   dynamic  0         F      F    Po3
+* 1122     0025.b51a.008f   dynamic  0         F      F    Po3
++ 1122     0025.b51a.00ce   dynamic  0         F      F    Po3
++ 1122     0025.b51a.00ef   dynamic  0         F      F    Po3
++ 1122     0025.b51a.00fc   dynamic  0         F      F    Po3
++ 1122     0025.b51a.00fd   dynamic  0         F      F    Po3
++ 1122     0025.b51a.00fe   dynamic  0         F      F    Po3
++ 1122     0025.b51b.004d   dynamic  0         F      F    Po3
+* 1122     0025.b51b.004f   dynamic  0         F      F    Po3
++ 1122     0025.b51b.00ef   dynamic  0         F      F    Po3
+* 1124     0015.5d0f.7901   dynamic  0         F      F    Po3
++ 1124     0015.5d10.0e01   dynamic  0         F      F    Po3
+* 1124     0015.5d12.0801   dynamic  0         F      F    Po3
++ 1124     0015.5d12.0901   dynamic  0         F      F    Po3
+* 1124     0015.5d12.0a01   dynamic  0         F      F    Po3
+* 1124     0015.5d12.0b01   dynamic  0         F      F    Po3
+* 1124     0015.5d12.0e01   dynamic  0         F      F    Po3
++ 1124     0015.5d12.0f01   dynamic  0         F      F    Po3
++ 1124     0015.5d12.1001   dynamic  0         F      F    Po3
++ 1124     0015.5d12.1201   dynamic  0         F      F    Po3
+* 1124     0015.5d12.1301   dynamic  0         F      F    Po3
++ 1124     0015.5d12.1401   dynamic  0         F      F    Po3
+* 1124     0015.5d12.1501   dynamic  0         F      F    Po3
++ 1124     0015.5d12.1601   dynamic  0         F      F    Po3
+* 1124     0015.5d12.1701   dynamic  0         F      F    Po3
++ 1124     0015.5d21.b001   dynamic  0         F      F    Po3
++ 1124     0015.5d26.fa01   dynamic  0         F      F    Po3
+* 1124     0015.5d51.1101   dynamic  0         F      F    Po3
+* 1124     0015.5d74.7401   dynamic  0         F      F    Po3
++ 1124     0015.5dbb.0801   dynamic  0         F      F    Po3
++ 1124     0015.5dc4.7001   dynamic  0         F      F    Po3
++ 1124     0015.5dd5.8301   dynamic  0         F      F    Po3
+* 1124     0015.5dda.1b01   dynamic  0         F      F    Po3
++ 1124     0025.b51a.000d   dynamic  0         F      F    Po3
++ 1124     0025.b51a.000f   dynamic  0         F      F    Po3
++ 1124     0025.b51a.002d   dynamic  0         F      F    Po3
+* 1124     0025.b51a.002f   dynamic  0         F      F    Po3
++ 1124     0025.b51a.004d   dynamic  0         F      F    Po3
++ 1124     0025.b51a.004e   dynamic  0         F      F    Po3
++ 1124     0025.b51a.004f   dynamic  0         F      F    Po3
++ 1124     0025.b51a.006d   dynamic  0         F      F    Po3
++ 1124     0025.b51a.00ce   dynamic  0         F      F    Po3
++ 1124     0025.b51a.00cf   dynamic  0         F      F    Po3
++ 1124     0025.b51a.00ee   dynamic  0         F      F    Po3
+* 1124     0025.b51a.00fc   dynamic  0         F      F    Po3
+* 1124     0025.b51a.00fd   dynamic  0         F      F    Po3
++ 1124     0025.b51b.006f   dynamic  0         F      F    Po3
++ 1124     0025.b51b.008e   dynamic  0         F      F    Po3
+* 1126     0015.5d12.0702   dynamic  0         F      F    Po3
+* 1126     0015.5d12.0705   dynamic  0         F      F    Po3
+* 1126     0015.5d12.0706   dynamic  0         F      F    Po3
+* 1126     0025.b51a.009d   dynamic  0         F      F    Po3
++ 1126     80e0.1d58.9db2   dynamic  0         F      F    Po3
++ 1128     0022.bdf8.19ff   dynamic  0         F      F    Po3
++ 1128     80e0.1d58.9db2   dynamic  0         F      F    Po3
++ 1130     0022.bdf8.19ff   dynamic  0         F      F    Po3
+* 1130     0030.170c.63a8   dynamic  0         F      F    Po17
++ 1162     0021.f661.11e5   dynamic  0         F      F    Po3
+* 1162     0021.f67a.0e97   dynamic  0         F      F    Po3
+* 1164     0021.f6db.5274   dynamic  0         F      F    Po3
+* 1164     0021.f6fc.e6cd   dynamic  0         F      F    Po3
+* 1166     0015.5d0f.7902   dynamic  0         F      F    Po3
++ 1166     0015.5d10.0e02   dynamic  0         F      F    Po3
++ 1166     0015.5d12.0802   dynamic  0         F      F    Po3
+* 1166     0015.5d12.0902   dynamic  0         F      F    Po3
+* 1166     0015.5d12.0a02   dynamic  0         F      F    Po3
++ 1166     0015.5d12.0b02   dynamic  0         F      F    Po3
+* 1166     0015.5d12.0e02   dynamic  0         F      F    Po3
++ 1166     0015.5d12.0f02   dynamic  0         F      F    Po3
++ 1166     0015.5d12.1002   dynamic  0         F      F    Po3
++ 1166     0015.5d12.1202   dynamic  0         F      F    Po3
+* 1166     0015.5d12.1302   dynamic  0         F      F    Po3
++ 1166     0015.5d12.1402   dynamic  0         F      F    Po3
+* 1166     0015.5d12.1502   dynamic  0         F      F    Po3
++ 1166     0015.5d12.1602   dynamic  0         F      F    Po3
+* 1166     0015.5d12.1702   dynamic  0         F      F    Po3
++ 1166     0015.5d21.b002   dynamic  0         F      F    Po3
+* 1166     0015.5d26.fa02   dynamic  0         F      F    Po3
+* 1166     0015.5d51.1102   dynamic  0         F      F    Po3
+* 1166     0015.5d74.7402   dynamic  0         F      F    Po3
++ 1166     0015.5dbb.0802   dynamic  0         F      F    Po3
++ 1166     0015.5dc4.7002   dynamic  0         F      F    Po3
++ 1166     0015.5dd5.8302   dynamic  0         F      F    Po3
+* 1166     0015.5dda.1b02   dynamic  0         F      F    Po3
++ 1166     0025.b51a.002e   dynamic  0         F      F    Po3
++ 1166     0025.b51a.002f   dynamic  0         F      F    Po3
+* 1166     0025.b51a.006d   dynamic  0         F      F    Po3
++ 1166     0025.b51a.00cd   dynamic  0         F      F    Po3
+* 1166     0025.b51a.00cf   dynamic  0         F      F    Po3
++ 1166     0025.b51a.00ee   dynamic  0         F      F    Po3
++ 1166     0025.b51a.00ef   dynamic  0         F      F    Po3
++ 1166     0025.b51a.00fe   dynamic  0         F      F    Po3
++ 1166     0025.b51b.00cf   dynamic  0         F      F    Po3
++ 1166     0025.b51b.00ed   dynamic  0         F      F    Po3
++ 1166     0025.b51b.00fd   dynamic  0         F      F    Po3
+* 1182     0015.5d29.650e   dynamic  0         F      F    Po3
+* 1182     0015.5d29.6515   dynamic  0         F      F    Po3
+* 1182     0015.5d29.6611   dynamic  0         F      F    Po3
+* 1182     0015.5d29.670c   dynamic  0         F      F    Po3
+* 1182     0015.5d29.670d   dynamic  0         F      F    Po3
++ 1182     0015.5d29.6808   dynamic  0         F      F    Po3
++ 1182     0015.5d29.680a   dynamic  0         F      F    Po3
++ 1182     0015.5d29.680c   dynamic  0         F      F    Po3
++ 1182     0015.5d29.690d   dynamic  0         F      F    Po3
++ 1182     0015.5d29.690e   dynamic  0         F      F    Po3
++ 1182     0015.5d29.6913   dynamic  0         F      F    Po3
+* 1184     0000.0c07.ac01   dynamic  0         F      F    Po3
+* 1184     6c9c.ed42.61c2   dynamic  0         F      F    Po3
+* 1190     0015.5d0f.0202   dynamic  0         F      F    Po3
+* 1190     0015.5d0f.0293   dynamic  0         F      F    Po3
++ 1190     0015.5d29.6501   dynamic  0         F      F    Po3
+* 1190     0015.5d29.6601   dynamic  0         F      F    Po3
+* 1190     0015.5d29.6701   dynamic  0         F      F    Po3
++ 1190     0015.5d29.6801   dynamic  0         F      F    Po3
+* 1190     0015.5d29.6901   dynamic  0         F      F    Po3
+* 1190     0015.5d64.6508   dynamic  0         F      F    Po3
+* 1190     0015.5d64.6602   dynamic  0         F      F    Po3
++ 1190     0015.5d64.6706   dynamic  0         F      F    Po3
++ 1190     0015.5d64.6795   dynamic  0         F      F    Po3
++ 1190     0015.5d64.6902   dynamic  0         F      F    Po3
+* 1192     0015.5d0f.0203   dynamic  0         F      F    Po3
+* 1192     0015.5d29.6502   dynamic  0         F      F    Po3
+* 1192     0015.5d29.6602   dynamic  0         F      F    Po3
++ 1192     0015.5d29.6702   dynamic  0         F      F    Po3
+* 1192     0015.5d29.6802   dynamic  0         F      F    Po3
+* 1192     0015.5d29.6902   dynamic  0         F      F    Po3
+* 1192     0015.5d64.6509   dynamic  0         F      F    Po3
+* 1192     0015.5d64.6603   dynamic  0         F      F    Po3
++ 1192     0015.5d64.6707   dynamic  0         F      F    Po3
++ 1192     0015.5d64.6903   dynamic  0         F      F    Po3
++ 1194     0015.5d0f.0201   dynamic  0         F      F    Po3
++ 1194     0015.5d29.6500   dynamic  0         F      F    Po3
+* 1194     0015.5d29.6600   dynamic  0         F      F    Po3
+* 1194     0015.5d29.6700   dynamic  0         F      F    Po3
+* 1194     0015.5d29.6800   dynamic  0         F      F    Po3
++ 1194     0015.5d29.6900   dynamic  0         F      F    Po3
+* 1194     0015.5d64.6507   dynamic  0         F      F    Po3
++ 1194     0015.5d64.6601   dynamic  0         F      F    Po3
+* 1194     0015.5d64.6705   dynamic  0         F      F    Po3
++ 1194     0015.5d64.6901   dynamic  0         F      F    Po3
++ 1196     2cf8.9b2e.d40a   dynamic  0         F      F    Po3
++ 1196     2cf8.9b2e.f52a   dynamic  0         F      F    Po3
++ 1196     2cf8.9b4d.6ffe   dynamic  0         F      F    Po3
+* 1196     2cf8.9b73.177a   dynamic  0         F      F    Po3
+* 1206     0015.5d0f.0282   dynamic  0         F      F    Po3
+* 1206     0022.bdf8.19ff   dynamic  0         F      F    Po3
+* 3053     0015.5d64.67aa   dynamic  0         F      F    Po3
++ 3053     0015.5d64.67ad   dynamic  0         F      F    Po3
++ 3215     0022.bdf8.19ff   dynamic  0         F      F    Po3
++ 3215     0800.6918.d480   dynamic  0         F      F    Po3
+* 3215     0800.6918.d630   dynamic  0         F      F    Po3
++ 3215     5afe.7f60.0002   dynamic  0         F      F    Po3
+* 3215     5afe.7f60.0008   dynamic  0         F      F    Po3
++ 3215     5afe.7f60.001a   dynamic  0         F      F    Po3
++ 3215     5afe.7f60.0020   dynamic  0         F      F    Po3
++ 3215     5afe.7f60.0026   dynamic  0         F      F    Po3
+* 3215     d4f5.ef5f.2a9c   dynamic  0         F      F    Po3
++ 3215     d4f5.ef5f.2c78   dynamic  0         F      F    Po3
+* 3215     d4f5.ef5f.2e38   dynamic  0         F      F    Po3
+* 3215     d4f5.ef5f.2f58   dynamic  0         F      F    Po3
++ 3215     d4f5.ef5f.c800   dynamic  0         F      F    Po3
++ 3215     d4f5.ef5f.c834   dynamic  0         F      F    Po3
++ 3215     d4f5.ef5f.c8be   dynamic  0         F      F    Po3
++ 3215     d4f5.ef5f.c934   dynamic  0         F      F    Po3
++ 3215     d4f5.ef5f.c970   dynamic  0         F      F    Po3
++ 3215     d4f5.ef5f.ca72   dynamic  0         F      F    Po3
++ 3215     d4f5.ef5f.cce8   dynamic  0         F      F    Po3
+G    -     002a.1011.e1f1   static   -         F      F    sup-eth1(R)
+DRCINAACC-8# show port-channel summary
+Flags:  D - Down        P - Up in port-channel (members)
+        I - Individual  H - Hot-standby (LACP only)
+        s - Suspended   r - Module-removed
+        b - BFD Session Wait
+        S - Switched    R - Routed
+        U - Up (port-channel)
+        p - Up in delay-lacp mode (member)
+        M - Not in use. Min-links not met
+--------------------------------------------------------------------------------
+Group Port-       Type     Protocol  Member Ports
+      Channel
+--------------------------------------------------------------------------------
+1     Po1(SU)     Eth      LACP      Eth2/3(P)
+2     Po2(RU)     Eth      LACP      Eth2/4(P)
+3     Po3(SU)     Eth      LACP      Eth2/1(D)    Eth2/2(D)    Eth2/5(P)
+                                     Eth2/6(P)
+11    Po11(SD)    Eth      LACP      Eth1/90(D)
+12    Po12(SD)    Eth      NONE      --
+13    Po13(SD)    Eth      NONE      --
+14    Po14(SD)    Eth      NONE      --
+15    Po15(SD)    Eth      NONE      --
+16    Po16(SD)    Eth      LACP      Eth1/77(D)
+17    Po17(SU)    Eth      LACP      Eth1/18(P)   Eth1/20(P)
+18    Po18(SU)    Eth      LACP      Eth1/19(P)   Eth1/21(P)
+19    Po19(SD)    Eth      LACP      Eth1/63(D)   Eth1/64(D)
+20    Po20(SD)    Eth      LACP      Eth1/65(D)   Eth1/66(D)
+21    Po21(SD)    Eth      LACP      Eth1/53(D)   Eth1/54(D)
+22    Po22(SD)    Eth      LACP      Eth1/55(D)   Eth1/56(D)
+23    Po23(SD)    Eth      LACP      Eth1/57(D)   Eth1/58(D)
+24    Po24(SD)    Eth      LACP      Eth1/72(D)   Eth1/73(D)
+25    Po25(SD)    Eth      LACP      Eth1/74(D)   Eth1/75(D)
+26    Po26(SD)    Eth      LACP      Eth1/59(D)
+27    Po27(SD)    Eth      LACP      Eth1/60(D)
+28    Po28(SD)    Eth      LACP      Eth1/61(D)
+29    Po29(SD)    Eth      LACP      Eth1/62(D)
+30    Po30(SD)    Eth      LACP      Eth1/67(D)
+31    Po31(SD)    Eth      LACP      Eth1/68(D)
+32    Po32(SD)    Eth      LACP      Eth1/69(D)
+33    Po33(SD)    Eth      LACP      Eth1/70(D)
+34    Po34(SD)    Eth      LACP      Eth1/71(D)
+35    Po35(SD)    Eth      LACP      Eth1/76(D)
+36    Po36(SD)    Eth      LACP      Eth1/49(D)
+37    Po37(SD)    Eth      LACP      Eth1/50(D)
+38    Po38(SD)    Eth      LACP      Eth1/51(D)
+39    Po39(SD)    Eth      LACP      Eth1/52(D)
+40    Po40(SD)    Eth      LACP      Eth1/89(D)
+41    Po41(SD)    Eth      LACP      Eth1/9(D)
+42    Po42(SU)    Eth      LACP      Eth1/13(P)
+43    Po43(SD)    Eth      LACP      Eth1/12(D)
+44    Po44(SD)    Eth      LACP      Eth1/11(D)
+45    Po45(SD)    Eth      LACP      Eth1/10(D)
+46    Po46(SD)    Eth      LACP      Eth1/23(D)
+47    Po47(SD)    Eth      LACP      Eth1/24(D)
+48    Po48(SD)    Eth      LACP      Eth1/25(D)
+49    Po49(SD)    Eth      LACP      Eth1/26(D)
+50    Po50(SD)    Eth      LACP      Eth1/27(D)
+51    Po51(SD)    Eth      LACP      Eth1/28(D)
+52    Po52(SD)    Eth      LACP      Eth1/79(D)
+53    Po53(SD)    Eth      LACP      Eth1/78(D)
+54    Po54(SD)    Eth      LACP      Eth1/91(D)
+55    Po55(SD)    Eth      LACP      Eth1/92(D)
+56    Po56(SD)    Eth      LACP      Eth1/33(D)
+57    Po57(SD)    Eth      LACP      Eth1/34(D)
+58    Po58(SD)    Eth      LACP      Eth1/35(D)
+59    Po59(SD)    Eth      LACP      Eth1/36(D)
+60    Po60(SD)    Eth      LACP      Eth1/37(D)
+61    Po61(SD)    Eth      LACP      Eth1/38(D)
+62    Po62(SD)    Eth      LACP      Eth1/39(D)
+63    Po63(SD)    Eth      LACP      Eth1/40(D)
+64    Po64(SD)    Eth      LACP      Eth1/41(D)
+65    Po65(SD)    Eth      LACP      Eth1/42(D)
+66    Po66(SD)    Eth      LACP      Eth1/43(D)
+67    Po67(SD)    Eth      LACP      Eth1/44(D)
+68    Po68(SD)    Eth      LACP      Eth1/45(D)
+69    Po69(SD)    Eth      LACP      Eth1/46(D)
+70    Po70(SD)    Eth      LACP      Eth1/15(D)
+71    Po71(SD)    Eth      LACP      Eth1/16(D)
+72    Po72(SD)    Eth      LACP      Eth1/2(D)
+73    Po73(SD)    Eth      LACP      Eth1/85(D)
+74    Po74(SD)    Eth      LACP      Eth1/86(D)
+75    Po75(SD)    Eth      LACP      Eth1/87(D)
+76    Po76(SD)    Eth      LACP      Eth1/88(D)
+77    Po77(SD)    Eth      NONE      --
+78    Po78(SD)    Eth      LACP      Eth1/93(D)
+DRCINAACC-8#

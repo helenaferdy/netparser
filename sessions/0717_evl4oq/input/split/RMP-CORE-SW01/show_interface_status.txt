@@ -1,0 +1,205 @@
+RMP-CORE-SW01# show interface status
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0         --                 connected routed    full    1000    --         
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Eth1/1        #RMP-SF-AGG01 Eth1 channelDo routed    full    auto    QSFP-40G-SR4
+Eth1/2        #RMP-SF-AGG02 Eth1 channelDo routed    full    auto    QSFP-40G-SR4
+Eth1/3        NSX-VLAN-954-EDGE  connected routed    full    40G     QSFP-40G-SR-BD
+Eth1/4        --                 xcvrAbsen routed    auto    auto    --         
+Eth1/5        #RMP-EXT-EDGSW01 N connected routed    full    40G     QSFP-40G-SR-BD
+Eth1/6        #RMP-EXT-EDGSW02 N connected routed    full    40G     QSFP-40G-SR-BD
+Eth1/7        #to RMP-SF-AGG01 S connected routed    full    40G     QSFP-40G-SR-BD
+Eth1/8        --                 disabled  routed    auto    auto    --         
+Eth1/9        --                 xcvrAbsen routed    auto    auto    --         
+Eth1/10       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/11       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/12       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/13       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/14       --                 disabled  routed    auto    auto    --         
+Eth1/15       DC2-BDR-LEAF-01 VZ connected routed    full    40G     QSFP-40G-SR-BD
+Eth1/16       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/17       BDR-LEAF1 Tenant I xcvrAbsen routed    auto    auto    --         
+Eth1/18       BDR-LEAF2 Tenant I xcvrAbsen routed    auto    auto    --         
+Eth1/19       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/20       #TO RMP-02CC-INETE connected routed    full    40G     QSFP-40G-SR-BD
+Eth1/21       #TO RMP-WEDGE1#    connected routed    full    40G     QSFP-40G-SR-BD
+Eth1/22       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/23       ##TO DRC-BDR-LEAF- connected routed    full    40G     QSFP-40G-SR-BD
+Eth1/24       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/25       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/26       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/27       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/28       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/29       --                 disabled  routed    auto    auto    QSFP-40G-SR-BD
+Eth1/30       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/31       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/32       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/33       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/34       DC2-BDR-LEAF-01 vi connected routed    full    40G     QSFP-40G-SR-BD
+Eth1/35       DC2-BDR-LEAF-02 vi connected routed    full    40G     QSFP-40G-SR-BD
+Eth1/36       #RMP-CORE-SW02 Eth connected routed    full    40G     QSFP-40G-SR-BD
+Eth2/1        #RMP-SF-AGG01 Eth2 channelDo routed    full    auto    QSFP-40G-SR4
+Eth2/2        #RMP-SF-AGG02 Eth2 channelDo routed    full    auto    QSFP-40G-SR4
+Eth2/3        NSX-VLAN-955-EDGE  connected routed    full    40G     QSFP-40G-SR-BD
+Eth2/4        --                 disabled  routed    auto    auto    QSFP-40G-SR-BD
+Eth2/5        --                 xcvrAbsen routed    auto    auto    --         
+Eth2/6        --                 xcvrAbsen routed    auto    auto    --         
+Eth2/7        #to RMP-SF-AGG02 S connected routed    full    40G     QSFP-40G-SR-BD
+Eth2/8        --                 disabled  routed    auto    auto    --         
+Eth2/9        --                 xcvrAbsen routed    auto    auto    --         
+Eth2/10       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/11       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/12       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/13       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/14       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/15       DC2-BDR-LEAF-02 VZ connected routed    full    40G     QSFP-40G-SR-BD
+Eth2/16       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/17       RESERVED NEW UPLIN notconnec routed    auto    auto    QSFP-40G-SR-BD
+Eth2/18       #RMP-CORE-SW01#    connected routed    full    40G     QSFP-40G-SR-BD
+Eth2/19       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/20       #TO RMP-02CC-INETE connected routed    full    40G     QSFP-40G-SR-BD
+Eth2/21       #TO RMP-WEDGE2#    connected routed    full    40G     QSFP-40G-SR-BD
+Eth2/22       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/23       ##TO DRC-BDR-LEAF- connected routed    full    40G     QSFP-40G-SR-BD
+Eth2/24       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/25       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/26       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/27       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/28       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/29       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/30       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/31       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/32       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/33       --                 xcvrAbsen routed    auto    auto    --         
+Eth2/34       DC2-BDR-LEAF-01 vi connected routed    full    40G     QSFP-40G-SR-BD
+Eth2/35       DC2-BDR-LEAF-02 vi connected routed    full    40G     QSFP-40G-SR-BD
+Eth2/36       #RMP-CORE-SW02 Eth connected routed    full    40G     QSFP-40G-SR-BD
+Eth3/1        #RMP-LAN-DSTVSS Te connected routed    full    10G     10Gbase-SR 
+Eth3/2        #RMP-LAN-DSTVSS Te connected routed    full    10G     10Gbase-SR 
+Eth3/3        #RMP-MGMT-DSTVSS T connected routed    full    10G     10Gbase-SR 
+Eth3/4        #RMP-MGMT-DSTVSS T connected routed    full    10G     10Gbase-SR 
+Eth3/5        #RMP-WAN-EDGVSS Te disabled  routed    auto    auto    10Gbase-SR 
+Eth3/6        #RMP-WAN-EDGVSS Te disabled  routed    auto    auto    10Gbase-SR 
+Eth3/7        #RMP-DCI-OTVSF01 E disabled  routed    full    auto    10Gbase-SR 
+Eth3/8        #RMP-DCI-OTVSF01 E disabled  routed    auto    auto    10Gbase-SR 
+Eth3/9        #PM-04CC-CRENX-01  disabled  routed    auto    auto    10Gbase-SR 
+Eth3/10       #PM-04CC-CRENX-02  connected routed    full    10G     10Gbase-SR 
+Eth3/11       #RMP-DCI-OTV01-EXT channelDo routed    auto    auto    10Gbase-SR 
+Eth3/12       #RMP-DCI-OTV01-EXT channelDo routed    full    auto    10Gbase-SR 
+Eth3/13       #RMP-EXT-EDGSW01 E disabled  routed    auto    auto    10Gbase-SR 
+Eth3/14       #RMP-EXT-EDGSW02 E disabled  routed    auto    auto    10Gbase-SR 
+Eth3/15       #PM-04CC-CRENX-02  disabled  routed    auto    auto    10Gbase-SR 
+Eth3/16       #RMP-WAN-EDGVSS Te disabled  routed    auto    auto    10Gbase-SR 
+Eth3/17       #RMP-EXT-EDGSW01 N xcvrAbsen routed    auto    auto    --         
+Eth3/18       #RMP-INT-EDGSW02 E disabled  routed    auto    auto    10Gbase-SR 
+Eth3/19       #RMP-EXT-EDGSW02 N disabled  routed    auto    auto    10Gbase-SR 
+Eth3/20       #DEVELOPMENT Te1/2 disabled  routed    auto    auto    1000base-T 
+Eth3/21       Development-Huawei connected 2         full    10G     10Gbase-SR 
+Eth3/22       #RMP-WAN-EDGVSS Te disabled  routed    auto    auto    10Gbase-SR 
+Eth3/23       ##Link 2 to BIG-DA disabled  routed    full    auto    10Gbase-SR 
+Eth3/24       ## RESERVED FOR BI disabled  routed    auto    auto    10Gbase-SR 
+Eth3/25       Internal_CP_ATM_En connected 3137      full    1000    1000base-T 
+Eth3/26       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/27       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/28       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/29       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/30       NSX-VLAN-947-MGMT  connected routed    full    10G     10Gbase-SR 
+Eth3/31       --                 disabled  routed    auto    auto    10Gbase-SR 
+Eth3/32       --                 xcvrAbsen routed    full    1000    --         
+Eth3/33       NSX-VLAN-948-MGMT  connected routed    full    10G     10Gbase-SR 
+Eth3/34       --                 disabled  routed    auto    auto    10Gbase-SR 
+Eth3/35       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/36       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/37       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/38       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/39       --                 disabled  routed    auto    auto    10Gbase-SR 
+Eth3/40       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/41       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/42       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/43       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/44       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/45       --                 disabled  routed    auto    auto    1000base-SX
+Eth3/46       Connection L2 To R connected trunk     full    10G     10Gbase-SR 
+Eth3/47       --                 xcvrAbsen 1         auto    auto    --         
+Eth3/48       #DB-00CC-CRE-01 Gi connected routed    full    1000    1000base-T 
+Eth3/49       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/50       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/51       --                 xcvrAbsen routed    auto    auto    --         
+Eth3/52       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/1        #RMP-LAN-DSTVSS Te connected routed    full    10G     10Gbase-SR 
+Eth4/2        #RMP-LAN-DSTVSS Te connected routed    full    10G     10Gbase-SR 
+Eth4/3        #RMP-MGMT-DSTVSS T suspended routed    full    auto    10Gbase-SR 
+Eth4/4        #RMP-MGMT-DSTVSS T suspended routed    full    auto    10Gbase-SR 
+Eth4/5        #RMP-WAN-EDGVSS Te disabled  routed    auto    auto    10Gbase-SR 
+Eth4/6        #RMP-WAN-EDGVSS Te disabled  routed    auto    auto    10Gbase-SR 
+Eth4/7        #RMP-DCI-OTVSF01 E disabled  routed    full    auto    10Gbase-SR 
+Eth4/8        #RMP-DCI-OTVSF01 E disabled  routed    auto    auto    10Gbase-SR 
+Eth4/9        #PM-04CC-CRENX-01  connected routed    full    10G     10Gbase-SR 
+Eth4/10       #PM-04CC-CRENX-02  disabled  routed    auto    auto    10Gbase-SR 
+Eth4/11       #RMP-DCI-OTV01-EXT disabled  routed    auto    auto    10Gbase-SR 
+Eth4/12       #RMP-DCI-OTV01-EXT disabled  routed    full    auto    10Gbase-SR 
+Eth4/13       #RMP-EXT-EDGSW01 E disabled  routed    auto    auto    10Gbase-SR 
+Eth4/14       #RMP-EXT-EDGSW02 E disabled  routed    auto    auto    10Gbase-SR 
+Eth4/15       --                 disabled  routed    auto    auto    10Gbase-SR 
+Eth4/16       #RMP-WAN-EDGVSS Te disabled  routed    auto    auto    10Gbase-SR 
+Eth4/17       #RMP-EXT-EDGSW01 N disabled  routed    auto    auto    10Gbase-SR 
+Eth4/18       #RMP-INT-EDGSW02 E disabled  routed    auto    auto    10Gbase-SR 
+Eth4/19       #RMP-EXT-EDGSW02 N disabled  routed    auto    auto    10Gbase-SR 
+Eth4/20       --                 disabled  routed    auto    auto    10Gbase-SR 
+Eth4/21       --                 disabled  routed    auto    auto    10Gbase-SR 
+Eth4/22       --                 disabled  routed    auto    auto    10Gbase-SR 
+Eth4/23       #RMP-WAN-EDGVSS Te xcvrAbsen routed    auto    auto    --         
+Eth4/24       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/25       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/26       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/27       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/28       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/29       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/30       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/31       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/32       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/33       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/34       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/35       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/36       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/37       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/38       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/39       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/40       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/41       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/42       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/43       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/44       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/45       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/46       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/47       --                 xcvrAbsen 1         auto    auto    --         
+Eth4/48       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/49       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/50       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/51       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/52       --                 xcvrAbsen routed    auto    auto    --         
+Po1           #RMP-CORE-SW02 Po1 connected routed    full    40G     --         
+Po2           #RMP-SF-AGG01 Po3# disabled  routed    full    auto    --         
+Po3           #RMP-SF-AGG02 Po3# disabled  routed    full    auto    --         
+Po4           #RMP-LAN-DSTVSS Po connected routed    full    10G     --         
+Po5           #RMP-MGMT-DSTVSS P connected routed    full    10G     --         
+Po6           #RMP-WAN-EDGVSS Po noOperMem routed    full    auto    --         
+Po7           #RMP-DCI-OTV01-SF  disabled  routed    full    auto    --         
+Po9           #PM-04CC-CRENX-02  noOperMem routed    auto    auto    --         
+Po10          #RMP-DCI-OTV01-EXT disabled  routed    full    auto    --         
+Po11          #via PALO-PRIMARY  noOperMem routed    auto    auto    --         
+Po12          #via PALO-SECONDAR noOperMem routed    auto    auto    --         
+Lo0           #Management#       connected routed    auto    auto    --         
+Vlan1         --                 down      routed    auto    auto    --
+Vlan2         Development-Huawei connected routed    auto    auto    --
+Vlan3137      Internal_CP_ATM_En down      routed    auto    auto    --
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------

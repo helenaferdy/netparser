@@ -1,0 +1,11 @@
+Value PORT (\S+)
+Value ALLOWED_VLANS ([\d\-,]+)
+
+Start
+  ^Port\s+Vlans Allowed on Trunk -> RecordLines
+
+RecordLines
+  ^${PORT}\s+${ALLOWED_VLANS} -> Record
+  ^Port\s+Vlans Err-disabled on Trunk -> End
+
+End

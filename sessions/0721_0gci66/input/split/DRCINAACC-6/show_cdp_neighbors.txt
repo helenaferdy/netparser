@@ -1,0 +1,21 @@
+DRCINAACC-6# show cdp neighbors
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+Device-ID          Local Intrfce  Hldtme Capability  Platform      Port ID
+DRCMGTAGG-2.corp.bi.go.id(FOC1914R0NZ)
+                    mgmt0          161    R S I s   N5K-C5672UP   Eth112/1/28
+DRCINAACC-5.corp.bi.go.id(SAL2025S4X3)
+                    Eth1/1         158    R S s     N9K-C93128TX  Eth1/1
+DRCINAAGG-33.corp.bi.go.id(JAF1602BFDP)
+                    Eth2/1         173    R S I s   N7K-C7009     Eth9/2
+DRCINAAGG-43.corp.bi.go.id(JAF1552BHRS)
+                    Eth2/2         154    R S I s   N7K-C7009     Eth9/2
+DRCINAACC-5.corp.bi.go.id(SAL2025S4X3)
+                    Eth2/3         158    R S I s   N9K-C93128TX  Eth2/3
+DRCINAACC-5.corp.bi.go.id(SAL2025S4X3)
+                    Eth2/4         158    R S I s   N9K-C93128TX  Eth2/4
+
+Total entries displayed: 6

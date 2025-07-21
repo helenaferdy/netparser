@@ -1,0 +1,44 @@
+RMP-EXT-EDGSW02# show cdp neighbors
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+Device-ID          Local Intrfce  Hldtme Capability  Platform      Port ID
+RTRHQDRC-BIZNET     mgmt0          155    R         7206VXR       Gig0/3        
+RMP-EXT-EDGSW01.bankmandiri.co.id(FOX2434PGXV)
+                    mgmt0          135    R S s     N9K-C9504     mgmt0         
+RMP-DCI-OTV02-SF.supporting.corp.bankmandiri.co.id(FXS1909Q0KG)
+                    mgmt0          133    R S s     N77-C7706     mgmt0         
+RMP-DCI-OTV02-EXT.supporting.corp.bankmandiri.co.id(FXS1909Q0KG)
+                    mgmt0          151    R S s     N77-C7706     mgmt0         
+RMP-SF-AGG01.bankmandiri.co.id(FGE18520QTY)
+                    mgmt0          153    R S s     N9K-C9508     mgmt0         
+RMP-INT-EDGSW02.supporting.corp.bankmandiri.co.id(JAF1608AREP)
+                    mgmt0          135    R S s     N7K-C7009     mgmt0         
+RMP-DCI-OTV02.supporting.corp.bankmandiri.co.id(FXS1909Q0KG)
+                    mgmt0          153    R S s     N77-C7706     mgmt0         
+RMP-INT-EDGSW02-admin.bankmandiri.co.id(JAF1608AREP)
+                    mgmt0          135    R S s     N7K-C7009     mgmt0         
+S02A-134100-A(FDO21311SSX)
+                    Eth4/11        142    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/32/2
+S02A-134100-B(FDO21311T09)
+                    Eth4/12        150    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/31/2
+S02A-154100-A(FDO21311SYL)
+                    Eth4/13        135    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/32/2
+S02A-154100-B(FDO213003XD)
+                    Eth4/14        146    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/31/2
+RMP-CORE-SW01.bankmandiri.co.id(FGE19020RL0)
+                    Eth4/49        135    R S s     N9K-C9508     Eth1/6        
+RMP-CORE-SW02.bankmandiri.co.id(FGE18470MZ0)
+                    Eth4/50        135    R S s     N9K-C9508     Eth1/6        
+RMP-EXT-EDGSW01.bankmandiri.co.id(FOX2434PGXV)
+                    Eth4/51        135    R S I s   N9K-C9504     Eth4/51       
+RMP-EXT-EDGSW01.bankmandiri.co.id(FOX2434PGXV)
+                    Eth4/52        135    R S I s   N9K-C9504     Eth4/52       
+
+Total entries displayed: 16

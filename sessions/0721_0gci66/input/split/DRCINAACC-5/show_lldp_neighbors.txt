@@ -1,0 +1,3 @@
+DRCINAACC-5# show lldp neighbors
+                   ^
+% Invalid command at '^' marker.

@@ -1,0 +1,213 @@
+RMP-CORE-SW02# show interface description
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+mgmt0                    --
+
+-------------------------------------------------------------------------------
+Port          Type   Speed   Description
+-------------------------------------------------------------------------------
+Eth1/1        eth    40G     #RMP-SF-AGG01 Eth1/2#
+Eth1/2        eth    40G     #RMP-SF-AGG02 Eth2/2#
+Eth1/3        eth    40G     NSX-VLAN-966-EDGE
+Eth1/4        eth    40G     --
+Eth1/5        eth    40G     #RMP-EXT-EDGSW01 NEW#
+Eth1/6        eth    40G     #RMP-EXT-EDGSW01 NEW#
+Eth1/7        eth    40G     #to RMP-SF-AGG01 Standby(bypass)#
+Eth1/8        eth    100G    --
+Eth1/9        eth    100G    --
+Eth1/10       eth    100G    --
+Eth1/11       eth    100G    --
+Eth1/12       eth    100G    --
+Eth1/13       eth    100G    --
+Eth1/14       eth    100G    --
+Eth1/15       eth    40G     DC2-BDR-LEAF-01 VZANY
+Eth1/16       eth    40G     --
+Eth1/17       eth    40G     BDR-LEAF1 Tenant Isolated
+Eth1/18       eth    40G     BDR-LEAF2 Tenant Isolated
+Eth1/19       eth    40G     --
+Eth1/20       eth    40G     #TO RMP-02CC-INETEDGE-01#
+Eth1/21       eth    40G     #TO RMP-WEDGE2#
+Eth1/22       eth    40G     --
+Eth1/23       eth    40G     --
+Eth1/24       eth    40G     ##TO DRC-BDR-LEAF-BIGDATA-02 1/50 ##
+Eth1/25       eth    40G     --
+Eth1/26       eth    40G     --
+Eth1/27       eth    40G     --
+Eth1/28       eth    40G     --
+Eth1/29       eth    40G     --
+Eth1/30       eth    40G     --
+Eth1/31       eth    40G     --
+Eth1/32       eth    40G     --
+Eth1/33       eth    40G     --
+Eth1/34       eth    40G     DC2-BDR-LEAF-01 via DRC-FW-SDN-PA7050-P
+Eth1/35       eth    40G     DC2-BDR-LEAF-02 via DRC-FW-SDN-PA7050-P
+Eth1/36       eth    40G     #RMP-CORE-SW01 Eth1/36#
+Eth2/1        eth    40G     #RMP-SF-AGG01 Eth2/2#
+Eth2/2        eth    40G     #RMP-SF-AGG02 Eth2/2#
+Eth2/3        eth    40G     NSX-VLAN-967-EDGE
+Eth2/4        eth    100G    --
+Eth2/5        eth    40G     --
+Eth2/6        eth    40G     --
+Eth2/7        eth    40G     #to RMP-SF-AGG02 Standby(bypass)#
+Eth2/8        eth    100G    --
+Eth2/9        eth    40G     --
+Eth2/10       eth    40G     --
+Eth2/11       eth    40G     --
+Eth2/12       eth    40G     --
+Eth2/13       eth    40G     --
+Eth2/14       eth    40G     --
+Eth2/15       eth    40G     DC2-BDR-LEAF-02 VZANY
+Eth2/16       eth    40G     --
+Eth2/17       eth    40G     #RMP-INT-EDGSW01 Po3#
+Eth2/18       eth    40G     RESERVED NEW UPLINK INTEDGE01
+Eth2/19       eth    40G     --
+Eth2/20       eth    40G     #TO RMP-02CC-INETEDGE-02#
+Eth2/21       eth    40G     #TO RMP-WEDGE1#
+Eth2/22       eth    40G     --
+Eth2/23       eth    40G     --
+Eth2/24       eth    40G     ##TO DRC-BDR-LEAF-BIGDATA-01 1/50 ##
+Eth2/25       eth    40G     --
+Eth2/26       eth    40G     --
+Eth2/27       eth    40G     --
+Eth2/28       eth    40G     --
+Eth2/29       eth    40G     --
+Eth2/30       eth    40G     --
+Eth2/31       eth    40G     --
+Eth2/32       eth    40G     --
+Eth2/33       eth    40G     --
+Eth2/34       eth    40G     DC2-BDR-LEAF-01 via DRC-FW-SDN-PA7050-S
+Eth2/35       eth    40G     DC2-BDR-LEAF-02 via DRC-FW-SDN-PA7050-S
+Eth2/36       eth    40G     #RMP-CORE-SW01 Eth2/36#
+Eth3/1        eth    10G     #RMP-LAN-DSTVSS Te1/1/2#
+Eth3/2        eth    10G     #RMP-LAN-DSTVSS Te2/1/2#
+Eth3/3        eth    10G     #RMP-MGMT-DSTVSS Te1/1/3#
+Eth3/4        eth    10G     #RMP-MGMT-DSTVSS Te1/1/4#
+Eth3/5        eth    10G     #RMP-WAN-EDGVSS Te1/1/7#
+Eth3/6        eth    10G     #RMP-WAN-EDGVSS Te2/1/5#
+Eth3/7        eth    10G     #RMP-DCI-OTVSF02 Eth1/1#
+Eth3/8        eth    10G     #RMP-DCI-OTVSF02 Eth1/2#
+Eth3/9        eth    10G     #PM-04CC-CRENX-02  Ethernet2/47 (DWDM Telkom) via NETSCOUT#
+Eth3/10       eth    10G     #PM-04CC-CRENX-01 Eth1/23 (DWDM Indosat)#
+Eth3/11       eth    10G     #RMP-DCI-OTV02-EXT Eth1/9#
+Eth3/12       eth    10G     #RMP-DCI-OTV02-EXT Eth1/10#
+Eth3/13       eth    10G     #RMP-EXT-EDGSW01 Eth1/3#
+Eth3/14       eth    10G     #RMP-EXT-EDGSW02 Eth1/3#
+Eth3/15       eth    10G     --
+Eth3/16       eth    10G     --
+Eth3/17       eth    10G     #RMP-EXT-EDGSW01 NEW#
+Eth3/18       eth    10G     --
+Eth3/19       eth    10G     #RMP-EXT-EDGSW01 NEW#
+Eth3/20       eth    10G     --
+Eth3/21       eth    10G     Development-Huawei
+Eth3/22       eth    10G     #RMP-WAN-EDGVSS Te1/1/9#
+Eth3/23       eth    10G     ## Link 1 to Leaf1 Eth1/47 ##
+Eth3/24       eth    10G     ## RESERVED FOR BIG DATA ##
+Eth3/25       eth    1000    Internal_CP_ATM_Encryption
+Eth3/26       eth    10G     --
+Eth3/27       eth    10G     --
+Eth3/28       eth    10G     --
+Eth3/29       eth    10G     --
+Eth3/30       eth    10G     NSX-VLAN-968-MGMT
+Eth3/31       eth    10G     --
+Eth3/32       eth    10G     --
+Eth3/33       eth    10G     NSX-VLAN-969-MGMT
+Eth3/34       eth    10G     --
+Eth3/35       eth    10G     --
+Eth3/36       eth    10G     --
+Eth3/37       eth    10G     --
+Eth3/38       eth    10G     --
+Eth3/39       eth    10G     --
+Eth3/40       eth    10G     --
+Eth3/41       eth    10G     --
+Eth3/42       eth    10G     --
+Eth3/43       eth    10G     --
+Eth3/44       eth    10G     --
+Eth3/45       eth    10G     --
+Eth3/46       eth    10G     Connection L2 To RMP-CORE-SW01 
+Eth3/47       eth    10G     --
+Eth3/48       eth    10G     --
+Eth3/49       eth    40G     --
+Eth3/50       eth    40G     --
+Eth3/51       eth    40G     --
+Eth3/52       eth    40G     --
+Eth4/1        eth    10G     #RMP-LAN-DSTVSS Te1/2/2#
+Eth4/2        eth    10G     #RMP-LAN-DSTVSS Te2/2/2#
+Eth4/3        eth    10G     #RMP-MGMT-DSTVSS Te2/1/3#
+Eth4/4        eth    10G     #RMP-MGMT-DSTVSS Te2/1/4#
+Eth4/5        eth    10G     #RMP-WAN-EDGVSS Te1/1/8#
+Eth4/6        eth    10G     #RMP-WAN-EDGVSS Te2/1/6#
+Eth4/7        eth    10G     #RMP-DCI-OTVSF02 Eth2/1#
+Eth4/8        eth    10G     #RMP-DCI-OTVSF02 Eth2/2#
+Eth4/9        eth    10G     --
+Eth4/10       eth    10G     #PM-04CC-CRENX-01 Eth1/24 (DWDM Indosat)# Port 5
+Eth4/11       eth    10G     #RMP-DCI-OTV02-EXT Eth2/9#
+Eth4/12       eth    10G     #RMP-DCI-OTV02-EXT Eth2/10#
+Eth4/13       eth    10G     #RMP-EXT-EDGSW01 Eth1/4#
+Eth4/14       eth    10G     #RMP-EXT-EDGSW02 Eth1/4#
+Eth4/15       eth    10G     #PM-04CC-CRENX-02 (DWDM iForte)#
+Eth4/16       eth    10G     --
+Eth4/17       eth    10G     #RMP-EXT-EDGSW01 NEW#
+Eth4/18       eth    10G     --
+Eth4/19       eth    10G     #RMP-EXT-EDGSW01 NEW#
+Eth4/20       eth    10G     --
+Eth4/21       eth    10G     --
+Eth4/22       eth    10G     #RMP-WAN-EDGVSS Te1/1/10#
+Eth4/23       eth    10G     --
+Eth4/24       eth    10G     --
+Eth4/25       eth    10G     --
+Eth4/26       eth    10G     --
+Eth4/27       eth    10G     --
+Eth4/28       eth    10G     --
+Eth4/29       eth    10G     --
+Eth4/30       eth    10G     --
+Eth4/31       eth    10G     --
+Eth4/32       eth    10G     --
+Eth4/33       eth    10G     --
+Eth4/34       eth    10G     --
+Eth4/35       eth    10G     --
+Eth4/36       eth    10G     --
+Eth4/37       eth    10G     --
+Eth4/38       eth    10G     --
+Eth4/39       eth    10G     --
+Eth4/40       eth    10G     --
+Eth4/41       eth    10G     --
+Eth4/42       eth    10G     --
+Eth4/43       eth    10G     --
+Eth4/44       eth    10G     --
+Eth4/45       eth    10G     --
+Eth4/46       eth    10G     --
+Eth4/47       eth    10G     --
+Eth4/48       eth    10G     --
+Eth4/49       eth    40G     --
+Eth4/50       eth    40G     --
+Eth4/51       eth    40G     --
+Eth4/52       eth    40G     --
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Po1                      #RMP-CORE-SW01 Po1#
+Po2                      #RMP-SF-AGG01 Po4# via Palo Standby
+Po3                      #RMP-SF-AGG02 Po4# via Palo Active
+Po4                      #RMP-LAN-DSTVSS Po4#
+Po5                      #RMP-MGMT-DSTVSS Po4#
+Po6                      #RMP-WAN-EDGVSS Po4#
+Po7                      #RMP-DCI-OTV02-SF Po3#
+Po9                      #PM-04CC-CRENX-01 Po9 (DWDM Indosat)#
+Po10                     #RMP-DCI-OTV02-EXT Po3#
+Po11                     #via PALO-SECONDARY to RMP-EXT-EDGSW01 Po4#
+Po12                     #via PALO-PRIMARY to RMP-EXT-EDGSW02 Po4#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Lo0                      #Management#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Vlan1                    --
+Vlan2                    Development-Huawei
+Vlan3137                 Internal_CP_ATM_Encryption

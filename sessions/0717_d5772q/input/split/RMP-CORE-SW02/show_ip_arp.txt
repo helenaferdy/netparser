@@ -1,0 +1,42 @@
+RMP-CORE-SW02# show ip arp
+
+Flags: * - Adjacencies learnt on non-active FHRP router
+       + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+       CP - Added via L2RIB, Control plane Adjacencies
+       PS - Added via L2RIB, Peer Sync
+       RO - Re-Originated Peer Sync Entry
+       D - Static Adjacencies attached to down interface
+
+IP ARP Table for context default
+Total number of entries: 29
+Address         Age       MAC Address     Interface       Flags
+10.254.253.185  00:13:59  0000.0c9f.f002  Vlan2           
+10.254.253.186  00:00:41  b40c.25e0.4001  Vlan2           
+10.254.253.187  00:09:23  f44e.0549.a67f  Vlan2           
+10.254.253.1    00:02:14  f44e.0549.a67f  port-channel1   
+10.254.253.46   00:12:53  0008.e3ff.fd90  port-channel4   
+10.254.253.50   00:00:11  0008.e3ff.fd90  port-channel5   
+10.254.253.66   00:00:07  70ea.1a5e.86ff  Ethernet3/9     
+10.254.136.210  0.524603  0050.5680.b3e7  Ethernet3/30    
+10.254.136.242  00:00:24  0050.5680.9c44  Ethernet3/33    
+10.254.253.233  00:12:01  70ea.1a5e.9dff  Ethernet4/15    
+10.254.137.178  00:00:45  0050.5695.cf40  Ethernet1/3     
+10.254.137.179  00:00:02  0050.5695.39d8  Ethernet1/3     
+10.254.251.170  00:10:43  bc4a.56cd.ef7f  Ethernet1/5     
+10.254.251.174  00:10:54  bc4a.56cd.eebf  Ethernet1/6     
+10.254.251.138  00:12:45  f44e.0549.85bf  Ethernet1/7     
+10.254.251.81   00:12:57  0022.bdf8.19ff  Ethernet1/15    
+10.254.251.93   00:17:39  d810.9f5e.5502  Ethernet1/20    
+10.254.251.214  00:15:46  981a.351d.ab02  Ethernet1/21    
+10.254.253.202  00:09:30  0022.bdf8.19ff  Ethernet1/24    
+10.254.251.33   00:16:46  0022.bdf8.19ff  Ethernet1/34    
+10.254.251.41   00:10:14  0022.bdf8.19ff  Ethernet1/35    
+10.254.137.210  00:00:28  0050.5695.63ea  Ethernet2/3     
+10.254.137.211  00:00:18  0050.5695.8fc3  Ethernet2/3     
+10.254.251.142  00:18:10  f44e.0549.863f  Ethernet2/7     
+10.254.251.85   00:12:53  0022.bdf8.19ff  Ethernet2/15    
+10.254.253.182  00:07:46  6c9c.ed49.09c2  Ethernet2/17    
+10.254.251.101  00:14:19  d810.9f5e.5402  Ethernet2/20    
+10.254.251.182  00:05:29  94a4.f933.b402  Ethernet2/21    
+10.254.253.194  00:18:11  0022.bdf8.19ff  Ethernet2/24    

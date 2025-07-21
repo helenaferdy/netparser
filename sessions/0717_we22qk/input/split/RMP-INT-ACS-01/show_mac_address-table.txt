@@ -1,0 +1,65 @@
+RMP-INT-ACS-01# show mac address-table
+Legend: 
+        * - primary entry, G - Gateway MAC, (R) - Routed MAC, O - Overlay MAC
+        age - seconds since last seen,+ - primary entry using vPC Peer-Link,
+        (T) - True, (F) - False, C - ControlPlane MAC, ~ - vsan,
+        (NA)- Not Applicable
+   VLAN     MAC Address      Type      age     Secure NTFY Ports
+---------+-----------------+--------+---------+------+----+------------------
++   22     0023.e99b.c606   dynamic  NA         F      F    Po12
++   22     0050.5680.3949   dynamic  NA         F      F    Po12
+*   22     0208.2025.5619   dynamic  NA         F      F    Eth1/41
+*   22     0208.2030.8b46   dynamic  NA         F      F    Eth1/41
+*   22     b40c.25e0.4001   dynamic  NA         F      F    Po12
+*   22     b40c.25e0.8001   dynamic  NA         F      F    Po12
+*   22     f415.638e.3806   dynamic  NA         F      F    Po12
+*   23     0014.4ff8.07be   dynamic  NA         F      F    Eth1/22
+*   23     0014.4ff8.8807   dynamic  NA         F      F    Po12
+*   23     0014.4ff9.2f8e   dynamic  NA         F      F    Eth1/22
+*   23     0014.4ff9.c250   dynamic  NA         F      F    Po12
+*   23     0014.4ff9.d80e   dynamic  NA         F      F    Po12
+*   23     0014.4ffa.0758   dynamic  NA         F      F    Po12
+*   23     0014.4ffb.9272   dynamic  NA         F      F    Eth1/21
+*   23     0014.4ffb.ed33   dynamic  NA         F      F    Eth1/21
++   23     0023.e99b.c605   dynamic  NA         F      F    Po12
++   23     0023.e99b.c606   dynamic  NA         F      F    Po12
++   23     0050.5693.313f   dynamic  NA         F      F    Po12
++   23     0050.5693.5523   dynamic  NA         F      F    Po12
+*   23     0050.5693.73dc   dynamic  NA         F      F    Po12
++   23     0050.5693.ed71   dynamic  NA         F      F    Po12
+*   23     0208.2092.d0a0   dynamic  NA         F      F    Po12
+*   23     0208.20bf.00e5   dynamic  NA         F      F    Po12
+*   23     0215.638e.3807   dynamic  NA         F      F    Po12
+*   23     b40c.25e0.4001   dynamic  NA         F      F    Po12
+*   23     f415.638e.3805   dynamic  NA         F      F    Po12
+*   23     f415.638e.3806   dynamic  NA         F      F    Po12
+*   32     b40c.25e0.4001   dynamic  NA         F      F    Po12
+*   33     b40c.25e0.4001   dynamic  NA         F      F    Po12
+*   73     0014.4ff8.07be   dynamic  NA         F      F    Po12
+*   73     0014.4ff8.8807   dynamic  NA         F      F    Po12
+*   73     0014.4ff9.2f8e   dynamic  NA         F      F    Po12
+*   73     0014.4ff9.c250   dynamic  NA         F      F    Po12
+*   73     0014.4ff9.d80e   dynamic  NA         F      F    Po12
+*   73     0014.4ffa.0758   dynamic  NA         F      F    Po12
+*   73     0014.4ffb.9272   dynamic  NA         F      F    Po12
+*   73     0014.4ffb.ed33   dynamic  NA         F      F    Po12
++   73     0023.e99b.c605   dynamic  NA         F      F    Po12
++   73     0023.e99b.c606   dynamic  NA         F      F    Po12
++   73     0050.5693.313f   dynamic  NA         F      F    Po12
++   73     0050.5693.5523   dynamic  NA         F      F    Po12
+*   73     0050.5693.73dc   dynamic  NA         F      F    Po12
++   73     0050.5693.ed71   dynamic  NA         F      F    Po12
+*   73     0208.2092.d0a0   dynamic  NA         F      F    Eth1/41
+*   73     0208.20bf.00e5   dynamic  NA         F      F    Eth1/41
+*   73     b40c.25e0.4001   dynamic  NA         F      F    Po12
+*   73     f415.638e.3805   dynamic  NA         F      F    Po12
+*   73     f415.638e.3806   dynamic  NA         F      F    Po12
++  911     0023.e99b.c608   dynamic  NA         F      F    Po12
++  911     b40c.25e0.4001   dynamic  NA         F      F    Po12
+*  911     f415.638e.3808   dynamic  NA         F      F    Po12
+*  912     b40c.25e0.4001   dynamic  NA         F      F    Po12
+G    -     3488.1831.d4a7   static   -         F      F    sup-eth1(R)
+G   11     3488.1831.d4a7   static   -         F      F    sup-eth1(R)
+G  911     3488.1831.d4a7   static   -         F      F    sup-eth1(R)
+*   11     ccb6.c8cf.adc7   static   -         F      F    vPC Peer-Link(R)
+*  911     ccb6.c8cf.adc7   static   -         F      F    vPC Peer-Link(R)

@@ -1,0 +1,124 @@
+RMP-INT-ACSDMZ02-new# show interface trunk
+
+--------------------------------------------------------------------------------
+Port          Native  Status        Port
+              Vlan                  Channel
+--------------------------------------------------------------------------------
+Eth1/1        1       trnk-bndl     Po1
+Eth1/2        1       trnk-bndl     Po2
+Eth1/3        1       trnk-bndl     Po3
+Eth1/4        1       trnk-bndl     Po4
+Eth1/7        1       trnk-bndl     Po7
+Eth1/8        1       trnk-bndl     Po7
+Eth1/51       1       trnk-bndl     Po51
+Eth1/52       1       trnk-bndl     Po51
+Eth1/53       1       trnk-bndl     Po53
+Eth1/54       1       trnk-bndl     Po53
+Po1           1       trunking      --
+Po2           1       trunking      --
+Po3           1       trunking      --
+Po4           1       trunking      --
+Po7           1       trunking      --
+Po51          1       trunking      --
+Po53          1       trunking      --
+
+--------------------------------------------------------------------------------
+Port          Vlans Allowed on Trunk
+--------------------------------------------------------------------------------
+Eth1/1        21-23
+Eth1/2        21-23
+Eth1/3        21-23
+Eth1/4        21-23
+Eth1/7        19,22-23,30-31,110,120,130,806,911-912
+Eth1/8        19,22-23,30-31,110,120,130,806,911-912
+Eth1/51       1,19,21-23,30-31,110,120,130,221,806-807,902-904,911-912,1573,3653
+Eth1/52       1,19,21-23,30-31,110,120,130,221,806-807,902-904,911-912,1573,3653
+Eth1/53       1-4094
+Eth1/54       1-4094
+Po1           21-23
+Po2           21-23
+Po3           21-23
+Po4           21-23
+Po7           19,22-23,30-31,110,120,130,806,911-912
+Po51          1,19,21-23,30-31,110,120,130,221,806-807,902-904,911-912,1573,3653
+Po53          1-4094
+
+--------------------------------------------------------------------------------
+Port          Vlans Err-disabled on Trunk
+--------------------------------------------------------------------------------
+Eth1/1        none
+Eth1/2        none
+Eth1/3        none
+Eth1/4        none
+Eth1/7        none
+Eth1/8        none
+Eth1/51       none
+Eth1/52       none
+Eth1/53       none
+Eth1/54       none
+Po1           none
+Po2           none
+Po3           none
+Po4           none
+Po7           none
+Po51          none
+Po53          none
+
+--------------------------------------------------------------------------------
+Port          STP Forwarding
+--------------------------------------------------------------------------------
+Eth1/1        none
+Eth1/2        none
+Eth1/3        none
+Eth1/4        none
+Eth1/7        none
+Eth1/8        none
+Eth1/51       none
+Eth1/52       none
+Eth1/53       none
+Eth1/54       none
+Po1           21-23
+Po2           21-23
+Po3           21-23
+Po4           21-23
+Po7           19,22-23,30-31,110,120,130,806,911-912
+Po51          1,19,21-23,30-31,110,120,130,221,806-807,902-904,911-912,1573,3653
+Po53          1,19,21-23,30-31,110,120,130,221,806-807,902-904,911-912,1573,3653
+
+--------------------------------------------------------------------------------
+Port          Vlans in spanning tree forwarding state and not pruned
+--------------------------------------------------------------------------------
+Eth1/1        Feature VTP is not enabled
+none
+Eth1/2        Feature VTP is not enabled
+none
+Eth1/3        Feature VTP is not enabled
+none
+Eth1/4        Feature VTP is not enabled
+none
+Eth1/7        Feature VTP is not enabled
+none
+Eth1/8        Feature VTP is not enabled
+none
+Eth1/51       Feature VTP is not enabled
+none
+Eth1/52       Feature VTP is not enabled
+none
+Eth1/53       Feature VTP is not enabled
+none
+Eth1/54       Feature VTP is not enabled
+none
+Po1           Feature VTP is not enabled
+21-23
+Po2           Feature VTP is not enabled
+21-23
+Po3           Feature VTP is not enabled
+21-23
+Po4           Feature VTP is not enabled
+21-23
+Po7           Feature VTP is not enabled
+19,22-23,30-31,110,120,130,806,911-912
+Po51          Feature VTP is not enabled
+1,19,21-23,30-31,110,120,130,221,806-807,902-904,911-912,1573,3653
+Po53          Feature VTP is not enabled
+1,19,21-23,30-31,110,120,130,221,806-807,902-904,911-912,1573,3653

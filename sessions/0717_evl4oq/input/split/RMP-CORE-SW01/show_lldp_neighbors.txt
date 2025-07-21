@@ -1,0 +1,56 @@
+RMP-CORE-SW01# show lldp neighbors
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+RMP-SWMGMT-ACS01     mgmt0           120        BR          GE1/0/1       
+S02A-134100-A        Eth1/3          120        B           Eth1/29       
+RMP-EXT-EDGSW01.bankmandiri.co.id
+                     Eth1/5          120        BR          Ethernet4/49  
+RMP-EXT-EDGSW02.supporting.corp.bankmandiri.co.id
+                     Eth1/6          120        BR          Ethernet4/49  
+DC2-BDR-LEAF-01      Eth1/15         120        BR          Eth1/7        
+RMP-02CC-INETEDGE-01 
+                     Eth1/20         120        BR          40GE4/0/20    
+RMP-02CC-WEDGE1      Eth1/21         120        BR          40GE4/0/0     
+DRC-BDR-LEAF-BIGDATA-02
+                     Eth1/23         120        BR          Eth1/49       
+DC2-BDR-LEAF-01      Eth1/34         120        BR          Eth1/27       
+DC2-BDR-LEAF-02      Eth1/35         120        BR          Eth1/27       
+RMP-CORE-SW02.bankmandiri.co.id
+                     Eth1/36         120        BR          Ethernet1/36  
+S02A-134100-B        Eth2/3          120        B           Eth1/30       
+RMP-SF-AGG02.bankmandiri.co.id
+                     Eth2/7          120        BR          Ethernet1/4   
+DC2-BDR-LEAF-02      Eth2/15         120        BR          Eth1/7        
+RMP-INT-EDGSW02.supporting.corp.bankmandiri.co.id
+                     Eth2/18         120        BR          Eth7/1        
+RMP-02CC-INETEDGE-02 
+                     Eth2/20         120        BR          40GE4/0/20    
+RMP-02CC-WEDGE2      Eth2/21         120        BR          40GE4/0/0     
+DRC-BDR-LEAF-BIGDATA-01
+                     Eth2/23         120        BR          Eth1/49       
+RMP-CORE-SW02.bankmandiri.co.id
+                     Eth2/36         120        BR          Ethernet2/36  
+RMP-LAN-DSTVSS.bankmandiri.co.id
+                     Eth3/1          120        BR          Te1/1/1       
+RMP-LAN-DSTVSS.bankmandiri.co.id
+                     Eth3/2          120        BR          Te2/1/1       
+RMP-MGMT-DSTVSS.corp.bankmandiri.co.id
+                     Eth3/3          120        BR          Te1/1/1       
+RMP-MGMT-DSTVSS.corp.bankmandiri.co.id
+                     Eth3/4          120        BR          Te1/1/2       
+RMP-DEV-SPINE        Eth3/21         120        BR          10GE1/4/0/6   
+S02A-134100-A        Eth3/30         120        B           Eth1/15       
+S02A-134100-B        Eth3/33         120        B           Eth1/16       
+RMP-CORE-SW02.bankmandiri.co.id
+                     Eth3/46         120        BR          Ethernet3/46  
+RMP-LAN-DSTVSS.bankmandiri.co.id
+                     Eth4/1          120        BR          Te1/2/1       
+RMP-LAN-DSTVSS.bankmandiri.co.id
+                     Eth4/2          120        BR          Te2/2/1       
+RMP-MGMT-DSTVSS.corp.bankmandiri.co.id
+                     Eth4/3          120        BR          Te2/1/1       
+RMP-MGMT-DSTVSS.corp.bankmandiri.co.id
+                     Eth4/4          120        BR          Te2/1/2       
+Total entries displayed: 31

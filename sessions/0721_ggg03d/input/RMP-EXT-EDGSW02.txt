@@ -1,0 +1,668 @@
+﻿Start Recording 10.254.255.17 (10.254.255.17)
+C
+**************************************************************
+*                                                            *
+*                         WARNING!!!                         *
+*             This is a Private Computer System              *
+*       Access is restricted to Authorized Person Only       *
+*              Unauthorized Access is Prohibited             *
+*   All unauthorized attempt to access this system will be   *
+*                  logged and investigated.                  *
+* Violators will be prosecuted in conformance with local law *
+*                                                            *
+*                 IT INFRASTRUCTURE GROUP                    *
+*               NETWORK SERVICES DEPARTMENT                  *
+*                     LAN OPERATIONS                         *
+*                                                            *
+**************************************************************
+
+
+RMP-LAN-AGT01-CCLT01-BC#ssh 10.254.254.56
+**************************************************************
+*                                                            *
+*                         WARNING!!!                         *
+*             This is a Private Computer System              *
+*       Access is restricted to Authorized Person Only       *
+*              Unauthorized Access is Prohibited             *
+*   All unauthorized attempt to access this system will be   *
+*                  logged and investigated.                  *
+* Violators will be prosecuted in conformance with local law *
+*                                                            *
+**************************************************************
+
+Password: 
+Authorized access only!                  
+   Disconnect IMMEDIATELY if you are not an authorized user!
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (C) 2002-2019, Cisco and/or its affiliates.
+All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under their own
+licenses, such as open source.  This software is provided "as is," and unless
+otherwise stated, there is no warranty, express or implied, including but not
+limited to warranties of merchantability and fitness for a particular purpose.
+Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or 
+GNU General Public License (GPL) version 3.0  or the GNU
+Lesser General Public License (LGPL) Version 2.1 or 
+Lesser General Public License (LGPL) Version 2.0. 
+A copy of each such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://opensource.org/licenses/gpl-3.0.html and
+http://www.opensource.org/licenses/lgpl-2.1.php and
+http://www.gnu.org/licenses/old-licenses/library.txt.
+RMP-EXT-EDGSW02# terminal length 0
+RMP-EXT-EDGSW02# show cdp neighbors
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+Device-ID          Local Intrfce  Hldtme Capability  Platform      Port ID
+RTRHQDRC-BIZNET     mgmt0          155    R         7206VXR       Gig0/3        
+RMP-EXT-EDGSW01.bankmandiri.co.id(FOX2434PGXV)
+                    mgmt0          135    R S s     N9K-C9504     mgmt0         
+RMP-DCI-OTV02-SF.supporting.corp.bankmandiri.co.id(FXS1909Q0KG)
+                    mgmt0          133    R S s     N77-C7706     mgmt0         
+RMP-DCI-OTV02-EXT.supporting.corp.bankmandiri.co.id(FXS1909Q0KG)
+                    mgmt0          151    R S s     N77-C7706     mgmt0         
+RMP-SF-AGG01.bankmandiri.co.id(FGE18520QTY)
+                    mgmt0          153    R S s     N9K-C9508     mgmt0         
+RMP-INT-EDGSW02.supporting.corp.bankmandiri.co.id(JAF1608AREP)
+                    mgmt0          135    R S s     N7K-C7009     mgmt0         
+RMP-DCI-OTV02.supporting.corp.bankmandiri.co.id(FXS1909Q0KG)
+                    mgmt0          153    R S s     N77-C7706     mgmt0         
+RMP-INT-EDGSW02-admin.bankmandiri.co.id(JAF1608AREP)
+                    mgmt0          135    R S s     N7K-C7009     mgmt0         
+S02A-134100-A(FDO21311SSX)
+                    Eth4/11        142    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/32/2
+S02A-134100-B(FDO21311T09)
+                    Eth4/12        150    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/31/2
+S02A-154100-A(FDO21311SYL)
+                    Eth4/13        135    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/32/2
+S02A-154100-B(FDO213003XD)
+                    Eth4/14        146    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/31/2
+RMP-CORE-SW01.bankmandiri.co.id(FGE19020RL0)
+                    Eth4/49        135    R S s     N9K-C9508     Eth1/6        
+RMP-CORE-SW02.bankmandiri.co.id(FGE18470MZ0)
+                    Eth4/50        135    R S s     N9K-C9508     Eth1/6        
+RMP-EXT-EDGSW01.bankmandiri.co.id(FOX2434PGXV)
+                    Eth4/51        135    R S I s   N9K-C9504     Eth4/51       
+RMP-EXT-EDGSW01.bankmandiri.co.id(FOX2434PGXV)
+                    Eth4/52        135    R S I s   N9K-C9504     Eth4/52       
+
+Total entries displayed: 16
+RMP-EXT-EDGSW02# show interface description
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+mgmt0                    --
+
+-------------------------------------------------------------------------------
+Port          Type   Speed   Description
+-------------------------------------------------------------------------------
+Eth4/1        eth    10G     #RMP-RTR-EXT-01 Huawei via Netscout via PALO-PRIMARY-TIER-1 Eth2/7#
+Eth4/2        eth    10G     #RMP-RTR-EXT-02 Huawei via Netscout via PALO-PRIMARY-TIER-1 Eth2/9#
+Eth4/3        eth    10G     #RMP-RTR-EXT-01 Huawei via Netscout via PALO-SECONDARY-TIER-1 Eth2/7#
+Eth4/4        eth    10G     #RMP-RTR-EXT-02 Huawei via Netscout via PALO-SECONDARY-TIER-1 Eth2/9#
+Eth4/5        eth    10G     #FEX-101#
+Eth4/6        eth    10G     #FEX-101#
+Eth4/7        eth    10G     FIREWALL MASTERCARD MIP
+Eth4/8        eth    1000    FRWHQDRCNAC01
+Eth4/9        eth    1000    VISA
+Eth4/10       eth    1000    VISA
+Eth4/11       eth    10G     S02A-134100-A(VPC-SUBSIDIARIES)
+Eth4/12       eth    10G     S02A-134100-B(VPC-SUBSIDIARIES)
+Eth4/13       eth    10G     S02A-154100-A(VPC-SUBSIDIARIES)
+Eth4/14       eth    10G     S02A-154100-B(VPC-SUBSIDIARIES)
+Eth4/15       eth    1000    Link to FW-EXT-P
+Eth4/16       eth    1000    Link to FW-EXT-S
+Eth4/17       eth    1000    NTP-SERVER
+Eth4/18       eth    10G     --
+Eth4/19       eth    10G     --
+Eth4/20       eth    10G     --
+Eth4/21       eth    10G     --
+Eth4/22       eth    10G     --
+Eth4/23       eth    10G     --
+Eth4/24       eth    10G     --
+Eth4/25       eth    10G     --
+Eth4/26       eth    10G     --
+Eth4/27       eth    10G     --
+Eth4/28       eth    10G     --
+Eth4/29       eth    10G     --
+Eth4/30       eth    10G     --
+Eth4/31       eth    10G     --
+Eth4/32       eth    10G     --
+Eth4/33       eth    10G     --
+Eth4/34       eth    10G     --
+Eth4/35       eth    10G     --
+Eth4/36       eth    10G     --
+Eth4/37       eth    10G     --
+Eth4/38       eth    10G     --
+Eth4/39       eth    10G     --
+Eth4/40       eth    10G     --
+Eth4/41       eth    10G     --
+Eth4/42       eth    10G     --
+Eth4/43       eth    10G     --
+Eth4/44       eth    10G     --
+Eth4/45       eth    10G     --
+Eth4/46       eth    10G     --
+Eth4/47       eth    10G     --
+Eth4/48       eth    10G     --
+Eth4/49       eth    40G     #RMP-CORE-SW01 NEW#
+Eth4/50       eth    40G     #RMP-CORE-SW02 NEW#
+Eth4/51       eth    40G     --
+Eth4/52       eth    40G     --
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Po1                      #RMP-EXT-EDGSW01 Po1 (vPC PL)#
+Po2                      S02A-134100-A(VPC-SUBSIDIARIES)
+Po3                      S02A-134100-B(VPC-SUBSIDIARIES)
+Po4                      S02A-154100-A(VPC-SUBSIDIARIES)
+Po5                      S02A-154100-B(VPC-SUBSIDIARIES)
+Po7                      Link to FW-EXT-P
+Po8                      Link to FW-EXT-S
+Po101                    #FEX-101#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Lo0                      #Management#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Vlan1                    --
+Vlan10                   MUF
+Vlan192                  #GATEWAY NTP SERVER#
+Vlan999                  #RMP-EXT-EDGSW01 Vlan999#
+Vlan3266                 VAP DRC
+Vlan3900                 Edge-NSX-VPC-SUBSIDIARY-DRC
+Vlan3901                 Edge-NSX-VPC-SUBSIDIARY-DRC
+
+-------------------------------------------------------------------------------
+Port          Type   Speed   Description
+-------------------------------------------------------------------------------
+Eth101/1/1    eth    1000    #Server MUF#
+Eth101/1/2    eth    1000    #Server MUF#
+Eth101/1/3    eth    1000    #Server MUF#
+Eth101/1/4    eth    1000    #Server MUF#
+Eth101/1/5    eth    1000    --
+Eth101/1/6    eth    1000    --
+Eth101/1/7    eth    1000    --
+Eth101/1/8    eth    1000    --
+Eth101/1/9    eth    1000    --
+Eth101/1/10   eth    1000    --
+Eth101/1/11   eth    1000    --
+Eth101/1/12   eth    1000    --
+Eth101/1/13   eth    1000    --
+Eth101/1/14   eth    1000    --
+Eth101/1/15   eth    1000    --
+Eth101/1/16   eth    1000    --
+Eth101/1/17   eth    1000    --
+Eth101/1/18   eth    1000    --
+Eth101/1/19   eth    1000    --
+Eth101/1/20   eth    1000    --
+Eth101/1/21   eth    1000    --
+Eth101/1/22   eth    1000    --
+Eth101/1/23   eth    1000    --
+Eth101/1/24   eth    1000    --
+Eth101/1/25   eth    1000    --
+Eth101/1/26   eth    1000    --
+Eth101/1/27   eth    1000    --
+Eth101/1/28   eth    1000    --
+Eth101/1/29   eth    1000    --
+Eth101/1/30   eth    1000    --
+Eth101/1/31   eth    1000    --
+Eth101/1/32   eth    1000    --
+Eth101/1/33   eth    1000    --
+Eth101/1/34   eth    1000    --
+Eth101/1/35   eth    1000    --
+Eth101/1/36   eth    1000    --
+Eth101/1/37   eth    1000    --
+Eth101/1/38   eth    1000    --
+Eth101/1/39   eth    1000    --
+Eth101/1/40   eth    1000    --
+Eth101/1/41   eth    1000    --
+Eth101/1/42   eth    1000    --
+Eth101/1/43   eth    1000    --
+Eth101/1/44   eth    1000    --
+Eth101/1/45   eth    1000    --
+Eth101/1/46   eth    1000    --
+Eth101/1/47   eth    1000    --
+Eth101/1/48   eth    1000    --
+RMP-EXT-EDGSW02# show interface status
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0         --                 connected routed    full    1000    --         
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Eth4/1        #RMP-RTR-EXT-01 Hu connected routed    full    10G     10Gbase-SR 
+Eth4/2        #RMP-RTR-EXT-02 Hu connected routed    full    10G     10Gbase-SR 
+Eth4/3        #RMP-RTR-EXT-01 Hu connected routed    full    10G     10Gbase-SR 
+Eth4/4        #RMP-RTR-EXT-02 Hu connected routed    full    10G     10Gbase-SR 
+Eth4/5        #FEX-101#          connected 1         full    10G     Fabric Extender Transceiver
+Eth4/6        #FEX-101#          connected 1         full    10G     Fabric Extender Transceiver
+Eth4/7        FIREWALL MASTERCAR xcvrAbsen routed    auto    1000    --         
+Eth4/8        FRWHQDRCNAC01      connected routed    full    1000    1000base-T 
+Eth4/9        VISA               connected 3266      full    1000    1000base-T 
+Eth4/10       VISA               disabled  3266      auto    auto    1000base-T 
+Eth4/11       S02A-134100-A(VPC- connected trunk     full    10G     10Gbase-SR 
+Eth4/12       S02A-134100-B(VPC- connected trunk     full    10G     10Gbase-SR 
+Eth4/13       S02A-154100-A(VPC- connected trunk     full    10G     10Gbase-SR 
+Eth4/14       S02A-154100-B(VPC- connected trunk     full    10G     10Gbase-SR 
+Eth4/15       Link to FW-EXT-P   suspended trunk     auto    auto    1000base-T 
+Eth4/16       Link to FW-EXT-S   connected trunk     full    1000    1000base-T 
+Eth4/17       NTP-SERVER         notconnec 191       auto    auto    1000base-T 
+Eth4/18       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/19       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/20       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/21       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/22       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/23       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/24       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/25       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/26       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/27       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/28       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/29       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/30       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/31       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/32       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/33       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/34       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/35       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/36       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/37       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/38       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/39       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/40       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/41       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/42       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/43       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/44       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/45       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/46       --                 xcvrAbsen routed    auto    auto    --         
+Eth4/47       --                 xcvrAbsen trunk     auto    auto    --         
+Eth4/48       --                 xcvrAbsen trunk     auto    auto    --         
+Eth4/49       #RMP-CORE-SW01 NEW connected routed    full    40G     QSFP-40G-SR-BD
+Eth4/50       #RMP-CORE-SW02 NEW connected routed    full    40G     QSFP-40G-SR-BD
+Eth4/51       --                 connected trunk     full    40G     QSFP-40G-SR-BD
+Eth4/52       --                 connected trunk     full    40G     QSFP-40G-SR-BD
+Po1           #RMP-EXT-EDGSW01 P connected trunk     full    40G     --         
+Po2           S02A-134100-A(VPC- connected trunk     full    10G     --         
+Po3           S02A-134100-B(VPC- connected trunk     full    10G     --         
+Po4           S02A-154100-A(VPC- connected trunk     full    10G     --         
+Po5           S02A-154100-B(VPC- connected trunk     full    10G     --         
+Po7           Link to FW-EXT-P   noOperMem trunk     auto    auto    --         
+Po8           Link to FW-EXT-S   connected trunk     full    1000    --         
+Po101         #FEX-101#          connected 1         full    10G     --         
+Lo0           #Management#       connected routed    auto    auto    --         
+Vlan1         --                 down      routed    auto    auto    --
+Vlan10        MUF                connected routed    auto    auto    --
+Vlan192       #GATEWAY NTP SERVE connected routed    auto    auto    --
+Vlan999       #RMP-EXT-EDGSW01 V connected routed    auto    auto    --
+Vlan3266      VAP DRC            connected routed    auto    auto    --
+Vlan3900      Edge-NSX-VPC-SUBSI down      routed    auto    auto    --
+Vlan3901      Edge-NSX-VPC-SUBSI connected routed    auto    auto    --
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Eth101/1/1    #Server MUF#       disabled  10        auto    auto    10/100/1000BaseT
+Eth101/1/2    #Server MUF#       notconnec 10        auto    auto    10/100/1000BaseT
+Eth101/1/3    #Server MUF#       disabled  10        auto    auto    10/100/1000BaseT
+Eth101/1/4    #Server MUF#       notconnec 10        auto    auto    10/100/1000BaseT
+Eth101/1/5    --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/6    --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/7    --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/8    --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/9    --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/10   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/11   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/12   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/13   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/14   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/15   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/16   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/17   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/18   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/19   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/20   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/21   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/22   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/23   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/24   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/25   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/26   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/27   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/28   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/29   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/30   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/31   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/32   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/33   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/34   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/35   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/36   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/37   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/38   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/39   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/40   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/41   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/42   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/43   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/44   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/45   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/46   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/47   --                 disabled  1         auto    auto    10/100/1000BaseT
+Eth101/1/48   --                 disabled  20        auto    auto    10/100/1000BaseT
+RMP-EXT-EDGSW02# show interface trunk
+
+--------------------------------------------------------------------------------
+Port          Native  Status        Port
+              Vlan                  Channel
+--------------------------------------------------------------------------------
+Eth4/11       1       trnk-bndl     Po2
+Eth4/12       1       trnk-bndl     Po3
+Eth4/13       1       trnk-bndl     Po4
+Eth4/14       1       trnk-bndl     Po5
+Eth4/15       1       trnk-bndl     Po7
+Eth4/16       1       trnk-bndl     Po8
+Eth4/47       1       trunking      --
+Eth4/48       1       trunking      --
+Eth4/51       1       trnk-bndl     Po1
+Eth4/52       1       trnk-bndl     Po1
+Po1           1       trunking      --
+Po2           1       trunking      --
+Po3           1       trunking      --
+Po4           1       trunking      --
+Po5           1       trunking      --
+Po7           1       trunking      --
+Po8           1       trunking      --
+
+--------------------------------------------------------------------------------
+Port          Vlans Allowed on Trunk
+--------------------------------------------------------------------------------
+Eth4/11       3900-3901
+Eth4/12       3900-3901
+Eth4/13       3900-3901
+Eth4/14       3900-3901
+Eth4/15       191-192
+Eth4/16       191-192
+Eth4/47       2-4094
+Eth4/48       2-4094
+Eth4/51       2-4094
+Eth4/52       2-4094
+Po1           2-4094
+Po2           3900-3901
+Po3           3900-3901
+Po4           3900-3901
+Po5           3900-3901
+Po7           191-192
+Po8           191-192
+
+--------------------------------------------------------------------------------
+Port          Vlans Err-disabled on Trunk
+--------------------------------------------------------------------------------
+Eth4/11       none
+Eth4/12       none
+Eth4/13       none
+Eth4/14       none
+Eth4/15       none
+Eth4/16       none
+Eth4/47       none
+Eth4/48       none
+Eth4/51       1075
+Eth4/52       1075
+Po1           1075
+Po2           none
+Po3           none
+Po4           none
+Po5           none
+Po7           none
+Po8           none
+
+--------------------------------------------------------------------------------
+Port          STP Forwarding
+--------------------------------------------------------------------------------
+Eth4/11       none
+Eth4/12       none
+Eth4/13       none
+Eth4/14       none
+Eth4/15       none
+Eth4/16       none
+Eth4/47       none
+Eth4/48       none
+Eth4/51       none
+Eth4/52       none
+Po1           10,191-192,999,3266,3900-3901
+Po2           3900-3901
+Po3           3900-3901
+Po4           3900-3901
+Po5           3900-3901
+Po7           none
+Po8           191-192
+
+--------------------------------------------------------------------------------
+Port          Vlans in spanning tree forwarding state and not pruned
+--------------------------------------------------------------------------------
+Eth4/11       Feature VTP is not enabled
+none
+Eth4/12       Feature VTP is not enabled
+none
+Eth4/13       Feature VTP is not enabled
+none
+Eth4/14       Feature VTP is not enabled
+none
+Eth4/15       Feature VTP is not enabled
+none
+Eth4/16       Feature VTP is not enabled
+none
+Eth4/47       Feature VTP is not enabled
+none
+Eth4/48       Feature VTP is not enabled
+none
+Eth4/51       Feature VTP is not enabled
+none
+Eth4/52       Feature VTP is not enabled
+none
+Po1           Feature VTP is not enabled
+10,191-192,999,3266,3900-3901
+Po2           Feature VTP is not enabled
+3900-3901
+Po3           Feature VTP is not enabled
+3900-3901
+Po4           Feature VTP is not enabled
+3900-3901
+Po5           Feature VTP is not enabled
+3900-3901
+Po7           Feature VTP is not enabled
+none
+Po8           Feature VTP is not enabled
+191-192
+RMP-EXT-EDGSW02# show inventory
+NAME: "Chassis",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis"      
+PID: N9K-C9504           ,  VID: V01 ,  SN: FOX2434PGXX          
+
+NAME: "Slot 4",  DESCR: "48x1/10G SFP+ 4x40G Ethernet Module"   
+PID: N9K-X9564PX         ,  VID: V01 ,  SN: SAL190696A6          
+
+NAME: "Slot 22",  DESCR: "Fabric Module"                         
+PID: N9K-C9504-FM        ,  VID: V01 ,  SN: FOC24164H93          
+
+NAME: "Slot 23",  DESCR: "Fabric Module"                         
+PID: N9K-C9504-FM        ,  VID: V01 ,  SN: FOC24164HAG          
+
+NAME: "Slot 24",  DESCR: "Fabric Module"                         
+PID: N9K-C9504-FM        ,  VID: V01 ,  SN: FOC24164H9T          
+
+NAME: "Slot 26",  DESCR: "Fabric Module"                         
+PID: N9K-C9504-FM        ,  VID: V01 ,  SN: FOC24164HAU          
+
+NAME: "Slot 27",  DESCR: "Supervisor Module"                     
+PID: N9K-SUP-A+          ,  VID: V01 ,  SN: FOC243232MY          
+
+NAME: "Slot 28",  DESCR: "Supervisor Module"                     
+PID: N9K-SUP-A+          ,  VID: V01 ,  SN: FOC243232W7          
+
+NAME: "Slot 29",  DESCR: "System Controller"                     
+PID: N9K-SC-A            ,  VID: V02 ,  SN: FOC24295837          
+
+NAME: "Slot 30",  DESCR: "System Controller"                     
+PID: N9K-SC-A            ,  VID: V02 ,  SN: FOC2429583B          
+
+NAME: "Power Supply 1",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V03 ,  SN: DTM243400Y1          
+
+NAME: "Power Supply 2",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V03 ,  SN: DTM243400WX          
+
+NAME: "Power Supply 3",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V03 ,  SN: DTM243400V6          
+
+NAME: "Power Supply 4",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V03 ,  SN: DTM243400VW          
+
+NAME: "Fan 1",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis Fan Module"
+PID: N9K-C9504-FAN       ,  VID: V01 ,  SN: FOX2432P2P8          
+
+NAME: "Fan 2",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis Fan Module"
+PID: N9K-C9504-FAN       ,  VID: V01 ,  SN: FOX2433P2RS          
+
+NAME: "Fan 3",  DESCR: "Nexus9000 C9504 (4 Slot) Chassis Fan Module"
+PID: N9K-C9504-FAN       ,  VID: V01 ,  SN: FOX2433P2QW          
+
+NAME: "FEX 101 CHASSIS",  DESCR: "N2K-C2248TP-1GE  CHASSIS"              
+PID: N2K-C2248TP-1GE     ,  VID: V03 ,  SN: SSI1601001H          
+
+NAME: "FEX 101 Module 1",  DESCR: "Fabric Extender Module: 48x1GE, 4x10GE Supervisor"
+PID: N2K-C2248TP-1GE     ,  VID: V03 ,  SN: FOC16031XTB          
+
+NAME: "FEX 101 Fan 1",  DESCR: "Fabric Extender Fan module"            
+PID: N2K-C2248-FAN       ,  VID: N/A ,  SN: N/A                  
+
+NAME: "FEX 101 Power Supply 1",  DESCR: "Fabric Extender AC power supply"       
+PID: N2200-PAC-400W      ,  VID: V03 ,  SN: DTN1551P1QM          
+
+NAME: "FEX 101 Power Supply 2",  DESCR: "Fabric Extender AC power supply"       
+PID: N2200-PAC-400W      ,  VID: V03 ,  SN: DTN1551P1QN          
+
+RMP-EXT-EDGSW02# show ip arp
+
+Flags: * - Adjacencies learnt on non-active FHRP router
+       + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+       CP - Added via L2RIB, Control plane Adjacencies
+       PS - Added via L2RIB, Peer Sync
+       RO - Re-Originated Peer Sync Entry
+       D - Static Adjacencies attached to down interface
+
+IP ARP Table for context default
+Total number of entries: 18
+Address         Age       MAC Address     Interface       Flags
+10.254.253.134  00:14:32  1c43.63ea.8fad  Ethernet4/3     
+10.254.253.150  00:00:27  1c43.63e5.3aca  Ethernet4/4     
+10.204.38.134   00:13:23  0026.cb6e.e4c4  Ethernet4/8     
+10.254.251.165  00:01:18  f44e.0549.a67f  Ethernet4/49    
+10.254.251.173  00:01:28  7426.acfa.b9bf  Ethernet4/50    
+10.254.144.1    00:00:04  0000.0c9f.f00a  Vlan10          
+10.254.144.3    00:03:20  bc4a.56cd.ef7f  Vlan10          
+10.254.253.141  00:03:53  bc4a.56cd.ef7f  Vlan999         
+10.254.32.113   00:14:04  0000.0c9f.fcc2  Vlan3266        
+10.254.32.114   00:00:28  d4f5.ef8f.faa5  Vlan3266        
+10.254.32.115   00:04:45  d4f5.ef8f.faa5  Vlan3266        + 
+10.254.32.116   00:15:36  d4f5.efa0.3199  Vlan3266        
+10.254.32.117   00:03:23  bc4a.56cd.ef7f  Vlan3266        
+10.254.115.82   00:00:15  INCOMPLETE      Vlan3901        
+10.254.115.83   00:00:18  0050.56b6.4fc4  Vlan3901        
+10.254.250.137  00:10:03  0000.0c9f.f0c0  Vlan192         
+10.254.250.138  00:00:12  84c8.0761.efd1  Vlan192         + 
+10.254.250.139  00:02:41  bc4a.56cd.ef7f  Vlan192         
+RMP-EXT-EDGSW02# show lldp neighbors
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+RMP-SWMGMT-ACS02     mgmt0           120        BR          GE1/0/13      
+S02A-134100-A        Eth4/11         120        B           Br-Eth1/32/2  
+S02A-134100-B        Eth4/12         120        B           Br-Eth1/31/2  
+S02A-154100-A        Eth4/13         120        B           Br-Eth1/32/2  
+S02A-154100-B        Eth4/14         120        B           Br-Eth1/31/2  
+RMP-CORE-SW01.bankmandiri.co.id
+                     Eth4/49         120        BR          Ethernet1/6   
+RMP-CORE-SW02.bankmandiri.co.id
+                     Eth4/50         120        BR          Ethernet1/6   
+RMP-EXT-EDGSW01.bankmandiri.co.id
+                     Eth4/51         120        BR          Ethernet4/51  
+RMP-EXT-EDGSW01.bankmandiri.co.id
+                     Eth4/52         120        BR          Ethernet4/52  
+Total entries displayed: 9
+RMP-EXT-EDGSW02# show mac address-table
+Legend: 
+        * - primary entry, G - Gateway MAC, (R) - Routed MAC, O - Overlay MAC
+        age - seconds since last seen,+ - primary entry using vPC Peer-Link,
+        (T) - True, (F) - False, C - ControlPlane MAC, ~ - vsan
+   VLAN     MAC Address      Type      age     Secure NTFY Ports
+---------+-----------------+--------+---------+------+----+------------------
++  191     0000.0c9f.f0c0   dynamic  0         F      F    Po8
++  191     bc4a.56cd.eebf   dynamic  0         F      F    Po8
+*  191     bc4a.56cd.ef7f   dynamic  0         F      F    Po8
++  192     84c8.0761.efd1   dynamic  0         F      F    Po8
+* 3266     d4f5.efa0.3199   dynamic  0         F      F    Eth4/9
++ 3900     0050.56b6.16fe   dynamic  0         F      F    Po2
++ 3901     0050.56b6.4fc4   dynamic  0         F      F    Po3
++  191     84c8.0761.efd1   dynamic  0         F      F    vPC Peer-Link
++ 3266     d4f5.ef8f.faa5   dynamic  0         F      F    vPC Peer-Link
+G   10     0000.0c9f.f00a   static   -         F      F    vPC Peer-Link(R)
+G  192     0000.0c9f.f0c0   static   -         F      F    vPC Peer-Link(R)
+G 3266     0000.0c9f.fcc2   static   -         F      F    vPC Peer-Link(R)
+G    -     bc4a.56cd.eebf   static   -         F      F    sup-eth1(R)
+G   10     bc4a.56cd.eebf   static   -         F      F    sup-eth1(R)
+G 3901     bc4a.56cd.eebf   static   -         F      F    sup-eth1(R)
+G  192     bc4a.56cd.eebf   static   -         F      F    sup-eth1(R)
+G 3266     bc4a.56cd.eebf   static   -         F      F    sup-eth1(R)
+G  999     bc4a.56cd.eebf   static   -         F      F    sup-eth1(R)
+G   10     bc4a.56cd.ef7f   static   -         F      F    vPC Peer-Link(R)
+G 3900     bc4a.56cd.ef7f   static   -         F      F    vPC Peer-Link(R)
+G  192     bc4a.56cd.ef7f   static   -         F      F    vPC Peer-Link(R)
+G 3266     bc4a.56cd.ef7f   static   -         F      F    vPC Peer-Link(R)
+G  999     bc4a.56cd.ef7f   static   -         F      F    vPC Peer-Link(R)
+RMP-EXT-EDGSW02# show port-channel summary
+Flags:  D - Down        P - Up in port-channel (members)
+        I - Individual  H - Hot-standby (LACP only)
+        s - Suspended   r - Module-removed
+        b - BFD Session Wait
+        S - Switched    R - Routed
+        U - Up (port-channel)
+        p - Up in delay-lacp mode (member)
+        M - Not in use. Min-links not met
+--------------------------------------------------------------------------------
+Group Port-       Type     Protocol  Member Ports
+      Channel
+--------------------------------------------------------------------------------
+1     Po1(SU)     Eth      LACP      Eth4/51(P)   Eth4/52(P)   
+2     Po2(SU)     Eth      LACP      Eth4/11(P)   
+3     Po3(SU)     Eth      LACP      Eth4/12(P)   
+4     Po4(SU)     Eth      LACP      Eth4/13(P)   
+5     Po5(SU)     Eth      LACP      Eth4/14(P)   
+7     Po7(SD)     Eth      LACP      Eth4/15(s)   
+8     Po8(SU)     Eth      LACP      Eth4/16(P)   
+101   Po101(SU)   Eth      NONE      Eth4/5(P)    Eth4/6(P)    
+RMP-EXT-EDGSW02# exit
+
+[Connection to 10.254.254.56 closed by foreign host]
+RMP-LAN-AGT01-CCLT01-BC#exit
+End Recording 10.254.255.17 (10.254.255.17)

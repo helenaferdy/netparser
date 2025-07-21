@@ -1,0 +1,19 @@
+RMP-INT-ACS-01# show lldp neighbors
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+RMP-SWMGMT-ACS21     mgmt0           120        BR          GE1/0/8       
+RMP-INT-ACS-02.bankmandiri.co.id
+                     Eth1/43         120        BR          Ethernet1/43  
+RMP-INT-ACS-02.bankmandiri.co.id
+                     Eth1/44         120        BR          Ethernet1/44  
+RMP-INT-ACS-02.bankmandiri.co.id
+                     Eth1/51         120        BR          Ethernet1/51  
+RMP-INT-ACS-02.bankmandiri.co.id
+                     Eth1/52         120        BR          Ethernet1/52  
+RMP-02CC-INETEDGE-01 
+                     Eth1/53         120        BR          40GE4/0/2     
+RMP-02CC-INETEDGE-02 
+                     Eth1/54         120        BR          40GE4/0/2     
+Total entries displayed: 7

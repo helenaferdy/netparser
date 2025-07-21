@@ -1,0 +1,96 @@
+RMP-EXT-EDGSW01# show interface description
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+mgmt0                    --
+
+-------------------------------------------------------------------------------
+Port          Type   Speed   Description
+-------------------------------------------------------------------------------
+Eth4/1        eth    10G     #RMP-RTR-EXT-01 Huawei via Netscout via PALO-PRIMARY-TIER-1 Eth2/3#
+Eth4/2        eth    10G     #RMP-RTR-EXT-02 Huawei via Netscout via PALO-PRIMARY-TIER-1 Eth2/5#
+Eth4/3        eth    10G     #RMP-RTR-EXT-02 Huawei via Netscout via PALO-SECONDARY-TIER-1 Eth2/3#
+Eth4/4        eth    10G     #RMP-RTR-EXT-01 Huawei via Netscout via PALO-SECONDARY-TIER-1 Eth2/5#
+Eth4/5        eth    1000    VISA 
+Eth4/6        eth    1000    FIREWALL MASTERCARD MIP
+Eth4/7        eth    10G     --
+Eth4/8        eth    10G     --
+Eth4/9        eth    10G     --
+Eth4/10       eth    10G     --
+Eth4/11       eth    10G     S02A-134100-A(VPC-SUBSIDIARIES)
+Eth4/12       eth    10G     S02A-134100-B(VPC-SUBSIDIARIES)
+Eth4/13       eth    10G     S02A-154100-A(VPC-SUBSIDIARIES)
+Eth4/14       eth    10G     S02A-154100-B(VPC-SUBSIDIARIES)
+Eth4/15       eth    1000    Link to FW-EXT-P
+Eth4/16       eth    1000    Link to FW-EXT-S
+Eth4/17       eth    1000    NTP-SERVER
+Eth4/18       eth    10G     --
+Eth4/19       eth    10G     --
+Eth4/20       eth    10G     --
+Eth4/21       eth    10G     --
+Eth4/22       eth    10G     --
+Eth4/23       eth    10G     --
+Eth4/24       eth    10G     --
+Eth4/25       eth    10G     --
+Eth4/26       eth    10G     --
+Eth4/27       eth    10G     --
+Eth4/28       eth    10G     --
+Eth4/29       eth    10G     --
+Eth4/30       eth    10G     --
+Eth4/31       eth    10G     --
+Eth4/32       eth    10G     --
+Eth4/33       eth    10G     --
+Eth4/34       eth    10G     --
+Eth4/35       eth    1000    --
+Eth4/36       eth    10G     --
+Eth4/37       eth    1000    --
+Eth4/38       eth    10G     --
+Eth4/39       eth    10G     --
+Eth4/40       eth    10G     --
+Eth4/41       eth    10G     --
+Eth4/42       eth    10G     --
+Eth4/43       eth    10G     --
+Eth4/44       eth    10G     --
+Eth4/45       eth    10G     --
+Eth4/46       eth    10G     --
+Eth4/47       eth    10G     --
+Eth4/48       eth    10G     --
+Eth4/49       eth    40G     #RMP-CORE-SW01 NEW#
+Eth4/50       eth    40G     #RMP-CORE-SW02 NEW#
+Eth4/51       eth    40G     #RMP-EXT-EDGSW02 Eth1/29 (vPC PL)#
+Eth4/52       eth    40G     #RMP-EXT-EDGSW02 Eth1/30 (vPC PL)#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Po1                      #RMP-EXT-EDGSW02 Po1 (vPC PL)#
+Po2                      S02A-134100-A(VPC-SUBSIDIARIES)
+Po3                      S02A-134100-B(VPC-SUBSIDIARIES)
+Po4                      S02A-154100-A(VPC-SUBSIDIARIES)
+Po5                      S02A-154100-B(VPC-SUBSIDIARIES)
+Po7                      Link to FW-EXT-P
+Po8                      Link to FW-EXT-S
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Lo0                      #Management#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Vlan1                    --
+Vlan10                   MUF
+Vlan27                   --
+Vlan43                   --
+Vlan192                  #GATEWAY NTP SERVER#
+Vlan742                  --
+Vlan807                  --
+Vlan925                  --
+Vlan999                  #RMP-EXT-EDGSW02 Vlan999#
+Vlan2251                 --
+Vlan3266                 VAP DRC
+Vlan3653                 --
+Vlan3900                 Edge-NSX-VPC-SUBSIDIARY-DRC
+Vlan3901                 Edge-NSX-VPC-SUBSIDIARY-DRC

@@ -1,0 +1,181 @@
+DRCINAACC-3# show interface status
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0         --                 connected routed    full    1000    --
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Eth1/1        Po2 DRCINAACC-3 Et connected routed    full    10G     10g
+Eth1/2        Po2 DRCINAACC-3 Et connected routed    full    10G     10g
+Eth1/3        DRCMSAPPHST85-VM   notconnec trunk     auto    auto    10g
+Eth1/4        DRCMSAPPHST85-DATA notconnec 1046      auto    auto    10g
+Eth1/5        --                 disabled  1         auto    auto    10g
+Eth1/6        --                 notconnec 104       auto    auto    10g
+Eth1/7        --                 notconnec 92        auto    auto    10g
+Eth1/8        POLICYCA           notconnec 111       auto    auto    10g
+Eth1/9        DC1MSDEVHST10      notconnec 1046      auto    auto    10g
+Eth1/10       HSM-SIMULASI       notconnec 113       auto    auto    10g
+Eth1/11       DRCGWMDBO01        notconnec 1002      auto    auto    10g
+Eth1/12       DRCGWMDBO01-HB     notconnec 1020      auto    auto    10g
+Eth1/13       DRCGWMDBO02        notconnec 1002      auto    auto    10g
+Eth1/14       DRCGWMDBO02-HB     notconnec 1020      auto    auto    10g
+Eth1/15       BROCADE1           notconnec 223       auto    auto    10g
+Eth1/16       STORAGE 1          notconnec 223       auto    auto    10g
+Eth1/17       TEST-GPS           connected 1028      full    1000    10g
+Eth1/18       Server SIR 1       notconnec 909       auto    auto    10g
+Eth1/19       iLO VTL 1          notconnec 223       auto    auto    10g
+Eth1/20       iLO SIR 1          notconnec 223       auto    auto    10g
+Eth1/21       Server MasterBacku notconnec 909       auto    auto    10g
+Eth1/22       GPS-TIME           notconnec 1028      auto    auto    10g
+Eth1/23       OPICS-DB-DRC       notconnec 95        auto    auto    10g
+Eth1/24       OPICS-DB-DRC       notconnec 95        auto    auto    10g
+Eth1/25       --                 notconnec 1         auto    auto    10g
+Eth1/26       --                 notconnec 1         auto    auto    10g
+Eth1/27       VMNe-IDBIJKTDRC-02 notconnec trunk     auto    auto    10g
+Eth1/28       VMMa-IDBIJKTDRC-02 notconnec trunk     auto    auto    10g
+Eth1/29       VMMa-IDBIJKTDRC-04 notconnec trunk     auto    auto    10g
+Eth1/30       VMNe-IDBIJKTDRC-04 notconnec trunk     auto    auto    10g
+Eth1/31       DRCBIGHDP74        notconnec 8         auto    auto    10g
+Eth1/32       drccotsdbo02       notconnec 95        auto    auto    10g
+Eth1/33       DRCBIGHDP75        notconnec 3454      auto    auto    10g
+Eth1/34       HB-DRC1COTSDBO-02  notconnec 1038      auto    auto    10g
+Eth1/35       VMMa-DRCVICUCS02   notconnec trunk     auto    auto    10g
+Eth1/36       VMNe-DRCVICUCS02   notconnec trunk     auto    auto    10g
+Eth1/37       RTGS-DEV           connected 1030      full    100     10g
+Eth1/38       RTGS-DEV           notconnec 1030      auto    auto    10g
+Eth1/39       devmidbo01         notconnec 1030      auto    auto    10g
+Eth1/40       tstrestoredbo01    notconnec 1030      auto    auto    10g
+Eth1/41       tstrestoredbs01    notconnec 1030      auto    auto    10g
+Eth1/42       devmidbs01         notconnec 1030      auto    auto    10g
+Eth1/43       devmondbo01        notconnec 1030      auto    auto    10g
+Eth1/44       devmidbo02         notconnec 1030      auto    auto    10g
+Eth1/45       DC1BIGHDP22        notconnec 1034      auto    auto    10g
+Eth1/46       HB-DC1BIGHD        notconnec 1040      auto    auto    10g
+Eth1/47       DC1BIGHDP23        notconnec 1034      auto    auto    10g
+Eth1/48       AIX                notconnec 8         auto    auto    10g
+Eth1/49       AIX                notconnec 8         auto    auto    10g
+Eth1/50       AIX                notconnec 8         auto    auto    10g
+Eth1/51       AIX                notconnec 8         auto    auto    10g
+Eth1/52       --                 notconnec 1         auto    auto    10g
+Eth1/53       AIX                notconnec 223       auto    auto    10g
+Eth1/54       AIX                notconnec 223       auto    auto    10g
+Eth1/55       AIX                notconnec 223       auto    auto    10g
+Eth1/56       --                 notconnec 1         auto    auto    10g
+Eth1/57       DC1MSDEVHST08      notconnec trunk     auto    auto    10g
+Eth1/58       DC1MSDEVHST08      notconnec 1046      auto    auto    10g
+Eth1/59       DC1MSDEVHST09      notconnec trunk     auto    auto    10g
+Eth1/60       DC1MSDEVHST09      notconnec 1046      auto    auto    10g
+Eth1/61       DC1MSDEVHST10      notconnec trunk     auto    auto    10g
+Eth1/62       DC1MSDEVHST10      notconnec 1046      auto    auto    10g
+Eth1/63       DC1MSDEVHST11      notconnec trunk     auto    auto    10g
+Eth1/64       DC1MSDEVHST11      notconnec 1046      auto    auto    10g
+Eth1/65       --                 notconnec 80        auto    auto    10g
+Eth1/66       --                 notconnec 80        auto    auto    10g
+Eth1/67       VMMN-DRCVICCMSC02  notconnec trunk     auto    auto    10g
+Eth1/68       DC1MSDEVHST12      notconnec 1046      auto    auto    10g
+Eth1/69       DC1MSDEVHST12      notconnec trunk     auto    auto    10g
+Eth1/70       DC1MSDEVHST13      notconnec 1046      auto    auto    10g
+Eth1/71       DC1MSDEVHST13      notconnec trunk     auto    auto    10g
+Eth1/72       DC1MSDEVHST14      notconnec 1046      auto    auto    10g
+Eth1/73       DC1MSDEVHST14      notconnec trunk     auto    auto    10g
+Eth1/74       DC1MSDEVHST15      notconnec 1046      auto    auto    10g
+Eth1/75       DC1MSDEVHST15      notconnec trunk     auto    auto    10g
+Eth1/76       DC1MSDEVHST16      notconnec 1046      auto    auto    10g
+Eth1/77       DC1MSDEVHST16      notconnec trunk     auto    auto    10g
+Eth1/78       DRCBIGHDP66        notconnec 8         auto    auto    10g
+Eth1/79       DRCBIGHDP65        notconnec 8         auto    auto    10g
+Eth1/80       Priv-DRC-CCE-UCS10 notconnec 810       auto    auto    10g
+Eth1/81       VMMN-DRC-CCE-UCS10 notconnec trunk     auto    auto    10g
+Eth1/82       VMMN-DRC-CCE-UCS12 notconnec trunk     auto    auto    10g
+Eth1/83       VMMN-IDBIJKTDC-08  notconnec trunk     auto    auto    10g
+Eth1/84       MGMT-UCS           notconnec 808       auto    auto    10g
+Eth1/85       UCS-CCE-VXMLGWB    notconnec 808       auto    auto    10g
+Eth1/86       DRCBFUATHST01      notconnec 107       auto    auto    10g
+Eth1/87       DRCBFUATHST01      notconnec trunk     auto    auto    10g
+Eth1/88       devbighdp11        notconnec 1044      auto    auto    10g
+Eth1/89       devbighdp12        notconnec 1044      auto    auto    10g
+Eth1/90       devbighdp13        notconnec 1044      auto    auto    10g
+Eth1/91       devbighdp14        notconnec 1044      auto    auto    10g
+Eth1/92       devbighdp15        notconnec 1044      auto    auto    10g
+Eth1/93       DRCVICUCS06        notconnec 808       auto    10G     10g
+Eth1/94       DRCVICESXI06       notconnec 1032      auto    auto    10g
+Eth1/95       DRCBIGHDP76        notconnec 3454      auto    auto    10g
+Eth1/96       DRCBIGHDP77        notconnec 3454      auto    auto    10g
+Eth2/1        Po3 DRCINAAGG-33 E connected trunk     full    40G     QSFP-40G-SR-BD
+Eth2/2        Po3 DRCINAAGG-43 E connected trunk     full    40G     QSFP-40G-SR-BD
+Eth2/3        Po1 DRCINAACC-4 Et connected trunk     full    40G     QSFP-40G-SR-BD
+Eth2/4        Po1 DRCINAACC-4 Et connected trunk     full    40G     QSFP-40G-SR-BD
+Eth2/5        --                 xcvrAbsen 1         auto    auto    --
+Eth2/6        --                 xcvrAbsen 1         auto    auto    --
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Po1           DRCINAACC-4 Po1 (V connected trunk     full    40G     --
+Po2           DRCINAACC-4 Po2 (V connected routed    full    10G     --
+Po3           DRCINAAGG-33&43 Po connected trunk     full    40G     --
+Po11          --                 noOperMem 104       auto    auto    --
+Po12          --                 noOperMem 111       auto    auto    --
+Po13          OPICS-DB-DRC       noOperMem 95        auto    auto    --
+Po14          tstrestoredbs01    noOperMem 1030      auto    auto    --
+Po15          devmidbs01         noOperMem 1030      auto    auto    --
+Po16          devmondbo01        noOperMem 1030      auto    auto    --
+Po17          devmidbo02         noOperMem 1030      auto    auto    --
+Po18          DC1BIGHDP22        noOperMem 1034      auto    auto    --
+Po19          DC1BIGHDP23        noOperMem 1034      auto    auto    --
+Po20          DC1MSDEVHST08      noOperMem trunk     auto    auto    --
+Po21          DC1MSDEVHST08      noOperMem 1046      auto    auto    --
+Po22          DC1MSDEVHST09      noOperMem trunk     auto    auto    --
+Po23          DC1MSDEVHST09      noOperMem 1046      auto    auto    --
+Po24          DC1MSDEVHST10      noOperMem trunk     auto    auto    --
+Po25          DC1MSDEVHST10      noOperMem 1046      auto    auto    --
+Po26          DC1MSDEVHST11      noOperMem trunk     auto    auto    --
+Po27          DC1MSDEVHST11      noOperMem 1046      auto    auto    --
+Po28          AIX                noOperMem 8         auto    auto    --
+Po29          AIX                noOperMem 8         auto    auto    --
+Po30          AIX                noOperMem 8         auto    auto    --
+Po31          AIX                noOperMem 8         auto    auto    --
+Po32          DC1MSDEVHST12      noOperMem 1046      auto    auto    --
+Po33          DC1MSDEVHST13      noOperMem 1046      auto    auto    --
+Po34          DC1MSDEVHST14      noOperMem 1046      auto    auto    --
+Po35          DC1MSDEVHST15      noOperMem 1046      auto    auto    --
+Po36          DC1MSDEVHST16      noOperMem 1046      auto    auto    --
+Po37          DC1MSDEVHST12      noOperMem trunk     auto    auto    --
+Po38          DC1MSDEVHST13      noOperMem trunk     auto    auto    --
+Po39          DC1MSDEVHST14      noOperMem trunk     auto    auto    --
+Po40          DC1MSDEVHST15      noOperMem trunk     auto    auto    --
+Po41          DC1MSDEVHST16      noOperMem trunk     auto    auto    --
+Po42          DRCBFUATHST01      noOperMem trunk     auto    auto    --
+Po43          UCS-CCE-VXMLGWB    noOperMem 808       auto    auto    --
+Po44          VMMN-DRC-CCE-UCS10 noOperMem trunk     auto    auto    --
+Po45          devbighdp11        noOperMem 1044      auto    auto    --
+Po46          devbighdp12        noOperMem 1044      auto    auto    --
+Po47          devbighdp13        noOperMem 1044      auto    auto    --
+Po48          devbighdp14        noOperMem 1044      auto    auto    --
+Po49          devbighdp15        noOperMem 1044      auto    auto    --
+Po50          DRCMSAPPHST85-DATA noOperMem 1046      auto    auto    --
+Po51          DRCMSAPPHST85-VM   noOperMem trunk     auto    auto    --
+Po52          VMMN-DRCVICCMSC02  noOperMem trunk     auto    auto    --
+Po53          VMNe-IDBIJKTDRC-02 noOperMem trunk     auto    auto    --
+Po54          VMMa-IDBIJKTDRC-02 noOperMem trunk     auto    auto    --
+Po55          VMNe-IDBIJKTDRC-04 noOperMem trunk     auto    auto    --
+Po56          VMMa-IDBIJKTDRC-04 noOperMem trunk     auto    auto    --
+Po57          VMMN-DRC-CCE-UCS12 noOperMem trunk     auto    auto    --
+Po58          VMMN-IDBIJKTDC-08  noOperMem trunk     auto    auto    --
+Po59          VMMa-DRCVICUCS02   noOperMem trunk     auto    auto    --
+Po60          VMNe-DRCVICUCS02   noOperMem trunk     auto    auto    --
+Po61          DRCBIGHDP65        noOperMem 8         auto    auto    --
+Po62          DRCBIGHDP66        noOperMem 8         auto    auto    --
+Po63          DRCBIGHDP74        noOperMem 8         auto    auto    --
+Po64          DRCBIGHDP75        noOperMem 3454      auto    auto    --
+Po65          DRCBIGHDP76        noOperMem 3454      auto    auto    --
+Po66          DRCBIGHDP77        noOperMem 3454      auto    auto    --
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Vlan1         --                 down      routed    auto    auto    --
+Vlan1028      --                 connected routed    auto    auto    --
