@@ -1,0 +1,22 @@
+Flags:  D - down        P - bundled in port-channel
+        I - stand-alone s - suspended
+        H - Hot-standby (LACP only)
+        R - Layer3      S - Layer2
+        U - in use      f - failed to allocate aggregator
+
+        M - not in use, minimum links not met
+        u - unsuitable for bundling
+        w - waiting to be aggregated
+        d - default port
+
+        A - formed by Auto LAG
+
+
+Number of channel-groups in use: 1
+Number of aggregators:           1
+
+Group  Port-channel  Protocol    Ports
+------+-------------+-----------+-----------------------------------------------
+10     Po10(SU)        LACP        Te5/0/1(P)      Te6/0/1(P)      
+
+Stop recording MBCA-LAN28-S1 (10.21.218.4) – 2025-06-19 - 16:38:03

@@ -1,0 +1,217 @@
+
+Port         Name               Status       Vlan       Duplex  Speed Type
+Gi1/0/1      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/2      *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi1/0/3      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/4      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/5      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/6      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/7      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/8      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/9      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/10     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi1/0/11     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/12     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/13     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/14     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi1/0/15     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/16     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/17     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/18     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/19     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi1/0/20     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/21     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/22     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi1/0/23     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/24     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/25     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/26     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/27     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/28     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi1/0/29     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/30     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/31     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi1/0/32     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/33     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/34     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/35     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/36     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/37     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/38     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/39     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/40     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/41     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/42     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/43     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/44     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/45     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/46     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/47     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/48     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/1      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/2      *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/3      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/4      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/5      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/6      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/7      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/8      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/9      *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/10     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/11     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/12     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/13     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/14     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/15     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/16     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/17     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/18     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/19     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/20     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/21     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/22     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/23     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/24     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/25     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/26     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/27     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/28     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/29     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/30     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/31     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/32     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/33     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/34     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/35     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/36     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/37     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/38     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/39     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/40     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/41     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/42     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/43     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/44     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/45     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/46     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/47     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/48     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Te3/0/1      Connection to MBCA connected    trunk        full    10G SFP-10GBase-SR
+Te3/0/2                         notconnect   1            auto  a-10G unknown
+Te3/0/3                         notconnect   1            auto  a-10G unknown
+Te3/0/4                         notconnect   1            auto  a-10G unknown
+Te3/0/5                         inactive     1            auto   auto unknown
+Te3/0/6                         inactive     1            auto   auto unknown
+Te3/0/7                         inactive     1            auto   auto unknown
+Te3/0/8                         inactive     1            auto   auto unknown
+Fo3/0/9                         inactive     1            auto   auto unknown
+Fo3/0/10                        inactive     1            auto   auto unknown
+Ap3/0/1                         connected    1          a-full a-1000 unknown
+Te4/0/1      Connection to MBCA connected    trunk        full    10G SFP-10GBase-SR
+Te4/0/2                         notconnect   1            auto  a-10G unknown
+Te4/0/3                         notconnect   1            auto  a-10G unknown
+Te4/0/4                         notconnect   1            auto  a-10G unknown
+Te4/0/5                         inactive     1            auto   auto unknown
+Te4/0/6                         inactive     1            auto   auto unknown
+Te4/0/7                         inactive     1            auto   auto unknown
+Te4/0/8                         inactive     1            auto   auto unknown
+Fo4/0/9                         inactive     1            auto   auto unknown
+Fo4/0/10                        inactive     1            auto   auto unknown
+Ap4/0/1                         connected    1          a-full a-1000 unknown
+Gi5/0/1      *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi5/0/2      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/3      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/4      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/5      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/6      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/7      *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi5/0/8      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/9      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/10     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/11     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi5/0/12     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/13     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/14     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/15     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/16     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/17     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/18     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/19     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/20     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/21     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/22     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/23     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/24     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/25     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/26     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/27     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/28     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/29     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/30     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/31     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/32     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi5/0/33     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/34     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/35     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/36     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/37     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/38     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/39     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi5/0/40     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/41     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/42     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/43     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/44     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/45     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi5/0/46     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/47     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/48     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/1      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/2      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/3      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/4      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/5      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/6      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/7      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/8      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/9      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/10     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/11     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/12     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/13     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/14     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/15     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/16     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/17     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/18     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/19     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/20     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/21     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/22     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/23     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/24     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/25     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/26     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/27     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/28     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/29     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/30     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/31     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/32     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/33     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/34     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/35     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/36     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/37     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/38     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/39     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/40     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/41     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/42     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/43     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/44     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/45     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/46     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/47     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/48     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Po10         Connection to MBCA connected    trunk      a-full  a-10G N/A

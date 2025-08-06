@@ -1,3 +1,0 @@
-RMP-SF-AGG01# show lldp neighbors
-                    ^
-% Invalid command at '^' marker.

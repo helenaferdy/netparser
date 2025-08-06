@@ -1,20 +1,25 @@
+# app.py
+
 import os
 import pandas as pd
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory, flash
 from werkzeug.utils import secure_filename
-from logic import execute_split, execute_main
 import datetime
 import random
 import string
 
+# --- Import from both logic files --- -
+from logic import execute_split as execute_split_nxos, execute_main as execute_main_nxos
+from logic_xe import execute_split as execute_split_iosxe, execute_main as execute_main_iosxe
+
 # --- Configuration ---
-UPLOAD_FOLDER = '.' # Base directory
-SESSIONS_FOLDER = os.path.join(UPLOAD_FOLDER, 'sessions') # New dedicated folder for all sessions
+UPLOAD_FOLDER = '.' 
+SESSIONS_FOLDER = os.path.join(UPLOAD_FOLDER, 'sessions') 
 ALLOWED_EXTENSIONS = {'txt', 'log'}
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-app.secret_key = 'supersecretkey' # Needed for flashing messages
+app.secret_key = 'supersecretkey' 
 
 def allowed_file(filename):
     """Checks if the uploaded file has an allowed extension."""
@@ -35,18 +40,21 @@ def process_files():
 
     # --- DYNAMIC SESSION NAME GENERATION ---
     now = datetime.datetime.now()
-    date_part = now.strftime("%m%d") # Format: monthday
+    date_part = now.strftime("%m%d")
     random_part = ''.join(random.choices(string.ascii_lowercase + string.digits, k=6))
     session = f"{date_part}_{random_part}"
 
     files = request.files.getlist('logfiles')
+    
+    # --- Get the selected OS from the form ---
+    device_os = request.form.get('device_os', 'nx-os')
 
     if not files or files[0].filename == '':
         flash('No files selected for uploading.', 'error')
         return redirect(url_for('index'))
 
-    # --- Create Session Directories inside the 'sessions' folder ---
-    os.makedirs(SESSIONS_FOLDER, exist_ok=True) # Ensure the main sessions folder exists
+    # --- Create Session Directories ---
+    os.makedirs(SESSIONS_FOLDER, exist_ok=True) 
     session_base_path = os.path.join(SESSIONS_FOLDER, session)
     input_folder = os.path.join(session_base_path, 'input')
     output_folder = os.path.join(session_base_path, 'output')
@@ -65,17 +73,22 @@ def process_files():
             flash(f"File type not allowed for '{file.filename}'. Only .txt and .log files are accepted.", 'error')
             return redirect(url_for('index'))
     
-    # --- Run Processing Logic ---
+    # --- Select and Run Processing Logic ---
     try:
-        # --- VALIDATION CHECK ---
-        validation_errors = execute_split(input_folder, split_folder)
+        if device_os == 'ios-xe':
+            execute_split_func = execute_split_iosxe
+            execute_main_func = execute_main_iosxe
+        else: # Default to NX-OS
+            execute_split_func = execute_split_nxos
+            execute_main_func = execute_main_nxos
+        
+        validation_errors = execute_split_func(input_folder, split_folder)
         if validation_errors:
             for error in validation_errors:
                 flash(error, 'error')
             return redirect(url_for('index'))
         
-        # If validation passes, continue to main processing
-        execute_main(split_folder, output_folder)
+        execute_main_func(split_folder, output_folder)
 
     except Exception as e:
         flash(f"An error occurred during processing: {e}", 'error')
@@ -85,10 +98,7 @@ def process_files():
 
 @app.route('/results/<session_name>')
 def results(session_name):
-    """
-    Displays the results page with a summary table from the main Excel file
-    and download links for other reports.
-    """
+    """Displays the results page."""
     session_path = secure_filename(session_name)
     output_folder = os.path.join(SESSIONS_FOLDER, session_path, 'output')
     

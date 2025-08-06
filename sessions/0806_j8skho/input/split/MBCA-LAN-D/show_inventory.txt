@@ -1,0 +1,568 @@
+NAME: "Chassis 1 C6807-XL", DESCR: "Chassis 1 Cisco Systems, Inc. Catalyst 6807 7-slot Chassis System"
+PID: C6807-XL          ,                     VID: V01, SN: FGE21081N7T
+
+NAME: "Chassis 1 WS-C6K-VTT-E 1", DESCR: "Chassis 1 VTT-E FRU 1"
+PID: WS-C6K-VTT-E      ,                     VID:    , SN: SMT2101B571
+
+NAME: "Chassis 1 WS-C6K-VTT-E 2", DESCR: "Chassis 1 VTT-E FRU 2"
+PID: WS-C6K-VTT-E      ,                     VID:    , SN: SMT2101B582
+
+NAME: "Chassis 1 WS-C6K-VTT-E 3", DESCR: "Chassis 1 VTT-E FRU 3"
+PID: WS-C6K-VTT-E      ,                     VID:    , SN: SMT2101B580
+
+NAME: "Chassis 1 CLK-7600 1", DESCR: "Chassis 1 OSR-7600 Clock FRU 1"
+PID: CLK-7600          ,                     VID:    , SN: SMT2101A437
+
+NAME: "Chassis 1 CLK-7600 2", DESCR: "Chassis 1 OSR-7600 Clock FRU 2"
+PID: CLK-7600          ,                     VID:    , SN: SMT2101A437
+
+NAME: "Chassis 1 C6800-XL-PS-CONV 1", DESCR: "Chassis 1 C6807 power converter 1"
+PID: C6800-XL-PS-CONV  ,                     VID: V01, SN: FGE21081N4B
+
+NAME: "Chassis 1 C6800-XL-PS-CONV 2", DESCR: "Chassis 1 C6807 power converter 2"
+PID: C6800-XL-PS-CONV  ,                     VID: V01, SN: FGE21081N4D
+
+NAME: "Chassis 1 1", DESCR: "Chassis 1 C6800-16P10G DCEF2T 4 port 40GE / 16 port 10GE Rev. 1.2"
+PID: C6800-16P10G      ,                     VID: V01, SN: SAL212402Y3
+
+NAME: "Chassis 1 C6800-DFC Distributed Forwarding Card 4 EARL 1 sub-module of 1", DESCR: "Chassis 1 C6800-DFC Distributed Forwarding Card 4 Rev. 1.2"
+PID: C6800-DFC         ,                     VID:    , SN: SAL212402Y3
+
+NAME: "Chassis 1 Transceiver Te1/1/1", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/1/1"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G6KD     
+
+NAME: "Chassis 1 Transceiver Te1/1/2", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/1/2"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G0QP     
+
+NAME: "Chassis 1 Transceiver Te1/1/3", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/1/3"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G0Q7     
+
+NAME: "Chassis 1 Transceiver Te1/1/4", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/1/4"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2017GDZE     
+
+NAME: "Chassis 1 Transceiver Te1/1/5", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/1/5"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G1U7     
+
+NAME: "Chassis 1 Transceiver Te1/1/6", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/1/6"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: ACW23170LKS     
+
+NAME: "Chassis 1 Transceiver Te1/1/7", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Te1/1/7"
+PID: Unspecified       ,                     VID: Unspecified, SN: AGM1045JAVP     
+
+NAME: "Chassis 1 Transceiver Te1/1/9", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/1/9"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: AVD240990AS     
+
+NAME: "Chassis 1 Transceiver Te1/1/10", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/1/10"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: AVD21169J1U     
+
+NAME: "Chassis 1 Transceiver Te1/1/11", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/1/11"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: OPM21200E0N     
+
+NAME: "Chassis 1 Transceiver Te1/1/12", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/1/12"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G789     
+
+NAME: "Chassis 1 Transceiver Te1/1/13", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/1/13"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G953     
+
+NAME: "Chassis 1 Transceiver Te1/1/14", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/1/14"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G362     
+
+NAME: "Chassis 1 Transceiver Te1/1/15", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/1/15"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003GAFQ     
+
+NAME: "Chassis 1 Transceiver Te1/1/16", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/1/16"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2024G9VP     
+
+NAME: "Chassis 1 2", DESCR: "Chassis 1 C6800-16P10G DCEF2T 4 port 40GE / 16 port 10GE Rev. 1.2"
+PID: C6800-16P10G      ,                     VID: V01, SN: SAL212402Y0
+
+NAME: "Chassis 1 C6800-DFC Distributed Forwarding Card 4 EARL 1 sub-module of 2", DESCR: "Chassis 1 C6800-DFC Distributed Forwarding Card 4 Rev. 1.2"
+PID: C6800-DFC         ,                     VID:    , SN: SAL212402Y0
+
+NAME: "Chassis 1 Transceiver Te1/2/1", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/1"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: OPM2502147S     
+
+NAME: "Chassis 1 Transceiver Te1/2/2", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/2"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2022GE8H     
+
+NAME: "Chassis 1 Transceiver Te1/2/3", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/3"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G4AQ     
+
+NAME: "Chassis 1 Transceiver Te1/2/4", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/4"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G4B2     
+
+NAME: "Chassis 1 Transceiver Te1/2/5", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/5"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G0P6     
+
+NAME: "Chassis 1 Transceiver Te1/2/6", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/6"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: ACW252838FT     
+
+NAME: "Chassis 1 Transceiver Te1/2/7", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/7"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: ACW252838F9     
+
+NAME: "Chassis 1 Transceiver Te1/2/9", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/9"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: ACW25272UZ3     
+
+NAME: "Chassis 1 Transceiver Te1/2/10", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/10"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: ACW25272J6B     
+
+NAME: "Chassis 1 Transceiver Te1/2/11", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/11"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G77W     
+
+NAME: "Chassis 1 Transceiver Te1/2/12", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/12"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G2R3     
+
+NAME: "Chassis 1 Transceiver Te1/2/13", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/13"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G2YW     
+
+NAME: "Chassis 1 Transceiver Te1/2/14", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/14"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G1U0     
+
+NAME: "Chassis 1 Transceiver Te1/2/15", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/15"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G0QN     
+
+NAME: "Chassis 1 Transceiver Te1/2/16", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/2/16"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G6S2     
+
+NAME: "Chassis 1 3", DESCR: "Chassis 1 C6800-SUP6T 20 ports Supervisor Engine 6T 10GE w/ CTS Rev. 2.1"
+PID: C6800-SUP6T       ,                     VID: V03, SN: SAL212200HB
+
+NAME: "Chassis 1 C6800-PFC Policy Feature Card 4 EARL 1 sub-module of 3", DESCR: "Chassis 1 C6800-PFC Policy Feature Card 4 Rev. 1.0"
+PID: C6800-PFC         ,                     VID:    , SN: SAL21210542
+
+NAME: "Chassis 1 Transceiver Te1/3/1", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/3/1"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2024GF7Q     
+
+NAME: "Chassis 1 Transceiver Te1/3/2", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/3/2"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G3VB     
+
+NAME: "Chassis 1 Transceiver Te1/3/3", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/3/3"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G0P8     
+
+NAME: "Chassis 1 Transceiver Te1/3/4", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/3/4"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G0Q9     
+
+NAME: "Chassis 1 4", DESCR: "Chassis 1 C6800-SUP6T 20 ports Supervisor Engine 6T 10GE w/ CTS Rev. 2.1"
+PID: C6800-SUP6T       ,                     VID: V03, SN: SAL21220094
+
+NAME: "Chassis 1 C6800-PFC Policy Feature Card 4 EARL 1 sub-module of 4", DESCR: "Chassis 1 C6800-PFC Policy Feature Card 4 Rev. 1.0"
+PID: C6800-PFC         ,                     VID:    , SN: SAL212105BY
+
+NAME: "Chassis 1 Transceiver Te1/4/1", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/4/1"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G5G8     
+
+NAME: "Chassis 1 Transceiver Te1/4/2", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/4/2"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G3V8     
+
+NAME: "Chassis 1 Transceiver Te1/4/3", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/4/3"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2024GF74     
+
+NAME: "Chassis 1 5", DESCR: "Chassis 1 C6800-16P10G DCEF2T 4 port 40GE / 16 port 10GE Rev. 1.2"
+PID: C6800-16P10G      ,                     VID: V01, SN: SAL212402Y4
+
+NAME: "Chassis 1 C6800-DFC Distributed Forwarding Card 4 EARL 1 sub-module of 5", DESCR: "Chassis 1 C6800-DFC Distributed Forwarding Card 4 Rev. 1.2"
+PID: C6800-DFC         ,                     VID:    , SN: SAL212402Y4
+
+NAME: "Chassis 1 Transceiver Te1/5/1", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/1"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G1TS     
+
+NAME: "Chassis 1 Transceiver Te1/5/2", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/2"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2024GGDN     
+
+NAME: "Chassis 1 Transceiver Te1/5/3", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/3"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G3BE     
+
+NAME: "Chassis 1 Transceiver Te1/5/4", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/4"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2024GA7M     
+
+NAME: "Chassis 1 Transceiver Te1/5/5", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/5"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G0PK     
+
+NAME: "Chassis 1 Transceiver Te1/5/6", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/6"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G7W6     
+
+NAME: "Chassis 1 Transceiver Te1/5/7", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/7"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G41S     
+
+NAME: "Chassis 1 Transceiver Te1/5/8", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/8"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2024GG69     
+
+NAME: "Chassis 1 Transceiver Te1/5/9", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/9"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G9ZC     
+
+NAME: "Chassis 1 Transceiver Te1/5/10", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/10"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G7WB     
+
+NAME: "Chassis 1 Transceiver Te1/5/11", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/11"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G2AE     
+
+NAME: "Chassis 1 Transceiver Te1/5/12", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/12"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003GDVF     
+
+NAME: "Chassis 1 Transceiver Te1/5/13", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/13"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G0QB     
+
+NAME: "Chassis 1 Transceiver Te1/5/14", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/14"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2024GF7H     
+
+NAME: "Chassis 1 Transceiver Te1/5/15", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/15"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G2RL     
+
+NAME: "Chassis 1 Transceiver Te1/5/16", DESCR: "Chassis 1 SFP+ Transceiver 10Gbase-SR Te1/5/16"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G0PW     
+
+NAME: "Chassis 1 6", DESCR: "Chassis 1 C6800-48P-SFP 48 ports DCEF 48P 1GE SFP Rev. 1.0"
+PID: C6800-48P-SFP     ,                     VID: V01, SN: SAL212003J5
+
+NAME: "Chassis 1 WS-F6K-DFC4-A Distributed Forwarding Card 4 EARL 1 sub-module of 6", DESCR: "Chassis 1 WS-F6K-DFC4-A Distributed Forwarding Card 4 Rev. 2.1"
+PID: WS-F6K-DFC4-A     ,                     VID: V05, SN: SAL2122048M
+
+NAME: "Chassis 1 Transceiver Gi1/6/1", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Gi1/6/1"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21170TY7     
+
+NAME: "Chassis 1 Transceiver Gi1/6/2", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Gi1/6/2"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160GA1     
+
+NAME: "Chassis 1 Transceiver Gi1/6/3", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Gi1/6/3"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160G90     
+
+NAME: "Chassis 1 Transceiver Gi1/6/4", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Gi1/6/4"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160G77     
+
+NAME: "Chassis 1 Transceiver Gi1/6/6", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Gi1/6/6"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160G3X     
+
+NAME: "Chassis 1 Transceiver Gi1/6/7", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Gi1/6/7"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160GA0     
+
+NAME: "Chassis 1 Transceiver Gi1/6/8", DESCR: "Chassis 1 SFP Transceiver 1000BaseT Gi1/6/8"
+PID: GLC-TE             ,                     VID: V01 , SN: AVC211829KW     
+
+NAME: "Chassis 1 Transceiver Gi1/6/9", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Gi1/6/9"
+PID: Unspecified       ,                     VID: Unspecified, SN: AGM113616XJ     
+
+NAME: "Chassis 1 Transceiver Gi1/6/10", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Gi1/6/10"
+PID: Unspecified       ,                     VID: Unspecified, SN: AGM113616ZY     
+
+NAME: "Chassis 1 Transceiver Gi1/6/11", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Gi1/6/11"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: FNS20031B8K     
+
+NAME: "Chassis 1 Transceiver Gi1/6/26", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Gi1/6/26"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160G3R     
+
+NAME: "Chassis 1 Transceiver Gi1/6/28", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Gi1/6/28"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160GA2     
+
+NAME: "Chassis 1 Transceiver Gi1/6/30", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Gi1/6/30"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160G3Q     
+
+NAME: "Chassis 1 Transceiver Gi1/6/32", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Gi1/6/32"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160G3S     
+
+NAME: "Chassis 1 Transceiver Gi1/6/41", DESCR: "Chassis 1 SFP Transceiver 1000BaseT Gi1/6/41"
+PID: GLC-T              ,                     VID: V04, SN: MTC19060DYJ     
+
+NAME: "Chassis 1 Transceiver Gi1/6/47", DESCR: "Chassis 1 SFP Transceiver 1000BaseSX Gi1/6/47"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160G89     
+
+NAME: "Chassis 1 Transceiver Gi1/6/48", DESCR: "Chassis 1 SFP Transceiver 1000BaseT Gi1/6/48"
+PID: GLC-TE             ,                     VID: V01 , SN: AVC211829KP     
+
+NAME: "Chassis 1 C6807-XL-FAN 1", DESCR: "Chassis 1 C6807-XL Fan Tray 1"
+PID: C6807-XL-FAN      ,                     VID: V01, SN: DCH21200A2K
+
+NAME: "Chassis 1 PS 1 C6800-XL-3KW-AC", DESCR: "Chassis 1 AC power supply, 3000 watt 1"
+PID: C6800-XL-3KW-AC   ,                     VID: V01, SN: DTM211001PZ
+
+NAME: "Chassis 1 PS 2 C6800-XL-3KW-AC", DESCR: "Chassis 1 AC power supply, 3000 watt 2"
+PID: C6800-XL-3KW-AC   ,                     VID: V01, SN: DTM211001V1
+
+NAME: "Chassis 1 PS 3 C6800-XL-3KW-AC", DESCR: "Chassis 1 AC power supply, 3000 watt 3"
+PID: C6800-XL-3KW-AC   ,                     VID: V01, SN: DTM211001CT
+
+NAME: "Chassis 1 PS 4 C6800-XL-3KW-AC", DESCR: "Chassis 1 AC power supply, 3000 watt 4"
+PID: C6800-XL-3KW-AC   ,                     VID: V01, SN: DTM211001NS
+
+NAME: "Chassis 2 C6807-XL", DESCR: "Chassis 2 Cisco Systems, Inc. Catalyst 6807 7-slot Chassis System"
+PID: C6807-XL          ,                     VID: V01, SN: FGE21081N7G
+
+NAME: "Chassis 2 WS-C6K-VTT-E 1", DESCR: "Chassis 2 VTT-E FRU 1"
+PID: WS-C6K-VTT-E      ,                     VID:    , SN: SMT2104A120
+
+NAME: "Chassis 2 WS-C6K-VTT-E 2", DESCR: "Chassis 2 VTT-E FRU 2"
+PID: WS-C6K-VTT-E      ,                     VID:    , SN: SMT2104A133
+
+NAME: "Chassis 2 WS-C6K-VTT-E 3", DESCR: "Chassis 2 VTT-E FRU 3"
+PID: WS-C6K-VTT-E      ,                     VID:    , SN: SMT2104A018
+
+NAME: "Chassis 2 CLK-7600 1", DESCR: "Chassis 2 OSR-7600 Clock FRU 1"
+PID: CLK-7600          ,                     VID:    , SN: SMT2101A438
+
+NAME: "Chassis 2 CLK-7600 2", DESCR: "Chassis 2 OSR-7600 Clock FRU 2"
+PID: CLK-7600          ,                     VID:    , SN: SMT2101A438
+
+NAME: "Chassis 2 C6800-XL-PS-CONV 1", DESCR: "Chassis 2 C6807 power converter 1"
+PID: C6800-XL-PS-CONV  ,                     VID: V01, SN: FGE21081MXL
+
+NAME: "Chassis 2 C6800-XL-PS-CONV 2", DESCR: "Chassis 2 C6807 power converter 2"
+PID: C6800-XL-PS-CONV  ,                     VID: V01, SN: FGE21081N0R
+
+NAME: "Chassis 2 1", DESCR: "Chassis 2 C6800-16P10G DCEF2T 4 port 40GE / 16 port 10GE Rev. 1.2"
+PID: C6800-16P10G      ,                     VID: V01, SN: SAL212402XE
+
+NAME: "Chassis 2 C6800-DFC Distributed Forwarding Card 4 EARL 1 sub-module of 1", DESCR: "Chassis 2 C6800-DFC Distributed Forwarding Card 4 Rev. 1.2"
+PID: C6800-DFC         ,                     VID:    , SN: SAL212402XE
+
+NAME: "Chassis 2 Transceiver Te2/1/1", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/1/1"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G1U1     
+
+NAME: "Chassis 2 Transceiver Te2/1/2", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/1/2"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G7VZ     
+
+NAME: "Chassis 2 Transceiver Te2/1/3", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/1/3"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003GFQJ     
+
+NAME: "Chassis 2 Transceiver Te2/1/4", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/1/4"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: FNS21161FSW     
+
+NAME: "Chassis 2 Transceiver Te2/1/5", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/1/5"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G8W9     
+
+NAME: "Chassis 2 Transceiver Te2/1/6", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/1/6"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: ACW23170M1K     
+
+NAME: "Chassis 2 Transceiver Te2/1/7", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Te2/1/7"
+PID: Unspecified       ,                     VID: Unspecified, SN: AGM1104J9LW     
+
+NAME: "Chassis 2 Transceiver Te2/1/9", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/1/9"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: AVD2409909J     
+
+NAME: "Chassis 2 Transceiver Te2/1/10", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/1/10"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: OPM21200E28     
+
+NAME: "Chassis 2 Transceiver Te2/1/11", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/1/11"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: OPM21200BYU     
+
+NAME: "Chassis 2 Transceiver Te2/1/12", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/1/12"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G7VR     
+
+NAME: "Chassis 2 Transceiver Te2/1/13", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/1/13"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: FNS21161K5E     
+
+NAME: "Chassis 2 Transceiver Te2/1/14", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/1/14"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: FNS21161K2X     
+
+NAME: "Chassis 2 Transceiver Te2/1/15", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/1/15"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: FNS21161K58     
+
+NAME: "Chassis 2 Transceiver Te2/1/16", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/1/16"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: FNS21161K4L     
+
+NAME: "Chassis 2 2", DESCR: "Chassis 2 C6800-16P10G DCEF2T 4 port 40GE / 16 port 10GE Rev. 1.2"
+PID: C6800-16P10G      ,                     VID: V01, SN: SAL2124030T
+
+NAME: "Chassis 2 C6800-DFC Distributed Forwarding Card 4 EARL 1 sub-module of 2", DESCR: "Chassis 2 C6800-DFC Distributed Forwarding Card 4 Rev. 1.2"
+PID: C6800-DFC         ,                     VID:    , SN: SAL2124030T
+
+NAME: "Chassis 2 Transceiver Te2/2/1", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/1"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: OPM2502147T     
+
+NAME: "Chassis 2 Transceiver Te2/2/2", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/2"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: FNS21161JVR     
+
+NAME: "Chassis 2 Transceiver Te2/2/3", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/3"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: FNS21161JY8     
+
+NAME: "Chassis 2 Transceiver Te2/2/4", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/4"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2024GF7K     
+
+NAME: "Chassis 2 Transceiver Te2/2/5", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/5"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: FNS21161H17     
+
+NAME: "Chassis 2 Transceiver Te2/2/6", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/6"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: ACW252838F4     
+
+NAME: "Chassis 2 Transceiver Te2/2/7", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/7"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: ACW252838FZ     
+
+NAME: "Chassis 2 Transceiver Te2/2/9", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/9"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: ACW25272J6E     
+
+NAME: "Chassis 2 Transceiver Te2/2/10", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/10"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: ACW25272UZ8     
+
+NAME: "Chassis 2 Transceiver Te2/2/11", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/11"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G0QS     
+
+NAME: "Chassis 2 Transceiver Te2/2/12", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/12"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G7W1     
+
+NAME: "Chassis 2 Transceiver Te2/2/13", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/13"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G0PZ     
+
+NAME: "Chassis 2 Transceiver Te2/2/14", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/14"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G0PG     
+
+NAME: "Chassis 2 Transceiver Te2/2/15", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/15"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G2R2     
+
+NAME: "Chassis 2 Transceiver Te2/2/16", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/2/16"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G2QY     
+
+NAME: "Chassis 2 3", DESCR: "Chassis 2 C6800-SUP6T 20 ports Supervisor Engine 6T 10GE w/ CTS Rev. 2.1"
+PID: C6800-SUP6T       ,                     VID: V03, SN: SAL2120030B
+
+NAME: "Chassis 2 C6800-PFC Policy Feature Card 4 EARL 1 sub-module of 3", DESCR: "Chassis 2 C6800-PFC Policy Feature Card 4 Rev. 1.0"
+PID: C6800-PFC         ,                     VID:    , SN: SAL212002PH
+
+NAME: "Chassis 2 Transceiver Te2/3/1", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/3/1"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G4BU     
+
+NAME: "Chassis 2 Transceiver Te2/3/2", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/3/2"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2024GCK7     
+
+NAME: "Chassis 2 Transceiver Te2/3/3", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/3/3"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: FNS21161GZ6     
+
+NAME: "Chassis 2 Transceiver Te2/3/4", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/3/4"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: AVD22079CD8     
+
+NAME: "Chassis 2 4", DESCR: "Chassis 2 C6800-SUP6T 20 ports Supervisor Engine 6T 10GE w/ CTS Rev. 2.1"
+PID: C6800-SUP6T       ,                     VID: V03, SN: SAL2120030Q
+
+NAME: "Chassis 2 C6800-PFC Policy Feature Card 4 EARL 1 sub-module of 4", DESCR: "Chassis 2 C6800-PFC Policy Feature Card 4 Rev. 1.0"
+PID: C6800-PFC         ,                     VID:    , SN: SAL211804Q6
+
+NAME: "Chassis 2 Transceiver Te2/4/1", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/4/1"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2024GCKE     
+
+NAME: "Chassis 2 Transceiver Te2/4/2", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/4/2"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2022GEMW     
+
+NAME: "Chassis 2 Transceiver Te2/4/3", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/4/3"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: FNS21161H0N     
+
+NAME: "Chassis 2 5", DESCR: "Chassis 2 C6800-16P10G DCEF2T 4 port 40GE / 16 port 10GE Rev. 1.2"
+PID: C6800-16P10G      ,                     VID: V01, SN: SAL212402Y1
+
+NAME: "Chassis 2 C6800-DFC Distributed Forwarding Card 4 EARL 1 sub-module of 5", DESCR: "Chassis 2 C6800-DFC Distributed Forwarding Card 4 Rev. 1.2"
+PID: C6800-DFC         ,                     VID:    , SN: SAL212402Y1
+
+NAME: "Chassis 2 Transceiver Te2/5/1", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/1"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G8UW     
+
+NAME: "Chassis 2 Transceiver Te2/5/2", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/2"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2024GF8K     
+
+NAME: "Chassis 2 Transceiver Te2/5/3", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/3"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G29W     
+
+NAME: "Chassis 2 Transceiver Te2/5/4", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/4"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G7W7     
+
+NAME: "Chassis 2 Transceiver Te2/5/5", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/5"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G7VW     
+
+NAME: "Chassis 2 Transceiver Te2/5/6", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/6"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G7W9     
+
+NAME: "Chassis 2 Transceiver Te2/5/7", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/7"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G1CZ     
+
+NAME: "Chassis 2 Transceiver Te2/5/8", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/8"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2025G73L     
+
+NAME: "Chassis 2 Transceiver Te2/5/9", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/9"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G2TT     
+
+NAME: "Chassis 2 Transceiver Te2/5/10", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/10"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2024GCLQ     
+
+NAME: "Chassis 2 Transceiver Te2/5/11", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/11"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2023G1K3     
+
+NAME: "Chassis 2 Transceiver Te2/5/12", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/12"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2024GCCW     
+
+NAME: "Chassis 2 Transceiver Te2/5/13", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/13"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: FNS21161FJY     
+
+NAME: "Chassis 2 Transceiver Te2/5/14", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/14"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: FNS21161GYE     
+
+NAME: "Chassis 2 Transceiver Te2/5/15", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/15"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: FNS21161GY4     
+
+NAME: "Chassis 2 Transceiver Te2/5/16", DESCR: "Chassis 2 SFP+ Transceiver 10Gbase-SR Te2/5/16"
+PID: SFP-10G-SR         ,                     VID: V03 , SN: JUR2003G8V0     
+
+NAME: "Chassis 2 6", DESCR: "Chassis 2 C6800-48P-SFP 48 ports DCEF 48P 1GE SFP Rev. 1.0"
+PID: C6800-48P-SFP     ,                     VID: V01, SN: SAL212301GH
+
+NAME: "Chassis 2 WS-F6K-DFC4-A Distributed Forwarding Card 4 EARL 1 sub-module of 6", DESCR: "Chassis 2 WS-F6K-DFC4-A Distributed Forwarding Card 4 Rev. 2.1"
+PID: WS-F6K-DFC4-A     ,                     VID: V05, SN: SAL211801B4
+
+NAME: "Chassis 2 Transceiver Gi2/6/1", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Gi2/6/1"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160G8N     
+
+NAME: "Chassis 2 Transceiver Gi2/6/2", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Gi2/6/2"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160HAH     
+
+NAME: "Chassis 2 Transceiver Gi2/6/3", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Gi2/6/3"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160H5G     
+
+NAME: "Chassis 2 Transceiver Gi2/6/4", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Gi2/6/4"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160G4N     
+
+NAME: "Chassis 2 Transceiver Gi2/6/6", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Gi2/6/6"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160G8M     
+
+NAME: "Chassis 2 Transceiver Gi2/6/7", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Gi2/6/7"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160G8J     
+
+NAME: "Chassis 2 Transceiver Gi2/6/8", DESCR: "Chassis 2 SFP Transceiver 1000BaseT Gi2/6/8"
+PID: GLC-TE             ,                     VID: V01 , SN: AVC211829KS     
+
+NAME: "Chassis 2 Transceiver Gi2/6/9", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Gi2/6/9"
+PID: Unspecified       ,                     VID: Unspecified, SN: OPA12070909     
+
+NAME: "Chassis 2 Transceiver Gi2/6/10", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Gi2/6/10"
+PID: Unspecified       ,                     VID: Unspecified, SN: AGM113616X7     
+
+NAME: "Chassis 2 Transceiver Gi2/6/11", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Gi2/6/11"
+PID: Unspecified       ,                     VID: Unspecified, SN: AGM113616X9     
+
+NAME: "Chassis 2 Transceiver Gi2/6/26", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Gi2/6/26"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21170TY9     
+
+NAME: "Chassis 2 Transceiver Gi2/6/28", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Gi2/6/28"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160GBK     
+
+NAME: "Chassis 2 Transceiver Gi2/6/30", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Gi2/6/30"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160G52     
+
+NAME: "Chassis 2 Transceiver Gi2/6/32", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Gi2/6/32"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21170TYB     
+
+NAME: "Chassis 2 Transceiver Gi2/6/41", DESCR: "Chassis 2 SFP Transceiver 1000BaseT Gi2/6/41"
+PID: Unspecified       ,                     VID: Unspecified, SN: AGM182327L6     
+
+NAME: "Chassis 2 Transceiver Gi2/6/47", DESCR: "Chassis 2 SFP Transceiver 1000BaseSX Gi2/6/47"
+PID: GLC-SX-MMD         ,                     VID: V01 , SN: OPM21160G8G     
+
+NAME: "Chassis 2 C6807-XL-FAN 1", DESCR: "Chassis 2 C6807-XL Fan Tray 1"
+PID: C6807-XL-FAN      ,                     VID: V01, SN: DCH21200A24
+
+NAME: "Chassis 2 PS 1 C6800-XL-3KW-AC", DESCR: "Chassis 2 AC power supply, 3000 watt 1"
+PID: C6800-XL-3KW-AC   ,                     VID: V01, SN: DTM211001X3
+
+NAME: "Chassis 2 PS 2 C6800-XL-3KW-AC", DESCR: "Chassis 2 AC power supply, 3000 watt 2"
+PID: C6800-XL-3KW-AC   ,                     VID: V01, SN: DTM211001GB
+
+NAME: "Chassis 2 PS 3 C6800-XL-3KW-AC", DESCR: "Chassis 2 AC power supply, 3000 watt 3"
+PID: C6800-XL-3KW-AC   ,                     VID: V01, SN: DTM211001S0
+
+NAME: "Chassis 2 PS 4 C6800-XL-3KW-AC", DESCR: "Chassis 2 AC power supply, 3000 watt 4"
+PID: C6800-XL-3KW-AC   ,                     VID: V01, SN: DTM211001CM
+
+

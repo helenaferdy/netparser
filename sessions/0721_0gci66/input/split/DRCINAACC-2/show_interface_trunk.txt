@@ -1,1 +1,0 @@
-DRCINAACC-2# show interface trunk
