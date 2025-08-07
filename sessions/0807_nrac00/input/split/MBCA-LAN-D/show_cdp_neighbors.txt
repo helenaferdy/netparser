@@ -1,0 +1,185 @@
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+MBCA-WLC1.bca.co.id
+                 Ten 2/2/10        153              R I   C9800-40- Ten 0/0/1
+MBCA-WLC1.bca.co.id
+                 Ten 1/2/10        144              R I   C9800-40- Ten 0/0/0
+MBCA-LANB-S1.bca.co.id
+                 Ten 1/1/6         131              S I   C9300-48P Ten 1/1/2
+MBCA-LANB-S1.bca.co.id
+                 Ten 2/1/6         143              S I   C9300-48P Ten 1/1/1
+MBCA-LAN12A-S1.bca.co.id
+                 Ten 1/5/5         149              S I   WS-C4507R Ten 3/1
+MBCA-LAN12A-S1.bca.co.id
+                 Ten 2/5/5         130              S I   WS-C4507R Ten 4/1
+MBCA-CORE2(FGE24126BWH)
+                 Ten 2/2/2         145             R S C  N9K-C9508 Eth 2/10
+MBCA-CORE2(FGE24126BWH)
+                 Ten 1/2/2         145             R S C  N9K-C9508 Eth 2/9
+MBCA-CORE2(FGE24126BWH)
+                 Ten 2/2/1         167             R S C  N9K-C9508 Eth 1/10
+MBCA-CORE2(FGE24126BWH)
+                 Ten 1/2/1         167             R S C  N9K-C9508 Eth 1/9
+MBCA-UTILITY-S2.intra.bca.co.id
+                 Gig 2/6/10        144              S I   C9200L-48 Gig 1/1/2
+MBCA-UTILITY-S2.intra.bca.co.id
+                 Gig 1/6/10        171              S I   C9200L-48 Gig 1/1/1
+MBCA-PE-R1.bca.co.id
+                 Gig 2/6/4         136              R I   ASR1006   Gig 0/1/1
+MBCA-PE-R1.bca.co.id
+                 Gig 1/6/4         177              R I   ASR1006   Gig 1/1/1
+MBCA-CORE1(FGE22184GHG)
+                 Ten 2/1/2         167             R S C  N9K-C9508 Eth 2/10
+MBCA-CORE1(FGE22184GHG)
+                 Ten 1/1/2         167             R S C  N9K-C9508 Eth 2/9
+MBCA-CORE1(FGE22184GHG)
+                 Ten 2/1/1         167             R S C  N9K-C9508 Eth 1/10
+MBCA-CORE1(FGE22184GHG)
+                 Ten 1/1/1         167             R S C  N9K-C9508 Eth 1/9
+MBCA-CCTV-SW.bca.co.id
+                 Gig 2/6/2         140              S I   C9300-24S Gig 1/1/4
+MBCA-CCTV-SW.bca.co.id
+                 Gig 1/6/2         173              S I   C9300-24S Gig 1/1/3
+MBCA-CCTV-SW.bca.co.id
+                 Gig 2/6/1         137              S I   C9300-24S Gig 1/1/2
+MBCA-CCTV-SW.bca.co.id
+                 Gig 1/6/1         144              S I   C9300-24S Gig 1/1/1
+MBCA-SFBU-NX1.bca.co.id(FOC1927R2AR)
+                 Ten 2/1/3         155            R S I C N5K-C5672 Eth 1/2
+MBCA-SFBU-NX1.bca.co.id(FOC1927R2AR)
+                 Ten 1/1/3         150            R S I C N5K-C5672 Eth 1/1
+MBCA-SFBU-NX2.bca.co.id(FOC1927R2AP)
+                 Ten 2/2/3         177            R S I C N5K-C5672 Eth 1/2
+MBCA-SFBU-NX2.bca.co.id(FOC1927R2AP)
+                 Ten 1/2/3         174            R S I C N5K-C5672 Eth 1/1
+MBCA-LAN7-S1.bca.co.id
+                 Ten 1/5/3         136              S I   WS-C4507R Ten 3/1
+MBCA-LAN7-S1.bca.co.id
+                 Ten 2/5/3         129              S I   WS-C4507R Ten 4/1
+MBCA-LAN12-S1.bca.co.id
+                 Ten 1/5/4         157              S I   WS-C4507R Ten 3/1
+MBCA-LAN12-S1.bca.co.id
+                 Ten 2/5/4         136              S I   WS-C4507R Ten 4/1
+MBCA-LAN30-S1.bca.co.id
+                 Ten 2/1/14        154              S I   WS-C4510R Ten 6/1
+MBCA-LAN30-S1.bca.co.id
+                 Ten 1/1/14        153              S I   WS-C4510R Ten 5/1
+MBCA-LAN21-S1.bca.co.id
+                 Ten 1/5/13        169              S I   WS-C4510R Ten 5/1
+MBCA-LAN21-S1.bca.co.id
+                 Ten 2/5/13        141              S I   WS-C4510R Ten 6/1
+MBCA-UTILITY-S1.bca.co.id
+                 Ten 2/1/7         162             R S I  C9410R    Ten 6/0/2
+MBCA-UTILITY-S1.bca.co.id
+                 Ten 1/1/7         122             R S I  C9410R    Ten 5/0/1
+MBCA-LAN32-S2.bca.co.id
+                 Ten 2/2/15        131              S I   C9407R    Ten 4/0/1
+MBCA-LAN32-S2.bca.co.id
+                 Ten 1/2/15        179              S I   C9407R    Ten 3/0/1
+MBCA-LAN31-S1.bca.co.id
+                 Ten 2/2/14        153              S I   WS-C4510R Ten 6/1
+MBCA-LAN31-S1.bca.co.id
+                 Ten 1/2/14        151              S I   WS-C4510R Ten 5/1
+MBCA-LAN20-S1.bca.co.id
+                 Ten 1/5/12        149              S I   WS-C4507R Ten 3/1
+MBCA-LAN20-S1.bca.co.id
+                 Ten 2/5/12        154              S I   WS-C4507R Ten 4/1
+MBCA-LAN23-S2.bca.co.id
+                 Ten 1/5/16        171              S I   WS-C4507R Ten 3/1
+MBCA-LAN23-S2.bca.co.id
+                 Ten 2/5/16        173              S I   WS-C4507R Ten 4/1
+MBCA-LANGF-S1.bca.co.id
+                 Ten 1/5/2         143              S I   WS-C4507R Ten 3/1
+MBCA-LAN32-S1.bca.co.id
+                 Ten 2/1/15        150              S I   C9407R    Ten 4/0/1
+MBCA-LAN32-S1.bca.co.id
+                 Ten 1/1/15        136              S I   C9407R    Ten 3/0/1
+MBCA-UTILITY-S3.bca.co.id
+                 Gig 2/6/9         126              S I   C9200L-48 Gig 1/1/2
+MBCA-UTILITY-S3.bca.co.id
+                 Gig 1/6/9         130              S I   C9200L-48 Gig 1/1/1
+MBCA-LAN23-S1.bca.co.id
+                 Ten 1/5/15        166              S I   WS-C4510R Ten 5/1
+MBCA-LAN23-S1.bca.co.id
+                 Ten 2/5/15        167              S I   WS-C4510R Ten 6/1
+MBCA-LANGF-S1.bca.co.id
+                 Ten 2/5/2         156              S I   WS-C4507R Ten 4/1
+MBCA-LAN33-S1.bca.co.id
+                 Ten 2/1/16        163              S I   WS-C4510R Ten 6/1
+MBCA-LAN33-S1.bca.co.id
+                 Ten 1/1/16        158              S I   WS-C4510R Ten 5/1
+MBCA-LAN22-S1.bca.co.id
+                 Ten 1/5/14        171              S I   WS-C4507R Ten 3/1
+MBCA-LAN22-S1.bca.co.id
+                 Ten 2/5/14        178              S I   WS-C4507R Ten 4/1
+MBCA-LAN25-S1.bca.co.id
+                 Ten 1/2/11        143              S I   WS-C4510R Ten 5/1
+MBCA-LAN25-S1.bca.co.id
+                 Ten 2/2/11        160              S I   WS-C4510R Ten 6/1
+MBCA-LAN16-S1.bca.co.id
+                 Ten 1/5/7         125              S I   WS-C4507R Ten 3/1
+MBCA-LAN16-S1.bca.co.id
+                 Ten 2/5/7         128              S I   WS-C4507R Ten 4/1
+MBCA-LAN35-S1.bca.co.id
+                 Ten 2/2/16        153             R S I  C9410R    Ten 6/0/1
+MBCA-LAN35-S1.bca.co.id
+                 Ten 1/2/16        173             R S I  C9410R    Ten 5/0/1
+MBCA-UTILITY-S4.bca.co.id
+                 Gig 1/6/11        170              S I   C9200L-48 Gig 1/1/1
+MBCA-UTILITY-S4.bca.co.id
+                 Gig 2/6/11        140              S I   C9200L-48 Gig 1/1/2
+MBCA-LAN17-S1.bca.co.id
+                 Ten 2/5/9         166              S I   WS-C4510R Ten 6/1
+MBCA-LAN17-S1.bca.co.id
+                 Ten 1/5/9         133              S I   WS-C4510R Ten 5/1
+MBCA-LAN41-S1.bca.co.id
+                 Gig 2/6/7         176              S I   WS-C2960+ Gig 0/2
+MBCA-LAN41-S1.bca.co.id
+                 Gig 1/6/7         154              S I   WS-C2960+ Gig 0/1
+MBCA-LAN27-S1.bca.co.id
+                 Ten 2/2/12        137              S I   WS-C4510R Ten 6/1
+MBCA-LAN27-S1.bca.co.id
+                 Ten 1/2/12        134              S I   WS-C4510R Ten 5/1
+MBCA-LAN40-S1.bca.co.id
+                 Ten 2/3/4         155              S I   WS-C4507R Ten 4/1
+MBCA-LAN40-S1.bca.co.id
+                 Ten 1/3/4         163              S I   WS-C4507R Ten 3/1
+MBCA-LAN26-S1.bca.co.id
+                 Ten 1/1/12        125              S I   WS-C4510R Ten 5/1
+MBCA-LAN26-S1.bca.co.id
+                 Ten 2/1/12        142              S I   WS-C4510R Ten 6/1
+MBCA-LAN16-S2.bca.co.id
+                 Ten 2/5/8         170              S I   WS-C4507R Ten 4/1
+MBCA-LAN16-S2.bca.co.id
+                 Ten 1/5/8         154              S I   WS-C4507R Ten 3/1
+MBCA-LAN15-S1.bca.co.id
+                 Ten 1/5/6         174              S I   WS-C4510R Ten 5/1
+MBCA-LAN15-S1.bca.co.id
+                 Ten 2/5/6         167              S I   WS-C4510R Ten 6/1
+MBCA-LAN29-S1.bca.co.id
+                 Ten 1/2/13        179              S I   WS-C4510R Ten 5/1
+MBCA-LAN29-S1.bca.co.id
+                 Ten 2/2/13        144              S I   WS-C4510R Ten 6/1
+MBCA-LANLG-S1.bca.co.id
+                 Ten 1/5/1         135              S I   WS-C4507R Ten 3/1
+MBCA-LANLG-S1.bca.co.id
+                 Ten 2/5/1         156              S I   WS-C4507R Ten 4/1
+MBCA-LAN28-S1.bca.co.id
+                 Ten 1/1/13        123              S I   C9410R    Ten 5/0/1
+MBCA-LAN28-S1.bca.co.id
+                 Ten 2/1/13        141              S I   C9410R    Ten 6/0/1
+MBCA-LAN18-S1.bca.co.id
+                 Ten 1/5/10        153              S I   WS-C4510R Ten 5/1
+MBCA-LAN18-S1.bca.co.id
+                 Ten 2/5/10        174              S I   WS-C4510R Ten 6/1
+MBCA-LAN19-S1.bca.co.id
+                 Ten 1/5/11        156              S I   WS-C4507R Ten 3/1
+MBCA-LAN19-S1.bca.co.id
+                 Ten 2/5/11        128              S I   WS-C4507R Ten 4/1
+MBCA-WLAN-WLC1   Gig 1/6/8         166               H    AIR-CT550 Gig 0/0/1
+MBCA-WLAN-WLC1   Gig 2/6/8         166               H    AIR-CT550 Gig 0/0/2
+
+Total cdp entries displayed : 90

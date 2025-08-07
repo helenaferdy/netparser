@@ -1,0 +1,87 @@
+RMP-INT-ACS-01# show interface description
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+mgmt0                    --
+
+-------------------------------------------------------------------------------
+Port          Type   Speed   Description
+-------------------------------------------------------------------------------
+Eth1/1        eth    10G     --
+Eth1/2        eth    10G     --
+Eth1/3        eth    10G     --
+Eth1/4        eth    10G     --
+Eth1/5        eth    10G     Server_T8
+Eth1/6        eth    10G     Server_T8
+Eth1/7        eth    10G     Server_T8
+Eth1/8        eth    10G     Server_T8
+Eth1/9        eth    10G     Server_T8
+Eth1/10       eth    10G     Server_T8
+Eth1/11       eth    10G     Server_T8
+Eth1/12       eth    10G     Server_T8
+Eth1/13       eth    10G     Server_T8
+Eth1/14       eth    10G     Server_T8
+Eth1/15       eth    10G     Server_T8
+Eth1/16       eth    10G     Server_T8
+Eth1/17       eth    10G     Server_T8
+Eth1/18       eth    10G     Server_T8
+Eth1/19       eth    10G     Server_T8
+Eth1/20       eth    10G     Server_T8
+Eth1/21       eth    10G     T8-MCM-Node-1-PCI-1
+Eth1/22       eth    10G     T8-MCM-Node-2-PCI-1
+Eth1/23       eth    1000    --
+Eth1/24       eth    1000    --
+Eth1/25       eth    25G     --
+Eth1/26       eth    25G     --
+Eth1/27       eth    25G     --
+Eth1/28       eth    25G     --
+Eth1/29       eth    25G     --
+Eth1/30       eth    25G     --
+Eth1/31       eth    25G     --
+Eth1/32       eth    25G     --
+Eth1/33       eth    25G     --
+Eth1/34       eth    25G     --
+Eth1/35       eth    25G     --
+Eth1/36       eth    25G     --
+Eth1/37       eth    25G     --
+Eth1/38       eth    25G     --
+Eth1/39       eth    10G     Exalogic
+Eth1/40       eth    10G     Exalogic
+Eth1/41       eth    10G     Exalogic
+Eth1/42       eth    10G     Exalogic
+Eth1/43       eth    10G     #VPC Peer-Link#
+Eth1/44       eth    10G     #VPC Peer-Link#
+Eth1/45       eth    25G     --
+Eth1/46       eth    25G     --
+Eth1/47       eth    25G     --
+Eth1/48       eth    25G     --
+Eth1/49       eth    100G    --
+Eth1/50       eth    100G    --
+Eth1/51       eth    40G     #RMP-SF-ACSAIX02 Po1 (vPC PL)#
+Eth1/52       eth    40G     #RMP-SF-ACSAIX02 Po1 (vPC PL)#
+Eth1/53       eth    40G     #CONNECTION TO NEW INET EDGE#
+Eth1/54       eth    40G     #CONNECTION TO NEW INET EDGE#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Po1                      #RMP-SF-ACSAIX02 Po1 (vPC PL)#
+Po2                      #RMP-DMZ-ACSSOL-02 Po2 (KeepAlive)#
+Po3                      #RMP-INT-EDGSW0102 Po7#
+Po4                      Server_T8
+Po5                      Server_T8
+Po6                      Server_T8
+Po7                      Server_T8
+Po8                      Server_T8
+Po9                      Server_T8
+Po10                     Server_T8
+Po11                     Server_T8
+Po12                     #CONNECTION TO NEW INET EDGE#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Vlan1                    --
+Vlan11                   --
+Vlan911                  --

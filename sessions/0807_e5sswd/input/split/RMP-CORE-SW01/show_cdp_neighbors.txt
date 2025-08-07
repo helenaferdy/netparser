@@ -1,0 +1,69 @@
+RMP-CORE-SW01# show cdp neighbors
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+Device-ID          Local Intrfce  Hldtme Capability  Platform      Port ID
+RMP-DCI-OTV01-EXT.supporting.corp.bankmandiri.co.id(FXS1909Q0LG)
+                    mgmt0          171    R S s     N77-C7706     mgmt0         
+RMP-DCI-OTV01.supporting.corp.bankmandiri.co.id(FXS1909Q0LG)
+                    mgmt0          171    R S s     N77-C7706     mgmt0         
+RMP-CORE-SW02.bankmandiri.co.id(FGE18470MZ0)
+                    mgmt0          174    R S s     N9K-C9508     mgmt0         
+RMP-DCI-OTV01-SF.supporting.corp.bankmandiri.co.id(FXS1909Q0LG)
+                    mgmt0          171    R S s     N77-C7706     mgmt0         
+RMP-INT-EDGSW01.supporting.corp.bankmandiri.co.id(JAF1747AEGB)
+                    mgmt0          174    R S s     N7K-C7009     mgmt0         
+RMP-INT-EDGSW01-admin.supporting.corp.bankmandiri.co.id(JAF1747AEGB)
+                    mgmt0          135    R S s     N7K-C7009     mgmt0         
+RMP-SF-AGG02.bankmandiri.co.id(FGE18520QTZ)
+                    mgmt0          171    R S s     N9K-C9508     mgmt0         
+S02A-134100-A(FDO21311SSX)
+                    Eth1/3         131    R S I s   UCS-FI-6332-1 Eth1/29       
+RMP-EXT-EDGSW01.bankmandiri.co.id(FOX2434PGXV)
+                    Eth1/5         174    R S s     N9K-C9504     Eth4/49       
+RMP-EXT-EDGSW02.supporting.corp.bankmandiri.co.id(FOX2434PGXX)
+                    Eth1/6         174    R S s     N9K-C9504     Eth4/49       
+DC2-BDR-LEAF-01(FDO2302188W)
+                    Eth1/15        176    R S s     N9K-C9336C-FX Eth1/7        
+DC2-BDR-LEAF-01(FDO2302188W)
+                    Eth1/34        176    R S s     N9K-C9336C-FX Eth1/27       
+DC2-BDR-LEAF-02(FDO230217ZM)
+                    Eth1/35        121    R S s     N9K-C9336C-FX Eth1/27       
+RMP-CORE-SW02.bankmandiri.co.id(FGE18470MZ0)
+                    Eth1/36        174    R S s     N9K-C9508     Eth1/36       
+S02A-134100-B(FDO21311T09)
+                    Eth2/3         151    R S I s   UCS-FI-6332-1 Eth1/30       
+DC2-BDR-LEAF-02(FDO230217ZM)
+                    Eth2/15        129    R S s     N9K-C9336C-FX Eth1/7        
+RMP-INT-EDGSW02.supporting.corp.bankmandiri.co.id(JAF1608AREP)
+                    Eth2/18        174    R S s     N7K-C7009     Eth7/1        
+RMP-CORE-SW02.bankmandiri.co.id(FGE18470MZ0)
+                    Eth2/36        174    R S s     N9K-C9508     Eth2/36       
+RMP-LAN-DSTVSS.bankmandiri.co.id
+                    Eth3/1         154    R S I     WS-C4507R+E   Ten1/1/1      
+RMP-LAN-DSTVSS.bankmandiri.co.id
+                    Eth3/2         171    R S I     WS-C4507R+E   Ten2/1/1      
+RMP-MGMT-DSTVSS.corp.bankmandiri.co.id
+                    Eth3/3         155    R S I     WS-C4500X-32  Ten1/1/1      
+RMP-MGMT-DSTVSS.corp.bankmandiri.co.id
+                    Eth3/4         155    R S I     WS-C4500X-32  Ten1/1/2      
+RMP-CORE-SW02.bankmandiri.co.id(FGE18470MZ0)
+                    Eth3/21        174    R S I s   N9K-C9508     Eth3/21       
+S02A-134100-A(FDO21311SSX)
+                    Eth3/30        175    R S I s   UCS-FI-6332-1 Eth1/15       
+S02A-134100-B(FDO21311T09)
+                    Eth3/33        144    R S I s   UCS-FI-6332-1 Eth1/16       
+RMP-CORE-SW02.bankmandiri.co.id(FGE18470MZ0)
+                    Eth3/46        174    R S I s   N9K-C9508     Eth3/46       
+RMP-LAN-DSTVSS.bankmandiri.co.id
+                    Eth4/1         148    R S I     WS-C4507R+E   Ten1/2/1      
+RMP-LAN-DSTVSS.bankmandiri.co.id
+                    Eth4/2         158    R S I     WS-C4507R+E   Ten2/2/1      
+RMP-MGMT-DSTVSS.corp.bankmandiri.co.id
+                    Eth4/3         170    R S I     WS-C4500X-32  Ten2/1/1      
+RMP-MGMT-DSTVSS.corp.bankmandiri.co.id
+                    Eth4/4         170    R S I     WS-C4500X-32  Ten2/1/2      
+
+Total entries displayed: 30

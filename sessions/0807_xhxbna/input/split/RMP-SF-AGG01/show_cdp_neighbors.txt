@@ -1,0 +1,80 @@
+RMP-SF-AGG01# show cdp neighbors
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+Device-ID          Local Intrfce  Hldtme Capability  Platform      Port ID
+RTRHQDRC-BIZNET     mgmt0          121    R         7206VXR       Gig0/3        
+RMP-EXT-EDGSW01.bankmandiri.co.id(FOX2434PGXV)
+                    mgmt0          161    R S s     N9K-C9504     mgmt0         
+RMP-DCI-OTV02-SF.supporting.corp.bankmandiri.co.id(FXS1909Q0KG)
+                    mgmt0          159    R S s     N77-C7706     mgmt0         
+RMP-EXT-EDGSW02.supporting.corp.bankmandiri.co.id(FOX2434PGXX)
+                    mgmt0          176    R S s     N9K-C9504     mgmt0         
+RMP-DCI-OTV02-EXT.supporting.corp.bankmandiri.co.id(FXS1909Q0KG)
+                    mgmt0          176    R S s     N77-C7706     mgmt0         
+RMP-INT-EDGSW02.supporting.corp.bankmandiri.co.id(JAF1608AREP)
+                    mgmt0          161    R S s     N7K-C7009     mgmt0         
+RMP-DCI-OTV02.supporting.corp.bankmandiri.co.id(FXS1909Q0KG)
+                    mgmt0          179    R S s     N77-C7706     mgmt0         
+RMP-INT-EDGSW02-admin.bankmandiri.co.id(JAF1608AREP)
+                    mgmt0          161    R S s     N7K-C7009     mgmt0         
+DC2-BDR-LEAF-01(FDO2302188W)
+                    Eth1/11        163    R S s     N9K-C9336C-FX Eth1/1        
+RMP-SF-ACSBLD11.bankmandiri.co.id(FDO21270V30)
+                    Eth1/19        121    R S I s   N9K-C93180YC- Eth1/51       
+RMP-SF-ACSBLD12.bankmandiri.co.id(FDO21270U6H)
+                    Eth1/23        161    R S I s   N9K-C93180YC- Eth1/51       
+RMP-SF-AGG02.bankmandiri.co.id(FGE18520QTZ)
+                    Eth1/35        159    R S s     N9K-C9508     Eth1/35       
+RMP-SF-AGG02.bankmandiri.co.id(FGE18520QTZ)
+                    Eth1/36        159    R S I s   N9K-C9508     Eth1/36       
+DC2-BDR-LEAF-02(FDO230217ZM)
+                    Eth2/11        178    R S s     N9K-C9336C-FX Eth1/1        
+RMP-SF-ACSBLD11.bankmandiri.co.id(FDO21270V30)
+                    Eth2/19        121    R S I s   N9K-C93180YC- Eth1/52       
+RMP-SF-ACSBLD12.bankmandiri.co.id(FDO21270U6H)
+                    Eth2/23        161    R S I s   N9K-C93180YC- Eth1/52       
+RMP-SF-AGG02.bankmandiri.co.id(FGE18520QTZ)
+                    Eth2/35        159    R S s     N9K-C9508     Eth2/35       
+RMP-SF-AGG02.bankmandiri.co.id(FGE18520QTZ)
+                    Eth2/36        159    R S I s   N9K-C9508     Eth2/36       
+RMP-DCI-OTV01-SF.supporting.corp.bankmandiri.co.id(FXS1909Q0LG)
+                    Eth3/1         159    R S I s   N77-C7706     Eth1/3        
+RMP-DCI-OTV02-SF.supporting.corp.bankmandiri.co.id(FXS1909Q0KG)
+                    Eth3/2         159    R S I s   N77-C7706     Eth1/3        
+RMP-DCI-OTV01-SF.supporting.corp.bankmandiri.co.id(FXS1909Q0LG)
+                    Eth3/5         159    R S I s   N77-C7706     Eth2/3        
+RMP-DCI-OTV02-SF.supporting.corp.bankmandiri.co.id(FXS1909Q0KG)
+                    Eth3/6         159    R S I s   N77-C7706     Eth2/3        
+S02A-134100-B(FDO21311T09)
+                    Eth3/20        153    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/17/1
+S02A-134100-B(FDO21311T09)
+                    Eth3/21        141    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/17/2
+S02A-154100-B(FDO213003XD)
+                    Eth3/23        167    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/17/1
+S02A-154100-B(FDO213003XD)
+                    Eth3/24        171    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/17/2
+S02A-134100-A(FDO21311SSX)
+                    Eth3/29        163    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/17/1
+S02A-134100-A(FDO21311SSX)
+                    Eth3/30        176    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/17/2
+S02A-154100-A(FDO21311SYL)
+                    Eth3/31        123    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/17/1
+S02A-154100-A(FDO21311SYL)
+                    Eth3/32        123    R S I s   UCS-FI-6332-1 
+                                                               Br-Ethernet1/17/2
+RMP-SF-AGG02.bankmandiri.co.id(FGE18520QTZ)
+                    Eth3/43        159    R S s     N9K-C9508     Eth3/46       
+RMP-SF-AGG02.bankmandiri.co.id(FGE18520QTZ)
+                    Eth3/48        159    R S s     N9K-C9508     Eth3/48       
+
+Total entries displayed: 32

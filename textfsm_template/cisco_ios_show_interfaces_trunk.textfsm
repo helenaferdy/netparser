@@ -2,10 +2,19 @@ Value PORT (\S+)
 Value ALLOWED_VLANS ([\d\-,]+)
 
 Start
-  ^Port\s+Vlans Allowed on Trunk -> RecordLines
+  # This rule finds the start of the section we want and moves to the RecordLines state
+  ^Port\s+Vlans allowed on trunk -> RecordLines
+  # This rule tells the parser to ignore all other lines until it finds the header above
+  ^. -> Continue
 
 RecordLines
+  # This rule captures the port and the VLANs
   ^${PORT}\s+${ALLOWED_VLANS} -> Record
-  ^Port\s+Vlans Err-disabled on Trunk -> End
+  # These rules tell the parser to stop when it sees the header for the next section
+  ^Port\s+Vlans allowed and active -> End
+  ^Port\s+Vlans in spanning tree -> End
+  ^Port\s+Vlans Err-disabled -> End
+  # This rule ignores empty lines within the data section
+  ^\s*$$ -> Continue
 
 End
