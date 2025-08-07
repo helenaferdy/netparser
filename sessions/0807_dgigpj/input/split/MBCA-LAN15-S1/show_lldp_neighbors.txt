@@ -1,0 +1,187 @@
+Capability codes:
+    (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+    (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+
+Device ID           Local Intf     Hold-time  Capability      Port ID
+P090WFA065185       Gi3/45         3601                       00e0.4c36.0051
+A090MH069345        Gi3/40         3601                       5c60.ba40.3f72
+LAB                 Gi2/2          3601                       00d8.6196.67fd
+P090WFA076169       Gi7/2          3601                       607d.0904.6cb2
+P090WFA075649       Gi3/30         3601                       5c60.ba40.bcbc
+SEP9C57ADB4FA86.intrGi7/17         180        B,T             9C57ADB4FA86:P1
+SEP00727827AE44     Gi2/19         180        B,T             00727827AE44:P1
+SEP5CE176112B81.intrGi4/26         180        B,T             5CE176112B81:P1
+A090ML061379        Gi2/16         3601                       e880.889b.5ca0
+P090WFA078693       Gi3/32         3601                       38ca.8454.769a
+P090WFA052683       Gi4/39         3601                       e070.ea3f.1491
+P090WFA071481       Gi2/17         3601                       00e0.4c36.0344
+P090WFA069748       Gi3/25         3601                       5c60.baba.40ae
+SEP5CE176111F63.intrGi2/48         180        B,T             5CE176111F63:P1
+P090WFA068344       Gi1/28         3601                       5c60.babb.7794
+A090ML070168        Gi10/19        3601                       e880.889b.5ab8
+P090WFA074505       Gi2/22         3601                       e070.ea3f.0493
+SEP9C57ADB4FA3F.intrGi10/21        180        B,T             9C57ADB4FA3F:P1
+SEP5CE176111F17.intrGi2/39         180        B,T             5CE176111F17:P1
+P090DL050984        Gi7/35         3601                       00d8.6196.5bf4
+SEP5CE176112BB4.intrGi10/46        180        B,T             5CE176112BB4:P1
+MBCA-WLAN15-AP03    Gi1/31         120        B               Gi0
+P090DDE950572       Gi9/28         3601                       30d0.42ea.9d29
+SEP5CE176112BEF.intrGi4/15         180        B,T             5CE176112BEF:P1
+P090WFA961672       Gi4/37         3601                       e070.ead8.d899
+SEP00727827AE2D     Gi2/45         180        B,T             00727827AE2D:P1
+A090MH081178        Gi7/47         3601                       00e0.4c36.0537
+SEPECCE13DB8AFA.intrGi8/47         180        B,T             ECCE13DB8AFA:P1
+SEPECCE13DB8AFD.intrGi10/44        180        B,T             ECCE13DB8AFD:P1
+P090MLESISB0055     Gi3/8          3601                       002b.6700.14b6
+P090WFA074512       Gi8/18         3601                       e070.ea3f.05bb
+SEP5CE176112C08.intrGi4/29         180        B,T             5CE176112C08:P1
+SEPE8EB34D98305     Gi8/33         180        B,T             E8EB34D98305:P1
+SEP5CE176112B8A.intrGi7/43         180        B,T             5CE176112B8A:P1
+P090WFA070506       Gi7/9          3601                       38ca.8457.0aaa
+SEP00EEABB7E85B.intrGi7/21         180        B,T             00EEABB7E85B:P1
+MBCA-WLAN15-AM02    Gi10/13        120        B               Gi0
+A090MH081665        Gi4/19         3601                       0c37.96d1.df6b
+P090WFA071793       Gi7/8          3601                       e070.ea3f.5798
+SIP-T46U            Gi8/44         180        B,T             805e.0c95.ea41
+P090WFA076277       Gi9/2          3601                       5c60.ba40.9fd0
+A090ML069868        Gi1/5          3601                       e880.889b.61d8
+SEPC0F87F9D4F0D.intrGi8/19         180        B,T             C0F87F9D4F0D:P1
+A090ML070320        Gi7/41         3601                       e880.889b.5ef6
+MBCA-WLAN15-AP04    Gi7/25         120        B               Gi0
+P090WFA073592       Gi4/34         3601                       5c60.baba.2385
+SEP9C57ADB4FA75.intrGi10/6         180        B,T             9C57ADB4FA75:P1
+SEPA4B4393199AE.intrGi10/47        180        B,T             A4B4393199AE:P1
+A090MH055261        Gi1/41         3601                       5c60.ba40.0d14
+A090MH081579        Gi7/36         3601                       0c37.96d1.df78
+A090MH081659        Gi3/36         3601                       0c37.96d1.df7e
+AVXAEFD84           Gi8/16         120        B,T             b447.5eae.fd84
+MBCA-WLAN15-AP01    Gi4/41         120        B               Gi0
+SEPE8EB34D98216     Gi8/17         180        B,T             E8EB34D98216:P1
+SEP9C57ADB4B4D8.intrGi4/18         180        B,T             9C57ADB4B4D8:P1
+P090WFA074168       Gi8/21         3601                       5c60.ba40.3f6c
+A090MLE069745       Gi9/13         3601                       e880.889b.5d8c
+SEP5CE176112BB2.intrGi7/18         180        B,T             5CE176112BB2:P1
+A090MHP079616       Gi2/27         3601                       5c60.baba.d152
+P090DH9903          Gi10/18        3601                       38ca.84b5.88b6
+P090WFA073603       Gi9/11         3601                       5c60.babb.f668
+SEPE8EB34D98368     Gi4/3          180        B,T             E8EB34D98368:P1
+P090WFA073870       Gi3/26         3601                       5c60.baba.72e5
+SEP5CE176112BBB.intrGi8/1          180        B,T             5CE176112BBB:P1
+A090MH052603        Gi4/1          3601                       e073.e75a.03c5
+SEP9C57ADB4A29E.intrGi8/38         180        B,T             9C57ADB4A29E:P1
+P090MH1302001       Gi9/12         3601                       606d.3cfa.8083
+A090MH072376        Gi7/48         3601                       606d.3cf0.012e
+SEPE8EB34D980BE.intrGi3/14         180        B,T             E8EB34D980BE:P1
+SEPE8EB34D980CD.intrGi3/13         180        B,T             E8EB34D980CD:P1
+SEP5CE176112B8C.intrGi7/7          180        B,T             5CE176112B8C:P1
+MBCA-WLAN15-AP02    Gi1/30         120        B               Gi0
+P090WFA072499       Gi7/11         3601                       e070.ea3f.57a4
+A090MHP970866       Gi4/2          3601                       3c18.a07e.c894
+A090MLE070492       Gi2/25         3601                       c4c6.e657.070b
+P090WFA070064       Gi10/24        3601                       5c60.ba40.6f1e
+A090MLE069685       Gi7/12         3601                       e880.889b.5f96
+SEP5CE176112BE4.intrGi8/20         180        B,T             5CE176112BE4:P1
+A090MH080997        Gi2/43         3601                       3c18.a0cc.c271
+P090WFA079180       Gi2/21         3601                       38ca.8457.0a9c
+P090WFA071805       Gi4/33         3601                       e070.ea3f.15ea
+SEP001BD47D3903.intrGi3/1          180        B,T             001BD47D3903:P1
+P090WFA072519       Gi8/6          3601                       e070.ead8.8290
+P090WFA071038       Gi10/17        3601                       5c60.ba40.6fe0
+P090WFA051754       Gi8/34         3601                       5c60.ba40.6fef
+TapIP-3FDU05CK2     Gi4/46         20         W               9402.300d.d8cb
+SEP002290058B16.intrGi10/22        180        B,T             002290058B16:P1
+A090MH081585        Gi3/47         3601                       0c37.96d1.e198
+P090KDLMBCA-003     Gi4/40         3601                       00d8.6196.5c32
+P090KALMBCA-15      Gi3/39         3601                       00d8.6196.5c0f
+P090WFA074756       Gi3/9          3601                       e070.ea3f.5458
+P090WFA077133       Gi4/32         3601                       5c60.baba.c2b3
+A090ML070507        Gi3/27         3601                       e880.889b.5c2a
+SEPD0EC358424F4.intrGi3/35         180        B,T             D0EC358424F4:P1
+SEP5CE176112BBA.intrGi10/23        180        B,T             5CE176112BBA:P1
+A093ML070492        Gi2/28         3601                       c4c6.e657.09a1
+P090WFA076002       Gi2/37         3601                       5c60.baba.442b
+P090WFA073869       Gi4/23         3601                       5c60.babb.1777
+P090WFA069824       Gi3/38         3601                       5c60.baba.4221
+P090WFA074294       Gi7/14         3601                       5c60.ba40.3da8
+A090MH081599        Gi7/23         3601                       0c37.96d1.e18e
+P090WFA072749       Gi2/41         3601                       5c60.ba40.2fbe
+P090WFA963768       Gi2/33         3601                       38ca.8454.2957
+SEPB83861587D7D.intrGi9/15         180        B,T             B83861587D7D:P1
+P090KDLBLI-001      Gi1/45         3601                       00d8.6196.6766
+P090WFA073871       Gi7/40         3601                       5c60.babb.b6e7
+A090ML081158        Gi8/42         3601                       e880.889b.6138
+P090WFA065537       Gi7/4          3601                       5c60.baba.f1ab
+SEP001BD47D4723.intrGi3/21         180        B,T             001BD47D4723:P1
+MBCA-WLAN15-AM03    Gi7/26         120        B               Gi0
+P090WFA051466       Gi8/12         3601                       e880.889b.5d44
+A090MH081611        Gi2/46         3601                       0c37.96d1.df89
+A090MH076534        Gi3/24         3601                       607d.0904.6b5d
+A090MH069586        Gi7/19         3601                       5c60.baba.2230
+P090WFA071356       Gi4/48         3601                       00e0.4c36.06f6
+A090MH081581        Gi2/30         3601                       0c37.96d1.df8a
+A090MH081632        Gi7/37         3601                       0c37.96d1.df80
+P090WFA068131       Gi4/20         3601                       e070.ea3f.043a
+P090WFA076029       Gi8/46         3601                       5c60.babb.0744
+A090MH052092        Gi3/22         3601                       607d.0904.6c46
+P090WFA069681       Gi3/19         3601                       5c60.baba.81ce
+SEP7802B1793AA3.intrGi1/27         180        B,T             7802B1793AA3:P1
+A090ML069307        Gi7/1          3601                       e880.889b.622c
+P090WFA064759       Gi8/40         3601                       5c60.babb.d79e
+P090WFA068935       Gi3/48         3601                       5c60.ba40.ec51
+SEP00727827AEFB     Gi8/22         180        B,T             00727827AEFB:P1
+SEP0022905A1EF9.intrGi9/32         180        B,T             0022905A1EF9:P1
+SEP00727827AE42.intrGi8/25         180        B,T             00727827AE42:P1
+P090WFA070504       Gi4/30         3601                       e070.ea3f.5415
+A090ML068942        Gi9/1          3601                       e880.889b.6158
+A090ML079580        Gi3/4          3601                       e880.889b.5d66
+P090KDLMBCA-001     Gi1/1          3601                       00d8.6196.674b
+A090MH078694        Gi9/8          3601                       7c4d.8ffe.626e
+SEP9C57ADB4FB06.intrGi10/20        180        B,T             9C57ADB4FB06:P1
+P090WFA073168       Gi2/35         3601                       5c60.baba.d1ed
+A090ML079690        Gi1/19         3601                       e880.889b.5d6e
+A090MHP079609       Gi9/5          3601                       3c18.a07e.cf37
+SEPB83861587D30.intrGi9/16         180        B,T             B83861587D30:P1
+A090MH079662        Gi8/39         3601                       3c18.a07e.c868
+P090WFA072463       Gi1/12         3601                       5c60.baba.83a5
+P090WFA073158       Gi2/40         3601                       5c60.baba.0229
+SEPBCF1F2B5B3E5.intrGi3/44         180        B,T             BCF1F2B5B3E5:P1
+RallyBar-1LRLH2     Gi4/45         20         S               4473.d6ee.5418
+SEP2C3ECF86F7E8.intrGi8/48         180        B,T             2C3ECF86F7E8:P1
+SEP108CCFE1EF91.intrGi7/22         180        B,T             108CCFE1EF91:P1
+AVB299A52           Gi8/15         120        B,T             001b.4f29.9a52
+SEP00727827AFC9.intrGi10/41        180        B,T             00727827AFC9:P1
+P090WFA068247       Gi2/42         3601                       e070.ea3f.e3b0
+P090WFA066560       Gi4/38         3601                       e070.ea3f.5736
+P090WFA068456       Gi4/31         3601                       e070.ead8.921d
+P090WFA052372       Gi4/28         3601                       e070.ead8.8205
+P090WFA068073       Gi4/44         3601                       e070.ea3f.0569
+SEPB83861587D9B.intrGi3/46         180        B,T             B83861587D9B:P1
+P090WFA068933       Gi3/43         3601                       5c60.baba.d3c8
+P090WFA072507       Gi7/46         3601                       e070.ea3f.e489
+P090WFA050746       Gi8/23         3601                       5c60.baba.f2e1
+P090WFA056236       Gi8/45         3601                       5c60.baba.8191
+P090WFA056348       Gi3/41         3601                       5c60.baba.a3ba
+P090WFA059790       Gi1/7          3601                       5c60.baba.8388
+A090MLE914176       Gi8/44         3601                       e880.889b.5c1e
+A090MH052949        Gi4/8          3601                       5c60.ba40.3f8f
+P090WFA078118       Gi2/47         3601                       5c60.baba.2227
+SEP00082F1B20BC.intrGi8/43         180        B,T             00082F1B20BC:P1
+P090WFA075848       Gi10/15        3601                       5c60.ba3c.1397
+84a9.3e6d.71c6      Gi1/32         3601                       84a9.3e6d.71c6
+309c.2375.3ea6      Gi4/4          3601                       309c.2375.3ea6
+98fa.9bdf.ff6d      Gi10/7         3601                       98fa.9bdf.ff6d
+8c16.45ea.56aa      Gi8/9          3601                       8c16.45ea.56aa
+e070.ea3f.142b      Gi8/2          3601                       e070.ea3f.142b
+c465.161e.1155      Gi3/11         3601                       c465.161e.1155
+c465.161e.10a8      Gi9/20         3601                       c465.161e.10a8
+00e0.4c36.0014      Gi4/22         3601                       00e0.4c36.0014
+5c60.baba.020f      Gi1/10         3601                       5c60.baba.020f
+e070.ea3f.35a7      Gi7/20         3601                       e070.ea3f.35a7
+e070.ea3f.5777      Gi4/25         3601                       e070.ea3f.5777
+e070.ea3f.541a      Gi4/36         3601                       e070.ea3f.541a
+5c60.baba.04a4      Gi7/42         3601                       5c60.baba.04a4
+000e.c6b5.56bf      Gi9/31         3601                       000e.c6b5.56bf
+00e0.4c36.07a2      Gi7/10         3601                       00e0.4c36.07a2
+
+Total entries displayed: 179
+

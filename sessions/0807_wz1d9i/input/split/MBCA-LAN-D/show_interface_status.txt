@@ -1,0 +1,288 @@
+
+Port          Name               Status       Vlan       Duplex  Speed Type
+Te1/1/1       Port Channel to MB connected    routed       full    10G 10Gbase-SR
+Te1/1/2       Port Channel to MB connected    routed       full    10G 10Gbase-SR
+Te1/1/3       vPC to MBCA-SFBU-N connected    trunk        full    10G 10Gbase-SR
+Te1/1/4       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/1/5       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/1/6       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/1/7       Port Channel to MB connected    trunk        full   1000 1000BaseSX
+Te1/1/8                          notconnect   routed       full    10G No Connector
+Te1/1/9                          monitoring   routed       full    10G 10Gbase-SR
+Te1/1/10      *** Connection to  connected    trunk        full    10G 10Gbase-SR
+Te1/1/11      *** Connection to  connected    trunk        full    10G 10Gbase-SR
+Te1/1/12      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/1/13      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/1/14      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/1/15      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/1/16      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/2/1       Port Channel to MB connected    routed       full    10G 10Gbase-SR
+Te1/2/2       Port Channel to MB connected    routed       full    10G 10Gbase-SR
+Te1/2/3       vPC to MBCA-SFBU-N connected    trunk        full    10G 10Gbase-SR
+Te1/2/4       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/2/5       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/2/6                          connected    trunk        full    10G 10Gbase-SR
+Te1/2/7                          connected    trunk        full    10G 10Gbase-SR
+Te1/2/8                          notconnect   routed       full    10G No Connector
+Te1/2/9       **Connection to MB connected    trunk        full    10G 10Gbase-SR
+Te1/2/10      **Connection to MB connected    trunk        full    10G 10Gbase-SR
+Te1/2/11      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/2/12      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/2/13      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/2/14      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/2/15      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/2/16      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/3/1       *** VSL Link to MB connected    routed       full    10G 10Gbase-SR
+Te1/3/2       *** VSL Link to MB connected    routed       full    10G 10Gbase-SR
+Te1/3/3       *** VSL Link For D connected    routed       full    10G 10Gbase-SR
+Te1/3/4       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/3/5                          disabled     routed       full    10G No Connector
+Te1/3/6                          disabled     routed       full    10G No Connector
+Te1/3/7                          disabled     routed       full    10G No Connector
+Te1/3/8                          disabled     routed       full    10G No Connector
+Fo1/3/9                          disabled     routed       full    40G No Connector
+Fo1/3/10                         disabled     routed       full    40G No Connector
+Te1/4/1       *** VSL Link to MB connected    routed       full    10G 10Gbase-SR
+Te1/4/2       *** VSL Link to MB connected    routed       full    10G 10Gbase-SR
+Te1/4/3       *** VSL Link For D connected    routed       full    10G 10Gbase-SR
+Te1/4/4                          disabled     routed       full    10G No Connector
+Te1/4/5                          disabled     routed       full    10G No Connector
+Te1/4/6                          disabled     routed       full    10G No Connector
+Te1/4/7                          disabled     routed       full    10G No Connector
+Te1/4/8                          disabled     routed       full    10G No Connector
+Fo1/4/9                          disabled     routed       full    40G No Connector
+Fo1/4/10                         disabled     routed       full    40G No Connector
+mgmt0                            notconnect   routed       full   auto 10/100/1000BaseT
+Te1/5/1       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/2       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/3       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/4       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/5       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/6       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/7       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/8       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/9       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/10      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/11      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/12      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/13      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/14      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/15      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te1/5/16      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Gi1/6/1       Connection To MBCA connected    trunk        full   1000 1000BaseSX
+Gi1/6/2       Connection To MBCA connected    trunk        full   1000 1000BaseSX
+Gi1/6/3       Connection To MBCA notconnect   routed       full   1000 1000BaseSX
+Gi1/6/4       Connection to MBCA connected    trunk        full   1000 1000BaseSX
+Gi1/6/5       Connection to MBCA notconnect   1            full   1000 No Transceiver
+Gi1/6/6       Connection to MBCA notconnect   1            full   1000 1000BaseSX
+Gi1/6/7       Connection to MBCA connected    trunk        full   1000 1000BaseSX
+Gi1/6/8       Connection to MBCA connected    trunk        full   1000 1000BaseT
+Gi1/6/9                          connected    trunk        full   1000 1000BaseSX
+Gi1/6/10                         connected    trunk        full   1000 1000BaseSX
+Gi1/6/11                         connected    trunk        full   1000 1000BaseSX
+Gi1/6/12                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/13                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/14                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/15                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/16                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/17                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/18                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/19                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/20                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/21                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/22                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/23                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/24                         notconnect   routed       full   1000 unknown
+Gi1/6/25                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/26                         notconnect   routed       full   1000 1000BaseSX
+Gi1/6/27                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/28                         notconnect   routed       full   1000 1000BaseSX
+Gi1/6/29                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/30                         notconnect   routed       full   1000 1000BaseSX
+Gi1/6/31                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/32                         notconnect   routed       full   1000 1000BaseSX
+Gi1/6/33                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/34                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/35                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/36                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/37                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/38                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/39                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/40                         notconnect   routed       full   1000 No Transceiver
+Gi1/6/41      *** SPAN Port to M notconnect   routed       full   1000 1000BaseT
+Gi1/6/42      *** Connected to P notconnect   routed       full   1000 No Transceiver
+Gi1/6/43      Connection to MBCA notconnect   892          full   1000 No Transceiver
+Gi1/6/44      Connection to MBCA notconnect   1            full   1000 No Transceiver
+Gi1/6/45      Connection to MBCA notconnect   1            full   1000 No Transceiver
+Gi1/6/46      Connection to MBCA notconnect   888          full   1000 No Transceiver
+Gi1/6/47      Connection to SPAN notconnect   routed       full   1000 1000BaseSX
+Gi1/6/48      Connection to SPAN monitoring   3001         full   1000 1000BaseT
+Te2/1/1       Port Channel to MB connected    routed       full    10G 10Gbase-SR
+Te2/1/2       Port Channel to MB connected    routed       full    10G 10Gbase-SR
+Te2/1/3       vPC to MBCA-SFBU-N connected    trunk        full    10G 10Gbase-SR
+Te2/1/4       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/1/5       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/1/6       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/1/7       Port Channel to MB connected    trunk        full   1000 1000BaseSX
+Te2/1/8                          notconnect   routed       full    10G No Connector
+Te2/1/9                          monitoring   routed       full    10G 10Gbase-SR
+Te2/1/10      *** Connection to  connected    trunk        full    10G 10Gbase-SR
+Te2/1/11      *** Connection to  connected    trunk        full    10G 10Gbase-SR
+Te2/1/12      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/1/13      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/1/14      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/1/15      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/1/16      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/2/1       Port Channel to MB connected    routed       full    10G 10Gbase-SR
+Te2/2/2       Port Channel to MB connected    routed       full    10G 10Gbase-SR
+Te2/2/3       vPC to MBCA-SFBU-N connected    trunk        full    10G 10Gbase-SR
+Te2/2/4       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/2/5       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/2/6                          connected    trunk        full    10G 10Gbase-SR
+Te2/2/7                          connected    trunk        full    10G 10Gbase-SR
+Te2/2/8                          notconnect   routed       full    10G No Connector
+Te2/2/9       **Connection to MB connected    trunk        full    10G 10Gbase-SR
+Te2/2/10      **Connection to MB connected    trunk        full    10G 10Gbase-SR
+Te2/2/11      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/2/12      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/2/13      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/2/14      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/2/15      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/2/16      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/3/1       *** VSL Link to MB connected    routed       full    10G 10Gbase-SR
+Te2/3/2       *** VSL Link to MB connected    routed       full    10G 10Gbase-SR
+Te2/3/3       *** VSL Link For D connected    routed       full    10G 10Gbase-SR
+Te2/3/4       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/3/5                          disabled     routed       full    10G No Connector
+Te2/3/6                          disabled     routed       full    10G No Connector
+Te2/3/7                          disabled     routed       full    10G No Connector
+Te2/3/8                          disabled     routed       full    10G No Connector
+Fo2/3/9                          disabled     routed       full    40G No Connector
+Fo2/3/10                         disabled     routed       full    40G No Connector
+Te2/4/1       *** VSL Link to MB connected    routed       full    10G 10Gbase-SR
+Te2/4/2       *** VSL Link to MB connected    routed       full    10G 10Gbase-SR
+Te2/4/3       *** VSL Link For D connected    routed       full    10G 10Gbase-SR
+Te2/4/4                          disabled     routed       full    10G No Connector
+Te2/4/5                          disabled     routed       full    10G No Connector
+Te2/4/6                          disabled     routed       full    10G No Connector
+Te2/4/7                          disabled     routed       full    10G No Connector
+Te2/4/8                          disabled     routed       full    10G No Connector
+Fo2/4/9                          disabled     routed       full    40G No Connector
+Fo2/4/10                         disabled     routed       full    40G No Connector
+Te2/5/1       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/2       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/3       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/4       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/5       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/6       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/7       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/8       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/9       Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/10      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/11      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/12      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/13      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/14      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/15      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Te2/5/16      Connection to MBCA connected    trunk        full    10G 10Gbase-SR
+Gi2/6/1       Connection To MBCA connected    trunk        full   1000 1000BaseSX
+Gi2/6/2       Connection To MBCA connected    trunk        full   1000 1000BaseSX
+Gi2/6/3       Connection To MBCA notconnect   routed       full   1000 1000BaseSX
+Gi2/6/4       Connection to MBCA connected    trunk        full   1000 1000BaseSX
+Gi2/6/5       Connection to MBCA notconnect   1            full   1000 No Transceiver
+Gi2/6/6       Connection to MBCA notconnect   1            full   1000 1000BaseSX
+Gi2/6/7       Connection to MBCA connected    trunk        full   1000 1000BaseSX
+Gi2/6/8       Connection to MBCA connected    trunk        full   1000 1000BaseT
+Gi2/6/9                          connected    trunk        full   1000 1000BaseSX
+Gi2/6/10                         connected    trunk        full   1000 1000BaseSX
+Gi2/6/11                         connected    trunk        full   1000 1000BaseSX
+Gi2/6/12                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/13                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/14                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/15                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/16                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/17                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/18                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/19                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/20                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/21                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/22                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/23                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/24                         notconnect   routed       full   1000 unknown
+Gi2/6/25                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/26                         notconnect   routed       full   1000 1000BaseSX
+Gi2/6/27                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/28                         notconnect   routed       full   1000 1000BaseSX
+Gi2/6/29                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/30                         notconnect   routed       full   1000 1000BaseSX
+Gi2/6/31                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/32                         notconnect   routed       full   1000 1000BaseSX
+Gi2/6/33                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/34                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/35                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/36                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/37                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/38                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/39                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/40                         notconnect   routed       full   1000 No Transceiver
+Gi2/6/41                         notconnect   routed       full   1000 1000BaseT
+Gi2/6/42      *** Connected to P notconnect   routed       full   1000 No Transceiver
+Gi2/6/43      Connection to MBCA notconnect   892          full   1000 No Transceiver
+Gi2/6/44      Connection to MBCA notconnect   1            full   1000 No Transceiver
+Gi2/6/45      Connection to MBCA notconnect   1            full   1000 No Transceiver
+Gi2/6/46      Connection to MBCA notconnect   888          full   1000 No Transceiver
+Gi2/6/47      Connection to SPAN notconnect   routed       full   1000 1000BaseSX
+Gi2/6/48                         notconnect   routed       full   1000 No Transceiver
+Po1           To MBCA-SFBU-NX    connected    trunk      a-full  a-10G 
+Po2           Port Channel to MB notconnect   routed       full   auto 
+Po3           To MBCA-WLAN-WLC1  connected    trunk      a-full a-1000 
+Po4           To MBCA-LANB-S1    connected    trunk      a-full  a-10G 
+Po5           To MBCA-LANLG-S1   connected    trunk      a-full  a-10G 
+Po6           To MBCA-LANGF-S1   connected    trunk      a-full  a-10G 
+Po7           To MBCA-LAN7-S1    connected    trunk      a-full  a-10G 
+Po10                             disabled     routed       full   auto 
+Po12          To MBCA-LAN12-S1   connected    trunk      a-full  a-10G 
+Po14          To MBCA-LAN12A-S1  connected    trunk      a-full  a-10G 
+Po15          To MBCA-LAN15-S1   connected    trunk      a-full  a-10G 
+Po16          To MBCA-LAN16-S1   connected    trunk      a-full  a-10G 
+Po17          To MBCA-LAN17-S1   connected    trunk      a-full  a-10G 
+Po18          To MBCA-LAN18-S1   connected    trunk      a-full  a-10G 
+Po19          To MBCA-LAN19-S1   connected    trunk      a-full  a-10G 
+Po20          To MBCA-LAN20-S1   connected    trunk      a-full  a-10G 
+Po21          To MBCA-LAN21-S1   connected    trunk      a-full  a-10G 
+Po22          To MBCA-LAN22-S1   connected    trunk      a-full  a-10G 
+Po23          To MBCA-LAN23-S1   connected    trunk      a-full  a-10G 
+Po25          To MBCA-LAN25-S1   connected    trunk      a-full  a-10G 
+Po26          To MBCA-LAN26-S1   connected    trunk      a-full  a-10G 
+Po27          To MBCA-LAN27-S1   connected    trunk      a-full  a-10G 
+Po28          To MBCA-LAN28-S1   connected    trunk      a-full  a-10G 
+Po29          To MBCA-LAN29-S1   connected    trunk      a-full  a-10G 
+Po30          To MBCA-LAN30-S1   connected    trunk      a-full  a-10G 
+Po31          To MBCA-LAN31-S1   connected    trunk      a-full  a-10G 
+Po32          To MBCA-LAN32-S1   connected    trunk      a-full  a-10G 
+Po33          To MBCA-LAN33-S1   connected    trunk      a-full  a-10G 
+Po35          To MBCA-LAN35-S1   connected    trunk      a-full  a-10G 
+Po40          Port-channel To MB connected    trunk      a-full  a-10G 
+Po41          To MBCA-LAN41-S1   connected    trunk      a-full a-1000 
+Po42          To MBCA-LAN32-S2   connected    trunk      a-full  a-10G 
+Po43          To MBCA-LAN23-S2   connected    trunk      a-full  a-10G 
+Po46          To MBCA-LAN16-S2   connected    trunk      a-full  a-10G 
+Po47          Port Channel to MB connected    trunk      a-full a-1000 
+Po48          Port Channel to MB connected    trunk      a-full a-1000 
+Po49          Port Channel to MB connected    trunk      a-full a-1000 
+Po50          Port Channel to MB connected    trunk      a-full a-1000 
+Po51          Port Channel to MB connected    trunk      a-full  a-10G 
+Po52          Port Channel to MB connected    trunk      a-full  a-10G 
+Po53          **To MBCA-WLAN-WLC connected    trunk      a-full  a-10G 
+Po54          Port Channel to MB connected    trunk      a-full  a-10G 
+Po55          *** Port Channel T connected    trunk      a-full  a-10G 
+Po61          Port Channel to MB connected    trunk      a-full  a-10G 
+Po62          Port Channel to MB connected    trunk      a-full  a-10G 
+Po63          **To MBCA-WLAN-WLC connected    trunk      a-full  a-10G 
+Po64          Port Channel to MB connected    trunk      a-full  a-10G 
+Po65          *** Port Channel T connected    trunk      a-full  a-10G 
+Po80          Port Channel to MB connected    trunk      a-full a-1000 
+Po101         *** Port-Channel f connected    routed     a-full  a-10G 
+Po102         *** Port-Channel f connected    routed     a-full  a-10G 
+Po103         Port Channel to MB connected    routed     a-full  a-10G 
+Po203         Port Channel to MB connected    routed     a-full  a-10G 
