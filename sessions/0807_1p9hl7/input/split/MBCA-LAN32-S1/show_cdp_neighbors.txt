@@ -1,0 +1,107 @@
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+SEP488B0A2EBF46  Gig 1/0/13        140             H P M  IP Phone  Port 1
+SEP24813BB14F80  Gig 2/0/32        124             H P M  IP Phone  Port 1
+SEP2C542D6A5BD5  Gig 5/0/14        157             H P M  IP Phone  Port 1
+SEP6026AAF4E12A  Gig 5/0/11        135             H P M  IP Phone  Port 1
+SEP002155031C14  Gig 2/0/11        164             H P M  IP Phone  Port 1
+SEPF0F755CD6E52  Gig 2/0/37        159             H P M  IP Phone  Port 1
+SEP001BD52CFD72  Gig 2/0/48        159             H P M  IP Phone  Port 1
+SEP80E86F2230E7  Gig 5/0/7         127             H P M  IP Phone  Port 1
+SEP001BD52CFEEA  Gig 1/0/6         129             H P M  IP Phone  Port 1
+SEPAC4A561106DC  Gig 5/0/8         128             H P M  IP Phone  Port 1
+SEP001BD52D0143  Gig 1/0/27        149             H P M  IP Phone  Port 1
+SEP001BD52CFF98  Gig 6/0/48        170             H P M  IP Phone  Port 1
+SEP24B657459280  Gig 6/0/31        166             H P M  IP Phone  Port 1
+SEP001BD52CFD21  Gig 1/0/24        132             H P M  IP Phone  Port 1
+SEP5CE176112C32  Gig 1/0/38        170             H P M  IP Phone  Port 1
+SEPFCFBFB1041C1  Gig 1/0/45        177             H P M  IP Phone  Port 1
+SEPDCCEC1D4FCA4  Gig 5/0/44        153             H P M  IP Phone  Port 1
+SEP001BD52CEF47  Gig 5/0/36        146             H P M  IP Phone  Port 1
+SEP6C6CD3540FD4  Gig 5/0/32        176              H P   Board 55  eth0
+SEP24813BB14F87  Gig 1/0/22        145             H P M  IP Phone  Port 1
+SEP44881649F095  Gig 6/0/10        136             H P M  IP Phone  Port 1
+SEP70F35AD29DB1  Gig 2/0/46        150             H P M  IP Phone  Port 1
+SEP9C57ADB4FA6D  Gig 6/0/43        149             H P M  IP Phone  Port 1
+SEP88FC5D578CE6  Gig 6/0/44        174             H P M  IP Phone  Port 1
+SEPF4EA674875FA  Gig 1/0/1         136             H P M  IP Phone  Port 1
+SEP24813BB14F55  Gig 2/0/27        154             H P M  IP Phone  Port 1
+SEP001BD5127A83  Gig 1/0/43        131             H P M  IP Phone  Port 1
+SEP70F35AD2B82D  Gig 1/0/23        178             H P M  IP Phone  Port 1
+SEP70F35AD29BA6  Gig 5/0/5         163             H P M  IP Phone  Port 1
+SEP001BD52CF9F6  Gig 1/0/5         136             H P M  IP Phone  Port 1
+SEP488B0A2EBA79  Gig 1/0/39        171             H P M  IP Phone  Port 1
+SEP00727827AFE0  Gig 5/0/6         120             H P M  IP Phone  Port 1
+SEPAC4A56100D8D  Gig 1/0/32        178             H P M  IP Phone  Port 1
+SEP00EEABB7E80A  Gig 2/0/31        169             H P M  IP Phone  Port 1
+SEP001EBE9188ED  Gig 5/0/39        124             H P M  IP Phone  Port 1
+SEP001BD47D5691  Gig 2/0/35        154             H P M  IP Phone  Port 1
+SEP9C57ADB46A07  Gig 6/0/32        169             H P M  IP Phone  Port 1
+SEP88FC5DE80FAF  Gig 5/0/45        138             H P M  IP Phone  Port 1
+SEP0023049B1869  Gig 6/0/47        172             H P M  IP Phone  Port 1
+SEP488B0A2EBA92  Gig 1/0/15        149             H P M  IP Phone  Port 1
+SEP5CE176112C38  Gig 2/0/21        179             H P M  IP Phone  Port 1
+SEPAC4A56110490  Gig 2/0/42        125             H P M  IP Phone  Port 1
+SEP2C542D6A6835  Gig 5/0/17        138             H P M  IP Phone  Port 1
+SEP9C57ADB4B7CD  Gig 5/0/16        171             H P M  IP Phone  Port 1
+SEP7802B170680A  Gig 6/0/9         173             H P M  IP Phone  Port 1
+SEP5CE176112D0C  Gig 2/0/45        126             H P M  IP Phone  Port 1
+SEP001BD52CFE3E  Gig 6/0/46        121             H P M  IP Phone  Port 1
+SEP5CE176111F7E  Gig 1/0/35        179             H P M  IP Phone  Port 1
+SEPA45630BA353D  Gig 2/0/20        172             H P M  IP Phone  Port 1
+SEP001EBE9190A4  Gig 2/0/33        142             H P M  IP Phone  Port 1
+SEP5CE176112C7B  Gig 2/0/47        178             H P M  IP Phone  Port 1
+SEP001DA23E740D  Gig 6/0/36        132             H P M  IP Phone  Port 1
+SEP34A84E619226  Gig 6/0/2         174             H P M  IP Phone  Port 1
+SEP00270DBDB7FC  Gig 6/0/7         167             H P M  IP Phone  Port 1
+SEP002155038348  Gig 6/0/4         149             H P M  IP Phone  Port 1
+SEP001BD52C372B  Gig 1/0/7         137             H P M  IP Phone  Port 1
+SEPAC4A561106E0  Gig 1/0/40        179             H P M  IP Phone  Port 1
+SEP00270DBE57F6  Gig 6/0/1         123              H P   IP Phone  Port 1
+SEP9C57ADB4B4A8  Gig 1/0/17        146             H P M  IP Phone  Port 1
+SEP5CE176112C3E  Gig 2/0/41        131             H P M  IP Phone  Port 1
+SEP9C57ADB46933  Gig 1/0/3         150             H P M  IP Phone  Port 1
+SEP00CCFCA6FAD4  Gig 5/0/1         175             H P M  IP Phone  Port 1
+SEP88F07789ACA1  Gig 6/0/5         145             H P M  IP Phone  Port 1
+SEP00727827AE79  Gig 1/0/41        178             H P M  IP Phone  Port 1
+SEP488B0A2EBCA5  Gig 1/0/36        140             H P M  IP Phone  Port 1
+SEP001BD52CF0AF  Gig 1/0/21        146             H P M  IP Phone  Port 1
+SEP001DA21A632C  Gig 1/0/12        152             H P M  IP Phone  Port 1
+SEP44881649F08F  Gig 2/0/10        147             H P M  IP Phone  Port 1
+SEP5CE176111F5C  Gig 1/0/25        174             H P M  IP Phone  Port 1
+SEP001BD52CFA1F  Gig 6/0/25        165             H P M  IP Phone  Port 1
+SEP00EEABB7E734  Gig 2/0/2         149             H P M  IP Phone  Port 1
+MBCA-LAN-D.bca.co.id
+                 Ten 3/0/1         167             R S I  C6807-XL  Ten 1/1/15
+MBCA-LAN-D.bca.co.id
+                 Ten 4/0/1         130             R S I  C6807-XL  Ten 2/1/15
+SEP001BD51273AD  Gig 5/0/18        128             H P M  IP Phone  Port 1
+SEP001BD4602667  Gig 1/0/44        155             H P M  IP Phone  Port 1
+SEP442B034884D7  Gig 5/0/15        166             H P M  IP Phone  Port 1
+SEP70F35AD29B92  Gig 2/0/30        158             H P M  IP Phone  Port 1
+SEP00CCFCA764C2  Gig 1/0/14        127             H P M  IP Phone  Port 1
+SEP9C57ADB4B4B1  Gig 1/0/29        127             H P M  IP Phone  Port 1
+SEP001BD52CF038  Gig 2/0/15        166             H P M  IP Phone  Port 1
+SEP0022905A1EDC  Gig 5/0/13        132             H P M  IP Phone  Port 1
+SEPB08D57F04DAE  Gig 1/0/31        149             H P M  IP Phone  Port 1
+SEP44881649F0F5  Gig 1/0/19        146             H P M  IP Phone  Port 1
+SEP001BD52C8F10  Gig 1/0/37        144             H P M  IP Phone  Port 1
+SEP488B0A2EBCD9  Gig 5/0/10        145             H P M  IP Phone  Port 1
+SEPA45630BA391A  Gig 1/0/26        155             H P M  IP Phone  Port 1
+SEPA45630BBC380  Gig 1/0/46        176             H P M  IP Phone  Port 1
+SEP70F35AD2B834  Gig 2/0/26        136             H P M  IP Phone  Port 1
+SEPD0EC352C84BF  Gig 2/0/43        127             H P M  IP Phone  Port 1
+SEP00727827AE53  Gig 1/0/34        140             H P M  IP Phone  Port 1
+SEP80E86F223084  Gig 2/0/40        126             H P M  IP Phone  Port 1
+SEP2C542D6A681D  Gig 2/0/16        172             H P M  IP Phone  Port 1
+SEP04C5A4B11C95  Gig 6/0/35        156             H P M  IP Phone  Port 1
+SEPB08D57F04B06  Gig 1/0/10        140             H P M  IP Phone  Port 1
+SEP9C57ADB4F9D8  Gig 6/0/8         173             H P M  IP Phone  Port 1
+SEPC80084AAC9CF  Gig 2/0/36        138             H P M  IP Phone  Port 1
+SEP00260BD87217  Gig 1/0/33        158             H P M  IP Phone  Port 1
+SEP488B0A2EBA9C  Gig 1/0/16        178             H P M  IP Phone  Port 1
+
+Total cdp entries displayed : 98

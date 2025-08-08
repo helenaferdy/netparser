@@ -1,0 +1,79 @@
+NAME: "Switch System", DESCR: "Cisco Systems, Inc. WS-C4510R+E 10 slot switch "
+PID: WS-C4510R+E       , VID: V09  , SN: FXS1913Q0VH
+
+NAME: "Clock Module", DESCR: "Clock Module"
+PID: WS-X4K-CLOCK-E    , VID:      , SN: FXS191200U6
+
+NAME: "Mux Buffer 1 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS191203YM
+
+NAME: "Mux Buffer 2 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS191203YJ
+
+NAME: "Mux Buffer 3 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS191201ZR
+
+NAME: "Mux Buffer 4 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS1912023N
+
+NAME: "Mux Buffer 7 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS1912021Q
+
+NAME: "Mux Buffer 8 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS191202BS
+
+NAME: "Mux Buffer 9 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS191203T4
+
+NAME: "Mux Buffer 10 ", DESCR: "Mux Buffers for Redundancy Logic"
+PID: WS-X4590-EX=      , VID:      , SN: FXS191203SU
+
+NAME: "Linecard(slot 1)", DESCR: "10/100/1000BaseT (RJ45)+V E Series with 48 10/100/1000 baseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-UPOE+E   , VID: V03  , SN: CAT2117L4PX
+
+NAME: "Linecard(slot 2)", DESCR: "10/100/1000BaseT (RJ45)+V E Series with 48 10/100/1000 baseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-UPOE+E   , VID: V03  , SN: CAT1919L04U
+
+NAME: "Linecard(slot 3)", DESCR: "10/100/1000BaseT (RJ45)+V E Series with 48 10/100/1000 baseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-UPOE+E   , VID: V03  , SN: CAT1915L56W
+
+NAME: "Linecard(slot 4)", DESCR: "10/100/1000BaseT (RJ45)+V E Series with 48 10/100/1000 baseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-UPOE+E   , VID: V03  , SN: CAT1919L0SC
+
+NAME: "Supervisor(slot 5)", DESCR: "Sup 8-E 10GE (SFP+), 1000BaseX (SFP) with 8 SFP+ Ports"
+PID: WS-X45-SUP8-E     , VID: V04  , SN: CAT1915L1RD
+
+NAME: "TenGigabitEthernet5/1", DESCR: "SFP-10Gbase-SR"
+PID: SFP-10G-SR        , VID: V03  , SN: JUR1916G913
+
+NAME: "Supervisor(slot 6)", DESCR: "Sup 8-E 10GE (SFP+), 1000BaseX (SFP) with 8 SFP+ Ports"
+PID: WS-X45-SUP8-E     , VID: V04  , SN: CAT1915L27L
+
+NAME: "TenGigabitEthernet6/1", DESCR: "SFP-10Gbase-SR"
+PID: SFP-10G-SR        , VID: V03  , SN: JUR1916G83Y
+
+NAME: "TenGigabitEthernet6/3", DESCR: "1000BaseSX"
+PID: Unspecified       , VID:      , SN: FNS121603L1
+
+NAME: "Linecard(slot 7)", DESCR: "10/100/1000BaseT (RJ45)+V E Series with 48 10/100/1000 baseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-UPOE+E   , VID: V03  , SN: CAT1919L0LX
+
+NAME: "Linecard(slot 8)", DESCR: "10/100/1000BaseT (RJ45)+V E Series with 48 10/100/1000 baseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-UPOE+E   , VID: V03  , SN: CAT1919L0NR
+
+NAME: "Linecard(slot 9)", DESCR: "10/100/1000BaseT (RJ45)+V E Series with 48 10/100/1000 baseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-UPOE+E   , VID: V03  , SN: CAT1919L0MH
+
+NAME: "Linecard(slot 10)", DESCR: "10/100/1000BaseT (RJ45)+V E Series with 48 10/100/1000 baseT UPOE ports (Cisco/IEEE)"
+PID: WS-X4748-UPOE+E   , VID: V03  , SN: CAT2010L7Y2
+
+NAME: "FanTray 1", DESCR: "FanTray"
+PID: WS-X4582+E        , VID: V04  , SN: FXS1913Q2G5
+
+NAME: "Power Supply 1", DESCR: "Power Supply ( AC 9000W )"
+PID: PWR-C45-9000ACV   , VID: V02  , SN: DTM193700EN
+
+NAME: "Power Supply 2", DESCR: "Power Supply ( AC 9000W )"
+PID: PWR-C45-9000ACV   , VID: V02  , SN: DTM1917041C
+
+

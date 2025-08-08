@@ -1,0 +1,998 @@
+﻿RT_DANAREKSA_LT_09#ter len 0
+RT_DANAREKSA_LT_09#show cdp neighborsghbors
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+SW2_DANAREKSA_LT9.bankbsi.co.id
+                 Gig 0/0/0         157              S I   C1000-48T Gig 1/0/45
+
+Total cdp entries displayed : 1
+RT_DANAREKSA_LT_09#show lldp neighborsghbors
+% LLDP is not enabled
+RT_DANAREKSA_LT_09#show etherchannel port-channel
+                                     ^
+% Invalid input detected at '^' marker.
+
+RT_DANAREKSA_LT_09#show etherchannel summary
+Flags:  D - down        P/bndl - bundled in port-channel
+        I - stand-alone s/susp - suspended
+        H - Hot-standby (LACP only)
+        R - Layer3      S - Layer2
+        U - in use      f - failed to allocate aggregator
+
+        M - not in use, minimum links not met
+        u - unsuitable for bundling
+        w - waiting to be aggregated
+        d - default port
+
+
+Number of channel-groups in use: 0
+Number of aggregators:           0
+
+Group  Port-channel  Protocol    Ports
+------+-------------+-----------+-----------------------------------------------
+
+RU - L3 port-channel UP State
+SU - L2 port-channel UP state
+P/bndl -  Bundled
+S/susp  - Suspended
+
+RT_DANAREKSA_LT_09#show interface description
+Interface                      Status         Protocol Description
+Gi0/0/0                        up             up       # TO SWITCH #
+Gi0/0/0.26                     up             up       USER_WIRELESS
+Gi0/0/0.28                     up             up       CISO_WIRELESS
+Gi0/0/0.29                     up             up       MANAGEMENT
+Gi0/0/0.226                    up             up       USER_WIRED
+Gi0/0/1                        up             up       WAN LINK INDOSAT  BSI
+Gi0/1/0                        up             up       WAN LINK ICON BSI
+Gi0/2/0                        down           down     
+Lo1                            up             up       Loopback Address for BSI
+RT_DANAREKSA_LT_09#show inventory
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO: Please use "show license UDI" to get serial number for licensing.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+NAME: "Chassis", DESCR: "Cisco ISR4221 Chassis"
+PID: ISR4221/K9        , VID: V05  , SN: FGL2544LGYN
+
+NAME: "Power Supply Module 0", DESCR: "90W AC Power Supply for Cisco ISR 4220,VG400"
+PID: PWR-4220-AC       , VID:      , SN:            
+
+NAME: "Fan Tray", DESCR: "Cisco ISR4220, VG400 Fan Assembly"
+PID: ACS-4220-FANASSY  , VID:      , SN:            
+
+NAME: "module 0", DESCR: "Cisco ISR4221 Built-In NIM controller"
+PID: ISR4221/K9        , VID:      , SN:            
+
+NAME: "NIM subslot 0/1", DESCR: "NIM-1GE-CU-SFP"
+PID: NIM-1GE-CU-SFP    , VID: V02  , SN: FOC25407SHL
+
+NAME: "NIM subslot 0/2", DESCR: "NIM-1GE-CU-SFP"
+PID: NIM-1GE-CU-SFP    , VID: V02  , SN: FOC25407SFV
+
+NAME: "NIM subslot 0/0", DESCR: "Front Panel 2 ports Gigabitethernet Module"
+PID: ISR4221-2x1GE     , VID: V01  , SN:            
+
+NAME: "module R0", DESCR: "Cisco ISR4221 Route Processor"
+PID: ISR4221/K9        , VID: V05  , SN: FOC25417SYK
+
+NAME: "module F0", DESCR: "Cisco ISR4221 Forwarding Processor"
+PID: ISR4221/K9        , VID:      , SN:            
+
+
+RT_DANAREKSA_LT_09#show interface status
+RT_DANAREKSA_LT_09#show interface trunk
+RT_DANAREKSA_LT_09#show ip arp
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  10.2.205.1              -   1006.eda1.1dc0  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.5              0   Incomplete      ARPA   
+Internet  10.2.205.6              0   Incomplete      ARPA   
+Internet  10.2.205.16           171   c475.ab76.48aa  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.22             0   3005.0550.97ae  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.35             0   Incomplete      ARPA   
+Internet  10.2.205.53           245   109f.41ca.9f32  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.54             1   109f.41d8.2485  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.61            99   985f.41c5.c71d  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.71             0   Incomplete      ARPA   
+Internet  10.2.205.74           213   3005.054e.9977  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.78             0   Incomplete      ARPA   
+Internet  10.2.205.80             0   Incomplete      ARPA   
+Internet  10.2.205.86           167   6aae.8d9c.76c1  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.88           176   109f.41ce.9b96  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.92             0   Incomplete      ARPA   
+Internet  10.2.205.95           243   c475.abb4.9772  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.101            0   Incomplete      ARPA   
+Internet  10.2.205.110          221   f018.9879.5938  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.111          256   3005.0550.c747  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.112            0   Incomplete      ARPA   
+Internet  10.2.205.114          172   985f.41c6.3130  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.133          217   3005.0551.dfdd  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.136          237   3005.0552.26b4  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.140          225   c475.abb3.3f12  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.141            0   Incomplete      ARPA   
+Internet  10.2.205.145          179   c0bf.be78.4f20  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.148            0   Incomplete      ARPA   
+Internet  10.2.205.150          204   068f.c41e.584e  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.152            0   Incomplete      ARPA   
+Internet  10.2.205.153            0   52d3.9b11.be24  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.169            0   Incomplete      ARPA   
+Internet  10.2.205.175            0   Incomplete      ARPA   
+Internet  10.2.205.180            0   Incomplete      ARPA   
+Internet  10.2.205.183            0   Incomplete      ARPA   
+Internet  10.2.205.186            7   fa62.0d7b.f4ce  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.187            0   Incomplete      ARPA   
+Internet  10.2.205.188          168   985f.41cc.b046  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.201          256   c475.abb3.510a  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.205          241   a859.5f00.80e3  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.209            0   Incomplete      ARPA   
+Internet  10.2.205.222           94   3005.054a.fadd  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.226            0   3c21.9cf7.6d5e  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.227          185   109f.41d4.5a46  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.232          244   3ef0.97f3.eb8c  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.249           39   d687.c8f6.b7da  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.250          243   3005.054e.d211  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.205.253          257   3005.0552.343d  ARPA   GigabitEthernet0/0/0.28
+Internet  10.2.210.129            -   1006.eda1.1dc0  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.130            0   1006.edfc.2af0  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.131            0   1006.edfc.2ae8  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.132            0   1006.edfc.2ab0  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.133            0   1006.edfc.2ad4  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.134            0   1006.edfc.2aa0  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.135            0   1006.edfc.289c  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.136            0   1006.edfc.2c28  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.137            0   1006.edfc.2b54  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.138            0   1006.edfc.2aac  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.139            0   e44e.2d2c.5f78  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.140            0   1006.edfc.2a20  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.141            0   a488.739a.4830  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.142            0   a488.739a.43e0  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.143            0   e44e.2d30.14b4  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.144            0   e44e.2d2c.47b0  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.145            0   e44e.2d30.1114  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.146            0   1006.edfc.2b44  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.147            0   e44e.2d2c.5f70  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.148            0   a488.739a.4824  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.150            0   e44e.2d2c.5e8c  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.151            0   e44e.2d30.15a0  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.153            0   e44e.2d30.15d0  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.154            0   e44e.2d2c.58e8  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.155            0   e44e.2d30.1344  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.157            0   e44e.2d30.0a0c  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.158            0   e44e.2d30.1568  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.159            0   e44e.2d30.1e88  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.160            0   e44e.2d30.18fc  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.161            0   e44e.2d30.1a18  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.162            0   e44e.2d30.1ee0  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.163            0   e44e.2d30.1e60  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.226          120   548a.ba4c.4ac1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.227            0   7c21.0d3d.f841  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.228           81   0087.3161.12c1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.229          124   0087.31b5.a041  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.230           91   c064.e4a4.6ac1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.231          180   009e.1e01.f8c1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.232           64   005f.8694.39c1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.233          135   005f.8659.38c1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.234          125   009e.1e3a.4741  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.235          125   003c.10e5.80c1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.236          224   548a.baba.a541  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.237          226   14a2.a038.f541  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.238          205   e44e.2d81.75c1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.239          222   e44e.2d81.9e41  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.240          218   548a.baba.6a41  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.241          216   e44e.2d19.de41  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.242          214   e44e.2d1a.74c1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.243          210   2c1a.0539.2441  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.244          236   2c1a.053a.26c1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.245          191   2c1a.0539.8841  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.246          214   2c1a.0539.abc1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.247          230   e44e.2d81.70c1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.248          207   e44e.2d1a.2fc1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.249          216   e44e.2d19.97c1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.250          202   1cfc.1748.0fc1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.251          221   2c1a.0539.3541  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.252          205   2c1a.0538.c4c1  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.253          233   2c1a.0538.bb41  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.210.254          170   98a2.c07f.6068  ARPA   GigabitEthernet0/0/0.29
+Internet  10.2.214.1              -   1006.eda1.1dc0  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.2            179   2ed1.2a25.e588  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.3            120   14d4.2412.d0ed  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.4            201   b81e.a43b.9e1b  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.5            245   485f.990e.5cf3  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.6              0   Incomplete      ARPA   
+Internet  10.2.214.7            190   5076.afbb.4603  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.9              0   Incomplete      ARPA   
+Internet  10.2.214.10             0   Incomplete      ARPA   
+Internet  10.2.214.11           242   c035.325f.e721  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.12             0   Incomplete      ARPA   
+Internet  10.2.214.14           228   c0bf.bec9.f416  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.15             0   Incomplete      ARPA   
+Internet  10.2.214.16           193   847b.57ee.d7f7  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.17             8   109f.41d2.a0b3  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.18            66   109f.41d1.08a8  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.19           166   0045.e2e0.11b3  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.20           254   3887.d504.d742  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.21           247   3e1c.8be8.cae4  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.23           138   0616.5331.04f4  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.25            33   ec8e.77e6.ab04  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.27            80   ec8e.77e6.ab18  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.28           222   7846.5c3c.d6f5  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.29             0   Incomplete      ARPA   
+Internet  10.2.214.30             0   Incomplete      ARPA   
+Internet  10.2.214.32           151   4ef2.dce8.2962  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.33           207   c0bf.becb.324a  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.35           176   743a.f4d5.15d8  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.36           221   10a5.1d59.a2db  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.37            64   3005.0550.9560  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.38           242   046c.5934.deba  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.39             3   a0d3.654f.f362  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.40             0   f27d.8069.d296  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.41             0   Incomplete      ARPA   
+Internet  10.2.214.44             0   Incomplete      ARPA   
+Internet  10.2.214.45            15   c890.8a58.318b  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.47            22   048d.b8c7.5a24  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.49             0   Incomplete      ARPA   
+Internet  10.2.214.51           212   2e9e.e735.5a45  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.52           140   ac19.8e37.fc26  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.53           236   e00a.f690.f9b1  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.55           217   44e5.17aa.0a96  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.56           231   c035.325b.f251  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.59             3   8c90.2d61.252f  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.60           180   109f.41d2.5b1f  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.61             0   Incomplete      ARPA   
+Internet  10.2.214.62           137   6e93.85ba.b698  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.63           188   7645.52c1.b7ab  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.66           206   ae9d.300b.037e  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.68           178   0045.e2cb.8459  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.70             0   Incomplete      ARPA   
+Internet  10.2.214.71           164   3005.0550.97f4  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.72             0   Incomplete      ARPA   
+Internet  10.2.214.73           206   68c6.ac2f.a3d2  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.74             1   0871.90f7.3479  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.75             0   Incomplete      ARPA   
+Internet  10.2.214.76           174   3003.c888.76fd  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.77           134   f4c8.8a6b.9e69  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.78           204   3003.c883.deb7  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.79           200   a841.f423.67e3  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.80             0   2839.260e.4fbd  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.81           237   ce76.7f28.dcc6  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.82            11   c0bf.be78.ed4a  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.83           186   1a8b.e614.731e  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.86             0   Incomplete      ARPA   
+Internet  10.2.214.88           221   bcf4.d4c0.8ee9  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.89             0   Incomplete      ARPA   
+Internet  10.2.214.92             0   Incomplete      ARPA   
+Internet  10.2.214.95           185   3005.0552.044a  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.97           192   14ac.6042.488f  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.98             0   9078.41e4.e69d  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.99             0   687a.64f1.5b17  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.100            2   109f.41d4.f3d8  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.102          188   d8f3.bc7a.9d33  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.103          168   f21f.a4cd.8281  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.104          215   68c6.ac2f.ad3c  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.105          209   522a.fbf7.e046  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.107          130   68c6.ac2f.de06  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.108          188   f2de.fa7c.15e8  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.111          230   c475.ab7a.5d2d  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.113          188   30f6.ef61.ffb7  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.114          222   06c3.3e04.c956  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.115          186   024b.be7a.3b9a  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.116          253   0630.c2f8.a01b  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.117          248   3035.adc0.e7d0  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.118            0   Incomplete      ARPA   
+Internet  10.2.214.120          239   3005.0550.3c28  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.121          210   f68c.8b4b.4b04  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.123          204   2c7b.a0de.53e6  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.125            0   Incomplete      ARPA   
+Internet  10.2.214.126            1   ded9.9bb6.7b47  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.127          226   c809.a837.026c  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.129          245   9c58.8481.61d4  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.130          251   864b.df8d.c150  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.131          178   0a58.6257.3832  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.132            0   Incomplete      ARPA   
+Internet  10.2.214.133            0   b49d.02f5.6833  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.134            0   567d.e624.33c7  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.136          170   985f.41cc.d008  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.137           20   12ce.6acf.4e60  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.138          204   1cc1.0c2c.2b49  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.139          170   28d0.433b.aa90  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.141            0   Incomplete      ARPA   
+Internet  10.2.214.142            0   a6ad.fd43.9b1c  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.143          154   d6ce.5241.0d80  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.144          207   9266.16bb.59bf  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.145          189   223d.91a8.d5ce  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.147          144   e02e.0bae.3463  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.148           87   d6be.09bd.8f3d  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.150          153   d065.786f.5540  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.151          172   def5.3900.9e70  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.152            0   04ec.d8e2.9604  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.155            0   Incomplete      ARPA   
+Internet  10.2.214.157           65   201e.881c.ac00  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.158          123   bcf4.d4c0.a7cd  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.159            0   Incomplete      ARPA   
+Internet  10.2.214.160          172   982f.8664.1553  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.161            0   Incomplete      ARPA   
+Internet  10.2.214.163            0   Incomplete      ARPA   
+Internet  10.2.214.164          111   68c6.ac2f.5251  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.165            0   Incomplete      ARPA   
+Internet  10.2.214.166          158   5057.8a88.85e1  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.167          245   4c02.2096.78ff  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.168          197   2c98.1120.f83b  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.169            0   Incomplete      ARPA   
+Internet  10.2.214.170          138   74ef.4bf1.d827  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.171          164   7cb2.7d6f.29b2  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.172            0   Incomplete      ARPA   
+Internet  10.2.214.173           53   2c98.1120.f7a3  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.174          112   a83b.769c.d2a3  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.175            0   Incomplete      ARPA   
+Internet  10.2.214.176            9   28c1.a0e8.9574  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.177          212   109f.41cc.2a25  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.178           64   c8cb.9edb.067d  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.179          164   985f.41cd.ae38  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.181          233   3005.0550.98da  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.182          239   b666.6054.2b14  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.183           22   c889.f3b8.67e4  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.184            0   Incomplete      ARPA   
+Internet  10.2.214.185           64   96b5.14c0.dd4d  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.186          169   065e.62e2.46d1  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.187          165   28d0.4310.df62  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.188            0   Incomplete      ARPA   
+Internet  10.2.214.191          128   00bb.60a8.ea2b  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.192          167   764c.4d72.1beb  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.193           22   384a.80d6.a280  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.195          151   c035.324c.3225  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.196           55   109f.41cb.0afb  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.197           66   fe49.39b2.da37  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.198           67   743a.f4d5.895f  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.200          197   0045.e2dc.9697  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.201          259   c475.ab20.ee3c  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.202          208   14d4.2434.3613  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.204          117   c484.fc01.4311  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.205            0   Incomplete      ARPA   
+Internet  10.2.214.206          120   2613.7b14.a615  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.208          188   147a.29e7.8c38  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.209          167   68c6.ac2f.8b45  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.210            0   Incomplete      ARPA   
+Internet  10.2.214.212          190   4c44.5b34.c691  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.216          141   f8ab.8225.7e11  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.218          152   2c7b.a0d7.ed94  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.219          237   70a6.cc4d.daaa  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.220          235   5a6e.635c.ba9a  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.223          183   109f.41c9.8294  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.226          226   3003.c895.886f  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.228           80   ec8e.77e4.5db3  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.229            6   c8cb.9ef2.c74a  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.230            0   Incomplete      ARPA   
+Internet  10.2.214.231           59   cef8.372a.b2ce  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.232          154   7640.771a.616f  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.233            6   3005.054e.9ac1  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.235          169   3c58.c2f0.32f5  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.236          139   5098.3958.62ec  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.238          149   024b.2127.cf61  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.239          167   60e9.aaf1.9a15  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.242          248   2ae4.8ec8.22d4  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.243            2   32f2.9256.1c55  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.244          211   3005.0550.3a7a  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.248          220   06e9.0daf.dd96  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.249           99   2c7b.a0de.617e  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.250          180   ce9d.b984.4d78  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.251          208   7223.8d20.7a4e  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.252          217   68c6.ac2f.1697  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.253          250   a0d3.6551.4afa  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.214.254            0   Incomplete      ARPA   
+Internet  10.2.214.255            0   Incomplete      ARPA   
+Internet  10.2.215.0            221   6045.2e05.825a  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.1            219   2641.29e3.9d7e  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.3            191   d43b.04d5.5c2d  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.4            202   c0bf.bec9.586a  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.5              0   Incomplete      ARPA   
+Internet  10.2.215.6              0   Incomplete      ARPA   
+Internet  10.2.215.7            177   72b7.4b53.9298  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.9            215   109f.41d3.4ad2  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.11           100   82c5.2adc.fc5f  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.12           249   0699.3d82.d95b  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.13           198   c035.3251.cece  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.14            72   c8cb.9ee0.6a46  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.19           190   3afe.dcd6.a720  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.20           192   c0bf.be7a.662c  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.21           197   9eb6.1bd0.1bfb  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.22            59   dc71.966a.eb63  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.23           192   06de.0801.ba90  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.25           256   a859.5f00.8034  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.26            30   0c98.381c.4da1  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.27             0   Incomplete      ARPA   
+Internet  10.2.215.28             0   Incomplete      ARPA   
+Internet  10.2.215.29             0   Incomplete      ARPA   
+Internet  10.2.215.31           194   f889.d20c.84f9  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.33           193   c890.8acc.64bb  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.34            76   68c6.ac2e.f6e9  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.35           113   f4c8.8a6b.a125  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.36           175   98bd.803c.6bf3  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.37             0   Incomplete      ARPA   
+Internet  10.2.215.38            94   2c7b.a0da.b8b7  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.39           199   3005.054e.d2ca  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.41            66   687a.64d8.2d7c  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.42           247   1485.7ff9.d5b7  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.43           157   42ca.cb17.bc6c  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.44           215   0433.c218.781f  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.45             0   Incomplete      ARPA   
+Internet  10.2.215.46           106   68c6.ac2f.1647  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.47           214   68c6.ac30.a0b6  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.48           193   92aa.625f.4826  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.49             1   e8bf.b8c3.ebb9  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.50           188   548d.5aea.ef43  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.51             0   Incomplete      ARPA   
+Internet  10.2.215.52           151   3a28.5983.b3b0  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.53           244   687a.6482.45fb  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.56           191   a0d3.655b.f856  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.57           226   a841.f442.f134  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.58           236   e8bf.b8c6.34fa  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.60             0   Incomplete      ARPA   
+Internet  10.2.215.61           247   3003.c888.7c77  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.62           230   f003.8c6e.d9dd  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.63           159   802a.c1f9.a00c  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.64           203   c890.8acf.68c7  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.65             0   Incomplete      ARPA   
+Internet  10.2.215.66            41   749e.af10.9d95  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.67           228   409f.38eb.200d  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.68             0   Incomplete      ARPA   
+Internet  10.2.215.69           193   c0bf.becb.3292  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.70           247   dc1b.a172.f8f8  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.72             5   cc2d.b729.d333  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.73             0   Incomplete      ARPA   
+Internet  10.2.215.74             0   Incomplete      ARPA   
+Internet  10.2.215.75           207   a859.5f01.b99f  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.77             2   7630.ae04.e456  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.79           222   985f.41cc.fa29  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.81           107   c0bf.becb.a51e  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.82           247   046c.59dc.cfb2  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.83           241   8038.fbce.a559  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.85           245   046c.59db.d92c  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.86           241   ae5d.164e.8247  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.89             3   c890.8a67.dded  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.91           249   da85.57ee.7a5c  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.92           239   74e5.f9f2.d45b  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.93           158   16e6.f531.ff25  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.94            17   2e26.e368.8278  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.95           201   2c7b.a0da.b91b  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.100            0   985f.41cd.ae0b  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.101          244   d4ba.faae.c1d3  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.102           58   985f.41cc.cfef  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.103           15   b258.2773.d579  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.105            0   Incomplete      ARPA   
+Internet  10.2.215.106          155   2c7b.a0de.53dc  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.107            0   Incomplete      ARPA   
+Internet  10.2.215.108          140   ba23.8a31.4d1a  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.110          266   c0bf.be51.2a2a  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.113          226   a46b.b657.6458  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.115          245   046c.59dd.7d40  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.116          112   3003.c888.714f  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.118            8   3005.054b.00d2  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.121          222   70b7.aaa9.dc5d  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.123          202   7ef6.c439.80a5  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.126            0   0c98.3836.664b  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.127          217   743a.f4a0.e731  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.128          186   8ed0.a093.aa9d  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.135          240   c8b0.d054.3864  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.137          112   68c6.ac38.bbcf  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.138          241   0045.e279.a481  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.140          193   80c5.f2f7.ace1  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.141          213   109f.41cd.00a4  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.143          170   bcf4.d4c0.ca65  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.146          141   3003.c888.7c29  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.147          177   1c4d.7004.89c2  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.149          244   3005.0550.273d  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.150          159   c035.325b.b81f  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.151          166   c0bf.bec9.5843  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.152            0   Incomplete      ARPA   
+Internet  10.2.215.155          148   2c7b.a0df.1268  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.156          174   4e46.500a.44cb  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.157          227   68c6.ac2f.5215  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.159          218   a859.5f01.afb3  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.162          193   2c81.bfaf.9dd8  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.163            6   5ce4.2a2c.583a  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.164          103   0e60.55e6.b4e0  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.167           78   687a.644f.7aa9  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.169          210   50a6.d820.3b03  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.172          200   6c2f.80c9.c52a  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.173          238   109f.41d6.c4d1  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.175          257   6045.2e05.46fa  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.176          248   3005.054e.caaf  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.178          250   3e04.6770.f82d  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.180          245   bcf4.d4c0.d569  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.181          170   d2b6.93f0.6556  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.182            0   Incomplete      ARPA   
+Internet  10.2.215.186          163   eaf9.a1ca.9c22  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.188            9   c890.8a82.0343  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.191          175   2c7b.a0de.6791  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.192          257   3c91.8069.fd1f  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.193          210   a859.5f00.75d5  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.197          119   7679.7e75.c1d5  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.200          248   0c9a.3caf.df02  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.202           63   c86e.0803.0908  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.203          209   3005.05b5.969f  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.204            0   Incomplete      ARPA   
+Internet  10.2.215.207            0   Incomplete      ARPA   
+Internet  10.2.215.208          194   f44e.e333.ef14  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.209           59   74e5.f9d7.c6a7  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.210            0   Incomplete      ARPA   
+Internet  10.2.215.211          154   e00a.f6b4.9899  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.212            0   e86f.3872.7b42  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.213          191   dcfb.4883.3cd1  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.214           35   62c4.f5d8.1980  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.215            0   Incomplete      ARPA   
+Internet  10.2.215.216            0   Incomplete      ARPA   
+Internet  10.2.215.217          245   0093.3751.c2a5  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.219          192   d0c6.37d5.4404  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.223          192   c890.8aa9.ba49  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.224            0   Incomplete      ARPA   
+Internet  10.2.215.226          246   8cb8.7e99.9dfa  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.227            0   Incomplete      ARPA   
+Internet  10.2.215.228           28   ea67.9253.79fe  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.229            0   Incomplete      ARPA   
+Internet  10.2.215.231          184   50eb.7185.53d6  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.232            0   Incomplete      ARPA   
+Internet  10.2.215.233           14   7afb.7a46.98ee  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.235           49   c0bf.beca.c856  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.236          154   d465.ce6f.bab8  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.237            0   Incomplete      ARPA   
+Internet  10.2.215.238          160   2c7b.a0de.45ef  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.240          155   985f.41ca.0940  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.241          171   bcf4.d4c0.ec55  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.242          176   a080.6900.d525  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.243          150   d436.6c1a.40c2  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.244          191   28cd.c462.6be9  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.245           95   76ce.ec66.9418  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.246          113   f4c8.8a6b.9e46  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.247          255   30f6.ef65.101c  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.248          228   68c6.ac30.4503  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.249          234   ae9a.70c9.c91a  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.251          180   2284.7678.1f31  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.252            0   Incomplete      ARPA   
+Internet  10.2.215.253          247   2c3b.704b.8f75  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.215.254          147   3003.c883.d2f5  ARPA   GigabitEthernet0/0/0.26
+Internet  10.2.226.1              -   1006.eda1.1dc0  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.2            190   f4f1.9e12.8944  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.4              0   246a.0e78.5f1b  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.5              0   246a.0e77.ef4e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.6              0   246a.0e77.ea86  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.7              1   88ae.dd2d.52f9  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.9            231   246a.0e77.b679  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.10             0   28c5.c873.6f62  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.12             0   3024.a9fd.3675  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.13             2   ac1a.3dbe.4b36  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.14             0   Incomplete      ARPA   
+Internet  10.2.226.15           239   246a.0e77.ee56  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.16             0   88ae.dd2a.83c9  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.17             6   246a.0e77.ead1  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.18             0   f4f1.9e12.9622  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.21           225   88ae.dd2a.87b8  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.22             5   f4f1.9e12.951a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.23             7   f4f1.9e12.8a66  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.24            95   f4f1.9e12.947c  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.27             0   246a.0e78.b659  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.28             0   246a.0e78.523b  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.29             5   1c69.7a29.15e0  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.30             0   246a.0e78.57df  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.31           169   f4f1.9e12.8904  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.32             0   489e.bd9e.7299  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.34           158   5c60.ba37.bbc9  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.35             0   246a.0e78.b689  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.36             1   f4f1.9e12.5646  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.37             1   28c5.c873.6dba  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.38             1   f4f1.9e12.89b6  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.39             2   5c60.ba3f.da52  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.41           222   246a.0e78.bc17  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.42             0   5c60.ba3f.d7a2  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.43             0   e0be.038e.18e2  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.46             0   Incomplete      ARPA   
+Internet  10.2.226.47             0   246a.0e78.bb96  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.50             1   7c57.5835.d530  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.51             0   00b0.4c68.41b4  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.53           206   246a.0e78.4fd1  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.54             2   f4f1.9e12.93ff  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.55             1   28c5.c873.6fef  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.56             2   246a.0e78.bafd  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.57           174   f4f1.9e12.8bae  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.58             1   5c60.ba37.c0d2  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.59             8   5c60.ba3f.d9df  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.60             1   5c60.ba3f.d7a9  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.61             0   f4f1.9e12.963d  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.63             0   246a.0e78.b644  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.65            10   5c60.ba37.bca4  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.66             0   f4f1.9e12.8c3a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.67             0   f4f1.9e12.93dd  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.68             0   Incomplete      ARPA   
+Internet  10.2.226.69             1   246a.0e78.be08  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.70             1   f4f1.9e12.518a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.71             0   5c60.ba37.bd12  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.72             1   88ae.dd2a.7f8c  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.73           189   1831.bf18.be1e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.74           134   38ca.8442.e672  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.76             0   5c60.ba3f.d9d7  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.77             0   Incomplete      ARPA   
+Internet  10.2.226.78           236   246a.0e78.b7c4  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.79             0   88ae.dd2a.83ea  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.80             0   28c5.c881.7165  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.81             2   f4f1.9e12.8953  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.82             0   Incomplete      ARPA   
+Internet  10.2.226.83             0   Incomplete      ARPA   
+Internet  10.2.226.84            91   00e0.4ca2.7d51  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.87           248   246a.0e78.b81e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.88           226   6c0b.5e6c.f847  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.89             0   28c5.c882.1483  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.90             0   28c5.c873.6f84  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.91             0   88ae.dd2a.8022  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.92           246   88ae.dd2b.f219  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.93             0   246a.0e78.bc59  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.94           119   6c0b.5e6c.f7ab  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.95             1   88ae.dd2a.f681  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.96             2   f4f1.9e12.93f4  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.97             0   f4f1.9e12.8a5d  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.98             6   f4f1.9e12.940b  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.99            62   88ae.dd88.13a0  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.100            0   Incomplete      ARPA   
+Internet  10.2.226.102            0   38ca.8442.e721  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.103            0   f4f1.9e12.8acd  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.104            2   246a.0e78.5fb7  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.105            0   246a.0e77.e8ac  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.106            0   f4f1.9e12.8c67  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.107            0   f4f1.9e12.8c50  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.108            0   f4f1.9e12.8c87  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.109            0   f4f1.9e12.8b7d  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.110            0   f4f1.9e12.558e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.111          138   246a.0ed3.181a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.112          200   f4f1.9e12.94aa  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.113            2   246a.0e78.bcbd  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.114            0   Incomplete      ARPA   
+Internet  10.2.226.115          134   246a.0e78.bb81  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.116            0   246a.0e78.b641  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.117            0   Incomplete      ARPA   
+Internet  10.2.226.120          251   f4f1.9e12.9553  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.121          125   88ae.dd2a.83a7  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.122          249   246a.0e78.b8c9  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.123            0   88ae.dd2a.83d5  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.124            0   246a.0e78.b72a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.125          242   246a.0e78.b677  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.127          186   4ced.fb04.d220  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.128          125   246a.0e77.b9e1  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.129          143   f4f1.9e17.6ec2  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.130            0   f4f1.9e12.890b  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.131          193   28c5.c873.6fb5  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.132            7   38ca.8442.e688  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.133          216   246a.0e77.ed4d  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.135            0   246a.0e77.ba77  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.136            1   246a.0e78.b99a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.138            0   246a.0e78.619b  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.140          161   f4f1.9e12.9648  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.141            0   Incomplete      ARPA   
+Internet  10.2.226.142            6   f4f1.9e17.6eb8  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.143            1   f4f1.9e17.6eab  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.144            0   88ae.dd2a.8350  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.147          236   0021.b76b.1ed2  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.148            0   Incomplete      ARPA   
+Internet  10.2.226.149            1   246a.0e78.57d6  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.150            0   88ae.dd2d.5306  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.151          257   246a.0e77.e939  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.152          209   246a.0e77.b80e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.153            3   f4f1.9e12.95de  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.154            0   f4f1.9e12.8c89  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.156           78   8c52.1914.02fe  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.157            2   f4f1.9e12.8c62  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.158            1   246a.0e78.b9ce  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.161           14   246a.0e78.bcaf  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.162          174   88ae.dd2a.8319  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.163            0   Incomplete      ARPA   
+Internet  10.2.226.164            0   246a.0e78.bc0e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.166          246   ac1a.3dbe.4e32  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.167            0   246a.0e78.6190  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.168            1   ac1a.3dbe.4ca4  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.169          197   246a.0e77.e7f7  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.170            1   f4f1.9e17.7172  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.171            0   246a.0e77.e747  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.172            2   f4f1.9e17.6ec3  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.173            0   f4f1.9e17.6e45  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.174            0   246a.0e78.b806  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.175            0   Incomplete      ARPA   
+Internet  10.2.226.176            0   8c16.4526.4c41  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.177            1   246a.0e78.baef  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.178          234   28c5.c873.7262  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.179            0   246a.0e77.b6a3  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.180          153   28c5.c873.6fec  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.182            0   Incomplete      ARPA   
+Internet  10.2.226.183          233   246a.0e78.5c3d  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.184          115   f4f1.9e12.8c5b  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.185            0   Incomplete      ARPA   
+Internet  10.2.226.186            0   246a.0e78.bc3a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.188          209   246a.0e78.b7ac  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.190            0   246a.0e78.616a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.191            3   246a.0e77.e931  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.192            0   788c.7764.1e69  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.193            2   246a.0e78.b769  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.195          148   88ae.dd2b.f371  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.196          192   f4f1.9e12.93ea  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.197            0   246a.0e78.b99f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.198            2   f4f1.9e12.95ec  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.199            0   246a.0e78.5ffd  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.201            0   Incomplete      ARPA   
+Internet  10.2.226.202          252   246a.0e78.bb6c  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.203            0   f4f1.9e12.9445  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.205            1   644e.d766.9a2f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.207            2   246a.0e78.bc52  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.208            0   246a.0e78.b116  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.209            0   Incomplete      ARPA   
+Internet  10.2.226.210          234   246a.0e78.b76f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.212            0   246a.0e78.b63a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.213            3   28c5.c881.665d  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.214            0   246a.0e78.b78f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.215            0   246a.0e78.b89d  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.216            1   88ae.dd2d.4e95  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.217            0   246a.0e78.b7b0  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.218           16   38ca.8443.49bb  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.219            0   28c5.c873.559d  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.220          233   246a.0e78.bc32  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.221            0   246a.0e78.517f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.222           51   644e.d766.9c20  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.223            3   644e.d766.9a31  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.224            4   644e.d766.3638  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.225            0   644e.d766.9a3d  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.226            3   644e.d766.9a96  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.227           45   644e.d766.9a5c  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.228            1   644e.d766.9a46  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.229           15   644e.d766.9b6c  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.231            0   644e.d766.9a34  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.234           42   00e0.4ca2.7a28  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.235            0   246a.0e78.b899  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.238            0   246a.0e78.57a1  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.239           29   88ae.dd2d.4eb1  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.241            0   28c5.c873.6fda  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.242           35   c4c6.e6d3.32a9  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.243            0   00e0.4c36.0044  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.244            0   Incomplete      ARPA   
+Internet  10.2.226.245           17   f4f1.9e17.6ea1  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.247            0   246a.0e78.bc6a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.248            0   246a.0e78.5c23  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.249           71   88ae.dd2d.4933  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.250            0   88ae.dd2d.4e4f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.251          181   28f1.0e36.e681  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.252            0   5c60.ba37.bedd  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.253            0   Incomplete      ARPA   
+Internet  10.2.226.254          216   246a.0e78.b795  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.226.255            0   5c60.ba37.bf92  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.0              0   5c60.ba37.bdf3  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.1              0   246a.0e78.5071  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.2             91   88ae.dd2d.4962  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.3              3   38ca.8442.e681  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.4             60   246a.0e78.b654  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.5              0   5c60.ba3c.6368  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.6              0   246a.0e78.bdbd  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.7            224   246a.0e78.b829  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.8              0   f4f1.9e17.718c  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.9            177   246a.0e77.ec5a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.10             0   28c5.c873.6c39  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.12             2   f4f1.9e12.5726  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.13             1   88ae.dd2a.820d  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.14             0   246a.0e78.5026  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.15             1   f4f1.9e12.8a36  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.16             2   246a.0e77.b78e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.17             2   88ae.dd2d.4df7  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.18           209   246a.0e78.b66c  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.22           208   246a.0e77.eb30  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.23            36   24fb.e354.9fe3  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.24           155   f4f1.9e12.8c1e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.25           199   246a.0e78.5851  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.28             0   f4f1.9e17.6ef1  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.29             0   Incomplete      ARPA   
+Internet  10.2.227.31           189   246a.0e77.eb0f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.33             0   246a.0e77.e9fc  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.35           209   00e0.4c68.018f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.36             3   f4f1.9e12.9416  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.37             0   246a.0e77.f6f0  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.38             1   f4f1.9e17.6e4f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.40             0   f4f1.9e12.95c7  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.42             0   5c60.ba3f.d680  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.44           231   246a.0e78.64ae  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.45           185   246a.0e78.5041  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.46             8   2c58.b90d.4e6f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.48             0   246a.0e77.e956  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.49             1   f4f1.9e17.6ebb  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.50             4   246a.0e78.4fab  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.51            76   6c0b.5e6d.8bfc  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.52             0   246a.0e78.bd97  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.53           246   88ae.dd2d.4c7b  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.55             0   246a.0e78.505c  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.56             0   28c5.c873.6c52  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.57           114   f4f1.9e12.9362  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.58             0   246a.0e77.ba57  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.59           215   246a.0e78.5275  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.60           244   246a.0e78.5890  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.61             0   f4f1.9e17.718e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.62             2   f4f1.9e12.9659  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.63             0   Incomplete      ARPA   
+Internet  10.2.227.64             0   Incomplete      ARPA   
+Internet  10.2.227.66            36   38ca.84b3.3e27  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.67             0   246a.0e78.5f44  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.68             0   246a.0e77.e4ee  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.69            14   28c5.c873.6c62  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.71             2   246a.0e78.5c08  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.72           242   246a.0e78.bba1  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.73           206   246a.0e77.b674  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.75             0   246a.0e78.bde8  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.76             0   6c0b.8465.3c28  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.77             0   246a.0e78.bd11  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.79             0   246a.0e78.b57c  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.81             0   Incomplete      ARPA   
+Internet  10.2.227.82             0   Incomplete      ARPA   
+Internet  10.2.227.84             0   246a.0e78.b96e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.85             2   88ae.dd2a.f639  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.87           261   246a.0e77.b9c3  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.88             0   246a.0e78.b607  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.90             0   Incomplete      ARPA   
+Internet  10.2.227.91             4   7478.2735.fa2d  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.92             1   246a.0e78.b788  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.93            11   88ae.dd2d.4d59  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.95             0   5c60.ba37.bd46  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.96           150   c8a3.6261.69e1  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.97             0   246a.0e78.5039  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.100            0   246a.0e78.bb8c  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.101          211   246a.0e78.b79b  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.102            1   f4f1.9e12.51bd  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.103            0   f4f1.9e17.6e9f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.104            2   246a.0e78.b708  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.105            0   f4f1.9e12.5624  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.107          243   246a.0e78.525a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.108          194   28f1.0e33.67f9  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.109          197   246a.0e78.5303  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.110          159   00e0.4c36.1d4f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.111            1   28c5.c873.7258  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.113            0   246a.0e78.5c05  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.115            1   246a.0e78.5c19  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.117            2   246a.0e77.f39b  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.118            0   38ca.84b3.3d1a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.120            0   5c60.ba37.beff  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.121           11   246a.0e77.e725  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.122          224   f4f1.9e12.8bb6  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.123            0   246a.0e78.bb27  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.124            0   246a.0e78.bda4  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.125            0   246a.0e77.eb8b  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.126          261   246a.0e78.b836  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.127            2   5081.40b8.1c17  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.128            0   Incomplete      ARPA   
+Internet  10.2.227.130            0   246a.0e78.4fa4  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.131          149   f4f1.9e17.6eaa  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.132          213   246a.0e78.5f0e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.135            1   246a.0e77.e60d  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.136            0   246a.0e78.bce6  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.139            6   f4f1.9e12.9649  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.140            5   246a.0e77.f275  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.142          212   246a.0e77.b9eb  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.143          207   0492.2613.832c  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.145            0   246a.0e77.e590  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.146            1   246a.0e78.b8af  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.149            0   Incomplete      ARPA   
+Internet  10.2.227.150            0   246a.0e78.bc38  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.151            0   f4f1.9e12.9552  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.152            4   28c5.c873.6fb4  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.153          170   f4f1.9e17.6ebe  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.154          160   f4f1.9e12.9432  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.157            0   246a.0e78.b6b3  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.158            0   246a.0e78.bcbf  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.159            0   246a.0e78.502f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.160            5   f4f1.9e17.6ea4  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.161            0   Incomplete      ARPA   
+Internet  10.2.227.162            2   f4f1.9e17.6ec0  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.163          179   f4f1.9e12.9513  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.164            1   28c5.c881.70d7  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.165            0   28c5.c873.6ffa  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.166            3   246a.0e77.e3ed  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.169            0   246a.0e78.6140  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.171          245   246a.0e78.64d7  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.172          210   88ae.dd2d.4c51  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.174          193   246a.0e78.60e8  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.175            2   246a.0e78.62af  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.176            0   246a.0e78.bb03  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.178            0   f4f1.9e17.6e20  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.180            0   Incomplete      ARPA   
+Internet  10.2.227.181           36   24fb.e354.9f56  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.182            0   Incomplete      ARPA   
+Internet  10.2.227.183          196   6c0b.5e6c.f793  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.184            0   Incomplete      ARPA   
+Internet  10.2.227.185            1   246a.0e78.5c1d  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.186            0   246a.0e78.bd4f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.187            1   246a.0e78.50d6  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.188          221   246a.0e78.b7f3  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.189            0   Incomplete      ARPA   
+Internet  10.2.227.190          244   246a.0e78.be19  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.191            0   f4f1.9e12.8a61  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.192            0   246a.0e77.b5d9  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.193            1   246a.0e78.5ff1  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.195            0   246a.0e77.e641  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.197            0   246a.0e78.586b  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.198            0   88ae.dd2d.4fb8  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.199            1   28c5.c873.6fe0  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.200          204   5c60.ba3f.d636  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.201            1   fc5c.ee87.a6e6  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.202            1   5c60.ba37.be50  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.203            2   246a.0e78.5101  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.204            0   5c60.ba37.be53  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.207            0   28c5.c881.65e3  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.208            0   f4f1.9e12.95c4  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.209          254   246a.0e78.6133  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.210          177   f4f1.9e12.957e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.211            7   5c60.ba37.be84  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.212            5   28c5.c873.7277  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.213          250   246a.0e78.b8a9  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.214          238   246a.0e78.615b  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.216          242   246a.0e78.b87a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.217          231   246a.0e78.b6d8  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.218            0   489e.bda0.1175  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.219            0   246a.0e78.5f5a  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.220          213   246a.0e78.b5e7  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.221            0   38ca.8442.e7b0  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.222          248   246a.0e78.61fa  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.223            0   38ca.8442.e769  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.225          192   00e0.4c9d.5a1e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.226          187   f4f1.9e17.6eba  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.227            1   246a.0e77.f67e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.228           36   7c4d.8f40.9c2f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.229          216   98e7.4385.4d77  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.230            0   246a.0e78.6202  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.231            3   d0ad.085c.f50f  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.232            0   246a.0e78.b765  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.235            0   f4f1.9e12.9645  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.236           24   f09f.fc5c.2b5e  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.238            0   60cf.845e.cc3c  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.239            1   28c5.c873.7211  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.240            7   246a.0e77.b708  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.241            1   f4f1.9e12.9633  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.242            0   Incomplete      ARPA   
+Internet  10.2.227.243          231   246a.0e78.5873  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.244          182   b400.168f.82e0  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.245            1   246a.0e78.61b6  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.246          162   00e0.4c68.047c  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.247            1   509a.4c14.e3ee  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.248            0   246a.0e78.57b3  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.249          239   246a.0e78.58a4  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.250            0   246a.0e77.b5e8  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.251          227   3814.2885.84bb  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.252            0   d011.e556.b677  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.253          252   246a.0e77.ebe5  ARPA   GigabitEthernet0/0/0.226
+Internet  10.2.227.254          221   246a.0e77.b4f3  ARPA   GigabitEthernet0/0/0.226
+Internet  192.168.55.33          15   e80a.b91a.3bc1  ARPA   GigabitEthernet0/0/1
+Internet  192.168.55.34           -   1006.eda1.1dc1  ARPA   GigabitEthernet0/0/1
+Internet  192.168.105.37         40   8c94.61ea.d6c1  ARPA   GigabitEthernet0/1/0
+Internet  192.168.105.38          -   1006.eda1.1dc8  ARPA   GigabitEthernet0/1/0
+RT_DANAREKSA_LT_09#show macB address-table
+                           ^
+% Invalid input detected at '^' marker.
+
+RT_DANAREKSA_LT_09#show mac address-table 
+          Mac Address Table
+-------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       --------    -----
+ All    0100.0ccc.cccc    STATIC      CPU
+ All    0100.0ccc.cccd    STATIC      CPU
+ All    0100.0ccc.ccce    STATIC      CPU
+ All    0180.c200.0000    STATIC      CPU
+ All    0180.c200.0001    STATIC      CPU
+ All    0180.c200.0002    STATIC      CPU
+ All    0180.c200.0003    STATIC      CPU
+ All    0180.c200.0004    STATIC      CPU
+ All    0180.c200.0005    STATIC      CPU
+ All    0180.c200.0006    STATIC      CPU
+ All    0180.c200.0007    STATIC      CPU
+ All    0180.c200.0008    STATIC      CPU
+ All    0180.c200.0009    STATIC      CPU
+ All    0180.c200.000a    STATIC      CPU
+ All    0180.c200.000b    STATIC      CPU
+ All    0180.c200.000c    STATIC      CPU
+ All    0180.c200.000d    STATIC      CPU
+ All    0180.c200.000e    STATIC      CPU
+ All    0180.c200.000f    STATIC      CPU
+ All    0180.c200.0010    STATIC      CPU
+Total Mac Addresses for this criterion: 20

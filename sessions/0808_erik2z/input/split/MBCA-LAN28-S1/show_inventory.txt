@@ -1,0 +1,55 @@
+NAME: "Chassis", DESCR: "Cisco Catalyst 9400 Series 10 Slot Chassis"
+PID: C9410R            , VID: V01  , SN: FXS2316Q1LK
+
+NAME: "Slot 1 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V02  , SN: JAE233704PY
+
+NAME: "Slot 2 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V02  , SN: JAE233316XA
+
+NAME: "Slot 3 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V02  , SN: JAE233704T9
+
+NAME: "Slot 4 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V02  , SN: JAE233704KL
+
+NAME: "Slot 7 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V02  , SN: JAE2333170W
+
+NAME: "Slot 8 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V02  , SN: JAE233704QT
+
+NAME: "Slot 9 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V02  , SN: JAE23220D6L
+
+NAME: "Slot 5 Supervisor", DESCR: "Cisco Catalyst 9400 Series Supervisor 1 Module"
+PID: C9400-SUP-1       , VID: V02  , SN: JAE23360RYL
+
+NAME: "TenGigabitEthernet5/0/1", DESCR: "SFP+ 10GBASE-SR"
+PID: SFP-10G-SR          , VID: V03  , SN: JUR1915G79G     
+
+NAME: "TenGigabitEthernet5/0/3", DESCR: "GE SX"
+PID: FTLF8519P2BCL-CS  , VID:      , SN: FNS11370JAW     
+
+NAME: "Slot 6 Supervisor", DESCR: "Cisco Catalyst 9400 Series Supervisor 1 Module"
+PID: C9400-SUP-1       , VID: V02  , SN: JAE23360RX7
+
+NAME: "TenGigabitEthernet6/0/1", DESCR: "SFP+ 10GBASE-SR"
+PID: SFP-10G-SR          , VID: V03  , SN: JUR1915G79V     
+
+NAME: "Power Supply Module 1", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V01  , SN: DTM231702KE
+
+NAME: "Power Supply Module 2", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V01  , SN: DTM231701MW
+
+NAME: "Power Supply Module 3", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V01  , SN: DTM231701CL
+
+NAME: "Power Supply Module 4", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V01  , SN: DTM231702KA
+
+NAME: "Fan Tray", DESCR: "Cisco Catalyst 9400 Series 10 Slot Chassis Fan Tray"
+PID: C9410-FAN         , VID: V01  , SN: FXS2316Q0L8
+
+

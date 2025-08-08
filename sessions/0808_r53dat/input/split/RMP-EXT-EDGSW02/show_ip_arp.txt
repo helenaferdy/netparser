@@ -1,0 +1,31 @@
+RMP-EXT-EDGSW02# show ip arp
+
+Flags: * - Adjacencies learnt on non-active FHRP router
+       + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+       CP - Added via L2RIB, Control plane Adjacencies
+       PS - Added via L2RIB, Peer Sync
+       RO - Re-Originated Peer Sync Entry
+       D - Static Adjacencies attached to down interface
+
+IP ARP Table for context default
+Total number of entries: 18
+Address         Age       MAC Address     Interface       Flags
+10.254.253.134  00:14:32  1c43.63ea.8fad  Ethernet4/3     
+10.254.253.150  00:00:27  1c43.63e5.3aca  Ethernet4/4     
+10.204.38.134   00:13:23  0026.cb6e.e4c4  Ethernet4/8     
+10.254.251.165  00:01:18  f44e.0549.a67f  Ethernet4/49    
+10.254.251.173  00:01:28  7426.acfa.b9bf  Ethernet4/50    
+10.254.144.1    00:00:04  0000.0c9f.f00a  Vlan10          
+10.254.144.3    00:03:20  bc4a.56cd.ef7f  Vlan10          
+10.254.253.141  00:03:53  bc4a.56cd.ef7f  Vlan999         
+10.254.32.113   00:14:04  0000.0c9f.fcc2  Vlan3266        
+10.254.32.114   00:00:28  d4f5.ef8f.faa5  Vlan3266        
+10.254.32.115   00:04:45  d4f5.ef8f.faa5  Vlan3266        + 
+10.254.32.116   00:15:36  d4f5.efa0.3199  Vlan3266        
+10.254.32.117   00:03:23  bc4a.56cd.ef7f  Vlan3266        
+10.254.115.82   00:00:15  INCOMPLETE      Vlan3901        
+10.254.115.83   00:00:18  0050.56b6.4fc4  Vlan3901        
+10.254.250.137  00:10:03  0000.0c9f.f0c0  Vlan192         
+10.254.250.138  00:00:12  84c8.0761.efd1  Vlan192         + 
+10.254.250.139  00:02:41  bc4a.56cd.ef7f  Vlan192         

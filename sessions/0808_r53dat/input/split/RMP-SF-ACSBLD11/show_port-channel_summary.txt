@@ -1,0 +1,31 @@
+RMP-SF-ACSBLD11# show port-channel summary
+Flags:  D - Down        P - Up in port-channel (members)
+        I - Individual  H - Hot-standby (LACP only)
+        s - Suspended   r - Module-removed
+        b - BFD Session Wait
+        S - Switched    R - Routed
+        U - Up (port-channel)
+        p - Up in delay-lacp mode (member)
+        M - Not in use. Min-links not met
+--------------------------------------------------------------------------------
+Group Port-       Type     Protocol  Member Ports
+      Channel
+--------------------------------------------------------------------------------
+1     Po1(SU)     Eth      LACP      Eth1/46(P)   Eth1/47(P)   Eth1/48(D)
+2     Po2(SD)     Eth      LACP      Eth1/20(D)   Eth1/21(D)   
+3     Po3(SD)     Eth      LACP      Eth1/22(D)   Eth1/23(D)   
+4     Po4(SD)     Eth      LACP      Eth1/33(D)   Eth1/34(D)   Eth1/35(D)
+                                     Eth1/36(D)   
+5     Po5(SU)     Eth      LACP      Eth1/37(P)   Eth1/38(P)   Eth1/39(P)
+                                     Eth1/40(P)   
+6     Po6(SD)     Eth      LACP      Eth1/41(D)   Eth1/42(D)   Eth1/43(D)
+                                     Eth1/44(D)   
+7     Po7(SD)     Eth      LACP      Eth1/17(D)   
+8     Po8(SD)     Eth      LACP      Eth1/18(D)   
+28    Po28(SU)    Eth      LACP      Eth1/49(D)   Eth1/50(D)   Eth1/51(P)
+                                     Eth1/52(P)   
+RMP-SF-ACSBLD11# exit
+
+[Connection to 10.254.254.96 closed by foreign host]
+RMP-LAN-AGT01-CCLT01-BC#exit
+End Recording 10.254.255.17 (10.254.255.17)

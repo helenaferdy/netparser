@@ -57,7 +57,7 @@ def parsing_plain_text_to_json(template_file, data):
 
 # def process_single_hostname(args):
 #     """
-#     Worker function with detailed debugging to process a single IOS-XE device.
+#     Worker function to process a single IOS-XE device with robust normalization.
 #     """
 #     hostname, source_data_path, output_folder = args
 #     print(f"[{hostname}] Starting processing...")
@@ -67,51 +67,68 @@ def parsing_plain_text_to_json(template_file, data):
 #         try:
 #             return open(path, 'r', encoding='utf-8').read()
 #         except FileNotFoundError:
-#             print(f"[{hostname}][DEBUG] File not found: {filename}")
 #             return ""
 
-#     # --- DEBUGGING WRAPPER FOR FILE PARSING ---
 #     def parse_and_create_df(file_to_parse, template_name, column_map=None):
 #         df_name = file_to_parse.replace('.txt', '')
 #         try:
-#             print(f"[{hostname}][DEBUG] Parsing: {file_to_parse}")
 #             df = pd.DataFrame(parsing_plain_text_to_json(template_name, read_file(file_to_parse)))
-#             if df.empty:
-#                 print(f"[{hostname}][DEBUG] No data parsed from {file_to_parse}.")
-#                 return df
-            
-#             if column_map:
-#                 df.rename(columns=column_map, inplace=True)
-            
-#             print(f"[{hostname}][DEBUG] Successfully parsed {df_name}. Found {len(df)} rows. Columns: {list(df.columns)}")
+#             if df.empty: return df
+#             if column_map: df.rename(columns=column_map, inplace=True)
 #             return df
 #         except Exception as e:
 #             print(f"[{hostname}][FAILED] Could not parse or process '{df_name}'. Error: {e}")
-#             return pd.DataFrame() # Return empty DataFrame on failure
+#             return pd.DataFrame()
 
+#     def normalize_port_name(port_name):
+#         """Converts long interface names to short names."""
+#         if not isinstance(port_name, str):
+#             return port_name
+#         return (
+#             port_name.strip()
+#             .replace("TwentyFiveGigE", "Twe")
+#             .replace("FortyGigabitEthernet", "Fo")
+#             .replace("TenGigabitEthernet", "Te")
+#             .replace("GigabitEthernet", "Gi")
+#             .replace("FastEthernet", "Fa")
+#             .replace("Port-channel", "Po")
+#             .replace("Port-Channel", "Po")
+#             .replace("Gig ", "Gi")
+#             .replace("Ten ", "Te")
+#         )
 
-#     # --- PARSE ALL FILES WITH DEBUGGING ---
 #     mac_address = parse_and_create_df("show_mac_address-table.txt", "cisco_ios_show_mac-address-table.textfsm", {'DESTINATION_ADDRESS': 'MAC_ADDRESS', 'DESTINATION_PORT': 'PORTS'})
 #     ip_arp = parse_and_create_df("show_ip_arp.txt", "cisco_ios_show_ip_arp.textfsm")
-#     interface_description = parse_and_create_df("show_interface_description.txt", "cisco_ios_show_interfaces_description.textfsm")
+#     interface_description = parse_and_create_df("show_interfaces_description.txt", "cisco_ios_show_interfaces_description.textfsm")
 #     inventory = parse_and_create_df("show_inventory.txt", "cisco_ios_show_inventory.textfsm")
 #     port_channel_summary = parse_and_create_df("show_port-channel_summary.txt", "cisco_ios_show_etherchannel_summary.textfsm")
-#     interface_status = parse_and_create_df("show_interface_status.txt", "cisco_ios_show_interfaces_status.textfsm")
+#     interface_status = parse_and_create_df("show_interface_status.txt", "cisco_ios_show_interface_status.textfsm")
 #     cdp_neighbors = parse_and_create_df("show_cdp_neighbors.txt", "cisco_ios_show_cdp_neighbors.textfsm")
 #     lldp_neighbors = parse_and_create_df("show_lldp_neighbors.txt", "cisco_ios_show_lldp_neighbors.textfsm")
-#     interface_trunk = parse_and_create_df("show_interface_trunk.txt", "cisco_ios_show_interfaces_trunk.textfsm")
+#     interface_trunk = parse_and_create_df("show_interfaces_trunk.txt", "cisco_ios_show_interfaces_trunk.textfsm")
+
+#     # --- START OF FIX: Proactively normalize all relevant DataFrames ---
+#     if not interface_status.empty and 'PORT' in interface_status.columns:
+#         interface_status['PORT'] = interface_status['PORT'].apply(normalize_port_name)
+    
+#     if not cdp_neighbors.empty and 'LOCAL_INTERFACE' in cdp_neighbors.columns:
+#         cdp_neighbors['LOCAL_INTERFACE'] = cdp_neighbors['LOCAL_INTERFACE'].apply(normalize_port_name)
+    
+#     if not lldp_neighbors.empty and 'LOCAL_INTERFACE' in lldp_neighbors.columns:
+#         lldp_neighbors['LOCAL_INTERFACE'] = lldp_neighbors['LOCAL_INTERFACE'].apply(normalize_port_name)
+#     # --- END OF FIX ---
 
 #     result = []
 #     if mac_address.empty:
 #         print(f"[{hostname}] No MAC address data to process. Skipping main loop.")
-#         return None # Return None if no primary data exists
+#         return None
 
-#     print(f"[{hostname}][DEBUG] Starting to process {len(mac_address)} MAC address entries...")
 #     for index, row in mac_address.iterrows():
 #         try:
-#             # --- MAIN PROCESSING LOGIC FOR EACH ROW ---
 #             port_list = row.get('PORTS', [])
 #             port = port_list[0].strip() if port_list else ''
+#             port = normalize_port_name(port)
+            
 #             if not port or "CPU" in port:
 #                 continue
             
@@ -147,7 +164,8 @@ def parsing_plain_text_to_json(template_file, data):
 
 #             cdp_remote_hostname, cdp_remote_platform, cdp_remote_port = None, None, None
 #             if not cdp_neighbors.empty:
-#                 interfaces_to_check = [i.strip() for i in member_po.split(',')] if port.startswith('Po') and member_po else [port]
+#                 # The 'member_po' interfaces also need normalization before lookup
+#                 interfaces_to_check = [normalize_port_name(i.strip()) for i in member_po.split(',')] if port.startswith('Po') and member_po else [port]
 #                 cdp_data = cdp_neighbors[cdp_neighbors['LOCAL_INTERFACE'].isin(interfaces_to_check)]
 #                 if not cdp_data.empty:
 #                     cdp_remote_hostname = cdp_data.iloc[0]['NEIGHBOR_NAME']
@@ -156,6 +174,7 @@ def parsing_plain_text_to_json(template_file, data):
             
 #             lldp_remote_hostname, lldp_remote_port = None, None
 #             if not lldp_neighbors.empty and not port.startswith('Po'):
+#                 # The lldp_neighbors['LOCAL_INTERFACE'] column is now pre-normalized
 #                 lldp_array = lldp_neighbors.loc[lldp_neighbors['LOCAL_INTERFACE'] == port, ['NEIGHBOR_NAME', 'NEIGHBOR_INTERFACE']].values
 #                 if len(lldp_array) > 0: lldp_remote_hostname, lldp_remote_port = lldp_array[0]
 
@@ -183,7 +202,6 @@ def parsing_plain_text_to_json(template_file, data):
 #     result_final = pd.DataFrame(result)
 #     output_path = os.path.join(output_folder, f"{hostname}.xlsx")
 
-#     # --- START OF FIX: ADDED MISSING .to_excel() CALLS ---
 #     with pd.ExcelWriter(output_path) as writer:
 #         result_final.to_excel(writer, sheet_name='Final Data', index=False)
 #         mac_address.to_excel(writer, sheet_name="Mac Address", index=False)
@@ -195,14 +213,9 @@ def parsing_plain_text_to_json(template_file, data):
 #         cdp_neighbors.to_excel(writer, sheet_name="CDP Neighbors", index=False)
 #         lldp_neighbors.to_excel(writer, sheet_name="LLDP Neighbors", index=False)
 #         interface_trunk.to_excel(writer, sheet_name="Interface Trunk", index=False)
-#     # --- END OF FIX ---
     
 #     print(f"[{hostname}] Successfully created output file.")
 #     return f"{hostname}.xlsx"
-
-
-
-# In logic_xe.py
 
 def process_single_hostname(args):
     """
@@ -235,10 +248,16 @@ def process_single_hostname(args):
         if not isinstance(port_name, str):
             return port_name
         return (
-            port_name.replace("GigabitEthernet", "Gi")
+            port_name.strip()
+            .replace("TwentyFiveGigE", "Twe")
+            .replace("FortyGigabitEthernet", "Fo")
             .replace("TenGigabitEthernet", "Te")
-            .replace("Port-channel", "Po")
+            .replace("GigabitEthernet", "Gi")
             .replace("FastEthernet", "Fa")
+            .replace("Port-channel", "Po")
+            .replace("Port-Channel", "Po")
+            .replace("Gig ", "Gi")
+            .replace("Ten ", "Te")
         )
     # --- END OF FIX ---
 

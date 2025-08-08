@@ -1,0 +1,470 @@
+Interface                      Status         Protocol Description
+Te1/1/1                        up             up       Port Channel to MBCA-CORE1:E3/3
+Te1/1/2                        up             up       Port Channel to MBCA-CORE1:E2/9
+Te1/1/3                        up             up       vPC to MBCA-SFBU-NX1: Eth1/1
+Te1/1/4                        up             up       Connection to MBCA-LAN-ASA1: Inside E1/1
+Te1/1/5                        up             up       Connection to MBCA-LAN-ASA1: Outside E1/3
+Te1/1/6                        up             up       Connection to MBCA-LANB-S1
+Te1/1/7                        up             up       Port Channel to MBCA-UTILITY-S1
+Te1/1/8                        down           down     
+Te1/1/9                        up             down     
+Te1/1/10                       up             up       *** Connection to MBCA-ARB-WLC01 ***
+Te1/1/11                       up             up       *** Connection to MBCA-ARB-WLC02 ***
+Te1/1/12                       up             up       Connection to MBCA-LAN26-S1
+Te1/1/13                       up             up       Connection to MBCA-LAN28-S1
+Te1/1/14                       up             up       Connection to MBCA-LAN30-S1
+Te1/1/15                       up             up       Connection to MBCA-LAN32-S1
+Te1/1/16                       up             up       Connection to MBCA-LAN33-S1
+Te1/2/1                        up             up       Port Channel to MBCA-CORE2:E1/9
+Te1/2/2                        up             up       Port Channel to MBCA-CORE2:E2/9
+Te1/2/3                        up             up       vPC to MBCA-SFBU-NX2: Eth1/1
+Te1/2/4                        up             up       Connection to MBCA-LAN-ASA2: Inside E1/1
+Te1/2/5                        up             up       Connection to MBCA-LAN-ASA2: Outside E1/3
+Te1/2/6                        up             up       
+Te1/2/7                        up             up       
+Te1/2/8                        down           down     
+Te1/2/9                        up             up       **Connection to MBCA-WLAN-WLC1**
+Te1/2/10                       up             up       **Connection to MBCA-WLAN-WLC2**
+Te1/2/11                       up             up       Connection to MBCA-LAN25-S1
+Te1/2/12                       up             up       Connection to MBCA-LAN27-S1
+Te1/2/13                       up             up       Connection to MBCA-LAN29-S1
+Te1/2/14                       up             up       Connection to MBCA-LAN31-S1
+Te1/2/15                       up             up       Connection to MBCA-LAN32-S2
+Te1/2/16                       up             up       Connection to MBCA-LAN35-S1
+Te1/3/1                        up             up       *** VSL Link to MBCA-LAN-D SW2:2/3/1 ***
+Te1/3/2                        up             up       *** VSL Link to MBCA-LAN-D SW2:2/3/2 ***
+Te1/3/3                        up             up       *** VSL Link For Dual Active Detection ***
+Te1/3/4                        up             up       Connection to MBCA-LAN40-S1
+Te1/3/5                        admin down     down     
+Te1/3/6                        admin down     down     
+Te1/3/7                        admin down     down     
+Te1/3/8                        admin down     down     
+Fo1/3/9                        admin down     down     
+Fo1/3/10                       admin down     down     
+Te1/4/1                        up             up       *** VSL Link to MBCA-LAN-D SW2:2/4/1 ***
+Te1/4/2                        up             up       *** VSL Link to MBCA-LAN-D SW2:2/4/2 ***
+Te1/4/3                        up             up       *** VSL Link For Dual Active Detection ***
+Te1/4/4                        admin down     down     
+Te1/4/5                        admin down     down     
+Te1/4/6                        admin down     down     
+Te1/4/7                        admin down     down     
+Te1/4/8                        admin down     down     
+Fo1/4/9                        admin down     down     
+Fo1/4/10                       admin down     down     
+mgmt0                          down           down     
+Te1/5/1                        up             up       Connection to MBCA-LANLG-S1
+Te1/5/2                        up             up       Connection to MBCA-LANGF-S1
+Te1/5/3                        up             up       Connection to MBCA-LAN7-S1
+Te1/5/4                        up             up       Connection to MBCA-LAN12-S1
+Te1/5/5                        up             up       Connection to MBCA-LAN12A-S1
+Te1/5/6                        up             up       Connection to MBCA-LAN15-S1
+Te1/5/7                        up             up       Connection to MBCA-LAN16-S1
+Te1/5/8                        up             up       Connection to MBCA-LAN16-S2
+Te1/5/9                        up             up       Connection to MBCA-LAN17-S1
+Te1/5/10                       up             up       Connection to MBCA-LAN18-S1
+Te1/5/11                       up             up       Connection to MBCA-LAN19-S1
+Te1/5/12                       up             up       Connection to MBCA-LAN20-S1
+Te1/5/13                       up             up       Connection to MBCA-LAN21-S1
+Te1/5/14                       up             up       Connection to MBCA-LAN22-S1
+Te1/5/15                       up             up       Connection to MBCA-LAN23-S1
+Te1/5/16                       up             up       Connection to MBCA-LAN23-S2
+Gi1/6/1                        up             up       Connection To MBCA-CCTV-SW
+Gi1/6/2                        up             up       Connection To MBCA-CCTV-SW
+Gi1/6/3                        down           down     Connection To MBCA-DEV-S1
+Gi1/6/4                        up             up       Connection to MBCA-PE-R1:Gi1/1/1
+Gi1/6/5                        down           down     Connection to MBCA-LANB-S1
+Gi1/6/6                        down           down     Connection to MBCA-LANB-S1
+Gi1/6/7                        up             up       Connection to MBCA-LAN41-S1
+Gi1/6/8                        up             up       Connection to MBCA-WLAN-WLC1
+Gi1/6/9                        up             up       
+Gi1/6/10                       up             up       
+Gi1/6/11                       up             up       
+Gi1/6/12                       down           down     
+Gi1/6/13                       down           down     
+Gi1/6/14                       down           down     
+Gi1/6/15                       down           down     
+Gi1/6/16                       down           down     
+Gi1/6/17                       down           down     
+Gi1/6/18                       down           down     
+Gi1/6/19                       down           down     
+Gi1/6/20                       down           down     
+Gi1/6/21                       down           down     
+Gi1/6/22                       down           down     
+Gi1/6/23                       down           down     
+Gi1/6/24                       down           down     
+Gi1/6/25                       down           down     
+Gi1/6/26                       down           down     
+Gi1/6/27                       down           down     
+Gi1/6/28                       down           down     
+Gi1/6/29                       down           down     
+Gi1/6/30                       down           down     
+Gi1/6/31                       down           down     
+Gi1/6/32                       down           down     
+Gi1/6/33                       down           down     
+Gi1/6/34                       down           down     
+Gi1/6/35                       down           down     
+Gi1/6/36                       down           down     
+Gi1/6/37                       down           down     
+Gi1/6/38                       down           down     
+Gi1/6/39                       down           down     
+Gi1/6/40                       down           down     
+Gi1/6/41                       down           down     *** SPAN Port to MBCA-GIGAMON-1 ***
+Gi1/6/42                       down           down     *** Connected to POC Dark Trace ***
+Gi1/6/43                       down           down     Connection to MBCA-CAS-ACTIVE (FAILOVER)
+Gi1/6/44                       down           down     Connection to MBCA-CAS-ACTIVE (TRUSTED)
+Gi1/6/45                       down           down     Connection to MBCA-CAS-ACTIVE (UNTRUSTED)
+Gi1/6/46                       down           down     Connection to MBCA-CAS-ACTIVE SPAN COLLECTOR
+Gi1/6/47                       down           down     Connection to SPAN Port Fluke NTM
+Gi1/6/48                       up             down     Connection to SPAN Port NICE
+Te2/1/1                        up             up       Port Channel to MBCA-CORE1:E1/10
+Te2/1/2                        up             up       Port Channel to MBCA-CORE1:E2/10
+Te2/1/3                        up             up       vPC to MBCA-SFBU-NX1: Eth1/2
+Te2/1/4                        up             up       Connection to MBCA-LAN-ASA1: Inside E1/2
+Te2/1/5                        up             up       Connection to MBCA-LAN-ASA1: Outside E1/4
+Te2/1/6                        up             up       Connection to MBCA-LANB-S1
+Te2/1/7                        up             up       Port Channel to MBCA-UTILITY-S1
+Te2/1/8                        down           down     
+Te2/1/9                        up             down     
+Te2/1/10                       up             up       *** Connection to MBCA-ARB-WLC01 ***
+Te2/1/11                       up             up       *** Connection to MBCA-ARB-WLC02 ***
+Te2/1/12                       up             up       Connection to MBCA-LAN26-S1
+Te2/1/13                       up             up       Connection to MBCA-LAN28-S1
+Te2/1/14                       up             up       Connection to MBCA-LAN30-S1
+Te2/1/15                       up             up       Connection to MBCA-LAN32-S1
+Te2/1/16                       up             up       Connection to MBCA-LAN33-S1
+Te2/2/1                        up             up       Port Channel to MBCA-CORE2:E1/10
+Te2/2/2                        up             up       Port Channel to MBCA-CORE2:E2/10
+Te2/2/3                        up             up       vPC to MBCA-SFBU-NX2: Eth1/2
+Te2/2/4                        up             up       Connection to MBCA-LAN-ASA2: Inside E1/2
+Te2/2/5                        up             up       Connection to MBCA-LAN-ASA2: Outside E1/4
+Te2/2/6                        up             up       
+Te2/2/7                        up             up       
+Te2/2/8                        down           down     
+Te2/2/9                        up             up       **Connection to MBCA-WLAN-WLC1**
+Te2/2/10                       up             up       **Connection to MBCA-WLAN-WLC2**
+Te2/2/11                       up             up       Connection to MBCA-LAN25-S1
+Te2/2/12                       up             up       Connection to MBCA-LAN27-S1
+Te2/2/13                       up             up       Connection to MBCA-LAN29-S1
+Te2/2/14                       up             up       Connection to MBCA-LAN31-S1
+Te2/2/15                       up             up       Connection to MBCA-LAN32-S2
+Te2/2/16                       up             up       Connection to MBCA-LAN35-S1
+Te2/3/1                        up             up       *** VSL Link to MBCA-LAN-D SW1:1/3/1 ***
+Te2/3/2                        up             up       *** VSL Link to MBCA-LAN-D SW1:1/3/2 ***
+Te2/3/3                        up             up       *** VSL Link For Dual Active Detection ***
+Te2/3/4                        up             up       Connection to MBCA-LAN40-S1
+Te2/3/5                        admin down     down     
+Te2/3/6                        admin down     down     
+Te2/3/7                        admin down     down     
+Te2/3/8                        admin down     down     
+Fo2/3/9                        admin down     down     
+Fo2/3/10                       admin down     down     
+Te2/4/1                        up             up       *** VSL Link to MBCA-LAN-D SW1:1/4/1 ***
+Te2/4/2                        up             up       *** VSL Link to MBCA-LAN-D SW1:1/4/2 ***
+Te2/4/3                        up             up       *** VSL Link For Dual Active Detection ***
+Te2/4/4                        admin down     down     
+Te2/4/5                        admin down     down     
+Te2/4/6                        admin down     down     
+Te2/4/7                        admin down     down     
+Te2/4/8                        admin down     down     
+Fo2/4/9                        admin down     down     
+Fo2/4/10                       admin down     down     
+Te2/5/1                        up             up       Connection to MBCA-LANLG-S1
+Te2/5/2                        up             up       Connection to MBCA-LANGF-S1
+Te2/5/3                        up             up       Connection to MBCA-LAN7-S1
+Te2/5/4                        up             up       Connection to MBCA-LAN12-S1
+Te2/5/5                        up             up       Connection to MBCA-LAN12A-S1
+Te2/5/6                        up             up       Connection to MBCA-LAN15-S1
+Te2/5/7                        up             up       Connection to MBCA-LAN16-S1
+Te2/5/8                        up             up       Connection to MBCA-LAN16-S2
+Te2/5/9                        up             up       Connection to MBCA-LAN17-S1
+Te2/5/10                       up             up       Connection to MBCA-LAN18-S1
+Te2/5/11                       up             up       Connection to MBCA-LAN19-S1
+Te2/5/12                       up             up       Connection to MBCA-LAN20-S1
+Te2/5/13                       up             up       Connection to MBCA-LAN21-S1
+Te2/5/14                       up             up       Connection to MBCA-LAN22-S1
+Te2/5/15                       up             up       Connection to MBCA-LAN23-S1
+Te2/5/16                       up             up       Connection to MBCA-LAN23-S2
+Gi2/6/1                        up             up       Connection To MBCA-CCTV-SW
+Gi2/6/2                        up             up       Connection To MBCA-CCTV-SW
+Gi2/6/3                        down           down     Connection To MBCA-DEV-S1
+Gi2/6/4                        up             up       Connection to MBCA-PE-R1:Gi0/1/1
+Gi2/6/5                        down           down     Connection to MBCA-LANB-S1
+Gi2/6/6                        down           down     Connection to MBCA-LANB-S1
+Gi2/6/7                        up             up       Connection to MBCA-LAN41-S1
+Gi2/6/8                        up             up       Connection to MBCA-WLAN-WLC1
+Gi2/6/9                        up             up       
+Gi2/6/10                       up             up       
+Gi2/6/11                       up             up       
+Gi2/6/12                       down           down     
+Gi2/6/13                       down           down     
+Gi2/6/14                       down           down     
+Gi2/6/15                       down           down     
+Gi2/6/16                       down           down     
+Gi2/6/17                       down           down     
+Gi2/6/18                       down           down     
+Gi2/6/19                       down           down     
+Gi2/6/20                       down           down     
+Gi2/6/21                       down           down     
+Gi2/6/22                       down           down     
+Gi2/6/23                       down           down     
+Gi2/6/24                       down           down     
+Gi2/6/25                       down           down     
+Gi2/6/26                       down           down     
+Gi2/6/27                       down           down     
+Gi2/6/28                       down           down     
+Gi2/6/29                       down           down     
+Gi2/6/30                       down           down     
+Gi2/6/31                       down           down     
+Gi2/6/32                       down           down     
+Gi2/6/33                       down           down     
+Gi2/6/34                       down           down     
+Gi2/6/35                       down           down     
+Gi2/6/36                       down           down     
+Gi2/6/37                       down           down     
+Gi2/6/38                       down           down     
+Gi2/6/39                       down           down     
+Gi2/6/40                       down           down     
+Gi2/6/41                       down           down     
+Gi2/6/42                       down           down     *** Connected to POC Dark Trace ***
+Gi2/6/43                       down           down     Connection to MBCA-CAS-STANDBY (FAILOVER)
+Gi2/6/44                       down           down     Connection to MBCA-CAS-STANDBY (TRUSTED)
+Gi2/6/45                       down           down     Connection to MBCA-CAS-STANDBY (UNTRUSTED)
+Gi2/6/46                       down           down     Connection to MBCA-CAS-STANDBY SPAN COLLECTOR
+Gi2/6/47                       down           down     Connection to SPAN Port Fluke NTM
+Gi2/6/48                       down           down     
+Lo0                            up             up       --
+Po1                            up             up       To MBCA-SFBU-NX
+Po2                            down           down     Port Channel to MBCA-DEV-S1
+Po3                            up             up       To MBCA-WLAN-WLC1
+Po4                            up             up       To MBCA-LANB-S1
+Po5                            up             up       To MBCA-LANLG-S1
+Po6                            up             up       To MBCA-LANGF-S1
+Po7                            up             up       To MBCA-LAN7-S1
+Po10                           admin down     down     
+Po12                           up             up       To MBCA-LAN12-S1
+Po14                           up             up       To MBCA-LAN12A-S1
+Po15                           up             up       To MBCA-LAN15-S1
+Po16                           up             up       To MBCA-LAN16-S1
+Po17                           up             up       To MBCA-LAN17-S1
+Po18                           up             up       To MBCA-LAN18-S1
+Po19                           up             up       To MBCA-LAN19-S1
+Po20                           up             up       To MBCA-LAN20-S1
+Po21                           up             up       To MBCA-LAN21-S1
+Po22                           up             up       To MBCA-LAN22-S1
+Po23                           up             up       To MBCA-LAN23-S1
+Po25                           up             up       To MBCA-LAN25-S1
+Po26                           up             up       To MBCA-LAN26-S1
+Po27                           up             up       To MBCA-LAN27-S1
+Po28                           up             up       To MBCA-LAN28-S1
+Po29                           up             up       To MBCA-LAN29-S1
+Po30                           up             up       To MBCA-LAN30-S1
+Po31                           up             up       To MBCA-LAN31-S1
+Po32                           up             up       To MBCA-LAN32-S1
+Po33                           up             up       To MBCA-LAN33-S1
+Po35                           up             up       To MBCA-LAN35-S1
+Po40                           up             up       Port-channel To MBCA-LAN40-S1
+Po41                           up             up       To MBCA-LAN41-S1
+Po42                           up             up       To MBCA-LAN32-S2
+Po43                           up             up       To MBCA-LAN23-S2
+Po46                           up             up       To MBCA-LAN16-S2
+Po47                           up             up       Port Channel to MBCA-UTILITY-S1
+Po48                           up             up       Port Channel to MBCA-UTILITY-S2
+Po49                           up             up       Port Channel to MBCA-UTILITY-S3
+Po50                           up             up       Port Channel to MBCA-UTILITY-S4
+Po51                           up             up       Port Channel to MBCA-LAN-ASA1:Inside
+Po52                           up             up       Port Channel to MBCA-LAN-ASA1:Outside
+Po53                           up             up       **To MBCA-WLAN-WLC1**
+Po54                           up             up       Port Channel to MBCA-SFBU-ASA1
+Po55                           up             up       *** Port Channel To MBCA-ARB-WLC01 ***
+Po61                           up             up       Port Channel to MBCA-LAN-ASA2:Inside
+Po62                           up             up       Port Channel to MBCA-LAN-ASA2:Outside
+Po63                           up             up       **To MBCA-WLAN-WLC2**
+Po64                           up             up       Port Channel to MBCA-SFBU-ASA2
+Po65                           up             up       *** Port Channel To MBCA-ARB-WLC02 ***
+Po80                           up             up       Port Channel to MBCA-CCTV-SW
+Po101                          up             up       *** Port-Channel for VSL ***
+Po102                          up             up       *** Port-Channel for VSL ***
+Po103                          up             up       Port Channel to MBCA-CORE1
+Po203                          up             up       Port Channel to MBCA-CORE2
+Vl1                            admin down     down     
+Vl100                          up             up       Context East-West
+Vl105                          up             up       Inside Context GSIT
+Vl110                          up             up       Outside Context GSIT
+Vl115                          up             up       Inside Context Non-GSIT
+Vl120                          up             up       Outside Context Non-GSIT
+Vl125                          up             up       Inside Context WLAN
+Vl130                          up             up       Outside Context WLAN
+Vl135                          up             up       Inside Context Voice
+Vl140                          up             up       Outside Context Voice
+Vl145                          up             up       Inside Context Utility
+Vl150                          up             up       Outside Context Utility
+Vl155                          up             up       Inside Context SGT-1
+Vl160                          up             up       Outside Context SGT1
+Vl165                          up             up       Inside Context SGT-2
+Vl170                          up             up       Outside Context SGT2
+Vl400                          up             up       Basement_inside_dept1_10.21.0.0
+Vl405                          up             up       Lower_Ground_inside_dept1_10.21.6.0
+Vl408                          up             up       Ground_inside_dept1_10.21.8.0
+Vl416                          up             up       12th_inside_dept1_10.21.16.0
+Vl424                          up             up       12Ath_inside_dept1_10.21.24.0
+Vl432                          up             up       15th_inside_dept1_10.21.32.0
+Vl446                          down           down     15th_outside_SGT_Test_10.21.41.0
+Vl448                          up             up       16th_inside_dept1_10.21.48.0
+Vl456                          up             up       16th_inside_dept5_10.21.56.0
+Vl464                          up             up       17th_inside_dept1_10.21.64.0
+Vl469                          up             up       inside_utility_Hub_10.21.11.0
+Vl472                          up             up       17th_inside_dept5_10.21.72.0
+Vl480                          up             up       18th_inside_dept1_10.21.80.0
+Vl488                          up             up       18th_inside_dept5_10.21.88.0
+Vl498                          down           down     SFBU DLSW
+Vl500                          down           down     Network Management
+Vl501                          up             up       19th_inside_dept1_10.21.96.0
+Vl509                          up             up       20th_inside_dept1_10.21.104.0
+Vl517                          up             up       7th_inside_dept1_10.21.10.0
+Vl527                          up             up       VDI_CITRIX_inside_10.20.217.0
+Vl528                          up             up       VDI_GSIT_MBCA_&_WSA2_10.20.228.0
+Vl530                          up             up       VDI_BCP_Asemka_10.20.232.0
+Vl548                          up             up       Collaboration PCCE
+Vl549                          up             up       Collaboration PCCE HEARTBEAT
+Vl550                          up             up       **** Avaya Call Center PABX ****
+Vl551                          up             up       Temp VG1
+Vl552                          up             up       Temp VG2
+Vl557                          up             up       Webex Call Manager
+Vl558                          up             up       Temp GK1
+Vl559                          up             up       Temp GK2
+Vl580                          up             up       SFBU Ctx Group Outside
+Vl581                          up             up       SFBU Ctx Audit Outside
+Vl582                          up             up       SFBU Ctx 3 Outside
+Vl583                          up             up       SFBU Ctx 4 Outside
+Vl584                          up             up       SFBU Ctx 5 Outside
+Vl585                          up             up       SFBU Ctx 6 Outside
+Vl586                          up             up       SFBU Ctx 7 Outside
+Vl587                          up             up       SFBU Ctx 8 Outside
+Vl588                          down           down     Development Outside
+Vl589                          up             up       VICON Temp
+Vl590                          up             up       SFBU Ctx 11 Outside
+Vl591                          up             up       SFBU Ctx 12 Outside
+Vl592                          up             up       SFBU Ctx 13 Outside
+Vl593                          up             up       SFBU Ctx 14 Outside
+Vl594                          up             up       SFBU Ctx 15 Outside
+Vl595                          down           down     SFBU Ctx 16 Outside
+Vl596                          up             up       SFBU Ctx 17 Outside
+Vl610                          up             up       CCTV_Management_inside_10.21.210
+Vl611                          up             up       CCTV_Server_inside_10.21.212.0
+Vl612                          up             up       Access_Control_inside_10.21.210.
+Vl621                          down           down     Switch Extender Management Outside
+Vl680                          down           down     Bank R Big Data 10.20.236.0/24 outside
+Vl681                          down           down     Bank R Internal 10.20.237.0/24 outside
+Vl800                          down           down     SFBU Cetak-Kartu 10.20.211.0/25 outside
+Vl888                          down           down     *** CAS SPAN Collector ***
+Vl889                          down           down     *** CAS Management ***
+Vl1042                         up             up       Utility_inside_192.168.158.0/23
+Vl1079                         up             up       *** KCU THAMRIM IP CAMERA ***
+Vl1080                         up             up       Basement Camera
+Vl1081                         up             up       Ground Camera
+Vl1082                         up             up       12th Camera
+Vl1083                         up             up       12Ath Camera
+Vl1084                         up             up       15th Camera
+Vl1085                         up             up       16th Camera
+Vl1086                         up             up       17th Camera
+Vl1087                         up             up       18th Camera
+Vl1088                         up             up       19th Camera
+Vl1089                         up             up       20th Camera
+Vl1090                         up             up       21th Camera
+Vl1091                         up             up       22th Camera
+Vl1092                         up             up       23th Camera
+Vl1093                         up             up       25th Camera
+Vl1094                         up             up       26th Camera
+Vl1095                         up             up       27th Camera
+Vl1096                         up             up       28th Camera
+Vl1097                         up             up       29th Camera
+Vl1098                         up             up       30th Camera
+Vl1099                         up             up       31st Camera
+Vl1101                         up             up       33rd Camera
+Vl1200                         up             up       Basement IP Phone
+Vl1202                         up             up       LowerGround IP Phone
+Vl1204                         up             up       Ground IP Phone
+Vl1207                         up             up       7th IP Phone
+Vl1208                         up             up       12th IP Phone
+Vl1210                         up             up       12 Solitaire IP Phone
+Vl1212                         up             up       12Ath IP Phone
+Vl1216                         up             up       15th IP Phone 1
+Vl1220                         up             up       16th IP Phone 1
+Vl1221                         up             up       16th IP Phone 2
+Vl1224                         up             up       17th IP Phone 1
+Vl1225                         up             up       17th IP Phone 2
+Vl1228                         up             up       18th IP Phone 1
+Vl1229                         up             up       18th IP Phone 1
+Vl1230                         up             up       41st IP Phone 1
+Vl1232                         up             up       19th IP Phone
+Vl1236                         up             up       20th IP Phone
+Vl1248                         up             up       21th IP Phone 1
+Vl1249                         up             up       21th IP Phone 2
+Vl1252                         up             up       22th IP Phone
+Vl1256                         up             up       23th IP Phone 1
+Vl1257                         up             up       23th IP Phone 2
+Vl1258                         up             up       23th IP Phone 3
+Vl1259                         up             up       23th IP Phone 4
+Vl1260                         up             up       25th IP Phone 1
+Vl1261                         up             up       25th IP Phone 2
+Vl1264                         up             up       26th IP Phone 1
+Vl1265                         up             up       26th IP Phone 2
+Vl1268                         up             up       27th IP Phone 1
+Vl1269                         up             up       27th IP Phone 2
+Vl1272                         up             up       28th IP Phone
+Vl1276                         up             up       29th IP Phone 1
+Vl1277                         up             up       29th IP Phone 2
+Vl1280                         up             up       30th IP Phone 1
+Vl1281                         up             up       30th IP Phone 2
+Vl1284                         up             up       31st IP Phone 1
+Vl1285                         up             up       31st IP Phone 2
+Vl1286                         up             up       32nd IP Phone 1
+Vl1287                         up             up       32nd IP Phone 2
+Vl1288                         up             up       32nd IP Phone 3
+Vl1289                         up             up       32nd IP Phone 4
+Vl1291                         up             up       33rd IP Phone 1
+Vl1295                         up             up       35nd IP Phone 1
+Vl1400                         up             up       21st_inside_dept1_10.21.128.0
+Vl1408                         up             up       21st_inside_dept5_10.21.136.0
+Vl1416                         up             up       22th_inside_dept1_10.21.144.0
+Vl1417                         up             up       22th_inside_rakernas_10.21.146.0
+Vl1424                         up             up       23th_inside_dept1_10.21.152.0
+Vl1425                         up             up       23th_inside_dept2_10.21.154.0
+Vl1432                         up             up       23th_inside_dept5_10.21.160.0
+Vl1433                         up             up       23th_inside_dept6_10.21.162.0
+Vl1440                         up             up       25th_inside_dept1_10.21.168.0
+Vl1441                         up             up       25th_inside_dept2_10.21.170.0
+Vl1448                         up             up       25th_inside_dept5_10.21.176.0
+Vl1456                         up             up       26th_inside_dept1_10.21.184.0
+Vl1464                         up             up       26th_inside_dept5_10.21.192.0
+Vl1472                         up             up       27th_inside_dept1_10.21.200.0
+Vl1480                         up             up       27th_inside_dept5_10.21.208.0
+Vl1488                         up             up       28th_inside_dept1_10.21.216.0
+Vl1490                         up             up       28th_inside_dept3_10.21.218.0
+Vl1496                         up             up       29th_inside_dept1_10.21.224.0
+Vl1498                         up             up       29th_inside_dept3_10.21.226.0
+Vl1504                         up             up       29th_inside_dept5_10.21.232.0
+Vl1512                         up             up       30th_inside_dept1_10.21.236.0
+Vl1528                         up             up       
+Vl1536                         up             up       31st_inside_dept5_10.21.248.0
+Vl1545                         up             up       Test NAS2
+Vl1548                         up             up       32nd_inside_dept1_10.21.36.0
+Vl1568                         up             up       32nd Outside Dept 3
+Vl1576                         up             up       32nd Outside Dept 4
+Vl1580                         up             up       33rd_inside_dept1_10.21.112.0
+Vl1588                         up             up       33rd_inside_dept2_10.21.114.0
+Vl1590                         up             up       35th_inside_dept1_10.21.120.0
+Vl1596                         up             up       Future_Branch_inside_10.21.5.0
+Vl1604                         up             up       21_inside_dept7_10.21.106.0
+Vl1612                         down           down     36th_outside_dept2_10.21.122.0
+Vl1618                         up             up       40th_inside_dept1_10.21.26.0
+Vl1623                         up             up       Kiosk_inside_dept1_10.21.2.0
+Vl1700                         up             up       
+Vl2012                         up             up       15th_WLAN_inside_10.26.32.0
+Vl2013                         up             up       BIT_WLAN_inside_10.26.34.0
+Vl2016                         up             up       wfa_inside_10.26.64.0
+Vl2024                         up             up       3DC_WLAN_inside_10.26.24.0
+Vl2063                         up             up       AP_Management_inside_10.26.254.0
+Vl2064                         up             up       MGMT_AP_inside_10.26.252.0/24
+Vl2171                         down           down     Vicon Polaris Temporary
+Vl3003                         up             up       

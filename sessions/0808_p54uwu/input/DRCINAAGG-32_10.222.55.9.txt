@@ -1,0 +1,1962 @@
+
+===== terminal length 0 =====
+
+
+===== show cdp neighbors =====
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+Device-ID          Local Intrfce  Hldtme Capability  Platform      Port ID
+DRCMGTAGG-1.corp.bi.go.id(FOC1915R0JG)
+                    mgmt0          127    R S I s   N5K-C5672UP   Eth101/1/42   
+DRCINAAGG-42.corp.bi.go.id(JAF1552BHRS)
+                    Eth3/1         156    R S I s   N7K-C7009     Eth3/1        
+DRCINAAGG-42.corp.bi.go.id(JAF1552BHRS)
+                    Eth3/2         156    R S s     N7K-C7009     Eth3/2        
+DRCCORSWT-1.corp.bi.go.id(FGE18210BR2)
+                    Eth3/3         157    R S s     N9K-C9508     Eth1/3        
+DRCINAAGG-42.corp.bi.go.id(JAF1552BHRS)
+                    Eth4/1         156    R S I s   N7K-C7009     Eth4/1        
+DRCINAAGG-42.corp.bi.go.id(JAF1552BHRS)
+                    Eth4/2         156    R S s     N7K-C7009     Eth4/2        
+DRCCORSWT-2.corp.bi.go.id(FGE18320EFA)
+                    Eth4/3         139    R S s     N9K-C9508     Eth1/3        
+DRCINAAGG-42.corp.bi.go.id(JAF1552BHRS)
+                    Eth5/1         156    R S s     N7K-C7009     Eth5/1        
+DRCINAAGG-42.corp.bi.go.id(JAF1552BHRS)
+                    Eth6/1         156    R S s     N7K-C7009     Eth6/1        
+
+Total entries displayed: 9
+
+
+===== show interface description =====
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+mgmt0                    --
+
+-------------------------------------------------------------------------------
+Port          Type   Speed   Description
+-------------------------------------------------------------------------------
+Eth3/1        eth    40G     Po1 DRCINAAGG-42 Eth3/1
+Eth3/2        eth    40G     Po3 DRCINAAGG-42 Eth3/2
+Eth3/3        eth    40G     DRCCORSWT-1 Eth1/3
+Eth4/1        eth    40G     Po1 DRCINAAGG-42 Eth4/1
+Eth4/2        eth    40G     Po3 DRCINAAGG-42 Eth4/2
+Eth4/3        eth    40G     DRCCORSWT-2 Eth1/3
+Eth5/1        eth    10G     Po2 DRCINAAGG-42 Eth5/1
+Eth5/2        eth    10G     --
+Eth5/3        eth    10G     Po4 DRCINAFWF-1 Te0/6
+Eth5/4        eth    10G     Po5 DRCINAFWF-2 Te0/6
+Eth5/5        eth    10G     DRCINAF51
+Eth5/6        eth    10G     DRCINAF51
+Eth5/7        eth    10G     DRCINAF52
+Eth5/8        eth    10G     DRCINAF52
+Eth6/1        eth    10G     Po2 DRCINAAGG-42 Eth6/1
+Eth6/2        eth    10G     --
+Eth6/3        eth    10G     Po4 DRCINAFWF-1 Te1/0
+Eth6/4        eth    10G     Po5 DRCINAFWF-2 Te1/0
+Eth6/5        eth    10G     DRCINAF51
+Eth6/6        eth    10G     DRCINAF51
+Eth6/7        eth    10G     DRCINAF52
+Eth6/8        eth    10G     DRCINAF52
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Po1                      DRCINAAGG-42 Po1 (VPC-PEERLINK)
+Po2                      DRCINAAGG-42 Po2 (VPC-KEEPALIVE)
+Po3                      DRCINAAGG-42 Po3 (Layer 3)
+Po4                      DRCINAFWF-1 Po2
+Po5                      DRCINAFWF-2 Po2
+Po6                      DRCINAF51 Pox
+Po7                      DRCINAF52 Pox
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Lo0                      --
+
+-------------------------------------------------------------------------------
+Interface                Description
+-------------------------------------------------------------------------------
+Vlan1                    --
+Vlan401                  SOSA-OUTSIDE
+Vlan402                  SAN-OUTSIDE
+Vlan403                  OSA-SOSA-DEV-OUTSIDE
+Vlan404                  LIBRARY-MON-OUTSIDE
+Vlan405                  PIM-DRC-OUTSIDE
+Vlan406                  ILO-OUTSIDE
+Vlan407                  INFRA-OUTSIDE
+Vlan408                  LAN-GUARD-OUTSIDE
+Vlan409                  POCSKN-OUTSIDE
+Vlan410                  AD-OUTSIDE
+Vlan411                  MCS-SYSCEN-OUTSIDE
+Vlan412                  HYPERV-OUTSIDE
+Vlan413                  DB-CLUSTER-KRIT-OUTSIDE
+Vlan414                  APP-CLUSTER-KRIT-OUTSIDE
+Vlan415                  SIEM-DRC-OUTSIDE
+Vlan416                  PIK-DRC-OUTSIDE
+Vlan417                  SOSA-APP-DRC-OUTSIDE
+Vlan418                  SOSA-DB-DRC-OUTSIDE
+Vlan419                  HYPERV-INTRANET-OUTSIDE
+Vlan420                  APP-STAND-INTRANET-OUTSIDE
+Vlan426                  IPTEL-SERVER-OUTSIDE
+Vlan427                  SOSA-TEST-OUTSIDE
+Vlan428                  ORACLEDB-OUTSIDE
+Vlan429                  TANDEM-MF -OUTSIDE
+Vlan430                  VLAN902-OUTSIDE
+Vlan431                  SQLDB-OUTSIDE
+Vlan433                  UCCE-OUTSIDE 
+Vlan434                  --
+Vlan435                  --
+Vlan436                  --
+Vlan437                  --
+Vlan438                  --
+Vlan439                  --
+Vlan440                  CLK-NLB-INA-WEB-OUTSIDE
+Vlan441                  CLK-NLB-INA-APP-OUTSIDE
+Vlan442                  CLK-NLB-INA-DB-OUTSIDE
+Vlan444                  MGMT-3550-OUTSIDE
+Vlan445                  INTRACA-DRC-OUTSIDE
+Vlan446                  INTRACRL-DRC-OUTSIDE
+Vlan447                  POLICYCA-DRC-OUTSIDE
+Vlan448                  ROOTCA-DRC-OUTSIDE
+Vlan449                  HSM-BICA-OUTSIDE
+Vlan450                  INTRAF5-DRC-OUTSIDE
+Vlan915                  FOMOBO-BLOOMBERG-DRC-OUTSIDE
+Vlan1001                 DBINTRA-DRC-OUTSIDE
+Vlan1021                 GWMAPP-DRC-OUTSIDE
+Vlan1023                 OPICS-APP-INA-DRC-OUTSIDE
+Vlan1025                 AD-DRC-OUTSIDE
+Vlan1027                 GPS-OUTSIDE
+Vlan1029                 DB-STAND-DEV-DRC-OUTSIDE
+Vlan1031                 IPTEL-DRC-OUTSIDE
+Vlan1033                 DEV-BIGDATA-APP-OUTSIDE
+Vlan1041                 WEB-DEV-OUTSIDE
+Vlan1043                 APP-DEV-OUTSIDE
+Vlan1045                 HYPERV-DEV-OUTSIDE
+Vlan1047                 DB-DEV-OUTSIDE
+Vlan1049                 RTGS-WEB-DEV-OUTSIDE
+Vlan1051                 RTGS-APP-DEV-OUTSIDE
+Vlan1053                 RTGS-DB-DEV-OUTSIDE
+Vlan1055                 RTGS-PP-DEV-OUTSIDE
+Vlan1081                 TST-OUTSIDE
+Vlan1083                 MARKET-DEV-OUTSIDE
+Vlan1085                 SP-DEV-OUTSIDE
+Vlan1087                 MI-DEV-OUTSIDE
+Vlan1089                 SSK-DEV-OUTSIDE
+Vlan1091                 MD-DEV-OUTSIDE
+Vlan1093                 MON-DEV-OUTSIDE
+Vlan1095                 INF-DEV-OUTSIDE
+Vlan1097                 CBS-APP-DRC-OUTSIDE
+Vlan1099                 ERP-APP-DRC-OUTSIDE
+Vlan1101                 SOA-APP-DRC-OUTSIDE
+Vlan1103                 SOA-LOG-DRC-OUTSIDE
+Vlan1105                 CBS-DB-DRC-OUTSIDE
+Vlan1107                 FOMOBO-DB-DRC-OUTSIDE
+Vlan1109                 ERP-DB-DRC-OUTSIDE
+Vlan1111                 SOA-DB-DRC-OUTSIDE
+Vlan1113                 FOMOBO-WEB-DRC-OUTSIDE
+Vlan1115                 ERP-WEB-DRC-OUTSIDE
+Vlan1117                 FOMOBO-CITRIX-DRC-OUTSIDE
+Vlan1119                 FOMOBO-MSCI-DRC-OUTSIDE
+Vlan1125                 TST-CI-OUTSIDE
+Vlan1127                 OVM-INA-DRC-OUTSIDE
+Vlan1129                 NFS-WEB-DRC-OUTSIDE
+Vlan1131                 RTDASH-WEB-DRC-OUTSIDE
+Vlan1133                 CITRIX-XENAPP-DRC-OUTSIDE
+Vlan1169                 BMA-PXE-OUTSIDE
+Vlan1171                 NFS-APP-OUTSIDE
+Vlan1173                 APP-SFTP-BIMASAKTI-DRC-OUTSIDE
+Vlan1175                 TST-BIMASAKTI-OUTSIDE
+Vlan1181                 ANTASENA-WEB-DRC-OUTSIDE
+Vlan1183                 F5-NON-CRITICAL-OUTSIDE
+Vlan1195                 SECURE-NETWORK-DRC-OUTSIDE
+Vlan1197                 SKN-DEV-OUTSIDE
+Vlan1203                 VLAN-TESTING-DRC-OUTSIDE
+Vlan1205                 DRC-VDI-REMOTE-OUTSIDE
+Vlan1207                 SIT-UAT-BIFAST-OUTSIDE
+Vlan1209                 SBC-OUTSIDE
+Vlan1211                 DRCVMMMGT-3051-OUTSIDE
+Vlan1213                 DRCMSINFSQL-3052-OUTSIDE
+Vlan1215                 MONITOR-DRCINAFWF-OUTSIDE
+
+
+===== show interface status =====
+
+--------------------------------------------------------------------------------
+Port             Name            Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0            --              connected routed    full    a-1000  --         
+Eth3/1           Po1 DRCINAAGG-4 connected trunk     full    a-40G   QSFP-40G-SR
+Eth3/2           Po3 DRCINAAGG-4 connected routed    full    a-40G   QSFP-40G-SR
+Eth3/3           DRCCORSWT-1 Eth connected routed    full    a-40G   QSFP-40G-SR
+Eth4/1           Po1 DRCINAAGG-4 connected trunk     full    a-40G   QSFP-40G-SR
+Eth4/2           Po3 DRCINAAGG-4 connected routed    full    a-40G   QSFP-40G-SR
+Eth4/3           DRCCORSWT-2 Eth connected routed    full    a-40G   QSFP-40G-SR
+Eth5/1           Po2 DRCINAAGG-4 connected routed    full    a-10G   10Gbase-SR 
+Eth5/2           --              disabled  routed    auto    auto    10Gbase-SR 
+Eth5/3           Po4 DRCINAFWF-1 connected trunk     full    a-10G   10Gbase-SR 
+Eth5/4           Po5 DRCINAFWF-2 connected trunk     full    a-10G   10Gbase-SR 
+Eth5/5           DRCINAF51       connected trunk     full    a-10G   10Gbase-SR 
+Eth5/6           DRCINAF51       linkFlapE trunk     auto    auto    10Gbase-SR 
+Eth5/7           DRCINAF52       connected trunk     full    a-10G   10Gbase-SR 
+Eth5/8           DRCINAF52       linkFlapE trunk     auto    auto    10Gbase-SR 
+Eth6/1           Po2 DRCINAAGG-4 connected routed    full    a-10G   10Gbase-SR 
+Eth6/2           --              sfpAbsent routed    auto    auto    --         
+Eth6/3           Po4 DRCINAFWF-1 connected trunk     full    a-10G   10Gbase-SR 
+Eth6/4           Po5 DRCINAFWF-2 connected trunk     full    a-10G   10Gbase-SR 
+Eth6/5           DRCINAF51       connected trunk     full    a-10G   10Gbase-SR 
+Eth6/6           DRCINAF51       connected trunk     full    a-10G   10Gbase-SR 
+Eth6/7           DRCINAF52       connected trunk     full    a-10G   10Gbase-SR 
+Eth6/8           DRCINAF52       connected trunk     full    a-10G   10Gbase-SR 
+Po1              DRCINAAGG-42 Po connected trunk     full    a-40G   --         
+Po2              DRCINAAGG-42 Po connected routed    full    a-10G   --         
+Po3              DRCINAAGG-42 Po connected routed    full    a-40G   --         
+Po4              DRCINAFWF-1 Po2 connected trunk     full    a-10G   --         
+Po5              DRCINAFWF-2 Po2 connected trunk     full    a-10G   --         
+Po6              DRCINAF51 Pox   connected trunk     full    a-10G   --         
+Po7              DRCINAF52 Pox   connected trunk     full    a-10G   --         
+Lo0              --              connected routed    auto    auto    --         
+Vlan1         --                 down      routed    auto    auto    --
+Vlan401       SOSA-OUTSIDE       connected routed    auto    auto    --
+Vlan402       SAN-OUTSIDE        down      routed    auto    auto    --
+Vlan403       OSA-SOSA-DEV-OUTSI down      routed    auto    auto    --
+Vlan404       LIBRARY-MON-OUTSID connected routed    auto    auto    --
+Vlan405       PIM-DRC-OUTSIDE    down      routed    auto    auto    --
+Vlan406       ILO-OUTSIDE        down      routed    auto    auto    --
+Vlan407       INFRA-OUTSIDE      down      routed    auto    auto    --
+Vlan408       LAN-GUARD-OUTSIDE  connected routed    auto    auto    --
+Vlan409       POCSKN-OUTSIDE     connected routed    auto    auto    --
+Vlan410       AD-OUTSIDE         connected routed    auto    auto    --
+Vlan411       MCS-SYSCEN-OUTSIDE connected routed    auto    auto    --
+Vlan412       HYPERV-OUTSIDE     down      routed    auto    auto    --
+Vlan413       DB-CLUSTER-KRIT-OU connected routed    auto    auto    --
+Vlan414       APP-CLUSTER-KRIT-O down      routed    auto    auto    --
+Vlan415       SIEM-DRC-OUTSIDE   connected routed    auto    auto    --
+Vlan416       PIK-DRC-OUTSIDE    down      routed    auto    auto    --
+Vlan417       SOSA-APP-DRC-OUTSI down      routed    auto    auto    --
+Vlan418       SOSA-DB-DRC-OUTSID connected routed    auto    auto    --
+Vlan419       HYPERV-INTRANET-OU down      routed    auto    auto    --
+Vlan420       APP-STAND-INTRANET connected routed    auto    auto    --
+Vlan426       IPTEL-SERVER-OUTSI down      routed    auto    auto    --
+Vlan427       SOSA-TEST-OUTSIDE  connected routed    auto    auto    --
+Vlan428       ORACLEDB-OUTSIDE   connected routed    auto    auto    --
+Vlan429       TANDEM-MF -OUTSIDE connected routed    auto    auto    --
+Vlan430       VLAN902-OUTSIDE    connected routed    auto    auto    --
+Vlan431       SQLDB-OUTSIDE      connected routed    auto    auto    --
+Vlan433       UCCE-OUTSIDE       connected routed    auto    auto    --
+Vlan434       --                 connected routed    auto    auto    --
+Vlan435       --                 down      routed    auto    auto    --
+Vlan436       --                 connected routed    auto    auto    --
+Vlan437       --                 connected routed    auto    auto    --
+Vlan438       --                 connected routed    auto    auto    --
+Vlan439       --                 connected routed    auto    auto    --
+Vlan440       CLK-NLB-INA-WEB-OU connected routed    auto    auto    --
+Vlan441       CLK-NLB-INA-APP-OU connected routed    auto    auto    --
+Vlan442       CLK-NLB-INA-DB-OUT connected routed    auto    auto    --
+Vlan444       MGMT-3550-OUTSIDE  connected routed    auto    auto    --
+Vlan445       INTRACA-DRC-OUTSID down      routed    auto    auto    --
+Vlan446       INTRACRL-DRC-OUTSI down      routed    auto    auto    --
+Vlan447       POLICYCA-DRC-OUTSI down      routed    auto    auto    --
+Vlan448       ROOTCA-DRC-OUTSIDE down      routed    auto    auto    --
+Vlan449       HSM-BICA-OUTSIDE   down      routed    auto    auto    --
+Vlan450       INTRAF5-DRC-OUTSID connected routed    auto    auto    --
+Vlan915       FOMOBO-BLOOMBERG-D connected routed    auto    auto    --
+Vlan1001      DBINTRA-DRC-OUTSID down      routed    auto    auto    --
+Vlan1021      GWMAPP-DRC-OUTSIDE down      routed    auto    auto    --
+Vlan1023      OPICS-APP-INA-DRC- connected routed    auto    auto    --
+Vlan1025      AD-DRC-OUTSIDE     down      routed    auto    auto    --
+Vlan1027      GPS-OUTSIDE        connected routed    auto    auto    --
+Vlan1029      DB-STAND-DEV-DRC-O down      routed    auto    auto    --
+Vlan1031      IPTEL-DRC-OUTSIDE  down      routed    auto    auto    --
+Vlan1033      DEV-BIGDATA-APP-OU down      routed    auto    auto    --
+Vlan1041      WEB-DEV-OUTSIDE    down      routed    auto    auto    --
+Vlan1043      APP-DEV-OUTSIDE    down      routed    auto    auto    --
+Vlan1045      HYPERV-DEV-OUTSIDE down      routed    auto    auto    --
+Vlan1047      DB-DEV-OUTSIDE     down      routed    auto    auto    --
+Vlan1049      RTGS-WEB-DEV-OUTSI connected routed    auto    auto    --
+Vlan1051      RTGS-APP-DEV-OUTSI connected routed    auto    auto    --
+Vlan1053      RTGS-DB-DEV-OUTSID connected routed    auto    auto    --
+Vlan1055      RTGS-PP-DEV-OUTSID connected routed    auto    auto    --
+Vlan1081      TST-OUTSIDE        connected routed    auto    auto    --
+Vlan1083      MARKET-DEV-OUTSIDE connected routed    auto    auto    --
+Vlan1085      SP-DEV-OUTSIDE     connected routed    auto    auto    --
+Vlan1087      MI-DEV-OUTSIDE     connected routed    auto    auto    --
+Vlan1089      SSK-DEV-OUTSIDE    connected routed    auto    auto    --
+Vlan1091      MD-DEV-OUTSIDE     connected routed    auto    auto    --
+Vlan1093      MON-DEV-OUTSIDE    connected routed    auto    auto    --
+Vlan1095      INF-DEV-OUTSIDE    connected routed    auto    auto    --
+Vlan1097      CBS-APP-DRC-OUTSID down      routed    auto    auto    --
+Vlan1099      ERP-APP-DRC-OUTSID down      routed    auto    auto    --
+Vlan1101      SOA-APP-DRC-OUTSID down      routed    auto    auto    --
+Vlan1103      SOA-LOG-DRC-OUTSID down      routed    auto    auto    --
+Vlan1105      CBS-DB-DRC-OUTSIDE down      routed    auto    auto    --
+Vlan1107      FOMOBO-DB-DRC-OUTS down      routed    auto    auto    --
+Vlan1109      ERP-DB-DRC-OUTSIDE down      routed    auto    auto    --
+Vlan1111      SOA-DB-DRC-OUTSIDE down      routed    auto    auto    --
+Vlan1113      FOMOBO-WEB-DRC-OUT down      routed    auto    auto    --
+Vlan1115      ERP-WEB-DRC-OUTSID down      routed    auto    auto    --
+Vlan1117      FOMOBO-CITRIX-DRC- connected routed    auto    auto    --
+Vlan1119      FOMOBO-MSCI-DRC-OU down      routed    auto    auto    --
+Vlan1125      TST-CI-OUTSIDE     connected routed    auto    auto    --
+Vlan1127      OVM-INA-DRC-OUTSID down      routed    auto    auto    --
+Vlan1129      NFS-WEB-DRC-OUTSID down      routed    auto    auto    --
+Vlan1131      RTDASH-WEB-DRC-OUT connected routed    auto    auto    --
+Vlan1133      CITRIX-XENAPP-DRC- down      routed    auto    auto    --
+Vlan1169      BMA-PXE-OUTSIDE    connected routed    auto    auto    --
+Vlan1171      NFS-APP-OUTSIDE    down      routed    auto    auto    --
+Vlan1173      APP-SFTP-BIMASAKTI down      routed    auto    auto    --
+Vlan1175      TST-BIMASAKTI-OUTS connected routed    auto    auto    --
+Vlan1181      ANTASENA-WEB-DRC-O down      routed    auto    auto    --
+Vlan1183      F5-NON-CRITICAL-OU connected routed    auto    auto    --
+Vlan1195      SECURE-NETWORK-DRC down      routed    auto    auto    --
+Vlan1197      SKN-DEV-OUTSIDE    connected routed    auto    auto    --
+Vlan1203      VLAN-TESTING-DRC-O connected routed    auto    auto    --
+Vlan1205      DRC-VDI-REMOTE-OUT down      routed    auto    auto    --
+Vlan1207      SIT-UAT-BIFAST-OUT connected routed    auto    auto    --
+Vlan1209      SBC-OUTSIDE        connected routed    auto    auto    --
+Vlan1211      DRCVMMMGT-3051-OUT down      routed    auto    auto    --
+Vlan1213      DRCMSINFSQL-3052-O down      routed    auto    auto    --
+Vlan1215      MONITOR-DRCINAFWF- connected routed    auto    auto    --
+
+
+===== show interface trunk =====
+
+--------------------------------------------------------------------------------
+Port          Native  Status        Port
+              Vlan                  Channel
+--------------------------------------------------------------------------------
+Eth3/1        1       trnk-bndl     Po1
+Eth4/1        1       trnk-bndl     Po1
+Eth5/3        1       trnk-bndl     Po4
+Eth5/4        1       trnk-bndl     Po5
+Eth5/5        1       trnk-bndl     Po6
+Eth5/6        1       trnk-bndl     Po6
+Eth5/7        1       trnk-bndl     Po7
+Eth5/8        1       trnk-bndl     Po7
+Eth6/3        1       trnk-bndl     Po4
+Eth6/4        1       trnk-bndl     Po5
+Eth6/5        1       trnk-bndl     Po6
+Eth6/6        1       trnk-bndl     Po6
+Eth6/7        1       trnk-bndl     Po7
+Eth6/8        1       trnk-bndl     Po7
+Po1           1       trunking      --
+Po4           1       trunking      --
+Po5           1       trunking      --
+Po6           1       trunking      --
+Po7           1       trunking      --
+
+--------------------------------------------------------------------------------
+Port          Vlans Allowed on Trunk
+--------------------------------------------------------------------------------
+Eth3/1        1-4094
+Eth4/1        1-4094
+Eth5/3        1-4094
+Eth5/4        1-4094
+Eth5/5        450
+Eth5/6        450
+Eth5/7        450
+Eth5/8        450
+Eth6/3        1-4094
+Eth6/4        1-4094
+Eth6/5        450
+Eth6/6        450
+Eth6/7        450
+Eth6/8        450
+Po1           1-4094
+Po4           1-4094
+Po5           1-4094
+Po6           450
+Po7           450
+
+--------------------------------------------------------------------------------
+Port          Vlans Err-disabled on Trunk
+--------------------------------------------------------------------------------
+Eth3/1        none
+Eth4/1        none
+Eth5/3        none
+Eth5/4        none
+Eth5/5        none
+Eth5/6        none
+Eth5/7        none
+Eth5/8        none
+Eth6/3        none
+Eth6/4        none
+Eth6/5        none
+Eth6/6        none
+Eth6/7        none
+Eth6/8        none
+Po1           none
+Po4           none
+Po5           none
+Po6           none
+Po7           none
+
+--------------------------------------------------------------------------------
+Port          STP Forwarding
+--------------------------------------------------------------------------------
+Eth3/1        1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Eth4/1        1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Eth5/3        1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Eth5/4        1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Eth5/5        450
+Eth5/6        none
+Eth5/7        450
+Eth5/8        none
+Eth6/3        1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Eth6/4        1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Eth6/5        450
+Eth6/6        450
+Eth6/7        450
+Eth6/8        450
+Po1           1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Po4           1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Po5           1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Po6           450
+Po7           450
+
+--------------------------------------------------------------------------------
+Port          Vlans in spanning tree forwarding state and not pruned
+--------------------------------------------------------------------------------
+Eth3/1        1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Eth4/1        1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Eth5/3        1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Eth5/4        1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Eth5/5        450
+Eth5/6        none
+Eth5/7        450
+Eth5/8        none
+Eth6/3        1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Eth6/4        1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Eth6/5        450
+Eth6/6        450
+Eth6/7        450
+Eth6/8        450
+Po1           1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Po4           1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Po5           1,401-442,444-450,915,1001,1021,1023,1025,1027,1029,1031,1033,1041,1043,1045,1047,1049,1051,1053,1055,1081,1083,1085,1087,1089,1091,1093,1095,1097,1099,1101,1103,1105,1107,1109,1111,1113,1115,1117,1119,1125,1127,1129,1131,1133,1169,1171,1173,1175,1181,1183,1195,1197,1203,1205,1207,1209,1211,1213,1215
+Po6           450
+Po7           450
+
+--------------------------------------------------------------------------------
+Port          Vlans Forwarding on FabricPath
+--------------------------------------------------------------------------------
+Eth3/1        none
+Eth4/1        none
+Eth5/3        none
+Eth5/4        none
+Eth5/5        none
+Eth5/6        none
+Eth5/7        none
+Eth5/8        none
+Eth6/3        none
+Eth6/4        none
+Eth6/5        none
+Eth6/6        none
+Eth6/7        none
+Eth6/8        none
+Po1           none
+Po4           none
+Po5           none
+Po6           none
+Po7           none
+
+
+===== show inventory =====
+NAME: "Chassis",  DESCR: "Nexus7000 C7009 (9 Slot) Chassis "     
+PID: N7K-C7009           ,  VID: V01 ,  SN: JAF1602BFDP          
+
+NAME: "Slot 1",  DESCR: "Supervisor Module-2"                   
+PID: N7K-SUP2E           ,  VID: V03 ,  SN: JAE19270DPK          
+
+NAME: "Slot 2",  DESCR: "Supervisor Module-2"                   
+PID: N7K-SUP2E           ,  VID: V03 ,  SN: JAE19240659          
+
+NAME: "Slot 3",  DESCR: "10/40 Gbps Ethernet Module"            
+PID: N7K-M206FQ-23L      ,  VID: V04 ,  SN: JAE192406E9          
+
+NAME: "Slot 4",  DESCR: "10/40 Gbps Ethernet Module"            
+PID: N7K-M206FQ-23L      ,  VID: V04 ,  SN: JAE192008V2          
+
+NAME: "Slot 5",  DESCR: "10 Gbps Ethernet Module"               
+PID: N7K-M224XP-23L      ,  VID: V05 ,  SN: JAE192801ZE          
+
+NAME: "Slot 6",  DESCR: "10 Gbps Ethernet Module"               
+PID: N7K-M224XP-23L      ,  VID: V05 ,  SN: JAE19260DLE          
+
+NAME: "Slot 7",  DESCR: "1/10 Gbps Ethernet Module"             
+PID: N7K-F248XP-25E      ,  VID: V01 ,  SN: JAF1816AKQQ          
+
+NAME: "Slot 8",  DESCR: "10/100/1000 Mbps Ethernet Module"      
+PID: N7K-M148GT-11       ,  VID: V09 ,  SN: JAF1335ASRQ          
+
+NAME: "Slot 9",  DESCR: "10/40 Gbps Ethernet Module"            
+PID: N7K-M206FQ-23L      ,  VID: V04 ,  SN: JAE210107P0          
+
+NAME: "Slot 10",  DESCR: "Fabric card module"                    
+PID: N7K-C7009-FAB-2     ,  VID: V01 ,  SN: JAF1605AHPD          
+
+NAME: "Slot 11",  DESCR: "Fabric card module"                    
+PID: N7K-C7009-FAB-2     ,  VID: V01 ,  SN: JAF1605AHMC          
+
+NAME: "Slot 12",  DESCR: "Fabric card module"                    
+PID: N7K-C7009-FAB-2     ,  VID: V01 ,  SN: JAF1614AMGM          
+
+NAME: "Slot 13",  DESCR: "Fabric card module"                    
+PID: N7K-C7009-FAB-2     ,  VID: V01 ,  SN: JAF1605AHJJ          
+
+NAME: "Slot 14",  DESCR: "Fabric card module"                    
+PID: N7K-C7009-FAB-2     ,  VID: V01 ,  SN: JAF1605AHQJ          
+
+NAME: "Slot 33",  DESCR: "Nexus7000 C7009 (9 Slot) Chassis Power Supply"
+PID: N7K-AC-6.0KW        ,  VID: V02 ,  SN: AZS154202DC          
+
+NAME: "Slot 34",  DESCR: "Nexus7000 C7009 (9 Slot) Chassis Power Supply"
+PID: N7K-AC-6.0KW        ,  VID: V02 ,  SN: AZS154202E4          
+
+NAME: "Slot 35",  DESCR: "Nexus7000 C7009 (9 Slot) Chassis Fan Module"
+PID: N7K-C7009-FAN       ,  VID: V01 ,  SN: JAF1602AMFN          
+
+
+
+===== show ip arp =====
+
+Flags: * - Adjacencies learnt on non-active FHRP router
+       + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+       D - Static Adjacencies attached to down interface
+
+IP ARP Table for context default
+Total number of entries: 615
+Address         Age       MAC Address     Interface
+10.230.30.51    00:10:00  6c9c.ed42.61c2  Vlan1215        
+10.230.30.52    00:10:42  80e0.1d58.9db0  Vlan1215        
+10.230.30.53    00:10:49  80e0.1d58.9c88  Vlan1215        
+10.230.30.35    00:08:07  6c9c.ed42.61c2  Vlan1209        
+10.230.30.36    00:17:46  80e0.1d58.9db0  Vlan1209        
+10.230.30.37    00:17:10  80e0.1d58.9c88  Vlan1209        
+10.230.27.67    00:04:41  6c9c.ed42.61c2  Vlan1207        
+10.230.204.3    00:05:29  6c9c.ed42.61c2  Vlan1203        
+10.230.72.3     00:08:31  6c9c.ed42.61c2  Vlan1197        
+10.230.9.3      00:04:34  6c9c.ed42.61c2  Vlan1183        
+10.230.9.4      00:17:11  80e0.1d58.9db0  Vlan1183        
+10.230.9.6      00:17:47  0023.e9e5.3945  Vlan1183        
+10.230.9.7      00:00:25  0023.e9e5.3945  Vlan1183        
+10.230.9.8      00:03:01  000a.49ba.f305  Vlan1183        
+10.230.9.10     00:17:42  0023.e9e5.3945  Vlan1183        
+10.230.9.11     00:17:12  0023.e9e5.3945  Vlan1183        
+10.230.9.12     00:17:36  0023.e9e5.3945  Vlan1183        
+10.230.9.13     00:17:03  0023.e9e5.3945  Vlan1183        
+10.230.9.14     00:17:05  0023.e9e5.3945  Vlan1183        
+10.230.9.15     00:17:03  0023.e9e5.3945  Vlan1183        
+10.230.9.16     00:16:54  0023.e9e5.3945  Vlan1183        
+10.230.9.17     00:16:56  0023.e9e5.3945  Vlan1183        
+10.230.9.18     00:17:39  0023.e9e5.3945  Vlan1183        
+10.230.9.19     00:16:54  0023.e9e5.3945  Vlan1183        
+10.230.9.20     00:17:46  0023.e9e5.3945  Vlan1183        
+10.230.9.21     00:17:41  0023.e9e5.3945  Vlan1183        
+10.230.9.22     00:17:45  0023.e9e5.3945  Vlan1183        
+10.230.70.3     00:09:10  6c9c.ed42.61c2  Vlan1175        
+10.230.66.3     00:10:32  6c9c.ed42.61c2  Vlan1169        
+10.230.64.3     00:10:54  6c9c.ed42.61c2  Vlan1131        
+10.230.61.3     00:11:09  6c9c.ed42.61c2  Vlan1125        
+10.230.61.11    00:00:24  0015.5d12.0706  Vlan1125        
+10.230.61.12    00:00:05  0015.5d12.0705  Vlan1125        
+10.230.61.13    00:00:03  0015.5d12.0702  Vlan1125        
+10.230.61.14    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.15    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.20    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.21    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.22    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.23    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.24    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.25    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.26    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.27    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.36    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.37    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.38    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.39    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.40    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.41    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.42    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.43    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.48    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.49    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.50    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.51    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.60    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.61    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.62    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.63    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.64    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.65    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.66    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.67    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.76    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.77    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.78    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.79    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.84    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.85    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.86    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.87    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.88    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.89    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.90    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.91    00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.100   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.101   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.102   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.103   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.104   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.105   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.106   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.107   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.112   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.113   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.114   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.115   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.124   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.125   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.126   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.127   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.132   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.133   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.134   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.135   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.136   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.137   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.138   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.139   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.144   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.145   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.146   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.147   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.156   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.157   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.158   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.159   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.160   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.161   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.162   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.163   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.172   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.173   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.174   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.175   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.180   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.181   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.182   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.183   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.184   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.185   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.186   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.187   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.196   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.197   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.198   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.199   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.200   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.201   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.202   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.203   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.208   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.209   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.210   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.211   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.220   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.221   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.222   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.223   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.224   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.225   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.226   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.227   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.236   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.237   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.238   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.239   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.244   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.245   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.246   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.247   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.248   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.249   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.250   00:00:19  INCOMPLETE      Vlan1125        
+10.230.61.251   00:00:19  INCOMPLETE      Vlan1125        
+10.230.58.3     00:12:52  6c9c.ed42.61c2  Vlan1117        
+10.230.29.3     00:09:55  6c9c.ed42.61c2  Vlan1095        
+10.230.29.4     00:17:19  80e0.1d58.9db0  Vlan1095        
+10.230.29.5     00:16:57  80e0.1d58.9c88  Vlan1095        
+10.230.29.44    00:00:14  001d.d8b7.1c5d  Vlan1095        
+10.230.29.96    00:00:08  001d.d8b7.1cf0  Vlan1095        
+10.230.29.97    00:05:45  001d.d8b7.1cfe  Vlan1095        
+10.230.29.99    00:07:08  001d.d8b7.1d15  Vlan1095        
+10.230.29.100   00:00:05  001d.d8b7.1d3c  Vlan1095        
+10.230.29.103   00:05:25  001d.d8b7.1d61  Vlan1095        
+10.230.29.104   00:03:05  001d.d8b7.1d78  Vlan1095        
+10.230.29.140   00:03:37  001d.d8b7.1e8c  Vlan1095        
+10.230.29.141   00:00:06  001d.d8b7.1e92  Vlan1095        
+10.230.29.144   00:01:07  001d.d8b7.1ea6  Vlan1095        
+10.230.28.3     00:11:00  6c9c.ed42.61c2  Vlan1093        
+10.230.28.4     00:17:19  80e0.1d58.9db0  Vlan1093        
+10.230.28.5     00:17:49  80e0.1d58.9c88  Vlan1093        
+10.230.28.28    00:07:13  001d.d8b7.1ce3  Vlan1093        
+10.230.28.31    00:03:47  001d.d8b7.1cfa  Vlan1093        
+10.230.28.34    00:00:44  001d.d8b7.1d05  Vlan1093        
+10.230.28.37    00:00:14  001d.d8b7.1d0b  Vlan1093        
+10.230.28.38    00:00:07  001d.d8b7.1d12  Vlan1093        
+10.230.28.40    00:03:56  001d.d8b7.1d1c  Vlan1093        
+10.230.28.41    00:00:06  001d.d8b7.1d1d  Vlan1093        
+10.230.28.42    00:05:59  001d.d8b7.1d1e  Vlan1093        
+10.230.28.43    00:05:19  001d.d8b7.1d1f  Vlan1093        
+10.230.28.44    00:08:46  001d.d8b7.1d20  Vlan1093        
+10.230.28.45    00:03:55  001d.d8b7.1d21  Vlan1093        
+10.230.28.46    00:02:38  001d.d8b7.1d2b  Vlan1093        
+10.230.28.48    00:14:33  001d.d8b7.1d2d  Vlan1093        
+10.230.28.49    00:01:07  001d.d8b7.1d2e  Vlan1093        
+10.230.28.50    00:00:06  001d.d8b7.1d30  Vlan1093        
+10.230.28.52    00:00:25  001d.d8b7.1d32  Vlan1093        
+10.230.28.54    00:00:31  001d.d8b7.1d36  Vlan1093        
+10.230.28.56    00:00:27  001d.d8b7.1d41  Vlan1093        
+10.230.28.58    00:08:18  0015.5d0b.6b13  Vlan1093        
+10.230.28.61    0.746473  0015.5d0b.6b12  Vlan1093        
+10.230.28.62    00:00:53  001d.d8b7.1d64  Vlan1093        
+10.230.28.63    00:13:53  0015.5d0b.6b11  Vlan1093        
+10.230.28.64    00:06:52  0015.5d0b.6b10  Vlan1093        
+10.230.28.65    00:00:33  001d.d8b7.1d6f  Vlan1093        
+10.230.28.66    00:09:44  0015.5d0b.5f13  Vlan1093        
+10.230.28.67    00:04:24  001d.d8b7.1d73  Vlan1093        
+10.230.28.68    00:00:32  001d.d8b7.1d74  Vlan1093        
+10.230.28.69    00:07:08  001d.d8b7.1d75  Vlan1093        
+10.230.28.70    00:06:53  001d.d8b7.1d76  Vlan1093        
+10.230.28.71    00:12:16  001d.d8b7.1d77  Vlan1093        
+10.230.28.72    00:05:46  001d.d8b7.1d8f  Vlan1093        
+10.230.28.75    00:17:49  001d.d8b7.1da5  Vlan1093        
+10.230.28.76    00:06:21  0015.5d0b.6b07  Vlan1093        
+10.230.28.77    00:03:38  001d.d8b7.1daa  Vlan1093        
+10.230.28.79    00:03:07  0015.5d0b.6b0f  Vlan1093        
+10.230.28.80    00:00:15  0015.5d0b.6b0e  Vlan1093        
+10.230.28.82    00:00:23  001d.d8b7.1dba  Vlan1093        
+10.230.28.83    00:00:29  001d.d8b7.1dbb  Vlan1093        
+10.230.28.84    00:03:10  001d.d8b7.1dc1  Vlan1093        
+10.230.28.88    00:00:01  001d.d8b7.1dd1  Vlan1093        
+10.230.28.92    00:09:44  001d.d8b7.1e2b  Vlan1093        
+10.230.28.93    00:01:47  001d.d8b7.1e2c  Vlan1093        
+10.230.28.95    00:10:36  001d.d8b7.1e4c  Vlan1093        
+10.230.28.96    00:00:21  0015.5d0b.6b0b  Vlan1093        
+10.230.28.98    00:07:08  001d.d8b7.1e63  Vlan1093        
+10.230.28.99    00:07:07  001d.d8b7.1e67  Vlan1093        
+10.230.28.102   00:00:32  001d.d8b7.1e97  Vlan1093        
+10.230.28.103   00:00:12  0015.5d0b.6705  Vlan1093        
+10.230.28.104   00:03:10  001d.d8b7.1e99  Vlan1093        
+10.230.28.108   00:02:40  001d.d8b7.1ea1  Vlan1093        
+10.230.24.3     00:13:07  6c9c.ed42.61c2  Vlan1091        
+10.230.24.4     00:17:44  80e0.1d58.9db0  Vlan1091        
+10.230.24.5     00:17:15  80e0.1d58.9c88  Vlan1091        
+10.230.24.46    00:00:09  001d.d8b7.1c95  Vlan1091        
+10.230.24.72    00:00:51  001d.d8b7.1e2d  Vlan1091        
+10.230.24.73    00:07:03  001d.d8b7.1e2e  Vlan1091        
+10.230.24.75    00:00:05  001d.d8b7.1e30  Vlan1091        
+10.230.24.76    00:06:31  001d.d8b7.1e31  Vlan1091        
+10.230.24.77    00:07:36  001d.d8b7.1e32  Vlan1091        
+10.230.24.78    00:01:44  001d.d8b7.1e33  Vlan1091        
+10.230.24.79    00:02:21  001d.d8b7.1e35  Vlan1091        
+10.230.24.80    00:06:47  001d.d8b7.1e37  Vlan1091        
+10.230.24.81    00:00:43  001d.d8b7.1e39  Vlan1091        
+10.230.24.84    00:07:02  001d.d8b7.1e55  Vlan1091        
+10.230.24.86    00:01:41  001d.d8b7.1e57  Vlan1091        
+10.230.24.87    00:01:02  001d.d8b7.1e58  Vlan1091        
+10.230.24.93    00:09:39  0015.5d0b.6b1f  Vlan1091        
+10.230.24.94    00:06:27  001d.d8b7.1e96  Vlan1091        
+10.230.24.95    00:00:03  001d.d8b7.1e9e  Vlan1091        
+10.230.24.97    00:00:21  0015.5d0b.6b1e  Vlan1091        
+10.230.23.3     00:14:24  6c9c.ed42.61c2  Vlan1089        
+10.230.23.4     00:16:53  80e0.1d58.9db0  Vlan1089        
+10.230.23.5     00:17:43  80e0.1d58.9c88  Vlan1089        
+10.230.23.35    00:01:32  001d.d8b7.1cec  Vlan1089        
+10.230.23.36    00:00:28  001d.d8b7.1cef  Vlan1089        
+10.230.23.37    00:02:16  001d.d8b7.1cf1  Vlan1089        
+10.230.23.38    00:01:10  001d.d8b7.1cf8  Vlan1089        
+10.230.23.40    00:00:35  001d.d8b7.1d0c  Vlan1089        
+10.230.23.41    00:00:24  001d.d8b7.1d0f  Vlan1089        
+10.230.23.43    00:03:24  001d.d8b7.1d1a  Vlan1089        
+10.230.23.45    00:01:58  001d.d8b7.1d26  Vlan1089        
+10.230.23.46    00:01:42  001d.d8b7.1d27  Vlan1089        
+10.230.23.47    00:01:10  001d.d8b7.1d28  Vlan1089        
+10.230.23.48    00:00:31  001d.d8b7.1d29  Vlan1089        
+10.230.23.49    00:00:54  001d.d8b7.1d2a  Vlan1089        
+10.230.23.50    00:03:55  001d.d8b7.1d2f  Vlan1089        
+10.230.23.51    00:02:04  001d.d8b7.1d37  Vlan1089        
+10.230.23.53    00:00:28  001d.d8b7.1d42  Vlan1089        
+10.230.23.55    00:00:37  001d.d8b7.1d4a  Vlan1089        
+10.230.23.56    00:17:29  001d.d8b7.1d4e  Vlan1089        
+10.230.23.59    00:13:12  001d.d8b7.1d5d  Vlan1089        
+10.230.23.60    00:01:03  001d.d8b7.1d5e  Vlan1089        
+10.230.23.66    00:00:45  001d.d8b7.1d9e  Vlan1089        
+10.230.23.67    00:11:07  0015.5d0b.6b03  Vlan1089        
+10.230.23.68    00:05:24  001d.d8b7.1db5  Vlan1089        
+10.230.23.69    00:04:14  001d.d8b7.1dcc  Vlan1089        
+10.230.23.70    00:00:38  001d.d8b7.1dce  Vlan1089        
+10.230.23.73    00:01:44  001d.d8b7.1dd6  Vlan1089        
+10.230.23.74    00:13:48  0015.5d0b.6a04  Vlan1089        
+10.230.23.77    00:02:23  001d.d8b7.1e0b  Vlan1089        
+10.230.23.78    00:00:16  001d.d8b7.1e0c  Vlan1089        
+10.230.23.79    00:00:26  001d.d8b7.1e0d  Vlan1089        
+10.230.23.80    00:02:23  001d.d8b7.1e0e  Vlan1089        
+10.230.23.81    00:00:58  001d.d8b7.1e0f  Vlan1089        
+10.230.23.82    00:01:23  001d.d8b7.1e10  Vlan1089        
+10.230.23.84    00:02:27  001d.d8b7.1e47  Vlan1089        
+10.230.23.85    00:04:44  0015.5d0b.6b04  Vlan1089        
+10.230.23.86    00:00:21  001d.d8b7.1e50  Vlan1089        
+10.230.23.87    00:07:19  0015.5d0b.620c  Vlan1089        
+10.230.23.88    00:04:03  001d.d8b7.1e52  Vlan1089        
+10.230.23.89    00:10:24  001d.d8b7.1e54  Vlan1089        
+10.230.23.90    00:00:48  0015.5d0b.6b0d  Vlan1089        
+10.230.23.92    00:06:24  0015.5d0b.6a05  Vlan1089        
+10.230.22.3     00:15:08  6c9c.ed42.61c2  Vlan1087        
+10.230.22.4     00:17:02  80e0.1d58.9db0  Vlan1087        
+10.230.22.5     00:17:48  80e0.1d58.9c88  Vlan1087        
+10.230.22.36    0.883885  001d.d8b7.1ccf  Vlan1087        
+10.230.22.37    00:07:12  001d.d8b7.1cd0  Vlan1087        
+10.230.22.40    00:04:29  001d.d8b7.1cda  Vlan1087        
+10.230.22.41    00:00:34  001d.d8b7.1ce8  Vlan1087        
+10.230.22.43    00:01:52  001d.d8b7.1cea  Vlan1087        
+10.230.22.44    00:00:01  001d.d8b7.1ced  Vlan1087        
+10.230.22.45    00:08:54  001d.d8b7.1cee  Vlan1087        
+10.230.22.46    00:08:59  001d.d8b7.1cf4  Vlan1087        
+10.230.22.47    00:00:38  001d.d8b7.1cf7  Vlan1087        
+10.230.22.48    00:02:34  001d.d8b7.1cfb  Vlan1087        
+10.230.22.50    00:00:34  001d.d8b7.1d0d  Vlan1087        
+10.230.22.51    00:07:03  001d.d8b7.1d0e  Vlan1087        
+10.230.22.52    00:01:30  001d.d8b7.1d11  Vlan1087        
+10.230.22.53    00:06:07  001d.d8b7.1d18  Vlan1087        
+10.230.22.54    00:03:16  001d.d8b7.1d1b  Vlan1087        
+10.230.22.55    00:08:42  001d.d8b7.1d22  Vlan1087        
+10.230.22.56    00:05:48  001d.d8b7.1d24  Vlan1087        
+10.230.22.57    00:03:49  0015.5d0b.6b1d  Vlan1087        
+10.230.22.59    00:01:11  0015.5d0b.6b1b  Vlan1087        
+10.230.22.60    00:00:03  001d.d8b7.1d3f  Vlan1087        
+10.230.22.64    00:03:27  001d.d8b7.1d51  Vlan1087        
+10.230.22.65    00:00:42  001d.d8b7.1d53  Vlan1087        
+10.230.22.66    00:05:55  0015.5d0b.6b19  Vlan1087        
+10.230.22.67    00:02:03  0015.5d0b.6b18  Vlan1087        
+10.230.22.68    00:03:51  001d.d8b7.1d60  Vlan1087        
+10.230.22.69    00:08:01  0015.5d0b.6b17  Vlan1087        
+10.230.22.72    00:09:43  0015.5d0b.6b16  Vlan1087        
+10.230.22.75    00:04:19  001d.d8b7.1da8  Vlan1087        
+10.230.22.76    00:02:16  001d.d8b7.1da9  Vlan1087        
+10.230.22.79    00:07:56  001d.d8b7.1db2  Vlan1087        
+10.230.22.81    00:01:48  001d.d8b7.1db6  Vlan1087        
+10.230.22.82    00:03:17  001d.d8b7.1db8  Vlan1087        
+10.230.22.85    00:03:02  001d.d8b7.1dbe  Vlan1087        
+10.230.22.86    00:03:36  001d.d8b7.1dbf  Vlan1087        
+10.230.22.87    00:04:05  001d.d8b7.1dc0  Vlan1087        
+10.230.22.88    00:06:08  0015.5d0b.6b15  Vlan1087        
+10.230.22.89    00:04:02  001d.d8b7.1e05  Vlan1087        
+10.230.22.90    00:01:01  001d.d8b7.1e13  Vlan1087        
+10.230.22.94    00:10:02  0015.5d0b.6b14  Vlan1087        
+10.230.22.95    00:00:13  001d.d8b7.1e34  Vlan1087        
+10.230.22.96    00:05:08  001d.d8b7.1e36  Vlan1087        
+10.230.22.97    00:03:37  001d.d8b7.1e38  Vlan1087        
+10.230.22.98    00:12:14  0015.5d0b.6b1c  Vlan1087        
+10.230.22.99    00:00:25  001d.d8b7.1e3c  Vlan1087        
+10.230.22.100   00:01:12  0015.5d0b.6b1a  Vlan1087        
+10.230.22.101   00:06:19  001d.d8b7.1e3e  Vlan1087        
+10.230.22.102   00:01:47  001d.d8b7.1e3f  Vlan1087        
+10.230.22.103   00:05:38  001d.d8b7.1e5f  Vlan1087        
+10.230.22.108   00:00:43  001d.d8b7.1e8f  Vlan1087        
+10.230.22.109   00:00:26  001d.d8b7.1e90  Vlan1087        
+10.230.22.110   00:11:19  001d.d8b7.1e91  Vlan1087        
+10.230.20.3     00:16:52  6c9c.ed42.61c2  Vlan1085        
+10.230.20.4     00:17:44  80e0.1d58.9db0  Vlan1085        
+10.230.20.12    0.189719  001d.d8b7.1cf2  Vlan1085        
+10.230.20.13    00:00:19  001d.d8b7.1cf3  Vlan1085        
+10.230.20.14    00:01:45  001d.d8b7.1cff  Vlan1085        
+10.230.20.16    00:00:26  001d.d8b7.1d10  Vlan1085        
+10.230.20.17    00:09:26  001d.d8b7.1d13  Vlan1085        
+10.230.20.18    00:01:07  001d.d8b7.1d35  Vlan1085        
+10.230.20.19    00:01:23  001d.d8b7.1d38  Vlan1085        
+10.230.20.20    00:00:07  001d.d8b7.1d3e  Vlan1085        
+10.230.20.21    00:00:05  0015.5d0b.6a0c  Vlan1085        
+10.230.20.22    00:01:08  001d.d8b7.1d47  Vlan1085        
+10.230.20.31    00:07:10  001d.d8b7.1d6d  Vlan1085        
+10.230.20.36    00:06:56  001d.d8b7.1da2  Vlan1085        
+10.230.20.37    00:06:04  0015.5d0b.6a09  Vlan1085        
+10.230.20.38    00:00:55  0015.5d0b.6a0b  Vlan1085        
+10.230.20.39    0.376977  001d.d8b7.1dc3  Vlan1085        
+10.230.20.40    00:01:15  001d.d8b7.1dc5  Vlan1085        
+10.230.20.41    00:04:25  001d.d8b7.1dc7  Vlan1085        
+10.230.20.42    00:06:17  001d.d8b7.1dc8  Vlan1085        
+10.230.20.43    00:03:11  001d.d8b7.1dc9  Vlan1085        
+10.230.20.44    00:02:33  001d.d8b7.1dca  Vlan1085        
+10.230.20.45    00:04:00  001d.d8b7.1dcb  Vlan1085        
+10.230.20.46    00:03:58  001d.d8b7.1dcd  Vlan1085        
+10.230.20.48    00:03:04  001d.d8b7.1dd4  Vlan1085        
+10.230.20.49    00:01:08  001d.d8b7.1dd8  Vlan1085        
+10.230.20.50    00:00:38  0015.5d0b.6b06  Vlan1085        
+10.230.20.51    00:02:23  001d.d8b7.1ddb  Vlan1085        
+10.230.20.52    00:00:12  001d.d8b7.1ddd  Vlan1085        
+10.230.20.53    00:01:25  001d.d8b7.1dde  Vlan1085        
+10.230.20.54    00:06:29  001d.d8b7.1ddf  Vlan1085        
+10.230.20.55    00:02:25  001d.d8b7.1de0  Vlan1085        
+10.230.20.58    00:01:33  001d.d8b7.1de3  Vlan1085        
+10.230.20.59    00:02:47  001d.d8b7.1de4  Vlan1085        
+10.230.20.65    00:00:16  001d.d8b7.1ded  Vlan1085        
+10.230.20.66    00:13:35  0015.5d0b.6a0a  Vlan1085        
+10.230.20.67    00:00:31  0015.5d0b.6b08  Vlan1085        
+10.230.20.68    00:06:43  001d.d8b7.1df0  Vlan1085        
+10.230.20.69    00:00:01  001d.d8b7.1df1  Vlan1085        
+10.230.20.71    00:00:03  001d.d8b7.1df3  Vlan1085        
+10.230.20.73    00:00:45  001d.d8b7.1df5  Vlan1085        
+10.230.20.74    00:02:06  001d.d8b7.1df6  Vlan1085        
+10.230.20.79    00:00:02  001d.d8b7.1dff  Vlan1085        
+10.230.20.80    00:00:14  001d.d8b7.1e00  Vlan1085        
+10.230.20.82    00:03:18  001d.d8b7.1e04  Vlan1085        
+10.230.20.83    00:05:38  001d.d8b7.1e14  Vlan1085        
+10.230.20.85    00:04:24  001d.d8b7.1e48  Vlan1085        
+10.230.20.87    00:05:37  001d.d8b7.1e4a  Vlan1085        
+10.230.20.88    00:03:14  001d.d8b7.1e53  Vlan1085        
+10.230.20.89    00:00:26  001d.d8b7.1e5a  Vlan1085        
+10.230.20.90    00:04:03  001d.d8b7.1e5b  Vlan1085        
+10.230.20.91    00:03:59  0015.5d0b.6a07  Vlan1085        
+10.230.20.92    00:09:31  001d.d8b7.1e64  Vlan1085        
+10.230.20.94    00:00:37  001d.d8b7.1e7e  Vlan1085        
+10.230.20.95    00:04:18  001d.d8b7.1e7f  Vlan1085        
+10.230.20.97    00:04:15  001d.d8b7.1e81  Vlan1085        
+10.230.20.99    00:00:08  001d.d8b7.1ea7  Vlan1085        
+10.230.20.100   00:10:01  001d.d8b7.1eb1  Vlan1085        
+10.230.20.101   00:01:13  001d.d8b7.1eb2  Vlan1085        
+10.230.20.167   00:02:32  001d.d8b7.1eb5  Vlan1085        
+10.230.19.3     00:00:09  6c9c.ed42.61c2  Vlan1083        
+10.230.19.4     00:17:26  80e0.1d58.9db0  Vlan1083        
+10.230.19.5     00:17:31  80e0.1d58.9c88  Vlan1083        
+10.230.19.21    00:04:52  001d.d8b7.1ceb  Vlan1083        
+10.230.19.23    00:01:37  001d.d8b7.1d0a  Vlan1083        
+10.230.19.25    00:03:30  001d.d8b7.1d17  Vlan1083        
+10.230.19.35    00:05:42  001d.d8b7.1d81  Vlan1083        
+10.230.19.44    00:07:46  001d.d8b7.1d8a  Vlan1083        
+10.230.19.47    00:03:27  001d.d8b7.1d98  Vlan1083        
+10.230.19.48    00:00:33  0015.5d0b.6b20  Vlan1083        
+10.230.19.49    00:01:45  001d.d8b7.1ddc  Vlan1083        
+10.230.19.52    00:01:22  0015.5d0b.6b0a  Vlan1083        
+10.230.19.53    00:03:33  001d.d8b7.1e03  Vlan1083        
+10.230.19.54    00:00:19  001d.d8b7.1e06  Vlan1083        
+10.230.19.55    00:01:28  0015.5d0b.6b09  Vlan1083        
+10.230.19.57    00:05:40  001d.d8b7.1e23  Vlan1083        
+10.230.19.67    00:00:59  001d.d8b7.1e61  Vlan1083        
+10.230.19.68    00:08:46  001d.d8b7.1e62  Vlan1083        
+10.230.19.69    00:13:46  001d.d8b7.1e68  Vlan1083        
+10.230.19.74    00:12:09  001d.d8b7.1e8b  Vlan1083        
+10.230.19.75    00:00:36  001d.d8b7.1e93  Vlan1083        
+10.230.19.77    00:04:12  001d.d8b7.1ea0  Vlan1083        
+10.230.19.170   00:00:26  001d.d8b7.1eb4  Vlan1083        
+10.230.18.3     00:01:17  6c9c.ed42.61c2  Vlan1081        
+10.230.18.5     00:17:29  80e0.1d58.9c88  Vlan1081        
+10.230.18.6     00:04:49  0025.b51a.008d  Vlan1081        
+10.230.18.7     00:00:01  0025.b51b.003d  Vlan1081        
+10.230.18.8     00:00:04  0025.b51a.00ff  Vlan1081        
+10.230.18.9     00:00:07  0025.b51a.000d  Vlan1081        
+10.230.18.10    00:00:06  0025.b51a.00cf  Vlan1081        
+10.230.18.11    00:00:12  0025.b51a.008f  Vlan1081        
+10.230.18.12    00:00:27  0025.b51a.006f  Vlan1081        
+10.230.18.13    00:00:08  0025.b51a.004f  Vlan1081        
+10.230.18.14    00:00:38  0025.b51a.002f  Vlan1081        
+10.230.18.15    00:00:25  0025.b51a.000f  Vlan1081        
+10.230.18.16    00:00:23  0025.b51a.00fe  Vlan1081        
+10.230.18.17    00:17:51  0025.b51a.00ef  Vlan1081        
+10.230.18.18    00:00:04  0025.b51a.00ee  Vlan1081        
+10.230.18.19    00:00:06  0025.b51a.00ce  Vlan1081        
+10.230.18.20    00:00:08  0025.b51a.008e  Vlan1081        
+10.230.18.21    00:00:46  0025.b51a.006e  Vlan1081        
+10.230.18.22    00:00:54  0025.b51a.004e  Vlan1081        
+10.230.18.23    00:00:11  0025.b51a.002e  Vlan1081        
+10.230.18.25    00:00:19  0025.b51a.00fd  Vlan1081        
+10.230.18.26    00:00:09  0025.b51a.00ed  Vlan1081        
+10.230.18.27    00:00:33  0025.b51a.00cd  Vlan1081        
+10.230.18.28    00:14:38  0025.b51a.006d  Vlan1081        
+10.230.18.29    0.440960  0025.b51a.004d  Vlan1081        
+10.230.18.30    00:00:05  0025.b51a.002d  Vlan1081        
+10.230.18.31    00:00:09  0025.b51a.00fc  Vlan1081        
+10.230.18.32    00:17:40  0025.b51b.003d  Vlan1081        
+10.230.18.33    00:17:44  0025.b51a.002d  Vlan1081        
+10.230.46.3     00:17:36  6c9c.ed42.61c2  Vlan1055        
+10.230.46.4     00:16:54  80e0.1d58.9db0  Vlan1055        
+10.230.46.5     00:17:29  80e0.1d58.9c88  Vlan1055        
+10.230.46.15    00:01:24  a036.9fc5.897e  Vlan1055        
+10.230.46.16    00:00:23  a036.9fc5.8832  Vlan1055        
+10.230.46.51    00:00:03  3cfd.fe57.94f0  Vlan1055        
+10.230.46.52    00:15:48  3cfd.fe59.5670  Vlan1055        
+10.230.45.3     00:00:33  6c9c.ed42.61c2  Vlan1053        
+10.230.45.71    00:00:07  INCOMPLETE      Vlan1053        
+10.230.44.3     00:17:12  6c9c.ed42.61c2  Vlan1051        
+10.230.43.3     00:01:23  6c9c.ed42.61c2  Vlan1049        
+10.230.43.4     00:17:38  80e0.1d58.9db0  Vlan1049        
+10.230.43.11    00:00:19  INCOMPLETE      Vlan1049        
+10.230.43.12    00:00:04  INCOMPLETE      Vlan1049        
+10.230.43.73    00:00:09  INCOMPLETE      Vlan1049        
+10.230.43.74    00:00:02  INCOMPLETE      Vlan1049        
+10.230.83.3     00:08:05  6c9c.ed42.61c2  Vlan1027        
+10.230.83.4     00:16:52  80e0.1d58.9db0  Vlan1027        
+10.230.83.5     00:17:21  80e0.1d58.9c88  Vlan1027        
+10.230.83.11    00:00:14  00b0.ae04.274c  Vlan1027        
+10.230.83.13    00:17:14  d8b1.906f.509f  Vlan1027        
+10.230.12.3     00:02:34  6c9c.ed42.61c2  Vlan1023        
+10.230.67.3     00:17:48  6c9c.ed42.61c2  Vlan915         
+10.230.10.3     00:03:25  6c9c.ed42.61c2  Vlan450         
+10.230.10.4     00:16:56  80e0.1d58.9db0  Vlan450         
+10.230.10.6     00:17:43  0023.e9e5.394f  Vlan450         
+10.230.10.7     00:01:12  0023.e9e5.394f  Vlan450         
+10.230.10.8     00:17:02  000a.49ba.f30f  Vlan450         
+10.230.10.17    00:17:31  0023.e9e5.394f  Vlan450         
+10.230.10.19    00:17:40  0023.e9e5.394f  Vlan450         
+10.230.10.20    00:17:17  0023.e9e5.394f  Vlan450         
+10.230.10.21    00:17:11  0023.e9e5.394f  Vlan450         
+10.230.10.22    00:17:09  0023.e9e5.394f  Vlan450         
+10.230.10.23    00:17:20  0023.e9e5.394f  Vlan450         
+10.230.10.24    00:17:31  0023.e9e5.394f  Vlan450         
+10.230.10.25    00:17:20  0023.e9e5.394f  Vlan450         
+10.230.10.26    00:17:25  0023.e9e5.394f  Vlan450         
+10.230.10.27    00:17:09  0023.e9e5.394f  Vlan450         
+10.230.10.28    00:17:06  0023.e9e5.394f  Vlan450         
+10.230.10.29    00:17:08  0023.e9e5.394f  Vlan450         
+10.230.10.30    00:17:02  0023.e9e5.394f  Vlan450         
+10.230.10.31    00:17:14  0023.e9e5.394f  Vlan450         
+10.230.10.32    00:17:06  0023.e9e5.394f  Vlan450         
+10.230.10.33    00:17:09  0023.e9e5.394f  Vlan450         
+10.230.10.37    00:17:13  0023.e9e5.394f  Vlan450         
+10.230.10.38    00:16:59  0023.e9e5.394f  Vlan450         
+10.230.10.41    00:17:19  0023.e9e5.394f  Vlan450         
+10.230.10.42    00:17:05  0023.e9e5.394f  Vlan450         
+10.230.10.43    00:17:45  0023.e9e5.394f  Vlan450         
+10.230.10.46    00:16:57  0023.e9e5.394f  Vlan450         
+10.230.10.47    00:17:45  0023.e9e5.394f  Vlan450         
+10.230.10.48    00:17:47  0023.e9e5.394f  Vlan450         
+10.230.10.49    00:16:55  0023.e9e5.394f  Vlan450         
+10.230.10.50    00:17:01  0023.e9e5.394f  Vlan450         
+10.230.10.51    00:17:07  0023.e9e5.394f  Vlan450         
+10.230.10.52    00:17:39  0023.e9e5.394f  Vlan450         
+10.230.10.53    00:17:11  0023.e9e5.394f  Vlan450         
+10.230.10.54    00:17:11  0023.e9e5.394f  Vlan450         
+10.230.10.55    00:17:42  0023.e9e5.394f  Vlan450         
+10.230.10.56    00:17:06  0023.e9e5.394f  Vlan450         
+10.230.10.57    00:17:50  0023.e9e5.394f  Vlan450         
+10.230.10.58    00:17:17  0023.e9e5.394f  Vlan450         
+10.230.10.59    00:17:37  0023.e9e5.394f  Vlan450         
+10.230.10.60    00:16:57  0023.e9e5.394f  Vlan450         
+10.223.2.3      00:05:17  6c9c.ed42.61c2  Vlan444         
+10.229.230.3    00:04:47  6c9c.ed42.61c2  Vlan442         
+10.230.231.3    00:04:43  6c9c.ed42.61c2  Vlan441         
+10.230.230.3    00:04:16  6c9c.ed42.61c2  Vlan440         
+10.230.230.4    00:11:10  80e0.1d58.9db0  Vlan440         
+10.230.230.7    00:10:38  80e0.1d58.9c88  Vlan440         
+10.230.31.3     00:05:16  6c9c.ed42.61c2  Vlan439         
+10.242.84.254   00:05:17  6c9c.ed42.61c2  Vlan438         
+10.242.80.3     00:05:17  6c9c.ed42.61c2  Vlan437         
+10.242.30.3     00:05:17  6c9c.ed42.61c2  Vlan436         
+10.230.222.3    00:05:25  6c9c.ed42.61c2  Vlan434         
+10.230.222.4    00:08:40  80e0.1d58.9db0  Vlan434         
+10.230.222.5    00:17:24  80e0.1d58.9c88  Vlan434         
+10.230.222.110  00:04:27  0894.ef04.c2ad  Vlan434         
+10.230.222.111  00:04:13  0894.ef04.c1ed  Vlan434         
+10.230.252.3    00:03:13  6c9c.ed42.61c2  Vlan433         
+10.230.252.4    00:11:10  80e0.1d58.9db0  Vlan433         
+10.230.252.5    00:17:41  80e0.1d58.9c88  Vlan433         
+10.229.4.3      00:08:51  6c9c.ed42.61c2  Vlan431         
+10.90.2.3       00:06:52  6c9c.ed42.61c2  Vlan430         
+10.90.1.3       00:04:52  6c9c.ed42.61c2  Vlan429         
+10.90.1.4       00:17:16  80e0.1d58.9db0  Vlan429         
+10.229.0.3      00:08:58  6c9c.ed42.61c2  Vlan428         
+10.235.1.3      00:02:56  6c9c.ed42.61c2  Vlan427         
+10.230.42.11    00:00:11  98be.9459.aa62  Vlan420         
+10.230.42.12    00:00:51  000a.f76e.8cf0  Vlan420         
+10.229.15.6     00:03:06  f452.14e3.78fe  Vlan418         
+10.229.15.7     00:03:24  f452.14cd.906c  Vlan418         
+10.229.15.15    00:17:27  f452.14e3.78fe  Vlan418         
+10.229.15.16    00:17:19  f452.14cd.906c  Vlan418         
+10.229.15.21    00:17:16  f452.14e3.78fe  Vlan418         
+10.229.15.22    00:17:28  f452.14cd.906c  Vlan418         
+10.229.15.23    00:17:06  f452.14e3.78fe  Vlan418         
+10.230.25.22    00:00:23  INCOMPLETE      Vlan415         
+10.230.25.23    00:00:11  INCOMPLETE      Vlan415         
+10.229.8.4      00:11:10  80e0.1d58.9db0  Vlan413         
+10.229.8.5      00:17:40  80e0.1d58.9c88  Vlan413         
+10.230.90.6     00:03:07  48df.3792.0c2a  Vlan411         
+10.230.99.4     00:11:10  80e0.1d58.9db0  Vlan410         
+10.230.99.5     00:17:07  80e0.1d58.9c88  Vlan410         
+10.230.82.25    00:00:19  INCOMPLETE      Vlan408         
+10.230.21.25    00:00:29  INCOMPLETE      Vlan404         
+10.230.3.4      00:11:10  80e0.1d58.9db0  Vlan401         
+10.230.3.5      00:17:30  80e0.1d58.9c88  Vlan401         
+10.230.253.2    00:16:42  6c9c.ed42.61c2  port-channel3   
+10.250.3.13     00:13:05  f8c2.8846.cebf  Ethernet4/3     
+10.250.3.1      00:16:48  881d.fc6c.52ff  Ethernet3/3     
+10.230.30.49       -      0000.0c9f.f001  Vlan1215        
+10.230.30.33       -      0000.0c9f.f001  Vlan1209        
+10.230.27.65       -      0000.0c07.ac01  Vlan1207        
+10.230.204.1       -      0000.0c07.ac01  Vlan1203        
+10.230.72.1        -      0000.0c9f.f001  Vlan1197        
+10.230.9.1         -      0000.0c07.ac01  Vlan1183        
+10.230.70.1        -      0000.0c07.ac01  Vlan1175        
+10.230.66.1        -      0000.0c07.ac01  Vlan1169        
+10.230.64.1        -      0000.0c07.ac01  Vlan1131        
+10.230.61.1        -      0000.0c07.ac01  Vlan1125        
+10.230.58.1        -      0000.0c07.ac01  Vlan1117        
+10.230.29.1        -      0000.0c07.ac01  Vlan1095        
+10.230.28.1        -      0000.0c07.ac01  Vlan1093        
+10.230.24.1        -      0000.0c07.ac01  Vlan1091        
+10.230.23.1        -      0000.0c07.ac01  Vlan1089        
+10.230.22.1        -      0000.0c07.ac01  Vlan1087        
+10.230.20.1        -      0000.0c07.ac01  Vlan1085        
+10.230.19.1        -      0000.0c07.ac01  Vlan1083        
+10.230.18.1        -      0000.0c07.ac01  Vlan1081        
+10.230.46.1        -      0000.0c07.ac01  Vlan1055        
+10.230.45.1        -      0000.0c07.ac01  Vlan1053        
+10.230.44.1        -      0000.0c07.ac01  Vlan1051        
+10.230.43.1        -      0000.0c07.ac01  Vlan1049        
+10.230.83.1        -      0000.0c07.ac01  Vlan1027        
+10.230.12.1        -      0000.0c07.ac01  Vlan1023        
+10.230.67.1        -      0000.0c07.ac01  Vlan915         
+10.230.10.1        -      0000.0c07.ac01  Vlan450         
+10.223.2.1         -      0000.0c07.ac01  Vlan444         
+10.229.230.1       -      0000.0c07.ac01  Vlan442         
+10.230.231.1       -      0000.0c07.ac01  Vlan441         
+10.230.230.1       -      0000.0c07.ac01  Vlan440         
+10.230.31.1        -      0000.0c07.ac01  Vlan439         
+10.242.84.1        -      0000.0c07.ac01  Vlan438         
+10.242.80.1        -      0000.0c07.ac01  Vlan437         
+10.242.30.1        -      0000.0c07.ac01  Vlan436         
+10.230.222.1       -      0000.0c07.ac01  Vlan434         
+10.230.252.1       -      0000.0c07.ac01  Vlan433         
+10.229.4.1         -      0000.0c07.ac01  Vlan431         
+10.90.2.1          -      0000.0c07.ac01  Vlan430         
+10.90.1.2          -      0000.0c07.ac01  Vlan429         
+10.229.0.1         -      0000.0c07.ac01  Vlan428         
+10.235.1.1         -      0000.0c07.ac01  Vlan427         
+10.230.42.1        -      0000.0c07.ac01  Vlan420         
+10.229.15.1        -      0000.0c07.ac01  Vlan418         
+10.230.25.1        -      0000.0c07.ac01  Vlan415         
+10.229.8.1         -      0000.0c07.ac01  Vlan413         
+10.230.90.1        -      0000.0c07.ac01  Vlan411         
+10.230.99.1        -      0000.0c07.ac01  Vlan410         
+10.230.88.1        -      0000.0c07.ac01  Vlan409         
+10.230.82.1        -      0000.0c07.ac01  Vlan408         
+10.230.21.1        -      0000.0c07.ac01  Vlan404         
+10.230.3.1         -      0000.0c07.ac01  Vlan401         
+
+
+===== show lldp neighbors =====
+                    ^
+% Invalid command at '^' marker.
+
+
+===== show mac address-table =====
+ Note: MAC table entries displayed are getting read from software.
+ Use the 'hardware-age' keyword to get information related to 'Age' 
+
+ Legend: 
+        * - primary entry, G - Gateway MAC, (R) - Routed MAC, O - Overlay MAC
+        age - seconds since last seen,+ - primary entry using vPC Peer-Link, E - EVPN entry 
+        (T) - True, (F) - False ,  ~~~ - use 'hardware-age' keyword to retrieve age info 
+  VLAN/BD   MAC Address      Type      age     Secure NTFY Ports/SWID.SSID.LID
+---------+-----------------+--------+---------+------+----+------------------
+G 1027     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+* 1031     0000.0c07.ac01    static       -       F    F  Vlan1031
+* 1033     0000.0c07.ac01    static       -       F    F  Vlan1033
+* 1045     0000.0c07.ac01    static       -       F    F  Vlan1045
+G 1049     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1051     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1053     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1055     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1081     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1083     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1085     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1087     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1089     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1091     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1093     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1095     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+* 1097     0000.0c07.ac01    static       -       F    F  Vlan1097
+* 1099     0000.0c07.ac01    static       -       F    F  Vlan1099
+* 1101     0000.0c07.ac01    static       -       F    F  Vlan1101
+* 1103     0000.0c07.ac01    static       -       F    F  Vlan1103
+* 1105     0000.0c07.ac01    static       -       F    F  Vlan1105
+* 1107     0000.0c07.ac01    static       -       F    F  Vlan1107
+* 1109     0000.0c07.ac01    static       -       F    F  Vlan1109
+* 1111     0000.0c07.ac01    static       -       F    F  Vlan1111
+* 1113     0000.0c07.ac01    static       -       F    F  Vlan1113
+G 1117     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+* 1119     0000.0c07.ac01    static       -       F    F  Vlan1119
+G 1125     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+* 1127     0000.0c07.ac01    static       -       F    F  Vlan1127
+G 1131     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 401      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1169     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+* 402      0000.0c07.ac01    static       -       F    F  Vlan402
+G 915      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+* 1171     0000.0c07.ac01    static       -       F    F  Vlan1171
+G 404      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+* 1173     0000.0c07.ac01    static       -       F    F  Vlan1173
+* 406      0000.0c07.ac01    static       -       F    F  Vlan406
+G 1175     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 408      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 409      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 410      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 411      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 413      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 415      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1183     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+* 417      0000.0c07.ac01    static       -       F    F  Vlan417
+G 418      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 420      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 427      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 428      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 429      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 430      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 431      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 433      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 434      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+* 435      0000.0c07.ac01    static       -       F    F  Vlan435
+G 1203     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 436      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 437      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 438      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 439      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1207     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 440      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 441      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 442      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 444      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+* 447      0000.0c07.ac01    static       -       F    F  Vlan447
+* 448      0000.0c07.ac01    static       -       F    F  Vlan448
+* 449      0000.0c07.ac01    static       -       F    F  Vlan449
+G 450      0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+* 1001     0000.0c07.ac01    static       -       F    F  Vlan1001
+G 1023     0000.0c07.ac01    static       -       F    F  sup-eth1(R)
+G 1197     0000.0c9f.f001    static       -       F    F  sup-eth1(R)
+G 1209     0000.0c9f.f001    static       -       F    F  sup-eth1(R)
+G 1215     0000.0c9f.f001    static       -       F    F  sup-eth1(R)
+G 1027     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+* 1031     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+* 1033     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+* 1045     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+G 1049     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1051     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1053     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1055     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1081     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1083     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1085     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1087     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1089     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1091     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1093     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1095     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+* 1097     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+* 1099     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+* 1101     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+* 1103     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+* 1105     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+* 1107     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+* 1109     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+* 1111     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+* 1113     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+G 1117     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+* 1119     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+G 1125     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+* 1127     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+G 1131     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1169     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 915      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+* 1171     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+* 1173     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+G 1175     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1183     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 427      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 428      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 429      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1197     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 430      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 431      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 433      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 434      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+* 435      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+G 1203     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 436      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 437      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 438      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 439      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1207     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 440      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 441      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 1209     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 442      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G 444      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+* 447      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+G 1215     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+* 448      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+* 449      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+G 450      6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+* 1001     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link
+G 1023     6c9c.ed42.61c2    static       -       F    F  vPC Peer-Link(R)
+G     -    6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1027     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1049     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1051     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1053     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1055     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1081     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1083     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1085     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1087     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1089     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1091     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1093     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1095     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1117     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1125     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1131     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 401      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1169     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 915      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 404      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1175     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 408      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 409      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 410      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 411      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 413      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 415      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1183     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 418      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 420      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 427      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 428      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 429      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1197     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 430      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 431      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 433      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 434      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1203     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 436      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 437      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 438      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 439      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1207     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 440      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 441      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1209     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 442      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 444      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1215     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 450      6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+G 1023     6c9c.ed44.d142    static       -       F    F  sup-eth1(R)
+* 401      80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 401      80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 402      0014.4ffb.8a19    dynamic     ~~~      F    F  Po5
+* 402      0021.5af6.1946    dynamic     ~~~      F    F  Po5
+* 402      bc97.e1a3.4dca    dynamic     ~~~      F    F  Po5
+* 403      98be.9465.8d20    dynamic     ~~~      F    F  Po5
+* 407      0015.5da1.0600    dynamic     ~~~      F    F  Po5
+* 407      0015.5da1.0700    dynamic     ~~~      F    F  Po5
+* 407      0022.bdf8.19ff    dynamic     ~~~      F    F  Po5
+* 407      48df.3792.0c28    dynamic     ~~~      F    F  Po5
+* 407      48df.3792.1504    dynamic     ~~~      F    F  Po5
+* 407      6c92.cf5e.2fc1    dynamic     ~~~      F    F  Po5
+* 407      80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 407      bc97.e1a3.6d15    dynamic     ~~~      F    F  Po5
+* 410      80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 410      80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 411      48df.3792.0c2a    dynamic     ~~~      F    F  Po5
+* 412      0022.bdf8.19ff    dynamic     ~~~      F    F  Po5
+* 412      5a52.8590.0002    dynamic     ~~~      F    F  Po5
+* 412      5a52.8590.000e    dynamic     ~~~      F    F  Po5
+* 412      5a52.8590.001b    dynamic     ~~~      F    F  Po5
+* 412      5a52.8590.0032    dynamic     ~~~      F    F  Po5
+* 412      5a52.8590.003e    dynamic     ~~~      F    F  Po5
+* 413      80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 413      80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 416      0015.5d0f.0291    dynamic     ~~~      F    F  Po5
+* 416      0015.5d29.6514    dynamic     ~~~      F    F  Po5
+* 416      6c92.cf5d.d551    dynamic     ~~~      F    F  Po5
+* 417      4e91.40ac.c04b    dynamic     ~~~      F    F  Po5
+* 417      4e91.4179.db14    dynamic     ~~~      F    F  Po5
+* 417      5e5d.716d.fc14    dynamic     ~~~      F    F  Po5
+* 417      5e5d.735a.d84b    dynamic     ~~~      F    F  Po5
+* 418      f452.14cd.906c    dynamic     ~~~      F    F  Po5
+* 418      f452.14e3.78fe    dynamic     ~~~      F    F  Po5
+* 419      e666.5b80.0003    dynamic     ~~~      F    F  Po5
+* 419      e666.5b80.000e    dynamic     ~~~      F    F  Po5
+* 419      e666.5b80.001a    dynamic     ~~~      F    F  Po5
+* 419      e666.5b80.0026    dynamic     ~~~      F    F  Po5
+* 419      e666.5b80.0032    dynamic     ~~~      F    F  Po5
+* 420      000a.f76e.8cf0    dynamic     ~~~      F    F  Po5
+* 420      98be.9459.aa62    dynamic     ~~~      F    F  Po5
+* 426      0015.5d64.699d    dynamic     ~~~      F    F  Po5
+* 426      0022.bdf8.19ff    dynamic     ~~~      F    F  Po5
+* 426      0050.56b8.de5e    dynamic     ~~~      F    F  Po5
+* 429      80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 433      80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 433      80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 434      0894.ef04.c1ed    dynamic     ~~~      F    F  Po5
+* 434      0894.ef04.c2ad    dynamic     ~~~      F    F  Po5
+* 434      80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 434      80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 435      0022.bdf8.19ff    dynamic     ~~~      F    F  Po5
+* 440      80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 440      80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 450      000a.49ba.f30f    dynamic     ~~~      F    F  Po5
+* 450      0023.e9e5.394f    dynamic     ~~~      F    F  Po5
+* 450      80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1025     0015.5d14.0603    dynamic     ~~~      F    F  Po5
+* 1025     0015.5d14.0604    dynamic     ~~~      F    F  Po5
+* 1025     5c6f.691a.4e07    dynamic     ~~~      F    F  Po5
+* 1027     00b0.ae04.274c    dynamic     ~~~      F    F  Po5
+* 1027     80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 1027     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1027     d8b1.906f.509f    dynamic     ~~~      F    F  Po5
+* 1029     0015.5d76.5e0d    dynamic     ~~~      F    F  Po5
+* 1029     0022.bdf8.19ff    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d02.990a    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d04.d010    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d04.d013    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d04.d014    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d04.d01a    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d04.d01b    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d04.d01f    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d09.5e37    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d0b.2505    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d0b.2d04    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d0b.3708    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d0b.380d    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d0b.480e    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d0b.4907    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d0b.4c08    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d0b.520d    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d0b.520e    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d0d.7e0b    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d15.7808    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d15.780a    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d16.d011    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d16.d012    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d1b.5404    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d22.f8f5    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d2e.6114    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d2e.6118    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d2e.6119    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d30.6e0d    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d3c.1da7    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4a.6019    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4a.601e    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4a.6020    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4a.6021    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4a.6022    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4a.6023    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4a.6024    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4a.6025    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4a.6026    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4a.8504    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4a.850b    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4e.070e    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4e.0712    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4e.0713    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4e.0714    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d4e.0719    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d63.984f    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d63.98f1    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d69.750a    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d69.750c    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d69.750e    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d69.7513    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d71.36af    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d71.3804    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d71.3805    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d71.3806    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d71.380d    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d71.ea07    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d76.5e1e    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d78.9604    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d78.9608    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d78.960c    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d86.d112    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d86.d114    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d86.d119    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d87.461a    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d87.461f    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d87.462c    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d87.4630    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d87.4634    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d87.a802    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d87.a803    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d87.a804    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d89.ad47    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d89.adf9    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d8d.4c09    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d91.a010    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d91.a016    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d91.a019    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d92.0a06    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d92.0a15    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d92.0a18    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d92.0a19    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d92.0a21    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d9d.9411    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d9d.9413    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d9d.9417    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d9d.941a    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d9d.941c    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d9d.941e    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d9d.941f    dynamic     ~~~      F    F  Po5
+* 1041     0015.5d9d.9424    dynamic     ~~~      F    F  Po5
+* 1041     0015.5da4.0808    dynamic     ~~~      F    F  Po5
+* 1041     0015.5da7.1b24    dynamic     ~~~      F    F  Po5
+* 1041     0015.5da7.1b28    dynamic     ~~~      F    F  Po5
+* 1041     0015.5db1.f505    dynamic     ~~~      F    F  Po5
+* 1041     0015.5db1.f508    dynamic     ~~~      F    F  Po5
+* 1041     0015.5db1.f509    dynamic     ~~~      F    F  Po5
+* 1041     0015.5db1.f50b    dynamic     ~~~      F    F  Po5
+* 1041     0015.5db1.f50c    dynamic     ~~~      F    F  Po5
+* 1041     0015.5db1.f50d    dynamic     ~~~      F    F  Po5
+* 1041     0015.5db1.f512    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dba.ab0f    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dba.ab12    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dba.ab13    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dba.ab1a    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dba.ab1c    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dba.ab1d    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dba.ab1e    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dbb.4a06    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dc2.9902    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dc2.990a    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dc2.990c    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dd0.1719    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dd8.a606    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dd8.a607    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dd8.a608    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dd8.a60a    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dd8.a60c    dynamic     ~~~      F    F  Po5
+* 1041     0015.5ddb.97a6    dynamic     ~~~      F    F  Po5
+* 1041     0015.5ddb.97d8    dynamic     ~~~      F    F  Po5
+* 1041     0015.5ddf.bd11    dynamic     ~~~      F    F  Po5
+* 1041     0015.5ddf.bd12    dynamic     ~~~      F    F  Po5
+* 1041     0015.5ddf.bd2f    dynamic     ~~~      F    F  Po5
+* 1041     0015.5ddf.bd35    dynamic     ~~~      F    F  Po5
+* 1041     0015.5de6.1b13    dynamic     ~~~      F    F  Po5
+* 1041     0015.5de9.961b    dynamic     ~~~      F    F  Po5
+* 1041     0015.5de9.961c    dynamic     ~~~      F    F  Po5
+* 1041     0015.5de9.961f    dynamic     ~~~      F    F  Po5
+* 1041     0015.5de9.9621    dynamic     ~~~      F    F  Po5
+* 1041     0015.5de9.9628    dynamic     ~~~      F    F  Po5
+* 1041     0015.5dfa.1a1f    dynamic     ~~~      F    F  Po5
+* 1041     0015.b2b1.b4e8    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.1c07    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.1c13    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.1e31    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.1e32    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.1e33    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.1e35    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.1e36    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.1e9c    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.1e9d    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.1e9e    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.2001    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.201f    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.2062    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.20c5    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.20c6    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.20c8    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.20c9    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.20cc    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.20cd    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.20ce    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.20cf    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.2143    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.2144    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.2146    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.2147    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.2148    dynamic     ~~~      F    F  Po5
+* 1041     001d.d8b7.2cdf    dynamic     ~~~      F    F  Po5
+* 1041     0022.bdf8.19ff    dynamic     ~~~      F    F  Po5
+* 1043     000a.f773.eb60    dynamic     ~~~      F    F  Po5
+* 1043     0015.5d4a.6016    dynamic     ~~~      F    F  Po5
+* 1043     0015.5ddf.bd2b    dynamic     ~~~      F    F  Po5
+* 1043     0015.5dfa.1a16    dynamic     ~~~      F    F  Po5
+* 1043     0022.bdf8.19ff    dynamic     ~~~      F    F  Po5
+* 1043     9ab9.0430.0003    dynamic     ~~~      F    F  Po5
+* 1047     0015.5ddf.bd2e    dynamic     ~~~      F    F  Po5
+* 1047     0015.5ddf.bd34    dynamic     ~~~      F    F  Po5
+* 1047     0022.bdf8.19ff    dynamic     ~~~      F    F  Po5
+* 1047     98be.940d.e830    dynamic     ~~~      F    F  Po5
+* 1049     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1055     3cfd.fe57.94f0    dynamic     ~~~      F    F  Po5
+* 1055     3cfd.fe59.5670    dynamic     ~~~      F    F  Po5
+* 1055     80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 1055     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1055     a036.9fc5.8832    dynamic     ~~~      F    F  Po5
+* 1055     a036.9fc5.897e    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.000d    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.000f    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.002d    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.002e    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.002f    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.004d    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.004e    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.004f    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.006d    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.006e    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.006f    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.008d    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.008e    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.008f    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.009d    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.00cd    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.00ce    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.00cf    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.00ed    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.00ee    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.00ef    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.00fc    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.00fd    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.00fe    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51a.00ff    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.000d    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.000e    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.000f    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.002d    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.002e    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.002f    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.003d    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.004d    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.004e    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.004f    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.006d    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.006e    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.006f    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.008c    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.008d    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.008e    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.008f    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.00cd    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.00cf    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.00ed    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.00ee    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.00ef    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.00fd    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.00fe    dynamic     ~~~      F    F  Po5
+* 1081     0025.b51b.00ff    dynamic     ~~~      F    F  Po5
+* 1081     80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 1081     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1083     0015.5d0b.6b09    dynamic     ~~~      F    F  Po5
+* 1083     0015.5d0b.6b0a    dynamic     ~~~      F    F  Po5
+* 1083     0015.5d0b.6b20    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1ceb    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1d0a    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1d17    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1d81    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1d8a    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1d98    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1ddc    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1e03    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1e06    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1e23    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1e61    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1e62    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1e68    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1e8b    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1e93    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1ea0    dynamic     ~~~      F    F  Po5
+* 1083     001d.d8b7.1eb4    dynamic     ~~~      F    F  Po5
+* 1083     0025.b51a.00af    dynamic     ~~~      F    F  Po5
+* 1083     80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 1083     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1085     0015.5d0b.6a07    dynamic     ~~~      F    F  Po5
+* 1085     0015.5d0b.6a09    dynamic     ~~~      F    F  Po5
+* 1085     0015.5d0b.6a0a    dynamic     ~~~      F    F  Po5
+* 1085     0015.5d0b.6a0b    dynamic     ~~~      F    F  Po5
+* 1085     0015.5d0b.6a0c    dynamic     ~~~      F    F  Po5
+* 1085     0015.5d0b.6b06    dynamic     ~~~      F    F  Po5
+* 1085     0015.5d0b.6b08    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1cf2    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1cf3    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1cff    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1d10    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1d13    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1d35    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1d38    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1d3e    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1d47    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1d6d    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1da2    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1dc3    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1dc5    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1dc7    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1dc8    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1dc9    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1dca    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1dcb    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1dcd    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1dd4    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1dd8    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1ddb    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1ddd    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1dde    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1ddf    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1de0    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1de3    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1de4    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1ded    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1df0    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1df1    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1df3    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1df5    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1df6    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1dff    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1e00    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1e04    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1e14    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1e48    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1e4a    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1e53    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1e5a    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1e5b    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1e64    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1e7e    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1e7f    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1e81    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1ea7    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1eb1    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1eb2    dynamic     ~~~      F    F  Po5
+* 1085     001d.d8b7.1eb5    dynamic     ~~~      F    F  Po5
+* 1085     80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 1085     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1087     0015.5d0b.6b14    dynamic     ~~~      F    F  Po5
+* 1087     0015.5d0b.6b15    dynamic     ~~~      F    F  Po5
+* 1087     0015.5d0b.6b16    dynamic     ~~~      F    F  Po5
+* 1087     0015.5d0b.6b17    dynamic     ~~~      F    F  Po5
+* 1087     0015.5d0b.6b18    dynamic     ~~~      F    F  Po5
+* 1087     0015.5d0b.6b19    dynamic     ~~~      F    F  Po5
+* 1087     0015.5d0b.6b1a    dynamic     ~~~      F    F  Po5
+* 1087     0015.5d0b.6b1b    dynamic     ~~~      F    F  Po5
+* 1087     0015.5d0b.6b1c    dynamic     ~~~      F    F  Po5
+* 1087     0015.5d0b.6b1d    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1ccf    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1cd0    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1cda    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1ce8    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1cea    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1ced    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1cee    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1cf4    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1cf7    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1cfb    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1d0d    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1d0e    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1d11    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1d18    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1d1b    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1d22    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1d24    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1d3f    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1d51    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1d53    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1d60    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1da8    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1da9    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1db2    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1db6    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1db8    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1dbe    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1dbf    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1dc0    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1e05    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1e13    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1e34    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1e36    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1e38    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1e3c    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1e3e    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1e3f    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1e5f    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1e8f    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1e90    dynamic     ~~~      F    F  Po5
+* 1087     001d.d8b7.1e91    dynamic     ~~~      F    F  Po5
+* 1087     80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 1087     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1089     0015.5d0b.620c    dynamic     ~~~      F    F  Po5
+* 1089     0015.5d0b.6a04    dynamic     ~~~      F    F  Po5
+* 1089     0015.5d0b.6a05    dynamic     ~~~      F    F  Po5
+* 1089     0015.5d0b.6a06    dynamic     ~~~      F    F  Po5
+* 1089     0015.5d0b.6b03    dynamic     ~~~      F    F  Po5
+* 1089     0015.5d0b.6b04    dynamic     ~~~      F    F  Po5
+* 1089     0015.5d0b.6b0d    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1cec    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1cef    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1cf1    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1cf8    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d0c    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d0f    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d1a    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d26    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d27    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d28    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d29    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d2a    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d2f    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d37    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d42    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d4a    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d4e    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d5d    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d5e    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1d9e    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1db5    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1dcc    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1dce    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1dd6    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1e0b    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1e0c    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1e0d    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1e0e    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1e0f    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1e10    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1e47    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1e50    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1e52    dynamic     ~~~      F    F  Po5
+* 1089     001d.d8b7.1e54    dynamic     ~~~      F    F  Po5
+* 1089     80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 1089     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1091     0015.5d0b.6b1e    dynamic     ~~~      F    F  Po5
+* 1091     0015.5d0b.6b1f    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1c95    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1e2d    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1e2e    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1e30    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1e31    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1e32    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1e33    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1e35    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1e37    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1e39    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1e55    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1e57    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1e58    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1e96    dynamic     ~~~      F    F  Po5
+* 1091     001d.d8b7.1e9e    dynamic     ~~~      F    F  Po5
+* 1091     0025.b51a.003f    dynamic     ~~~      F    F  Po5
+* 1091     80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 1091     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1093     0015.5d0b.5f13    dynamic     ~~~      F    F  Po5
+* 1093     0015.5d0b.6705    dynamic     ~~~      F    F  Po5
+* 1093     0015.5d0b.6b07    dynamic     ~~~      F    F  Po5
+* 1093     0015.5d0b.6b0b    dynamic     ~~~      F    F  Po5
+* 1093     0015.5d0b.6b0e    dynamic     ~~~      F    F  Po5
+* 1093     0015.5d0b.6b0f    dynamic     ~~~      F    F  Po5
+* 1093     0015.5d0b.6b10    dynamic     ~~~      F    F  Po5
+* 1093     0015.5d0b.6b11    dynamic     ~~~      F    F  Po5
+* 1093     0015.5d0b.6b12    dynamic     ~~~      F    F  Po5
+* 1093     0015.5d0b.6b13    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1ce3    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1cfa    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d05    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d0b    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d12    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d1c    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d1d    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d1e    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d1f    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d20    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d21    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d2b    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d2d    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d2e    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d30    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d32    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d36    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d41    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d64    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d6f    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d73    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d74    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d75    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d76    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d77    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1d8f    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1da5    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1daa    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1dba    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1dbb    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1dc1    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1dd1    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1e2b    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1e2c    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1e4c    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1e63    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1e67    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1e97    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1e99    dynamic     ~~~      F    F  Po5
+* 1093     001d.d8b7.1ea1    dynamic     ~~~      F    F  Po5
+* 1093     80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 1093     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1095     001d.d8b7.1c5d    dynamic     ~~~      F    F  Po5
+* 1095     001d.d8b7.1cf0    dynamic     ~~~      F    F  Po5
+* 1095     001d.d8b7.1cfe    dynamic     ~~~      F    F  Po5
+* 1095     001d.d8b7.1d15    dynamic     ~~~      F    F  Po5
+* 1095     001d.d8b7.1d3c    dynamic     ~~~      F    F  Po5
+* 1095     001d.d8b7.1d61    dynamic     ~~~      F    F  Po5
+* 1095     001d.d8b7.1d78    dynamic     ~~~      F    F  Po5
+* 1095     001d.d8b7.1d9b    dynamic     ~~~      F    F  Po5
+* 1095     001d.d8b7.1e8c    dynamic     ~~~      F    F  Po5
+* 1095     001d.d8b7.1e92    dynamic     ~~~      F    F  Po5
+* 1095     001d.d8b7.1ea6    dynamic     ~~~      F    F  Po5
+* 1095     0025.b51a.001f    dynamic     ~~~      F    F  Po5
+* 1095     80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 1095     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1125     0015.5d12.0702    dynamic     ~~~      F    F  Po5
+* 1125     0015.5d12.0705    dynamic     ~~~      F    F  Po5
+* 1125     0015.5d12.0706    dynamic     ~~~      F    F  Po5
+* 1125     0025.b51a.009d    dynamic     ~~~      F    F  Po5
+* 1125     0025.b51b.003d    dynamic     ~~~      F    F  Po5
+* 1125     80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 1125     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1129     0022.bdf8.19ff    dynamic     ~~~      F    F  Po5
+* 1183     000a.49ba.f305    dynamic     ~~~      F    F  Po5
+* 1183     0023.e9e5.3945    dynamic     ~~~      F    F  Po5
+* 1183     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1205     0015.5d0f.0282    dynamic     ~~~      F    F  Po5
+* 1205     0022.bdf8.19ff    dynamic     ~~~      F    F  Po5
+* 1209     80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 1209     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+* 1215     80e0.1d58.9c88    dynamic     ~~~      F    F  Po4
+* 1215     80e0.1d58.9db0    dynamic     ~~~      F    F  Po5
+
+
+
+===== show port-channel summary =====
+Flags:  D - Down        P - Up in port-channel (members)
+        I - Individual  H - Hot-standby (LACP only)
+        s - Suspended   r - Module-removed
+        b - BFD Session Wait
+        S - Switched    R - Routed
+        U - Up (port-channel)
+        M - Not in use. Min-links not met
+--------------------------------------------------------------------------------
+Group Port-       Type     Protocol  Member Ports
+      Channel
+--------------------------------------------------------------------------------
+1     Po1(SU)     Eth      LACP      Eth3/1(P)    Eth4/1(P)    
+2     Po2(RU)     Eth      LACP      Eth5/1(P)    Eth6/1(P)    
+3     Po3(RU)     Eth      LACP      Eth3/2(P)    Eth4/2(P)    
+4     Po4(SU)     Eth      LACP      Eth5/3(P)    Eth6/3(P)    
+5     Po5(SU)     Eth      LACP      Eth5/4(P)    Eth6/4(P)    
+6     Po6(SU)     Eth      LACP      Eth5/5(P)    Eth5/6(D)    Eth6/5(P)
+                                     Eth6/6(P)    
+7     Po7(SU)     Eth      LACP      Eth5/7(P)    Eth5/8(D)    Eth6/7(P)
+                                     Eth6/8(P)    
+

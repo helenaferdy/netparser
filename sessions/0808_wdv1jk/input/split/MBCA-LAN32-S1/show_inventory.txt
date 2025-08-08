@@ -1,0 +1,43 @@
+NAME: "Chassis", DESCR: "Cisco Catalyst 9400 Series 7 Slot Chassis"
+PID: C9407R            , VID: V01  , SN: FOX2653PN8W
+
+NAME: "Slot 1 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V05  , SN: JAE27190MN3
+
+NAME: "Slot 2 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V05  , SN: JAE27190MPG
+
+NAME: "Slot 5 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V05  , SN: JAE27190P1W
+
+NAME: "Slot 6 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V05  , SN: JAE27190MT2
+
+NAME: "Slot 3 Supervisor", DESCR: "Cisco Catalyst 9400 Series Supervisor 1 Module"
+PID: C9400-SUP-1       , VID: V03  , SN: JAD261708WA
+
+NAME: "TenGigabitEthernet3/0/1", DESCR: "SFP+ 10GBASE-SR"
+PID: SFP-10G-SR          , VID: V03  , SN: OPM264514BM     
+
+NAME: "Slot 4 Supervisor", DESCR: "Cisco Catalyst 9400 Series Supervisor 1 Module"
+PID: C9400-SUP-1       , VID: V03  , SN: JAD261708NM
+
+NAME: "TenGigabitEthernet4/0/1", DESCR: "SFP+ 10GBASE-SR"
+PID: SFP-10G-SR          , VID: V03  , SN: OPM264514MS     
+
+NAME: "Power Supply Module 1", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V03  , SN: LIT2645AJNZ
+
+NAME: "Power Supply Module 2", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V03  , SN: LIT2645AJV3
+
+NAME: "Power Supply Module 3", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V03  , SN: LIT2645AJQ9
+
+NAME: "Power Supply Module 4", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V03  , SN: LIT2645AJUS
+
+NAME: "Fan Tray", DESCR: "Cisco Catalyst 9400 Series 7 Slot Chassis Fan Tray"
+PID: C9407-FAN         , VID: V01  , SN: FOX2653PL98
+
+

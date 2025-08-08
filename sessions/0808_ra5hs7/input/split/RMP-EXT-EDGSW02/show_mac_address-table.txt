@@ -1,0 +1,30 @@
+RMP-EXT-EDGSW02# show mac address-table
+Legend: 
+        * - primary entry, G - Gateway MAC, (R) - Routed MAC, O - Overlay MAC
+        age - seconds since last seen,+ - primary entry using vPC Peer-Link,
+        (T) - True, (F) - False, C - ControlPlane MAC, ~ - vsan
+   VLAN     MAC Address      Type      age     Secure NTFY Ports
+---------+-----------------+--------+---------+------+----+------------------
++  191     0000.0c9f.f0c0   dynamic  0         F      F    Po8
++  191     bc4a.56cd.eebf   dynamic  0         F      F    Po8
+*  191     bc4a.56cd.ef7f   dynamic  0         F      F    Po8
++  192     84c8.0761.efd1   dynamic  0         F      F    Po8
+* 3266     d4f5.efa0.3199   dynamic  0         F      F    Eth4/9
++ 3900     0050.56b6.16fe   dynamic  0         F      F    Po2
++ 3901     0050.56b6.4fc4   dynamic  0         F      F    Po3
++  191     84c8.0761.efd1   dynamic  0         F      F    vPC Peer-Link
++ 3266     d4f5.ef8f.faa5   dynamic  0         F      F    vPC Peer-Link
+G   10     0000.0c9f.f00a   static   -         F      F    vPC Peer-Link(R)
+G  192     0000.0c9f.f0c0   static   -         F      F    vPC Peer-Link(R)
+G 3266     0000.0c9f.fcc2   static   -         F      F    vPC Peer-Link(R)
+G    -     bc4a.56cd.eebf   static   -         F      F    sup-eth1(R)
+G   10     bc4a.56cd.eebf   static   -         F      F    sup-eth1(R)
+G 3901     bc4a.56cd.eebf   static   -         F      F    sup-eth1(R)
+G  192     bc4a.56cd.eebf   static   -         F      F    sup-eth1(R)
+G 3266     bc4a.56cd.eebf   static   -         F      F    sup-eth1(R)
+G  999     bc4a.56cd.eebf   static   -         F      F    sup-eth1(R)
+G   10     bc4a.56cd.ef7f   static   -         F      F    vPC Peer-Link(R)
+G 3900     bc4a.56cd.ef7f   static   -         F      F    vPC Peer-Link(R)
+G  192     bc4a.56cd.ef7f   static   -         F      F    vPC Peer-Link(R)
+G 3266     bc4a.56cd.ef7f   static   -         F      F    vPC Peer-Link(R)
+G  999     bc4a.56cd.ef7f   static   -         F      F    vPC Peer-Link(R)

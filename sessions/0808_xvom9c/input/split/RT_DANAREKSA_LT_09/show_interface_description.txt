@@ -1,0 +1,10 @@
+Interface                      Status         Protocol Description
+Gi0/0/0                        up             up       # TO SWITCH #
+Gi0/0/0.26                     up             up       USER_WIRELESS
+Gi0/0/0.28                     up             up       CISO_WIRELESS
+Gi0/0/0.29                     up             up       MANAGEMENT
+Gi0/0/0.226                    up             up       USER_WIRED
+Gi0/0/1                        up             up       WAN LINK INDOSAT  BSI
+Gi0/1/0                        up             up       WAN LINK ICON BSI
+Gi0/2/0                        down           down     
+Lo1                            up             up       Loopback Address for BSI

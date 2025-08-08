@@ -1,0 +1,64 @@
+RMP-CORE-SW01# show inventory
+NAME: "Chassis",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis"      
+PID: N9K-C9508           ,  VID: V02 ,  SN: FGE19020RL0          
+
+NAME: "Slot 1",  DESCR: "36p 40G Ethernet Module"               
+PID: N9K-X9636PQ         ,  VID: V01 ,  SN: SAL1911B9H0          
+
+NAME: "Slot 2",  DESCR: "36p 40G Ethernet Module"               
+PID: N9K-X9636PQ         ,  VID: V01 ,  SN: SAL1911B67G          
+
+NAME: "Slot 3",  DESCR: "48x1/10G SFP+ 4x40G Ethernet Module"   
+PID: N9K-X9564PX         ,  VID: V01 ,  SN: SAL1911B8ER          
+
+NAME: "Slot 4",  DESCR: "48x1/10G SFP+ 4x40G Ethernet Module"   
+PID: N9K-X9564PX         ,  VID: V01 ,  SN: SAL1911B8EM          
+
+NAME: "Slot 21",  DESCR: "Fabric Module"                         
+PID: N9K-C9508-FM        ,  VID: V02 ,  SN: SAL19079PSE          
+
+NAME: "Slot 23",  DESCR: "Fabric Module"                         
+PID: N9K-C9508-FM        ,  VID: V02 ,  SN: SAL19079FUE          
+
+NAME: "Slot 24",  DESCR: "Fabric Module"                         
+PID: N9K-C9508-FM        ,  VID: V02 ,  SN: SAL19079PTR          
+
+NAME: "Slot 25",  DESCR: "Fabric Module"                         
+PID: N9K-C9508-FM        ,  VID: V02 ,  SN: SAL19079PSB          
+
+NAME: "Slot 26",  DESCR: "Fabric Module"                         
+PID: N9K-C9508-FM        ,  VID: V02 ,  SN: SAL19079PNW          
+
+NAME: "Slot 27",  DESCR: "Supervisor Module"                     
+PID: N9K-SUP-A           ,  VID: V02 ,  SN: SAL18370EKL          
+
+NAME: "Slot 28",  DESCR: "Supervisor Module"                     
+PID: N9K-SUP-A           ,  VID: V02 ,  SN: SAL1909A7Y6          
+
+NAME: "Slot 29",  DESCR: "System Controller"                     
+PID: N9K-SC-A            ,  VID: V01 ,  SN: SAL19038A5A          
+
+NAME: "Slot 30",  DESCR: "System Controller"                     
+PID: N9K-SC-A            ,  VID: V01 ,  SN: SAL19038A0R          
+
+NAME: "Power Supply 1",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V02 ,  SN: DTM185100NJ          
+
+NAME: "Power Supply 2",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V02 ,  SN: DTM18510061          
+
+NAME: "Power Supply 3",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V02 ,  SN: DTM18510040          
+
+NAME: "Power Supply 4",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Power Supply"
+PID: N9K-PAC-3000W-B     ,  VID: V02 ,  SN: DTM185100MN          
+
+NAME: "Fan 1",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Fan Module"
+PID: N9K-C9508-FAN       ,  VID: V01 ,  SN: FGE18440LLD          
+
+NAME: "Fan 2",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Fan Module"
+PID: N9K-C9508-FAN       ,  VID: V01 ,  SN: FGE18440LLG          
+
+NAME: "Fan 3",  DESCR: "Nexus9000 C9508 (8 Slot) Chassis Fan Module"
+PID: N9K-C9508-FAN       ,  VID: V01 ,  SN: FGE18440LM1          
+

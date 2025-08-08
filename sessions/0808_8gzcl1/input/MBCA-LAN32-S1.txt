@@ -1,0 +1,1110 @@
+﻿MBCA-LAN32-S1#show cdp neighbors
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+SEP488B0A2EBF46  Gig 1/0/13        140             H P M  IP Phone  Port 1
+SEP24813BB14F80  Gig 2/0/32        124             H P M  IP Phone  Port 1
+SEP2C542D6A5BD5  Gig 5/0/14        157             H P M  IP Phone  Port 1
+SEP6026AAF4E12A  Gig 5/0/11        135             H P M  IP Phone  Port 1
+SEP002155031C14  Gig 2/0/11        164             H P M  IP Phone  Port 1
+SEPF0F755CD6E52  Gig 2/0/37        159             H P M  IP Phone  Port 1
+SEP001BD52CFD72  Gig 2/0/48        159             H P M  IP Phone  Port 1
+SEP80E86F2230E7  Gig 5/0/7         127             H P M  IP Phone  Port 1
+SEP001BD52CFEEA  Gig 1/0/6         129             H P M  IP Phone  Port 1
+SEPAC4A561106DC  Gig 5/0/8         128             H P M  IP Phone  Port 1
+SEP001BD52D0143  Gig 1/0/27        149             H P M  IP Phone  Port 1
+SEP001BD52CFF98  Gig 6/0/48        170             H P M  IP Phone  Port 1
+SEP24B657459280  Gig 6/0/31        166             H P M  IP Phone  Port 1
+SEP001BD52CFD21  Gig 1/0/24        132             H P M  IP Phone  Port 1
+SEP5CE176112C32  Gig 1/0/38        170             H P M  IP Phone  Port 1
+SEPFCFBFB1041C1  Gig 1/0/45        177             H P M  IP Phone  Port 1
+SEPDCCEC1D4FCA4  Gig 5/0/44        153             H P M  IP Phone  Port 1
+SEP001BD52CEF47  Gig 5/0/36        146             H P M  IP Phone  Port 1
+SEP6C6CD3540FD4  Gig 5/0/32        176              H P   Board 55  eth0
+SEP24813BB14F87  Gig 1/0/22        145             H P M  IP Phone  Port 1
+SEP44881649F095  Gig 6/0/10        136             H P M  IP Phone  Port 1
+SEP70F35AD29DB1  Gig 2/0/46        150             H P M  IP Phone  Port 1
+SEP9C57ADB4FA6D  Gig 6/0/43        149             H P M  IP Phone  Port 1
+SEP88FC5D578CE6  Gig 6/0/44        174             H P M  IP Phone  Port 1
+SEPF4EA674875FA  Gig 1/0/1         136             H P M  IP Phone  Port 1
+SEP24813BB14F55  Gig 2/0/27        154             H P M  IP Phone  Port 1
+SEP001BD5127A83  Gig 1/0/43        131             H P M  IP Phone  Port 1
+SEP70F35AD2B82D  Gig 1/0/23        178             H P M  IP Phone  Port 1
+SEP70F35AD29BA6  Gig 5/0/5         163             H P M  IP Phone  Port 1
+SEP001BD52CF9F6  Gig 1/0/5         136             H P M  IP Phone  Port 1
+SEP488B0A2EBA79  Gig 1/0/39        171             H P M  IP Phone  Port 1
+SEP00727827AFE0  Gig 5/0/6         120             H P M  IP Phone  Port 1
+SEPAC4A56100D8D  Gig 1/0/32        178             H P M  IP Phone  Port 1
+SEP00EEABB7E80A  Gig 2/0/31        169             H P M  IP Phone  Port 1
+SEP001EBE9188ED  Gig 5/0/39        124             H P M  IP Phone  Port 1
+SEP001BD47D5691  Gig 2/0/35        154             H P M  IP Phone  Port 1
+SEP9C57ADB46A07  Gig 6/0/32        169             H P M  IP Phone  Port 1
+SEP88FC5DE80FAF  Gig 5/0/45        138             H P M  IP Phone  Port 1
+SEP0023049B1869  Gig 6/0/47        172             H P M  IP Phone  Port 1
+SEP488B0A2EBA92  Gig 1/0/15        149             H P M  IP Phone  Port 1
+SEP5CE176112C38  Gig 2/0/21        179             H P M  IP Phone  Port 1
+SEPAC4A56110490  Gig 2/0/42        125             H P M  IP Phone  Port 1
+SEP2C542D6A6835  Gig 5/0/17        138             H P M  IP Phone  Port 1
+SEP9C57ADB4B7CD  Gig 5/0/16        171             H P M  IP Phone  Port 1
+SEP7802B170680A  Gig 6/0/9         173             H P M  IP Phone  Port 1
+SEP5CE176112D0C  Gig 2/0/45        126             H P M  IP Phone  Port 1
+SEP001BD52CFE3E  Gig 6/0/46        121             H P M  IP Phone  Port 1
+SEP5CE176111F7E  Gig 1/0/35        179             H P M  IP Phone  Port 1
+SEPA45630BA353D  Gig 2/0/20        172             H P M  IP Phone  Port 1
+SEP001EBE9190A4  Gig 2/0/33        142             H P M  IP Phone  Port 1
+SEP5CE176112C7B  Gig 2/0/47        178             H P M  IP Phone  Port 1
+SEP001DA23E740D  Gig 6/0/36        132             H P M  IP Phone  Port 1
+SEP34A84E619226  Gig 6/0/2         174             H P M  IP Phone  Port 1
+SEP00270DBDB7FC  Gig 6/0/7         167             H P M  IP Phone  Port 1
+SEP002155038348  Gig 6/0/4         149             H P M  IP Phone  Port 1
+SEP001BD52C372B  Gig 1/0/7         137             H P M  IP Phone  Port 1
+SEPAC4A561106E0  Gig 1/0/40        179             H P M  IP Phone  Port 1
+SEP00270DBE57F6  Gig 6/0/1         123              H P   IP Phone  Port 1
+SEP9C57ADB4B4A8  Gig 1/0/17        146             H P M  IP Phone  Port 1
+SEP5CE176112C3E  Gig 2/0/41        131             H P M  IP Phone  Port 1
+SEP9C57ADB46933  Gig 1/0/3         150             H P M  IP Phone  Port 1
+SEP00CCFCA6FAD4  Gig 5/0/1         175             H P M  IP Phone  Port 1
+SEP88F07789ACA1  Gig 6/0/5         145             H P M  IP Phone  Port 1
+SEP00727827AE79  Gig 1/0/41        178             H P M  IP Phone  Port 1
+SEP488B0A2EBCA5  Gig 1/0/36        140             H P M  IP Phone  Port 1
+SEP001BD52CF0AF  Gig 1/0/21        146             H P M  IP Phone  Port 1
+SEP001DA21A632C  Gig 1/0/12        152             H P M  IP Phone  Port 1
+SEP44881649F08F  Gig 2/0/10        147             H P M  IP Phone  Port 1
+SEP5CE176111F5C  Gig 1/0/25        174             H P M  IP Phone  Port 1
+SEP001BD52CFA1F  Gig 6/0/25        165             H P M  IP Phone  Port 1
+SEP00EEABB7E734  Gig 2/0/2         149             H P M  IP Phone  Port 1
+MBCA-LAN-D.bca.co.id
+                 Ten 3/0/1         167             R S I  C6807-XL  Ten 1/1/15
+MBCA-LAN-D.bca.co.id
+                 Ten 4/0/1         130             R S I  C6807-XL  Ten 2/1/15
+SEP001BD51273AD  Gig 5/0/18        128             H P M  IP Phone  Port 1
+SEP001BD4602667  Gig 1/0/44        155             H P M  IP Phone  Port 1
+SEP442B034884D7  Gig 5/0/15        166             H P M  IP Phone  Port 1
+SEP70F35AD29B92  Gig 2/0/30        158             H P M  IP Phone  Port 1
+SEP00CCFCA764C2  Gig 1/0/14        127             H P M  IP Phone  Port 1
+SEP9C57ADB4B4B1  Gig 1/0/29        127             H P M  IP Phone  Port 1
+SEP001BD52CF038  Gig 2/0/15        166             H P M  IP Phone  Port 1
+SEP0022905A1EDC  Gig 5/0/13        132             H P M  IP Phone  Port 1
+SEPB08D57F04DAE  Gig 1/0/31        149             H P M  IP Phone  Port 1
+SEP44881649F0F5  Gig 1/0/19        146             H P M  IP Phone  Port 1
+SEP001BD52C8F10  Gig 1/0/37        144             H P M  IP Phone  Port 1
+SEP488B0A2EBCD9  Gig 5/0/10        145             H P M  IP Phone  Port 1
+SEPA45630BA391A  Gig 1/0/26        155             H P M  IP Phone  Port 1
+SEPA45630BBC380  Gig 1/0/46        176             H P M  IP Phone  Port 1
+SEP70F35AD2B834  Gig 2/0/26        136             H P M  IP Phone  Port 1
+SEPD0EC352C84BF  Gig 2/0/43        127             H P M  IP Phone  Port 1
+SEP00727827AE53  Gig 1/0/34        140             H P M  IP Phone  Port 1
+SEP80E86F223084  Gig 2/0/40        126             H P M  IP Phone  Port 1
+SEP2C542D6A681D  Gig 2/0/16        172             H P M  IP Phone  Port 1
+SEP04C5A4B11C95  Gig 6/0/35        156             H P M  IP Phone  Port 1
+SEPB08D57F04B06  Gig 1/0/10        140             H P M  IP Phone  Port 1
+SEP9C57ADB4F9D8  Gig 6/0/8         173             H P M  IP Phone  Port 1
+SEPC80084AAC9CF  Gig 2/0/36        138             H P M  IP Phone  Port 1
+SEP00260BD87217  Gig 1/0/33        158             H P M  IP Phone  Port 1
+SEP488B0A2EBA9C  Gig 1/0/16        178             H P M  IP Phone  Port 1
+
+Total cdp entries displayed : 98
+MBCA-LAN32-S1#show interfaces trunk
+MBCA-LAN32-S1#show interfaces description
+Interface                      Status         Protocol Description
+Vl1                            admin down     down     
+Vl1548                         up             up       32nd_inside_dept1_10.21.36.0
+Gi0/0                          admin down     down     
+Gi1/0/1                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/2                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/3                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/4                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/5                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/6                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/7                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/8                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/9                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/10                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/11                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/12                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/13                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/14                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/15                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/16                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/17                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/18                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/19                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/20                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/21                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/22                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/23                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/24                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/25                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/26                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/27                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/28                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/29                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/30                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/31                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/32                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/33                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/34                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/35                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/36                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/37                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/38                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/39                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/40                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/41                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/42                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/43                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/44                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/45                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/46                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/47                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi1/0/48                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/1                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/2                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/3                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/4                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/5                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/6                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/7                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/8                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/9                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/10                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/11                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/12                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/13                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/14                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/15                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/16                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/17                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/18                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/19                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/20                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/21                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/22                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/23                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/24                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/25                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/26                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/27                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/28                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/29                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/30                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/31                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/32                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/33                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/34                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/35                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/36                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/37                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/38                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/39                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/40                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/41                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/42                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/43                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/44                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/45                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/46                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/47                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi2/0/48                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Te3/0/1                        up             up       Connection to MBCA-LAN-D
+Te3/0/2                        down           down     
+Te3/0/3                        down           down     
+Te3/0/4                        down           down     
+Te3/0/5                        down           down     
+Te3/0/6                        down           down     
+Te3/0/7                        down           down     
+Te3/0/8                        down           down     
+Fo3/0/9                        down           down     
+Fo3/0/10                       down           down     
+Ap3/0/1                        up             up       
+Te4/0/1                        up             up       Connection to MBCA-LAN-D
+Te4/0/2                        down           down     
+Te4/0/3                        down           down     
+Te4/0/4                        down           down     
+Te4/0/5                        down           down     
+Te4/0/6                        down           down     
+Te4/0/7                        down           down     
+Te4/0/8                        down           down     
+Fo4/0/9                        down           down     
+Fo4/0/10                       down           down     
+Ap4/0/1                        up             up       
+Gi5/0/1                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/2                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/3                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/4                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/5                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/6                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/7                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/8                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/9                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/10                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/11                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/12                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/13                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/14                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/15                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/16                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/17                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/18                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/19                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/20                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/21                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/22                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/23                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/24                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/25                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/26                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/27                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/28                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/29                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/30                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/31                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/32                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/33                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/34                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/35                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/36                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/37                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/38                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/39                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/40                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/41                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/42                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/43                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/44                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/45                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/46                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/47                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi5/0/48                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/1                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/2                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/3                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/4                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/5                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/6                        down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/7                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/8                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/9                        up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/10                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/11                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/12                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/13                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/14                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/15                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/16                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/17                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/18                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/19                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/20                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/21                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/22                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/23                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/24                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/25                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/26                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/27                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/28                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/29                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/30                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/31                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/32                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/33                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/34                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/35                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/36                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/37                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/38                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/39                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/40                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/41                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/42                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/43                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/44                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/45                       down           down     *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/46                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/47                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Gi6/0/48                       up             up       *** 32nd_inside_dept1_10.21.36.0 ***
+Po10                           up             up       Connection to MBCA-LAN-D
+MBCA-LAN32-S1#show interfaces status
+
+Port         Name               Status       Vlan       Duplex  Speed Type
+Gi1/0/1      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/2      *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi1/0/3      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/4      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/5      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/6      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/7      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/8      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/9      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/10     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi1/0/11     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/12     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/13     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/14     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi1/0/15     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/16     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/17     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/18     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/19     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi1/0/20     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/21     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/22     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi1/0/23     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/24     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/25     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/26     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/27     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/28     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi1/0/29     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/30     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/31     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi1/0/32     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/33     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/34     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/35     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/36     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/37     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/38     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/39     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/40     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/41     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/42     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/43     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/44     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/45     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/46     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi1/0/47     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi1/0/48     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/1      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/2      *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/3      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/4      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/5      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/6      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/7      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/8      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/9      *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/10     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/11     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/12     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/13     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/14     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/15     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/16     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/17     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/18     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/19     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/20     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/21     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/22     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/23     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/24     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/25     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/26     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/27     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/28     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/29     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/30     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/31     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/32     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/33     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/34     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/35     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/36     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/37     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/38     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/39     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/40     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/41     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/42     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/43     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi2/0/44     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi2/0/45     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/46     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/47     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi2/0/48     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Te3/0/1      Connection to MBCA connected    trunk        full    10G SFP-10GBase-SR
+Te3/0/2                         notconnect   1            auto  a-10G unknown
+Te3/0/3                         notconnect   1            auto  a-10G unknown
+Te3/0/4                         notconnect   1            auto  a-10G unknown
+Te3/0/5                         inactive     1            auto   auto unknown
+Te3/0/6                         inactive     1            auto   auto unknown
+Te3/0/7                         inactive     1            auto   auto unknown
+Te3/0/8                         inactive     1            auto   auto unknown
+Fo3/0/9                         inactive     1            auto   auto unknown
+Fo3/0/10                        inactive     1            auto   auto unknown
+Ap3/0/1                         connected    1          a-full a-1000 unknown
+Te4/0/1      Connection to MBCA connected    trunk        full    10G SFP-10GBase-SR
+Te4/0/2                         notconnect   1            auto  a-10G unknown
+Te4/0/3                         notconnect   1            auto  a-10G unknown
+Te4/0/4                         notconnect   1            auto  a-10G unknown
+Te4/0/5                         inactive     1            auto   auto unknown
+Te4/0/6                         inactive     1            auto   auto unknown
+Te4/0/7                         inactive     1            auto   auto unknown
+Te4/0/8                         inactive     1            auto   auto unknown
+Fo4/0/9                         inactive     1            auto   auto unknown
+Fo4/0/10                        inactive     1            auto   auto unknown
+Ap4/0/1                         connected    1          a-full a-1000 unknown
+Gi5/0/1      *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi5/0/2      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/3      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/4      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/5      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/6      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/7      *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi5/0/8      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/9      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/10     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/11     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi5/0/12     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/13     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/14     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/15     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/16     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/17     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/18     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/19     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/20     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/21     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/22     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/23     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/24     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/25     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/26     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/27     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/28     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/29     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/30     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/31     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/32     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi5/0/33     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/34     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/35     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/36     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/37     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/38     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/39     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi5/0/40     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/41     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/42     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/43     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/44     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi5/0/45     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi5/0/46     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/47     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi5/0/48     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/1      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/2      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/3      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/4      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/5      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/6      *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/7      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/8      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/9      *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/10     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/11     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/12     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/13     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/14     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/15     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/16     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/17     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/18     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/19     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/20     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/21     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/22     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/23     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/24     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/25     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/26     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/27     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/28     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/29     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/30     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/31     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/32     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/33     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/34     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/35     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/36     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/37     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/38     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/39     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/40     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/41     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/42     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/43     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/44     *** 32nd_inside_de connected    1548       a-full a-1000 10/100/1000BaseTX
+Gi6/0/45     *** 32nd_inside_de notconnect   1548         auto   auto 10/100/1000BaseTX
+Gi6/0/46     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/47     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Gi6/0/48     *** 32nd_inside_de connected    1548       a-full  a-100 10/100/1000BaseTX
+Po10         Connection to MBCA connected    trunk      a-full  a-10G N/A
+MBCA-LAN32-S1#show inventory
+NAME: "Chassis", DESCR: "Cisco Catalyst 9400 Series 7 Slot Chassis"
+PID: C9407R            , VID: V01  , SN: FOX2653PN8W
+
+NAME: "Slot 1 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V05  , SN: JAE27190MN3
+
+NAME: "Slot 2 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V05  , SN: JAE27190MPG
+
+NAME: "Slot 5 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V05  , SN: JAE27190P1W
+
+NAME: "Slot 6 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V05  , SN: JAE27190MT2
+
+NAME: "Slot 3 Supervisor", DESCR: "Cisco Catalyst 9400 Series Supervisor 1 Module"
+PID: C9400-SUP-1       , VID: V03  , SN: JAD261708WA
+
+NAME: "TenGigabitEthernet3/0/1", DESCR: "SFP+ 10GBASE-SR"
+PID: SFP-10G-SR          , VID: V03  , SN: OPM264514BM     
+
+NAME: "Slot 4 Supervisor", DESCR: "Cisco Catalyst 9400 Series Supervisor 1 Module"
+PID: C9400-SUP-1       , VID: V03  , SN: JAD261708NM
+
+NAME: "TenGigabitEthernet4/0/1", DESCR: "SFP+ 10GBASE-SR"
+PID: SFP-10G-SR          , VID: V03  , SN: OPM264514MS     
+
+NAME: "Power Supply Module 1", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V03  , SN: LIT2645AJNZ
+
+NAME: "Power Supply Module 2", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V03  , SN: LIT2645AJV3
+
+NAME: "Power Supply Module 3", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V03  , SN: LIT2645AJQ9
+
+NAME: "Power Supply Module 4", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V03  , SN: LIT2645AJUS
+
+NAME: "Fan Tray", DESCR: "Cisco Catalyst 9400 Series 7 Slot Chassis Fan Tray"
+PID: C9407-FAN         , VID: V01  , SN: FOX2653PL98
+
+
+MBCA-LAN32-S1#show ip arp
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  10.21.36.1              0   0008.e3ff.fc28  ARPA   Vlan1548
+Internet  10.21.36.4              -   5cb1.2ecd.0ade  ARPA   Vlan1548
+Internet  10.21.36.11           172   309c.2354.2059  ARPA   Vlan1548
+Internet  10.21.36.18             5   1c7d.225d.4a9b  ARPA   Vlan1548
+Internet  10.21.36.57            12   d843.aede.7ea1  ARPA   Vlan1548
+Internet  10.21.36.61           160   d843.aede.7e60  ARPA   Vlan1548
+Internet  10.21.36.62           104   d843.aede.7ed7  ARPA   Vlan1548
+Internet  10.21.36.72           112   489e.bd47.ca5a  ARPA   Vlan1548
+Internet  10.21.36.77            13   e073.e738.ace6  ARPA   Vlan1548
+Internet  10.21.36.81             0   c84d.4410.2a96  ARPA   Vlan1548
+Internet  10.21.36.82           147   e073.e738.acf0  ARPA   Vlan1548
+Internet  10.21.36.86           130   6c3c.8c3f.1e82  ARPA   Vlan1548
+Internet  10.21.36.91           197   908d.6e8f.b118  ARPA   Vlan1548
+Internet  10.21.36.94             0   e880.8872.b932  ARPA   Vlan1548
+Internet  10.21.36.95            18   002b.676c.0e87  ARPA   Vlan1548
+Internet  10.21.36.106           12   908d.6e8f.c30d  ARPA   Vlan1548
+Internet  10.21.36.112          190   88a4.c274.6dee  ARPA   Vlan1548
+Internet  10.21.36.113           13   e073.e738.acef  ARPA   Vlan1548
+Internet  10.21.36.114           12   489e.bd47.ca53  ARPA   Vlan1548
+Internet  10.21.36.115           14   908d.6e95.ad8c  ARPA   Vlan1548
+Internet  10.21.36.116          117   8469.936e.104e  ARPA   Vlan1548
+Internet  10.21.36.125          203   6c3c.8c3f.1d1a  ARPA   Vlan1548
+Internet  10.21.36.126           45   5c60.ba3d.fdf0  ARPA   Vlan1548
+Internet  10.21.36.132          208   309c.2374.ed21  ARPA   Vlan1548
+Internet  10.21.36.136           14   908d.6e95.ad89  ARPA   Vlan1548
+Internet  10.21.36.138           98   e073.e75c.c8d4  ARPA   Vlan1548
+Internet  10.21.36.141          184   908d.6e8f.b1e9  ARPA   Vlan1548
+Internet  10.21.36.142           95   908d.6e8f.af7f  ARPA   Vlan1548
+Internet  10.21.36.144           39   7c57.5826.1faf  ARPA   Vlan1548
+Internet  10.21.36.146           10   908d.6e8f.b04c  ARPA   Vlan1548
+Internet  10.21.36.147           53   9c2d.cdd8.bcc0  ARPA   Vlan1548
+Internet  10.21.36.150          220   908d.6e8f.c368  ARPA   Vlan1548
+Internet  10.21.36.152           57   309c.2374.e65e  ARPA   Vlan1548
+Internet  10.21.36.153           20   908d.6e8f.c300  ARPA   Vlan1548
+Internet  10.21.36.156          108   489e.bd47.c9de  ARPA   Vlan1548
+Internet  10.21.36.157          127   7020.840f.c702  ARPA   Vlan1548
+Internet  10.21.36.159           13   7020.840f.75ed  ARPA   Vlan1548
+Internet  10.21.36.160          166   489e.bd47.ca56  ARPA   Vlan1548
+Internet  10.21.36.161          168   908d.6e8f.c53d  ARPA   Vlan1548
+Internet  10.21.36.164          166   908d.6e8f.b063  ARPA   Vlan1548
+Internet  10.21.36.166          154   e880.8872.ba58  ARPA   Vlan1548
+Internet  10.21.36.167          190   489e.bd47.c76b  ARPA   Vlan1548
+Internet  10.21.36.169           12   908d.6e8f.b0f0  ARPA   Vlan1548
+Internet  10.21.36.171           14   e880.886f.6283  ARPA   Vlan1548
+Internet  10.21.36.173           41   908d.6e8f.af65  ARPA   Vlan1548
+Internet  10.21.36.174           14   e880.886f.6c33  ARPA   Vlan1548
+Internet  10.21.36.175           12   489e.bd47.ca94  ARPA   Vlan1548
+Internet  10.21.36.177           31   489e.bd2e.c92c  ARPA   Vlan1548
+Internet  10.21.36.188          143   309c.2375.3d57  ARPA   Vlan1548
+Internet  10.21.36.189           14   489e.bd47.cdd7  ARPA   Vlan1548
+Internet  10.21.36.191           42   84a9.3e83.f532  ARPA   Vlan1548
+Internet  10.21.36.192           17   e073.e72d.19d6  ARPA   Vlan1548
+Internet  10.21.36.193           25   84a9.3e83.faba  ARPA   Vlan1548
+Internet  10.21.36.194          176   7020.840f.5220  ARPA   Vlan1548
+Internet  10.21.36.195            8   489e.bd47.c9e8  ARPA   Vlan1548
+Internet  10.21.36.196          212   309c.2374.e908  ARPA   Vlan1548
+Internet  10.21.36.197           13   489e.bd47.ca85  ARPA   Vlan1548
+Internet  10.21.36.198          163   7020.840f.6b24  ARPA   Vlan1548
+Internet  10.21.36.199          174   7c57.5824.90b1  ARPA   Vlan1548
+Internet  10.21.36.200          234   489e.bd47.ceb3  ARPA   Vlan1548
+Internet  10.21.36.201          160   908d.6e8f.b17b  ARPA   Vlan1548
+Internet  10.21.36.202           14   908d.6e8f.af3b  ARPA   Vlan1548
+Internet  10.21.36.203          223   908d.6e8f.afaa  ARPA   Vlan1548
+Internet  10.21.36.204          231   7c57.5826.200f  ARPA   Vlan1548
+Internet  10.21.36.205          187   489e.bd47.ca87  ARPA   Vlan1548
+Internet  10.21.36.206           14   84a9.3e83.fb19  ARPA   Vlan1548
+Internet  10.21.36.207            5   489e.bd47.c7ca  ARPA   Vlan1548
+Internet  10.21.36.208           93   309c.2374.ea86  ARPA   Vlan1548
+Internet  10.21.36.210           14   7020.840f.6a58  ARPA   Vlan1548
+Internet  10.21.36.211          124   309c.2374.f2b3  ARPA   Vlan1548
+Internet  10.21.36.212           57   908d.6e8f.b12e  ARPA   Vlan1548
+Internet  10.21.36.213           77   489e.bd47.cf30  ARPA   Vlan1548
+Internet  10.21.36.214           14   908d.6e8f.c62c  ARPA   Vlan1548
+Internet  10.21.36.215           14   7020.840f.5407  ARPA   Vlan1548
+Internet  10.21.36.217           12   5c60.ba3d.4d99  ARPA   Vlan1548
+Internet  10.21.36.218          149   489e.bd47.ce9e  ARPA   Vlan1548
+Internet  10.21.36.219           13   489e.bd47.ca54  ARPA   Vlan1548
+Internet  10.21.36.220           47   309c.2375.398a  ARPA   Vlan1548
+Internet  10.21.36.221           53   908d.6e8f.b290  ARPA   Vlan1548
+Internet  10.21.36.222          117   88a4.c274.73e2  ARPA   Vlan1548
+Internet  10.21.36.223          201   7020.840f.510f  ARPA   Vlan1548
+Internet  10.21.36.224           38   489e.bd47.c9f3  ARPA   Vlan1548
+Internet  10.21.36.225          176   e880.886c.6a7a  ARPA   Vlan1548
+Internet  10.21.36.230          120   e880.886c.7404  ARPA   Vlan1548
+Internet  10.21.36.234           13   e073.e738.a837  ARPA   Vlan1548
+Internet  10.21.36.238          104   908d.6e8f.c57d  ARPA   Vlan1548
+Internet  10.21.36.242           14   84a9.3e67.2fab  ARPA   Vlan1548
+Internet  10.21.36.243            8   489e.bd47.ce67  ARPA   Vlan1548
+Internet  10.21.36.248          195   5c60.ba3d.bcff  ARPA   Vlan1548
+Internet  10.21.37.20           234   004e.019a.d3ad  ARPA   Vlan1548
+Internet  10.21.37.21            14   309c.2350.d08f  ARPA   Vlan1548
+Internet  10.21.37.56             5   fc5c.ee4f.ee7d  ARPA   Vlan1548
+Internet  10.21.37.57            93   3013.8b89.730b  ARPA   Vlan1548
+Internet  10.21.37.99           177   309c.2375.3c27  ARPA   Vlan1548
+Internet  10.21.37.100          111   309c.2375.3c4a  ARPA   Vlan1548
+Internet  10.21.37.114           44   004e.019a.d7de  ARPA   Vlan1548
+Internet  10.21.37.116          156   083a.886e.7e4a  ARPA   Vlan1548
+Internet  10.21.37.120          171   e0be.032a.6f30  ARPA   Vlan1548
+Internet  10.21.37.130            2   489e.bd2e.60c3  ARPA   Vlan1548
+Internet  10.21.37.131          199   489e.bd47.ca84  ARPA   Vlan1548
+Internet  10.21.37.153           27   e073.e72d.199e  ARPA   Vlan1548
+Internet  10.21.37.170          120   5c60.bac8.98d2  ARPA   Vlan1548
+Internet  10.21.37.177          111   083a.886c.496e  ARPA   Vlan1548
+Internet  10.21.37.225          224   489e.bd47.ce8b  ARPA   Vlan1548
+Internet  10.21.37.226          138   fc5c.ee7c.51a7  ARPA   Vlan1548
+Internet  10.21.37.231           24   c8a3.6240.95a3  ARPA   Vlan1548
+Internet  10.21.37.233           12   3013.8b89.7230  ARPA   Vlan1548
+Internet  10.21.37.235            7   8469.936e.0ee0  ARPA   Vlan1548
+Internet  10.21.37.242            5   246a.0ec9.67f5  ARPA   Vlan1548
+Internet  10.21.37.244          144   e880.886c.738f  ARPA   Vlan1548
+MBCA-LAN32-S1#show lldp neighbors
+% LLDP is not enabled
+MBCA-LAN32-S1#show mac address-table
+          Mac Address Table
+-------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       --------    -----
+ All    0100.0ccc.cccc    STATIC      CPU
+ All    0100.0ccc.cccd    STATIC      CPU
+ All    0180.c200.0000    STATIC      CPU
+ All    0180.c200.0001    STATIC      CPU
+ All    0180.c200.0002    STATIC      CPU
+ All    0180.c200.0003    STATIC      CPU
+ All    0180.c200.0004    STATIC      CPU
+ All    0180.c200.0005    STATIC      CPU
+ All    0180.c200.0006    STATIC      CPU
+ All    0180.c200.0007    STATIC      CPU
+ All    0180.c200.0008    STATIC      CPU
+ All    0180.c200.0009    STATIC      CPU
+ All    0180.c200.000a    STATIC      CPU
+ All    0180.c200.000b    STATIC      CPU
+ All    0180.c200.000c    STATIC      CPU
+ All    0180.c200.000d    STATIC      CPU
+ All    0180.c200.000e    STATIC      CPU
+ All    0180.c200.000f    STATIC      CPU
+ All    0180.c200.0010    STATIC      CPU
+ All    0180.c200.0021    STATIC      CPU
+ All    ffff.ffff.ffff    STATIC      CPU
+   1    3412.7856.0100    DYNAMIC     Ap3/0/1
+1548    0008.e3ff.fc28    DYNAMIC     Po10
+1548    002b.676c.0e87    STATIC      Gi1/0/28 
+1548    004e.019a.d3ad    STATIC      Gi6/0/35 
+1548    004e.019a.d7de    STATIC      Gi6/0/31 
+1548    00be.43b9.93f8    DYNAMIC     Po10
+1548    00be.43b9.95d7    DYNAMIC     Po10
+1548    083a.886e.6420    DYNAMIC     Po10
+1548    083a.886e.76de    DYNAMIC     Po10
+1548    083a.886e.7e4a    STATIC      Gi6/0/4 
+1548    083a.886e.7efa    DYNAMIC     Po10
+1548    1c7d.2256.d8a0    DYNAMIC     Po10
+1548    1c7d.225d.4a8d    DYNAMIC     Po10
+1548    1c7d.225d.4a9b    STATIC      Gi6/0/12 
+1548    1c7d.225d.4d9d    DYNAMIC     Po10
+1548    246a.0ec9.67f5    STATIC      Gi2/0/48 
+1548    28c5.c838.2129    DYNAMIC     Po10
+1548    3013.8b89.7230    STATIC      Gi6/0/36 
+1548    3013.8b89.723e    DYNAMIC     Po10
+1548    3013.8b89.730b    STATIC      Gi6/0/9 
+1548    309c.2350.d08f    STATIC      Gi6/0/32 
+1548    309c.2354.2059    STATIC      Gi2/0/25 
+1548    309c.2374.e65e    STATIC      Gi1/0/46 
+1548    309c.2374.e908    STATIC      Gi1/0/19 
+1548    309c.2374.ea86    STATIC      Gi2/0/16 
+1548    309c.2374.ed21    STATIC      Gi5/0/15 
+1548    309c.2374.f2b3    STATIC      Gi1/0/21 
+1548    309c.2375.398a    STATIC      Gi5/0/8 
+1548    309c.2375.3c27    STATIC      Gi6/0/7 
+1548    309c.2375.3c4a    STATIC      Gi6/0/2 
+1548    309c.2375.3d57    STATIC      Gi1/0/26 
+1548    3814.2849.cc4a    DYNAMIC     Po10
+1548    489e.bd2e.60c3    STATIC      Gi6/0/11 
+1548    489e.bd2e.612a    DYNAMIC     Po10
+1548    489e.bd2e.c904    DYNAMIC     Po10
+1548    489e.bd2e.c92c    STATIC      Gi6/0/24 
+1548    489e.bd47.c76b    STATIC      Gi1/0/7 
+1548    489e.bd47.c7ca    STATIC      Gi2/0/40 
+1548    489e.bd47.c7ce    DYNAMIC     Po10
+1548    489e.bd47.c941    DYNAMIC     Po10
+1548    489e.bd47.c9de    STATIC      Gi5/0/6 
+1548    489e.bd47.c9e8    STATIC      Gi1/0/29 
+1548    489e.bd47.c9f3    STATIC      Gi1/0/45 
+1548    489e.bd47.ca35    DYNAMIC     Po10
+1548    489e.bd47.ca53    STATIC      Gi1/0/35 
+1548    489e.bd47.ca54    STATIC      Gi2/0/41 
+1548    489e.bd47.ca56    STATIC      Gi2/0/30 
+1548    489e.bd47.ca5a    STATIC      Gi5/0/10 
+1548    489e.bd47.ca84    STATIC      Gi5/0/36 
+1548    489e.bd47.ca85    STATIC      Gi5/0/5 
+1548    489e.bd47.ca87    STATIC      Gi1/0/12 
+1548    489e.bd47.ca94    STATIC      Gi5/0/11 
+1548    489e.bd47.cdd7    STATIC      Gi1/0/33 
+1548    489e.bd47.cde9    DYNAMIC     Po10
+1548    489e.bd47.ce67    STATIC      Gi6/0/25 
+1548    489e.bd47.ce6f    DYNAMIC     Po10
+1548    489e.bd47.ce7d    DYNAMIC     Po10
+1548    489e.bd47.ce7e    DYNAMIC     Po10
+1548    489e.bd47.ce8b    STATIC      Gi6/0/19 
+1548    489e.bd47.ce9e    STATIC      Gi2/0/47 
+1548    489e.bd47.ce9f    DYNAMIC     Po10
+1548    489e.bd47.ceb3    STATIC      Gi1/0/14 
+1548    489e.bd47.cf27    DYNAMIC     Po10
+1548    489e.bd47.cf30    STATIC      Gi2/0/20 
+1548    489e.bd47.cf37    DYNAMIC     Po10
+1548    489e.bd49.9595    DYNAMIC     Po10
+1548    5c60.ba3d.4d99    STATIC      Gi6/0/46 
+1548    5c60.ba3d.6c84    DYNAMIC     Po10
+1548    5c60.ba3d.6de8    DYNAMIC     Po10
+1548    5c60.ba3d.ac29    DYNAMIC     Po10
+1548    5c60.ba3d.cdb6    DYNAMIC     Po10
+1548    5c60.ba3d.dc43    DYNAMIC     Po10
+1548    5c60.ba3d.fdd6    DYNAMIC     Po10
+1548    5c60.ba3d.fdf0    STATIC      Gi6/0/43 
+1548    5c60.ba59.160f    DYNAMIC     Po10
+1548    5c60.bac8.98d2    STATIC      Gi5/0/44 
+1548    5cb1.2ecc.ff5e    DYNAMIC     Po10
+1548    5cb1.2ecd.0ade    STATIC      Vl1548 
+1548    648f.3ef0.5c4a    DYNAMIC     Po10
+1548    6c3c.8c3f.1d1a    STATIC      Gi1/0/44 
+1548    6c3c.8c3f.1e82    STATIC      Gi1/0/17 
+1548    7020.840f.510f    STATIC      Gi6/0/41 
+1548    7020.840f.5220    STATIC      Gi2/0/33 
+1548    7020.840f.5407    STATIC      Gi2/0/37 
+1548    7020.840f.54b3    DYNAMIC     Po10
+1548    7020.840f.6a58    STATIC      Gi6/0/15 
+1548    7020.840f.6b24    STATIC      Gi1/0/5 
+1548    7020.840f.75ed    STATIC      Gi1/0/24 
+1548    7020.840f.c702    STATIC      Gi5/0/18 
+1548    7c57.5824.9070    DYNAMIC     Po10
+1548    7c57.5824.90b1    STATIC      Gi1/0/13 
+1548    7c57.5825.67a1    DYNAMIC     Po10
+1548    7c57.5826.1f44    DYNAMIC     Po10
+1548    7c57.5826.1faf    STATIC      Gi1/0/22 
+1548    7c57.5826.200f    STATIC      Gi1/0/27 
+1548    8469.936e.0e2b    DYNAMIC     Po10
+1548    8469.936e.0ee0    STATIC      Gi1/0/2 
+1548    8469.936e.0f02    DYNAMIC     Po10
+1548    8469.936e.0f13    DYNAMIC     Po10
+1548    8469.936e.0fa7    DYNAMIC     Po10
+1548    8469.936e.0fab    DYNAMIC     Po10
+1548    8469.936e.0fb8    DYNAMIC     Po10
+1548    8469.936e.102c    DYNAMIC     Po10
+1548    8469.936e.104e    STATIC      Gi6/0/21 
+1548    8469.936e.105a    DYNAMIC     Po10
+1548    8469.936e.1062    DYNAMIC     Po10
+1548    8469.936e.106f    DYNAMIC     Po10
+1548    8469.936e.109b    DYNAMIC     Po10
+1548    8469.936e.10c0    DYNAMIC     Po10
+1548    8469.936e.10c3    DYNAMIC     Po10
+1548    8469.936e.10e0    DYNAMIC     Po10
+1548    8469.936e.10e2    DYNAMIC     Po10
+1548    8469.936e.10ea    DYNAMIC     Po10
+1548    8469.936e.1437    DYNAMIC     Po10
+1548    84a9.3e67.1015    DYNAMIC     Po10
+1548    84a9.3e67.2fab    STATIC      Gi1/0/16 
+1548    84a9.3e67.316a    DYNAMIC     Po10
+1548    84a9.3e83.f532    STATIC      Gi2/0/13 
+1548    84a9.3e83.faba    STATIC      Gi1/0/38 
+1548    84a9.3e83.fb19    STATIC      Gi2/0/21 
+1548    88a4.c274.5e00    DYNAMIC     Po10
+1548    88a4.c274.68ba    DYNAMIC     Po10
+1548    88a4.c274.6dee    STATIC      Gi6/0/48 
+1548    88a4.c274.6f2c    DYNAMIC     Po10
+1548    88a4.c274.7058    DYNAMIC     Po10
+1548    88a4.c274.7280    DYNAMIC     Po10
+1548    88a4.c274.73e2    STATIC      Gi6/0/47 
+1548    88a4.c29a.783e    DYNAMIC     Po10
+1548    908d.6e8f.af3b    STATIC      Gi2/0/11 
+1548    908d.6e8f.af65    STATIC      Gi2/0/15 
+1548    908d.6e8f.af7f    STATIC      Gi1/0/34 
+1548    908d.6e8f.afaa    STATIC      Gi1/0/10 
+1548    908d.6e8f.b04c    STATIC      Gi1/0/43 
+1548    908d.6e8f.b063    STATIC      Gi1/0/15 
+1548    908d.6e8f.b0f0    STATIC      Gi1/0/6 
+1548    908d.6e8f.b118    STATIC      Gi1/0/32 
+1548    908d.6e8f.b12e    STATIC      Gi2/0/22 
+1548    908d.6e8f.b17b    STATIC      Gi2/0/35 
+1548    908d.6e8f.b1e9    STATIC      Gi5/0/1 
+1548    908d.6e8f.b290    STATIC      Gi2/0/43 
+1548    908d.6e8f.c300    STATIC      Gi2/0/46 
+1548    908d.6e8f.c30d    STATIC      Gi2/0/45 
+1548    908d.6e8f.c368    STATIC      Gi5/0/7 
+1548    908d.6e8f.c53d    STATIC      Gi5/0/13 
+1548    908d.6e8f.c57d    STATIC      Gi1/0/23 
+1548    908d.6e8f.c62c    STATIC      Gi2/0/36 
+1548    908d.6e95.ad89    STATIC      Gi2/0/31 
+1548    908d.6e95.ad8c    STATIC      Gi2/0/42 
+1548    9c2d.cdd8.bcc0    STATIC      Gi2/0/32 
+1548    9c7b.ef2b.a6c7    DYNAMIC     Po10
+1548    9c7b.ef2b.a6ce    DYNAMIC     Po10
+1548    9c7b.ef2b.ab27    DYNAMIC     Po10
+1548    9c7b.ef2b.ab7a    DYNAMIC     Po10
+1548    9c7b.ef2b.abb3    DYNAMIC     Po10
+1548    9c7b.ef2b.abe7    DYNAMIC     Po10
+1548    9c7b.ef2b.abe9    DYNAMIC     Po10
+1548    9c7b.ef2b.abee    DYNAMIC     Po10
+1548    9c7b.ef2b.ad91    DYNAMIC     Po10
+1548    a023.9f05.aa49    DYNAMIC     Po10
+1548    c84d.4410.2a96    STATIC      Gi6/0/33 
+1548    c8d9.d229.bcc4    DYNAMIC     Po10
+1548    d843.aede.7e60    STATIC      Gi1/0/39 
+1548    d843.aede.7ea1    STATIC      Gi1/0/41 
+1548    d843.aede.7ed7    STATIC      Gi1/0/40 
+1548    e04f.43e8.e148    DYNAMIC     Po10
+1548    e073.e72c.a80b    DYNAMIC     Po10
+1548    e073.e72d.199e    STATIC      Gi1/0/3 
+1548    e073.e72d.199f    DYNAMIC     Po10
+1548    e073.e72d.19d6    STATIC      Gi1/0/1 
+1548    e073.e72d.1a28    DYNAMIC     Po10
+1548    e073.e72d.1a29    DYNAMIC     Po10
+1548    e073.e72d.21de    DYNAMIC     Po10
+1548    e073.e72f.f78a    DYNAMIC     Po10
+1548    e073.e738.a837    STATIC      Gi2/0/2 
+1548    e073.e738.ace6    STATIC      Gi5/0/14 
+1548    e073.e738.acef    STATIC      Gi1/0/25 
+1548    e073.e738.acf0    STATIC      Gi5/0/16 
+1548    e0be.032a.6f30    STATIC      Gi1/0/31 
+1548    e880.886c.6012    DYNAMIC     Po10
+1548    e880.886c.668f    DYNAMIC     Po10
+1548    e880.886c.690f    DYNAMIC     Po10
+1548    e880.886c.698a    DYNAMIC     Po10
+1548    e880.886c.6a54    DYNAMIC     Po10
+1548    e880.886c.6a7a    STATIC      Gi6/0/1 
+1548    e880.886c.6ae4    DYNAMIC     Po10
+1548    e880.886c.71bc    DYNAMIC     Po10
+1548    e880.886c.738f    STATIC      Gi6/0/10 
+1548    e880.886c.819f    DYNAMIC     Po10
+1548    e880.886c.85c1    DYNAMIC     Po10
+1548    e880.886f.5df6    DYNAMIC     Po10
+1548    e880.886f.60cb    DYNAMIC     Po10
+1548    e880.886f.6283    STATIC      Gi1/0/36 
+1548    e880.886f.6849    DYNAMIC     Po10
+1548    e880.886f.6c33    STATIC      Gi1/0/37 
+1548    e880.8872.b0cf    DYNAMIC     Po10
+1548    e880.8872.b16a    DYNAMIC     Po10
+1548    e880.8872.b932    STATIC      Gi6/0/8 
+1548    e880.8872.ba14    DYNAMIC     Po10
+1548    e880.8872.ba58    STATIC      Gi5/0/17 
+1548    e880.8872.bce2    DYNAMIC     Po10
+1548    fc5c.ee7c.51a7    STATIC      Gi5/0/39 
+1286    0008.e3ff.fc28    DYNAMIC     Po10
+1286    001b.d460.2667    STATIC      Gi1/0/44 
+1286    001b.d460.5be2    DYNAMIC     Po10
+1286    001b.d47d.4728    DYNAMIC     Po10
+1286    001b.d47d.5691    STATIC      Gi2/0/35 
+1286    001b.d4c6.e9b0    DYNAMIC     Po10
+1286    001b.d512.73ad    STATIC      Gi5/0/18 
+1286    001b.d512.74bc    DYNAMIC     Po10
+1286    001b.d512.7952    DYNAMIC     Po10
+1286    001b.d512.7977    DYNAMIC     Po10
+1286    001b.d512.7a83    STATIC      Gi1/0/43 
+1286    001b.d52c.372b    STATIC      Gi1/0/7 
+1286    001b.d52c.8f10    STATIC      Gi1/0/37 
+1286    001b.d52c.ad9e    DYNAMIC     Po10
+1286    001b.d52c.bac0    DYNAMIC     Po10
+1286    001b.d52c.bb4f    DYNAMIC     Po10
+1286    001b.d52c.ef3c    DYNAMIC     Po10
+1286    001b.d52c.ef47    STATIC      Gi5/0/36 
+1286    001b.d52c.f038    STATIC      Gi2/0/15 
+1286    001b.d52c.f0af    STATIC      Gi1/0/21 
+1286    001b.d52c.f79f    DYNAMIC     Po10
+1286    001b.d52c.f855    DYNAMIC     Po10
+1286    001b.d52c.f9f6    STATIC      Gi1/0/5 
+1286    001b.d52c.fa1f    STATIC      Gi6/0/25 
+1286    001b.d52c.fae5    DYNAMIC     Po10
+1286    001b.d52c.fd21    STATIC      Gi1/0/24 
+1286    001b.d52c.fd27    DYNAMIC     Po10
+1286    001b.d52c.fd72    STATIC      Gi2/0/48 
+1286    001b.d52c.fe3e    STATIC      Gi6/0/46 
+1286    001b.d52c.feea    STATIC      Gi1/0/6 
+1286    001b.d52c.ff98    STATIC      Gi6/0/48 
+1286    001b.d52d.002f    DYNAMIC     Po10
+1286    001b.d52d.00bc    DYNAMIC     Po10
+1286    001b.d52d.00dc    DYNAMIC     Po10
+1286    001b.d52d.0105    DYNAMIC     Po10
+1286    001b.d52d.0143    STATIC      Gi1/0/27 
+1286    001b.d52d.01e2    DYNAMIC     Po10
+1286    001b.d52d.01eb    DYNAMIC     Po10
+1286    001b.d52d.031f    DYNAMIC     Po10
+1286    001b.d52d.057b    DYNAMIC     Po10
+1286    001b.d52d.0589    DYNAMIC     Po10
+1286    001c.58fb.d3e8    DYNAMIC     Po10
+1286    001d.a21a.61f7    DYNAMIC     Po10
+1286    001d.a21a.632c    STATIC      Gi1/0/12 
+1286    001d.a23e.740d    STATIC      Gi6/0/36 
+1286    001e.be91.88ed    STATIC      Gi5/0/39 
+1286    001e.be91.90a4    STATIC      Gi2/0/33 
+1286    0021.5503.1c14    STATIC      Gi2/0/11 
+1286    0021.5503.3328    DYNAMIC     Po10
+1286    0021.5503.8348    STATIC      Gi6/0/4 
+1286    0022.905a.1edc    STATIC      Gi5/0/13 
+1286    0023.049b.0f89    DYNAMIC     Po10
+1286    0023.049b.0fd9    DYNAMIC     Po10
+1286    0023.049b.10bd    DYNAMIC     Po10
+1286    0023.049b.1417    DYNAMIC     Po10
+1286    0023.049b.1869    STATIC      Gi6/0/47 
+1286    0023.049b.552a    DYNAMIC     Po10
+1286    0023.049b.5541    DYNAMIC     Po10
+1286    0023.049b.644c    DYNAMIC     Po10
+1286    0023.049b.6515    DYNAMIC     Po10
+1286    0026.0bd8.7217    STATIC      Gi1/0/33 
+1286    0027.0dbd.555f    DYNAMIC     Po10
+1286    0027.0dbd.b6e0    DYNAMIC     Po10
+1286    0027.0dbd.b7fc    STATIC      Gi6/0/7 
+1286    0027.0dbe.53df    DYNAMIC     Po10
+1286    0027.0dbe.57f6    STATIC      Gi6/0/1 
+1286    0027.0dbe.581c    DYNAMIC     Po10
+1286    0072.7827.ae53    STATIC      Gi1/0/34 
+1286    0072.7827.ae79    STATIC      Gi1/0/41 
+1286    0072.7827.afe0    STATIC      Gi5/0/6 
+1286    00cc.fca6.fad4    STATIC      Gi5/0/1 
+1286    00cc.fca7.64c2    STATIC      Gi1/0/14 
+1286    00ee.abb7.e734    STATIC      Gi2/0/2 
+1286    00ee.abb7.e80a    STATIC      Gi2/0/31 
+1286    04c5.a4b1.1c95    STATIC      Gi6/0/35 
+1286    0817.3514.989e    DYNAMIC     Po10
+1286    0817.3514.9987    DYNAMIC     Po10
+1286    0817.3514.ab93    DYNAMIC     Po10
+1286    108c.cfe1.fbf5    DYNAMIC     Po10
+1286    2481.3bb1.4f55    STATIC      Gi2/0/27 
+1286    2481.3bb1.4f80    STATIC      Gi2/0/32 
+1286    2481.3bb1.4f87    STATIC      Gi1/0/22 
+1286    24b6.5745.9280    STATIC      Gi6/0/31 
+1286    2c36.f858.0982    DYNAMIC     Po10
+1286    2c36.f858.0e20    DYNAMIC     Po10
+1286    2c54.2d6a.5bd5    STATIC      Gi5/0/14 
+1286    2c54.2d6a.681d    STATIC      Gi2/0/16 
+1286    2c54.2d6a.6835    STATIC      Gi5/0/17 
+1286    3037.a617.53c6    DYNAMIC     Po10
+1286    3037.a617.53cc    DYNAMIC     Po10
+1286    3037.a617.5626    DYNAMIC     Po10
+1286    34a8.4e61.9226    STATIC      Gi6/0/2 
+1286    442b.0348.84d7    STATIC      Gi5/0/15 
+1286    4488.1649.f08f    STATIC      Gi2/0/10 
+1286    4488.1649.f095    STATIC      Gi6/0/10 
+1286    4488.1649.f0f5    STATIC      Gi1/0/19 
+1286    488b.0a2e.ba79    STATIC      Gi1/0/39 
+1286    488b.0a2e.ba92    STATIC      Gi1/0/15 
+1286    488b.0a2e.ba9c    STATIC      Gi1/0/16 
+1286    488b.0a2e.bca5    STATIC      Gi1/0/36 
+1286    488b.0a2e.bcd9    STATIC      Gi5/0/10 
+1286    488b.0a2e.bf46    STATIC      Gi1/0/13 
+1286    5ce1.7611.1f5c    STATIC      Gi1/0/25 
+1286    5ce1.7611.1f7e    STATIC      Gi1/0/35 
+1286    5ce1.7611.2c32    STATIC      Gi1/0/38 
+1286    5ce1.7611.2c38    STATIC      Gi2/0/21 
+1286    5ce1.7611.2c3e    STATIC      Gi2/0/41 
+1286    5ce1.7611.2c7b    STATIC      Gi2/0/47 
+1286    5ce1.7611.2d0c    STATIC      Gi2/0/45 
+1286    6026.aaf4.e12a    STATIC      Gi5/0/11 
+1286    6c50.4d57.25a3    DYNAMIC     Po10
+1286    6c6c.d354.0fd4    STATIC      Gi5/0/32 
+1286    70f3.5ad2.9b92    STATIC      Gi2/0/30 
+1286    70f3.5ad2.9ba6    STATIC      Gi5/0/5 
+1286    70f3.5ad2.9db1    STATIC      Gi2/0/46 
+1286    70f3.5ad2.b82d    STATIC      Gi1/0/23 
+1286    70f3.5ad2.b834    STATIC      Gi2/0/26 
+1286    7802.b170.680a    STATIC      Gi6/0/9 
+1286    80e8.6f22.3084    STATIC      Gi2/0/40 
+1286    80e8.6f22.30e7    STATIC      Gi5/0/7 
+1286    88f0.7789.aca1    STATIC      Gi6/0/5 
+1286    88fc.5d57.8ce6    STATIC      Gi6/0/44 
+1286    88fc.5de8.0faf    STATIC      Gi5/0/45 
+1286    9c57.adb4.6933    STATIC      Gi1/0/3 
+1286    9c57.adb4.6a07    STATIC      Gi6/0/32 
+1286    9c57.adb4.b4a8    STATIC      Gi1/0/17 
+1286    9c57.adb4.b4b1    STATIC      Gi1/0/29 
+1286    9c57.adb4.b7cd    STATIC      Gi5/0/16 
+1286    9c57.adb4.f9d8    STATIC      Gi6/0/8 
+1286    9c57.adb4.fa6d    STATIC      Gi6/0/43 
+1286    a023.9f05.aa49    DYNAMIC     Po10
+1286    a456.3040.8e81    DYNAMIC     Po10
+1286    a456.30ba.353d    STATIC      Gi2/0/20 
+1286    a456.30ba.3746    DYNAMIC     Po10
+1286    a456.30ba.391a    STATIC      Gi1/0/26 
+1286    a456.30bb.c380    STATIC      Gi1/0/46 
+1286    a8b1.d41f.05ed    DYNAMIC     Po10
+1286    ac4a.5610.0d8d    STATIC      Gi1/0/32 
+1286    ac4a.5611.0490    STATIC      Gi2/0/42 
+1286    ac4a.5611.06dc    STATIC      Gi5/0/8 
+1286    ac4a.5611.06e0    STATIC      Gi1/0/40 
+1286    b08d.57f0.4b06    STATIC      Gi1/0/10 
+1286    b08d.57f0.4dae    STATIC      Gi1/0/31 
+1286    c800.84aa.c9cf    STATIC      Gi2/0/36 
+1286    d0ec.352c.84bf    STATIC      Gi2/0/43 
+1286    dcce.c1d4.fca4    STATIC      Gi5/0/44 
+1286    f0f7.55cd.6e52    STATIC      Gi2/0/37 
+1286    f0f7.55cd.6eff    DYNAMIC     Po10
+1286    f4ea.6748.75fa    STATIC      Gi1/0/1 
+1286    fcfb.fb10.41c1    STATIC      Gi1/0/45 
+ 617    a023.9f05.aa49    DYNAMIC     Po10
+1564    a023.9f05.aa49    DYNAMIC     Po10
+1572    a023.9f05.aa49    DYNAMIC     Po10
+Total Mac Addresses for this criterion: 375
+MBCA-LAN32-S1#show etherchannel summary
+Flags:  D - down        P - bundled in port-channel
+        I - stand-alone s - suspended
+        H - Hot-standby (LACP only)
+        R - Layer3      S - Layer2
+        U - in use      f - failed to allocate aggregator
+
+        M - not in use, minimum links not met
+        u - unsuitable for bundling
+        w - waiting to be aggregated
+        d - default port
+
+        A - formed by Auto LAG
+
+
+Number of channel-groups in use: 1
+Number of aggregators:           1
+
+Group  Port-channel  Protocol    Ports
+------+-------------+-----------+-----------------------------------------------
+10     Po10(SU)        LACP        Te3/0/1(P)      Te4/0/1(P)      
+
+Stop recording MBCA-LAN32-S1 (10.21.36.4) – 2025-06-19 - 16:38:02

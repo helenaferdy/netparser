@@ -1,0 +1,80 @@
+RMP-INT-ACSDMZ01-new# show interface description
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+mgmt0                    --
+
+-------------------------------------------------------------------------------
+Port          Type   Speed   Description
+-------------------------------------------------------------------------------
+Eth1/1        eth    10G     Controller_Port1
+Eth1/2        eth    10G     Service_Port1
+Eth1/3        eth    10G     Controller_Port1
+Eth1/4        eth    10G     Service_Port1
+Eth1/5        eth    1000    IRONPORT_ESA
+Eth1/6        eth    1000    IRONPORT_ESA
+Eth1/7        eth    10G     Server Non HPS (DELL)
+Eth1/8        eth    10G     Server Non HPS (DELL)
+Eth1/9        eth    10G     MX9116N
+Eth1/10       eth    10G     MX9116N
+Eth1/11       eth    1000    Social_Media
+Eth1/12       eth    1000    Social_Media
+Eth1/13       eth    25G     --
+Eth1/14       eth    25G     --
+Eth1/15       eth    25G     --
+Eth1/16       eth    25G     --
+Eth1/17       eth    25G     --
+Eth1/18       eth    25G     --
+Eth1/19       eth    25G     --
+Eth1/20       eth    25G     --
+Eth1/21       eth    25G     --
+Eth1/22       eth    25G     --
+Eth1/23       eth    25G     --
+Eth1/24       eth    25G     --
+Eth1/25       eth    25G     --
+Eth1/26       eth    25G     --
+Eth1/27       eth    25G     --
+Eth1/28       eth    25G     --
+Eth1/29       eth    25G     --
+Eth1/30       eth    25G     --
+Eth1/31       eth    25G     --
+Eth1/32       eth    25G     --
+Eth1/33       eth    25G     --
+Eth1/34       eth    25G     --
+Eth1/35       eth    25G     --
+Eth1/36       eth    25G     --
+Eth1/37       eth    25G     --
+Eth1/38       eth    25G     --
+Eth1/39       eth    25G     --
+Eth1/40       eth    25G     --
+Eth1/41       eth    25G     --
+Eth1/42       eth    25G     --
+Eth1/43       eth    25G     --
+Eth1/44       eth    25G     --
+Eth1/45       eth    25G     --
+Eth1/46       eth    25G     --
+Eth1/47       eth    25G     --
+Eth1/48       eth    10G     #Peer-Keepalive#
+Eth1/49       eth    100G    --
+Eth1/50       eth    100G    --
+Eth1/51       eth    40G     #CONNECTION TO NEW INET EDGE#
+Eth1/52       eth    40G     #CONNECTION TO NEW INET EDGE#
+Eth1/53       eth    100G    #VPC-Peerlink#
+Eth1/54       eth    100G    #VPC-Peerlink#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Po1                      T7_1 Controller
+Po2                      T7_1 Service
+Po3                      T7_2 Controller
+Po4                      T7_2 Service
+Po7                      Server Non HPS (DELL)
+Po51                     #CONNECTION TO NEW INET EDGE#
+Po53                     #VPC-Peerlink#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Vlan1                    --

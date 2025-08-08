@@ -1,0 +1,1587 @@
+﻿MBCA-LAN28-S1#show cdp neighbors
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+SEP5CE176111F75  Gig 7/0/28        133             H P M  IP Phone  Port 1
+SEP9C57ADB4F931  Gig 7/0/16        156             H P M  IP Phone  Port 1
+SEP70F35AD2B7E6  Gig 2/0/36        167             H P M  IP Phone  Port 1
+SEP488B0A2EBE45  Gig 8/0/23        157             H P M  IP Phone  Port 1
+SEP5CE176111F20  Gig 7/0/3         131             H P M  IP Phone  Port 1
+SEP00CCFCA674DB  Gig 4/0/48        161             H P M  IP Phone  Port 1
+SEP24813BB1A9AC  Gig 4/0/24        141             H P M  IP Phone  Port 1
+SEP70F35AD29B9E  Gig 8/0/24        135             H P M  IP Phone  Port 1
+SEPB83861572463  Gig 3/0/45        156             H P M  IP Phone  Port 1
+SEP001BD52CEFDC  Gig 3/0/25        129             H P M  IP Phone  Port 1
+SEP5CE176111EFF  Gig 1/0/40        168             H P M  IP Phone  Port 1
+SEP5CE176112BEB  Gig 9/0/3         162             H P M  IP Phone  Port 1
+SEP0059DC5ADD83  Gig 9/0/30        124             H P M  IP Phone  Port 1
+SEP44881649F118  Gig 9/0/13        163             H P M  IP Phone  Port 1
+SEP001F9EADB8CC  Gig 1/0/22        136             H P M  IP Phone  Port 1
+SEPAC4A56110716  Gig 1/0/32        174             H P M  IP Phone  Port 1
+SEP70F35AD2B7D4  Gig 2/0/42        178             H P M  IP Phone  Port 1
+SEP001BD52CEFDA  Gig 3/0/12        121             H P M  IP Phone  Port 1
+SEP24813BB1A944  Gig 1/0/11        155             H P M  IP Phone  Port 1
+SEP5CE176111F32  Gig 8/0/20        174             H P M  IP Phone  Port 1
+SEPAC7E8A2B8455  Gig 1/0/36        126             H P M  IP Phone  Port 1
+SEP488B0A2EBE50  Gig 1/0/33        154             H P M  IP Phone  Port 1
+SEP00CCFCA69C8B  Gig 8/0/1         161             H P M  IP Phone  Port 1
+SEP001BD52D0732  Gig 3/0/29        127             H P M  IP Phone  Port 1
+SEPD0EC35841290  Gig 2/0/2         161             H P M  IP Phone  Port 1
+SEP24813BB1A917  Gig 4/0/45        153             H P M  IP Phone  Port 1
+SEP001BD52CEFEF  Gig 3/0/10        158             H P M  IP Phone  Port 1
+SEPB83861587DC8  Gig 9/0/7         179             H P M  IP Phone  Port 1
+SEP488B0A2EC31B  Gig 8/0/37        173             H P M  IP Phone  Port 1
+SEP001BD52CFD20  Gig 4/0/43        169             H P M  IP Phone  Port 1
+SEPB83861571EA2  Gig 3/0/30        145             H P M  IP Phone  Port 1
+SEP001BD52D0722  Gig 3/0/38        136             H P M  IP Phone  Port 1
+SEP60735C114388  Gig 2/0/31        144             H P M  IP Phone  Port 1
+SEP5CE176112BEE  Gig 2/0/1         134             H P M  IP Phone  Port 1
+SEP5CE176112BFE  Gig 8/0/39        141             H P M  IP Phone  Port 1
+SEP5CE176112B65  Gig 9/0/5         135             H P M  IP Phone  Port 1
+SEP24813BB1A9AD  Gig 8/0/40        121             H P M  IP Phone  Port 1
+SEPA4B23949232A  Gig 2/0/22        149             H P M  IP Phone  Port 1
+SEPD867D9A06215  Gig 1/0/34        124             H P M  IP Phone  Port 1
+SEP70F35AD2B7B6  Gig 8/0/30        151             H P M  IP Phone  Port 1
+SEP70F35AD2B7C7  Gig 7/0/9         162             H P M  IP Phone  Port 1
+SEPAC4A56110014  Gig 9/0/17        143             H P M  IP Phone  Port 1
+SEPD0EC35842218  Gig 4/0/14        162             H P M  IP Phone  Port 1
+SEP001BD52CBBCA  Gig 3/0/42        171             H P M  IP Phone  Port 1
+SEP488B0A2EBE35  Gig 1/0/46        148             H P M  IP Phone  Port 1
+SEP24813BB1A904  Gig 1/0/29        147             H P M  IP Phone  Port 1
+SEPDCCEC1D4FCA9  Gig 2/0/18        168             H P M  IP Phone  Port 1
+SEPD0EC358413AE  Gig 8/0/27        125             H P M  IP Phone  Port 1
+SEP00727827AFE3  Gig 1/0/41        123             H P M  IP Phone  Port 1
+SEP00CCFCA69CA7  Gig 2/0/39        159             H P M  IP Phone  Port 1
+SEPA45630BA3964  Gig 3/0/40        137             H P M  IP Phone  Port 1
+SEP08173514B076  Gig 4/0/5         144             H P M  IP Phone  Port 1
+SEPD0EC35841214  Gig 1/0/5         170             H P M  IP Phone  Port 1
+SEPAC4A56110749  Gig 7/0/4         121             H P M  IP Phone  Port 1
+SEP6C8D77D1DE30  Gig 8/0/16        122             H P M  IP Phone  Port 1
+SEP001BD46057A8  Gig 3/0/18        156             H P M  IP Phone  Port 1
+SEP00727827AD6C  Gig 7/0/12        123             H P M  IP Phone  Port 1
+SEP488B0A2EBE08  Gig 4/0/35        172             H P M  IP Phone  Port 1
+SEP70F35AD29DB0  Gig 9/0/19        132             H P M  IP Phone  Port 1
+SEP5CE176111F29  Gig 1/0/38        147             H P M  IP Phone  Port 1
+SEPD0EC35841140  Gig 8/0/3         175             H P M  IP Phone  Port 1
+SEP00CCFCA69DE6  Gig 8/0/44        144             H P M  IP Phone  Port 1
+SEPD0EC35842107  Gig 9/0/27        120             H P M  IP Phone  Port 1
+SEP70F35AD29C3E  Gig 8/0/46        157             H P M  IP Phone  Port 1
+SEP5CE176112C97  Gig 7/0/37        173             H P M  IP Phone  Port 1
+SEP60735C114387  Gig 7/0/41        169             H P M  IP Phone  Port 1
+SEP00727827AF4A  Gig 7/0/38        157             H P M  IP Phone  Port 1
+SEP9C57ADB4B510  Gig 3/0/37        121             H P M  IP Phone  Port 1
+SEP001DA290CFB2  Gig 7/0/25        121             H P M  IP Phone  Port 1
+SEP00727827AD3C  Gig 7/0/17        121             H P M  IP Phone  Port 1
+SEPDCCEC1D4FCD8  Gig 8/0/47        178             H P M  IP Phone  Port 1
+SEP0059DC5ADE15  Gig 3/0/41        123             H P M  IP Phone  Port 1
+SEP80E86F22309E  Gig 2/0/20        151             H P M  IP Phone  Port 1
+SEP0CD5D39E565E  Gig 2/0/5         126             H P M  IP Phone  Port 1
+SEPAC4A56101086  Gig 1/0/18        147             H P M  IP Phone  Port 1
+SEPF0B2E5796BD3  Gig 1/0/3         178             H P M  IP Phone  Port 1
+SEP5CE176111F87  Gig 2/0/3         168             H P M  IP Phone  Port 1
+SEP6C8D77D1DDFA  Gig 1/0/31        161             H P M  IP Phone  Port 1
+SEP00727827AF5E  Gig 3/0/24        140             H P M  IP Phone  Port 1
+SEP5CE176111E87  Gig 3/0/7         130             H P M  IP Phone  Port 1
+SEP00CCFCA6A28A  Gig 8/0/2         158             H P M  IP Phone  Port 1
+SEPAC4A56104E9E  Gig 7/0/7         163             H P M  IP Phone  Port 1
+SEP00CCFCA69F0E  Gig 2/0/8         168             H P M  IP Phone  Port 1
+SEP60735C114383  Gig 1/0/35        149             H P M  IP Phone  Port 1
+SEP9C57ADB4FA7C  Gig 8/0/19        152             H P M  IP Phone  Port 1
+SEP24813BB1A949  Gig 7/0/1         154             H P M  IP Phone  Port 1
+SEP00CCFCA69EC5  Gig 7/0/24        143             H P M  IP Phone  Port 1
+SEP70F35AD2B79D  Gig 4/0/42        137             H P M  IP Phone  Port 1
+SEP2C36F858D038  Gig 3/0/36        130             H P M  IP Phone  Port 1
+SEP60735C114382  Gig 9/0/14        133             H P M  IP Phone  Port 1
+SEPE8BA7007F5B6  Gig 3/0/39        126             H P M  IP Phone  Port 1
+SEP00270DBD5568  Gig 3/0/43        167             H P M  IP Phone  Port 1
+SEP5CE176112C2F  Gig 7/0/43        143             H P M  IP Phone  Port 1
+SEP00727827AD95  Gig 7/0/10        168             H P M  IP Phone  Port 1
+SEPDCCEC1D4FD70  Gig 8/0/41        168             H P M  IP Phone  Port 1
+SEP001BD52D073F  Gig 3/0/35        137             H P M  IP Phone  Port 1
+SEPAC4A56104B04  Gig 2/0/12        162             H P M  IP Phone  Port 1
+SEP00727827AF87  Gig 4/0/26        138             H P M  IP Phone  Port 1
+SEP5CE176112BC7  Gig 7/0/19        148             H P M  IP Phone  Port 1
+SEP00CCFC17EAAA  Gig 2/0/43        149             H P M  IP Phone  Port 1
+SEPAC4A561104C4  Gig 1/0/16        126             H P M  IP Phone  Port 1
+SEP24813BB1A9A3  Gig 3/0/9         135             H P M  IP Phone  Port 1
+SEP5CE176111FB2  Gig 2/0/40        153             H P M  IP Phone  Port 1
+SEP001BD52CFA4D  Gig 3/0/16        121             H P M  IP Phone  Port 1
+SEP001BD52D05C6  Gig 7/0/40        120             H P M  IP Phone  Port 1
+SEP9C57ADB468BB  Gig 7/0/35        155             H P M  IP Phone  Port 1
+SEP5CE176112C3D  Gig 4/0/40        141             H P M  IP Phone  Port 1
+SEP24813BB1A91A  Gig 8/0/43        136             H P M  IP Phone  Port 1
+SEP88F077881C67  Gig 3/0/17        134             H P M  IP Phone  Port 1
+SEP70F35AD2B7FA  Gig 7/0/26        153             H P M  IP Phone  Port 1
+SEPDCCEC1D4FD74  Gig 2/0/7         161             H P M  IP Phone  Port 1
+SEPEC44761F88D6  Gig 3/0/15        146             H P M  IP Phone  Port 1
+SEP9C57ADB4F97A  Gig 3/0/11        159             H P M  IP Phone  Port 1
+SEP5CE176112BF6  Gig 4/0/34        154             H P M  IP Phone  Port 1
+SEP5CE176112BE5  Gig 3/0/8         151             H P M  IP Phone  Port 1
+SEP0023049B6A82  Gig 3/0/31        153             H P M  IP Phone  Port 1
+SEPAC4A561050A2  Gig 8/0/22        163             H P M  IP Phone  Port 1
+SEP9C57ADB4F9A6  Gig 7/0/22        174             H P M  IP Phone  Port 1
+SEP081735149A0F  Gig 3/0/33        156             H P M  IP Phone  Port 1
+SEP001BD52CF996  Gig 3/0/14        149             H P M  IP Phone  Port 1
+SEPAC4A561106C2  Gig 2/0/4         176             H P M  IP Phone  Port 1
+MBCA-LAN-D.bca.co.id
+                 Ten 5/0/1         150             R S I  C6807-XL  Ten 1/1/13
+MBCA-LAN-D.bca.co.id
+                 Ten 6/0/1         173             R S I  C6807-XL  Ten 2/1/13
+SEP5CE176112B5F  Gig 2/0/21        154             H P M  IP Phone  Port 1
+SEPCC7F750547C6  Gig 1/0/42        167             H P M  IP Phone  Port 1
+SEP00CCFCA69E86  Gig 4/0/36        126             H P M  IP Phone  Port 1
+SEPDCCEC1D4FC53  Gig 7/0/36        176             H P M  IP Phone  Port 1
+SEP00CCFCA69C91  Gig 9/0/18        130             H P M  IP Phone  Port 1
+SEPA4187528357E  Gig 3/0/22        172             H P M  IP Phone  Port 1
+SEP5CE176112C0C  Gig 4/0/41        148             H P M  IP Phone  Port 1
+SEPAC4A5611070B  Gig 1/0/45        156             H P M  IP Phone  Port 1
+SEPD0EC358410E2  Gig 9/0/9         177             H P M  IP Phone  Port 1
+SEP70F35AD2B862  Gig 7/0/18        159             H P M  IP Phone  Port 1
+SEP00CCFCA6898E  Gig 3/0/32        130             H P M  IP Phone  Port 1
+SEPD867D9A08A16  Gig 1/0/25        148             H P M  IP Phone  Port 1
+SEPD0EC3584104B  Gig 7/0/11        138             H P M  IP Phone  Port 1
+SEPD0EC358411B5  Gig 4/0/6         129             H P M  IP Phone  Port 1
+SEP34A84E615C3B  Gig 9/0/15        169             H P M  IP Phone  Port 1
+SEP0CD5D39E5663  Gig 1/0/37        145             H P M  IP Phone  Port 1
+SEP488B0A2EC518  Gig 7/0/20        139             H P M  IP Phone  Port 1
+SEP00727827AD63  Gig 4/0/13        152             H P M  IP Phone  Port 1
+SEPD0EC358411B6  Gig 1/0/12        138             H P M  IP Phone  Port 1
+SEP6C8D77D1DD2B  Gig 1/0/14        178             H P M  IP Phone  Port 1
+SEPDCCEC1D4EE78  Gig 4/0/15        132             H P M  IP Phone  Port 1
+SEP001BD52CFE8D  Gig 3/0/34        143             H P M  IP Phone  Port 1
+SEP5CE176111F8A  Gig 4/0/46        133             H P M  IP Phone  Port 1
+SEP0CD5D39E5274  Gig 1/0/15        169             H P M  IP Phone  Port 1
+SEPD0EC358415F7  Gig 8/0/32        158             H P M  IP Phone  Port 1
+SEP001BD52CFBC9  Gig 4/0/21        146             H P M  IP Phone  Port 1
+SEP00CCFCA69FDD  Gig 2/0/41        121             H P M  IP Phone  Port 1
+SEP9C57ADB4A2A4  Gig 1/0/26        121             H P M  IP Phone  Port 1
+SEP00727827ADBB  Gig 9/0/46        168             H P M  IP Phone  Port 1
+SEP488B0A2EC584  Gig 4/0/23        151             H P M  IP Phone  Port 1
+SEP0CD5D39E5677  Gig 7/0/5         121             H P M  IP Phone  Port 1
+SEPD0EC3584106E  Gig 7/0/39        142             H P M  IP Phone  Port 1
+SEP001BD52CF906  Gig 3/0/44        138             H P M  IP Phone  Port 1
+SEPD867D9A08A20  Gig 9/0/16        140             H P M  IP Phone  Port 1
+SEP3820560D1A73  Gig 7/0/6         124             H P M  IP Phone  Port 1
+SEP0038DFA21A45  Gig 4/0/25        162             H P M  IP Phone  Port 1
+SEP00727827B0D2  Gig 4/0/4         163             H P M  IP Phone  Port 1
+SEPD0EC3584107E  Gig 4/0/37        141             H P M  IP Phone  Port 1
+SEPD867D9A080A0  Gig 9/0/1         124             H P M  IP Phone  Port 1
+SEP70F35AD2B8CA  Gig 8/0/42        173             H P M  IP Phone  Port 1
+SEP001DA21988EB  Gig 2/0/44        173             H P M  IP Phone  Port 1
+SEP44881649F01D  Gig 1/0/27        125             H P M  IP Phone  Port 1
+SEP0059DC5ADDD2  Gig 2/0/17        137             H P M  IP Phone  Port 1
+MBCA-MGMT-D1.bca.co.id(FOC1838R29J)
+                 Ten 5/0/3         159            R S I C N5K-C5672 Eth 111/1/10
+
+Total cdp entries displayed : 167
+MBCA-LAN28-S1#show interfaces trunk
+MBCA-LAN28-S1#show interfaces description
+Interface                      Status         Protocol Description
+Vl1                            admin down     down     --
+Vl1036                         admin down     down     Management
+Vl1488                         up             up       28th_inside_dept1_10.21.216.0
+Vl1490                         up             up       28th_inside_dept3_10.21.218.0
+Gi0/0                          down           down     
+Gi1/0/1                        down           down     *** to MBCA-LAN ***
+Gi1/0/2                        down           down     *** to MBCA-LAN ***
+Gi1/0/3                        up             up       *** PC Absensi KCK ***
+Gi1/0/4                        up             up       *** to MBCA-LAN ***
+Gi1/0/5                        up             up       *** to MBCA-LAN ***
+Gi1/0/6                        up             up       *** Printer KCK ***
+Gi1/0/7                        down           down     *** to MBCA-LAN ***
+Gi1/0/8                        up             up       *** Printer KCK ***
+Gi1/0/9                        up             up       *** to MBCA-LAN ***
+Gi1/0/10                       down           down     *** to MBCA-LAN ***
+Gi1/0/11                       up             up       *** to MBCA-LAN ***
+Gi1/0/12                       up             up       *** to MBCA-LAN ***
+Gi1/0/13                       down           down     *** to MBCA-LAN ***
+Gi1/0/14                       up             up       *** to MBCA-LAN ***
+Gi1/0/15                       up             up       *** to MBCA-LAN ***
+Gi1/0/16                       up             up       *** to MBCA-LAN ***
+Gi1/0/17                       down           down     *** to MBCA-LAN ***
+Gi1/0/18                       up             up       *** to MBCA-LAN ***
+Gi1/0/19                       down           down     *** to MBCA-LAN ***
+Gi1/0/20                       down           down     *** to MBCA-LAN ***
+Gi1/0/21                       down           down     *** to MBCA-LAN ***
+Gi1/0/22                       up             up       *** to MBCA-LAN ***
+Gi1/0/23                       down           down     *** to MBCA-LAN ***
+Gi1/0/24                       up             up       *** to MBCA-LAN ***
+Gi1/0/25                       up             up       *** to MBCA-LAN ***
+Gi1/0/26                       up             up       *** to MBCA-LAN ***
+Gi1/0/27                       up             up       *** to MBCA-LAN ***
+Gi1/0/28                       down           down     *** to MBCA-LAN ***
+Gi1/0/29                       up             up       *** to MBCA-LAN ***
+Gi1/0/30                       down           down     *** to MBCA-LAN ***
+Gi1/0/31                       up             up       *** to MBCA-LAN ***
+Gi1/0/32                       up             up       *** to MBCA-LAN ***
+Gi1/0/33                       up             up       *** to MBCA-LAN ***
+Gi1/0/34                       up             up       *** to MBCA-LAN ***
+Gi1/0/35                       up             up       *** to MBCA-LAN ***
+Gi1/0/36                       up             up       *** to MBCA-LAN ***
+Gi1/0/37                       up             up       *** to MBCA-LAN ***
+Gi1/0/38                       up             up       *** to MBCA-LAN ***
+Gi1/0/39                       up             up       *** to MBCA-LAN ***
+Gi1/0/40                       up             up       *** to MBCA-LAN ***
+Gi1/0/41                       up             up       *** to MBCA-LAN ***
+Gi1/0/42                       up             up       *** to MBCA-LAN ***
+Gi1/0/43                       down           down     *** to MBCA-LAN ***
+Gi1/0/44                       down           down     *** to MBCA-LAN ***
+Gi1/0/45                       up             up       *** to MBCA-LAN ***
+Gi1/0/46                       up             up       *** to MBCA-LAN ***
+Gi1/0/47                       up             up       *** to MBCA-LAN ***
+Gi1/0/48                       down           down     *** to MBCA-LAN ***
+Gi2/0/1                        up             up       *** to MBCA-LAN ***
+Gi2/0/2                        up             up       *** to MBCA-LAN ***
+Gi2/0/3                        up             up       *** to MBCA-LAN ***
+Gi2/0/4                        up             up       *** to MBCA-LAN ***
+Gi2/0/5                        up             up       *** to MBCA-LAN ***
+Gi2/0/6                        up             up       *** to MBCA-LAN ***
+Gi2/0/7                        up             up       *** to MBCA-LAN ***
+Gi2/0/8                        up             up       *** to MBCA-LAN ***
+Gi2/0/9                        down           down     *** to MBCA-LAN ***
+Gi2/0/10                       up             up       *** to MBCA-LAN ***
+Gi2/0/11                       down           down     *** to MBCA-LAN ***
+Gi2/0/12                       up             up       *** to MBCA-LAN ***
+Gi2/0/13                       up             up       *** to MBCA-LAN ***
+Gi2/0/14                       down           down     *** to MBCA-LAN ***
+Gi2/0/15                       down           down     *** to MBCA-LAN ***
+Gi2/0/16                       down           down     *** to MBCA-LAN ***
+Gi2/0/17                       up             up       *** to MBCA-LAN ***
+Gi2/0/18                       up             up       *** to MBCA-LAN ***
+Gi2/0/19                       down           down     *** to MBCA-LAN ***
+Gi2/0/20                       up             up       *** to MBCA-LAN ***
+Gi2/0/21                       up             up       *** to MBCA-LAN ***
+Gi2/0/22                       up             up       *** to MBCA-LAN ***
+Gi2/0/23                       down           down     *** to MBCA-LAN ***
+Gi2/0/24                       up             up       *** to MBCA-LAN ***
+Gi2/0/25                       down           down     *** to MBCA-LAN ***
+Gi2/0/26                       down           down     *** to MBCA-LAN ***
+Gi2/0/27                       down           down     *** to MBCA-LAN ***
+Gi2/0/28                       down           down     *** to MBCA-LAN ***
+Gi2/0/29                       down           down     *** to MBCA-LAN ***
+Gi2/0/30                       down           down     *** to MBCA-LAN ***
+Gi2/0/31                       up             up       *** to MBCA-LAN ***
+Gi2/0/32                       down           down     *** to MBCA-LAN ***
+Gi2/0/33                       up             up       *** to MBCA-LAN ***
+Gi2/0/34                       down           down     *** to MBCA-LAN ***
+Gi2/0/35                       up             up       *** to MBCA-LAN ***
+Gi2/0/36                       up             up       *** to MBCA-LAN ***
+Gi2/0/37                       up             up       *** to MBCA-LAN ***
+Gi2/0/38                       up             up       *** to MBCA-LAN ***
+Gi2/0/39                       up             up       *** to MBCA-LAN ***
+Gi2/0/40                       up             up       *** to MBCA-LAN ***
+Gi2/0/41                       up             up       *** to MBCA-LAN ***
+Gi2/0/42                       up             up       *** to MBCA-LAN ***
+Gi2/0/43                       up             up       *** to MBCA-LAN ***
+Gi2/0/44                       up             up       *** to MBCA-LAN ***
+Gi2/0/45                       down           down     *** to MBCA-LAN ***
+Gi2/0/46                       down           down     *** to MBCA-LAN ***
+Gi2/0/47                       up             up       *** to MBCA-LAN ***
+Gi2/0/48                       up             up       *** to MBCA-LAN ***
+Gi3/0/1                        down           down     *** to MBCA-LAN ***
+Gi3/0/2                        down           down     *** to MBCA-LAN ***
+Gi3/0/3                        down           down     *** to MBCA-LAN ***
+Gi3/0/4                        down           down     *** to MBCA-LAN ***
+Gi3/0/5                        up             up       *** to MBCA-LAN ***
+Gi3/0/6                        down           down     *** to MBCA-LAN ***
+Gi3/0/7                        up             up       *** to MBCA-LAN ***
+Gi3/0/8                        up             up       *** to MBCA-LAN ***
+Gi3/0/9                        up             up       *** to MBCA-LAN ***
+Gi3/0/10                       up             up       *** to MBCA-LAN ***
+Gi3/0/11                       up             up       *** to MBCA-LAN ***
+Gi3/0/12                       up             up       *** to MBCA-LAN ***
+Gi3/0/13                       down           down     *** to MBCA-LAN ***
+Gi3/0/14                       up             up       *** to MBCA-LAN ***
+Gi3/0/15                       up             up       *** to MBCA-LAN ***
+Gi3/0/16                       up             up       *** to MBCA-LAN ***
+Gi3/0/17                       up             up       *** to MBCA-LAN ***
+Gi3/0/18                       up             up       *** to MBCA-LAN ***
+Gi3/0/19                       down           down     *** to MBCA-LAN ***
+Gi3/0/20                       down           down     *** R. Lavender ***
+Gi3/0/21                       up             up       *** R. Lavender ***
+Gi3/0/22                       up             up       *** to MBCA-LAN ***
+Gi3/0/23                       down           down     *** to MBCA-LAN ***
+Gi3/0/24                       up             up       *** to MBCA-LAN ***
+Gi3/0/25                       up             up       *** to MBCA-LAN ***
+Gi3/0/26                       up             up       *** to MBCA-LAN ***
+Gi3/0/27                       down           down     *** to MBCA-LAN ***
+Gi3/0/28                       up             up       *** to MBCA-LAN ***
+Gi3/0/29                       up             up       *** to MBCA-LAN ***
+Gi3/0/30                       up             up       *** to MBCA-LAN ***
+Gi3/0/31                       up             up       *** to MBCA-LAN ***
+Gi3/0/32                       up             up       *** to MBCA-LAN ***
+Gi3/0/33                       up             up       *** to MBCA-LAN ***
+Gi3/0/34                       up             up       *** to MBCA-LAN ***
+Gi3/0/35                       up             up       *** to MBCA-LAN ***
+Gi3/0/36                       up             up       *** to MBCA-LAN ***
+Gi3/0/37                       up             up       *** to MBCA-LAN ***
+Gi3/0/38                       up             up       *** to MBCA-LAN ***
+Gi3/0/39                       up             up       *** to MBCA-LAN ***
+Gi3/0/40                       up             up       *** to MBCA-LAN ***
+Gi3/0/41                       up             up       *** to MBCA-LAN ***
+Gi3/0/42                       up             up       *** to MBCA-LAN ***
+Gi3/0/43                       up             up       *** to MBCA-LAN ***
+Gi3/0/44                       up             up       *** to MBCA-LAN ***
+Gi3/0/45                       up             up       *** to MBCA-LAN ***
+Gi3/0/46                       down           down     *** to MBCA-LAN ***
+Gi3/0/47                       down           down     *** to MBCA-LAN ***
+Gi3/0/48                       down           down     *** to MBCA-LAN ***
+Gi4/0/1                        down           down     *** to MBCA-LAN ***
+Gi4/0/2                        up             up       *** to MBCA-LAN ***
+Gi4/0/3                        down           down     *** to MBCA-LAN ***
+Gi4/0/4                        up             up       *** to MBCA-LAN ***
+Gi4/0/5                        up             up       *** to MBCA-LAN ***
+Gi4/0/6                        up             up       *** to MBCA-LAN ***
+Gi4/0/7                        down           down     *** to MBCA-LAN ***
+Gi4/0/8                        down           down     *** to MBCA-LAN ***
+Gi4/0/9                        down           down     *** to MBCA-LAN ***
+Gi4/0/10                       down           down     *** to MBCA-LAN ***
+Gi4/0/11                       down           down     *** to MBCA-LAN ***
+Gi4/0/12                       down           down     *** to MBCA-LAN ***
+Gi4/0/13                       up             up       *** to MBCA-LAN ***
+Gi4/0/14                       up             up       *** to MBCA-LAN ***
+Gi4/0/15                       up             up       *** to MBCA-LAN ***
+Gi4/0/16                       up             up       *** to MBCA-LAN ***
+Gi4/0/17                       down           down     *** to MBCA-LAN ***
+Gi4/0/18                       up             up       *** to MBCA-LAN ***
+Gi4/0/19                       up             up       *** to MBCA-LAN ***
+Gi4/0/20                       down           down     *** to MBCA-LAN ***
+Gi4/0/21                       up             up       *** to MBCA-LAN ***
+Gi4/0/22                       down           down     *** to MBCA-LAN ***
+Gi4/0/23                       up             up       *** to MBCA-LAN ***
+Gi4/0/24                       up             up       *** to MBCA-LAN ***
+Gi4/0/25                       up             up       *** to MBCA-LAN ***
+Gi4/0/26                       up             up       *** to MBCA-LAN ***
+Gi4/0/27                       up             up       *** to MBCA-LAN ***
+Gi4/0/28                       down           down     *** to MBCA-LAN ***
+Gi4/0/29                       down           down     *** to MBCA-LAN ***
+Gi4/0/30                       down           down     *** to MBCA-LAN ***
+Gi4/0/31                       down           down     *** to MBCA-LAN ***
+Gi4/0/32                       down           down     *** to MBCA-LAN ***
+Gi4/0/33                       down           down     *** to MBCA-LAN ***
+Gi4/0/34                       up             up       *** to MBCA-LAN ***
+Gi4/0/35                       up             up       *** to MBCA-LAN ***
+Gi4/0/36                       up             up       *** to MBCA-LAN ***
+Gi4/0/37                       up             up       *** to MBCA-LAN ***
+Gi4/0/38                       down           down     *** to MBCA-LAN ***
+Gi4/0/39                       up             up       *** to MBCA-LAN ***
+Gi4/0/40                       up             up       *** to MBCA-LAN ***
+Gi4/0/41                       up             up       *** to MBCA-LAN ***
+Gi4/0/42                       up             up       *** to MBCA-LAN ***
+Gi4/0/43                       up             up       *** to MBCA-LAN ***
+Gi4/0/44                       up             up       *** to MBCA-LAN ***
+Gi4/0/45                       up             up       *** to MBCA-LAN ***
+Gi4/0/46                       up             up       *** to MBCA-LAN ***
+Gi4/0/47                       down           down     *** to MBCA-LAN ***
+Gi4/0/48                       up             up       *** to MBCA-LAN ***
+Te5/0/1                        up             up       Connection To MBCA-LAN-D Te1/1/13
+Te5/0/2                        down           down     
+Te5/0/3                        up             up       Connection to MBCA-MGMT-S1
+Te5/0/4                        down           down     
+Te5/0/5                        down           down     
+Te5/0/6                        down           down     
+Te5/0/7                        down           down     
+Te5/0/8                        down           down     
+Fo5/0/9                        down           down     
+Fo5/0/10                       down           down     
+Ap5/0/1                        down           down     
+Te6/0/1                        up             up       Connection To MBCA-LAN-D Te2/1/13
+Te6/0/2                        down           down     
+Te6/0/3                        down           down     
+Te6/0/4                        down           down     
+Te6/0/5                        down           down     
+Te6/0/6                        down           down     
+Te6/0/7                        down           down     
+Te6/0/8                        down           down     
+Fo6/0/9                        down           down     
+Fo6/0/10                       down           down     
+Ap6/0/1                        down           down     
+Gi7/0/1                        up             up       *** to MBCA-LAN ***
+Gi7/0/2                        down           down     *** to MBCA-LAN ***
+Gi7/0/3                        up             up       *** to MBCA-LAN ***
+Gi7/0/4                        up             up       *** to MBCA-LAN ***
+Gi7/0/5                        up             up       *** to MBCA-LAN ***
+Gi7/0/6                        up             up       *** to MBCA-LAN ***
+Gi7/0/7                        up             up       *** to MBCA-LAN ***
+Gi7/0/8                        down           down     *** to MBCA-LAN ***
+Gi7/0/9                        up             up       *** to MBCA-LAN ***
+Gi7/0/10                       up             up       *** to MBCA-LAN ***
+Gi7/0/11                       up             up       *** to MBCA-LAN ***
+Gi7/0/12                       up             up       *** to MBCA-LAN ***
+Gi7/0/13                       down           down     *** to MBCA-LAN ***
+Gi7/0/14                       down           down     *** to MBCA-LAN ***
+Gi7/0/15                       down           down     *** to MBCA-LAN ***
+Gi7/0/16                       up             up       *** to MBCA-LAN ***
+Gi7/0/17                       up             up       *** to MBCA-LAN ***
+Gi7/0/18                       up             up       *** to MBCA-LAN ***
+Gi7/0/19                       up             up       *** to MBCA-LAN ***
+Gi7/0/20                       up             up       *** to MBCA-LAN ***
+Gi7/0/21                       down           down     *** to MBCA-LAN ***
+Gi7/0/22                       up             up       *** to MBCA-LAN ***
+Gi7/0/23                       up             up       *** to MBCA-LAN ***
+Gi7/0/24                       up             up       *** to MBCA-LAN ***
+Gi7/0/25                       up             up       *** to MBCA-LAN ***
+Gi7/0/26                       up             up       *** to MBCA-LAN ***
+Gi7/0/27                       down           down     *** to MBCA-LAN ***
+Gi7/0/28                       up             up       *** to MBCA-LAN ***
+Gi7/0/29                       up             up       *** to MBCA-LAN ***
+Gi7/0/30                       up             up       *** to MBCA-LAN ***
+Gi7/0/31                       down           down     *** to MBCA-LAN ***
+Gi7/0/32                       down           down     *** to MBCA-LAN ***
+Gi7/0/33                       down           down     *** to MBCA-LAN ***
+Gi7/0/34                       down           down     *** to MBCA-LAN ***
+Gi7/0/35                       up             up       *** to MBCA-LAN ***
+Gi7/0/36                       up             up       *** to MBCA-LAN ***
+Gi7/0/37                       up             up       *** to MBCA-LAN ***
+Gi7/0/38                       up             up       *** to MBCA-LAN ***
+Gi7/0/39                       up             up       *** to MBCA-LAN ***
+Gi7/0/40                       up             up       *** to MBCA-LAN ***
+Gi7/0/41                       up             up       *** to MBCA-LAN ***
+Gi7/0/42                       up             up       *** to MBCA-LAN ***
+Gi7/0/43                       up             up       *** to MBCA-LAN ***
+Gi7/0/44                       up             up       *** CMBAAP02 - CMBAHS02 ***
+Gi7/0/45                       up             up       *** CMBAAP03 ***
+Gi7/0/46                       up             up       *** to MBCA-LAN ***
+Gi7/0/47                       up             up       *** to MBCA-LAN ***
+Gi7/0/48                       up             up       *** CMBAAP01 - CMBAHS01 - CMBAFS01 ***
+Gi8/0/1                        up             up       *** to MBCA-LAN ***
+Gi8/0/2                        up             up       *** to MBCA-LAN ***
+Gi8/0/3                        up             up       *** to MBCA-LAN ***
+Gi8/0/4                        down           down     *** to MBCA-LAN ***
+Gi8/0/5                        down           down     *** to MBCA-LAN ***
+Gi8/0/6                        down           down     *** to MBCA-LAN ***
+Gi8/0/7                        down           down     *** to MBCA-LAN ***
+Gi8/0/8                        down           down     *** to MBCA-LAN ***
+Gi8/0/9                        down           down     *** to MBCA-LAN ***
+Gi8/0/10                       down           down     *** to MBCA-LAN ***
+Gi8/0/11                       down           down     *** to MBCA-LAN ***
+Gi8/0/12                       down           down     *** to MBCA-LAN ***
+Gi8/0/13                       down           down     *** to MBCA-LAN ***
+Gi8/0/14                       up             up       *** to MBCA-LAN ***
+Gi8/0/15                       down           down     *** to MBCA-LAN ***
+Gi8/0/16                       up             up       *** to MBCA-LAN ***
+Gi8/0/17                       down           down     *** to MBCA-LAN ***
+Gi8/0/18                       up             up       *** to MBCA-LAN ***
+Gi8/0/19                       up             up       *** to MBCA-LAN ***
+Gi8/0/20                       up             up       *** to MBCA-LAN ***
+Gi8/0/21                       down           down     *** to MBCA-LAN ***
+Gi8/0/22                       up             up       *** to MBCA-LAN ***
+Gi8/0/23                       up             up       *** to MBCA-LAN ***
+Gi8/0/24                       up             up       *** to MBCA-LAN ***
+Gi8/0/25                       down           down     *** to MBCA-LAN ***
+Gi8/0/26                       down           down     *** to MBCA-LAN ***
+Gi8/0/27                       up             up       *** to MBCA-LAN ***
+Gi8/0/28                       down           down     *** to MBCA-LAN ***
+Gi8/0/29                       down           down     *** to MBCA-LAN ***
+Gi8/0/30                       up             up       *** to MBCA-LAN ***
+Gi8/0/31                       down           down     *** to MBCA-LAN ***
+Gi8/0/32                       up             up       *** to MBCA-LAN ***
+Gi8/0/33                       up             up       *** to MBCA-LAN ***
+Gi8/0/34                       down           down     *** to MBCA-LAN ***
+Gi8/0/35                       down           down     *** to MBCA-LAN ***
+Gi8/0/36                       down           down     *** to MBCA-LAN ***
+Gi8/0/37                       up             up       *** to MBCA-LAN ***
+Gi8/0/38                       down           down     *** to MBCA-LAN ***
+Gi8/0/39                       up             up       *** to MBCA-LAN ***
+Gi8/0/40                       up             up       *** to MBCA-LAN ***
+Gi8/0/41                       up             up       *** to MBCA-LAN ***
+Gi8/0/42                       up             up       *** to MBCA-LAN ***
+Gi8/0/43                       up             up       *** to MBCA-LAN ***
+Gi8/0/44                       up             up       *** to MBCA-LAN ***
+Gi8/0/45                       up             up       *** to MBCA-LAN ***
+Gi8/0/46                       up             up       *** to MBCA-LAN ***
+Gi8/0/47                       up             up       *** to MBCA-LAN ***
+Gi8/0/48                       down           down     *** to MBCA-LAN ***
+Gi9/0/1                        up             up       *** to MBCA-LAN ***
+Gi9/0/2                        up             up       *** to MBCA-LAN ***
+Gi9/0/3                        up             up       *** to MBCA-LAN ***
+Gi9/0/4                        up             up       *** to MBCA-LAN ***
+Gi9/0/5                        up             up       *** to MBCA-LAN ***
+Gi9/0/6                        down           down     *** to MBCA-LAN ***
+Gi9/0/7                        up             up       *** to MBCA-LAN ***
+Gi9/0/8                        up             up       *** to MBCA-LAN ***
+Gi9/0/9                        up             up       *** to MBCA-LAN ***
+Gi9/0/10                       down           down     *** to MBCA-LAN ***
+Gi9/0/11                       down           down     *** to MBCA-LAN ***
+Gi9/0/12                       down           down     *** to MBCA-LAN ***
+Gi9/0/13                       up             up       *** to MBCA-LAN ***
+Gi9/0/14                       up             up       *** to MBCA-LAN ***
+Gi9/0/15                       up             up       *** to MBCA-LAN ***
+Gi9/0/16                       up             up       *** to MBCA-LAN ***
+Gi9/0/17                       up             up       *** to MBCA-LAN ***
+Gi9/0/18                       up             up       *** to MBCA-LAN ***
+Gi9/0/19                       up             up       *** to MBCA-LAN ***
+Gi9/0/20                       down           down     *** to MBCA-LAN ***
+Gi9/0/21                       down           down     *** to MBCA-LAN ***
+Gi9/0/22                       up             up       *** to MBCA-LAN ***
+Gi9/0/23                       down           down     *** to MBCA-LAN ***
+Gi9/0/24                       down           down     *** to MBCA-LAN ***
+Gi9/0/25                       down           down     *** to MBCA-LAN ***
+Gi9/0/26                       up             up       *** to MBCA-LAN ***
+Gi9/0/27                       up             up       *** to MBCA-LAN ***
+Gi9/0/28                       up             up       *** to MBCA-LAN ***
+Gi9/0/29                       down           down     *** to MBCA-LAN ***
+Gi9/0/30                       up             up       *** to MBCA-LAN ***
+Gi9/0/31                       up             up       *** to MBCA-LAN ***
+Gi9/0/32                       down           down     *** to MBCA-LAN ***
+Gi9/0/33                       down           down     *** to MBCA-LAN ***
+Gi9/0/34                       down           down     *** to MBCA-LAN ***
+Gi9/0/35                       down           down     *** to MBCA-LAN ***
+Gi9/0/36                       down           down     *** to MBCA-LAN ***
+Gi9/0/37                       down           down     *** to MBCA-LAN ***
+Gi9/0/38                       down           down     *** to MBCA-LAN ***
+Gi9/0/39                       down           down     *** to MBCA-LAN ***
+Gi9/0/40                       down           down     *** to MBCA-LAN ***
+Gi9/0/41                       down           down     *** to MBCA-LAN ***
+Gi9/0/42                       down           down     *** to MBCA-LAN ***
+Gi9/0/43                       down           down     *** to MBCA-LAN ***
+Gi9/0/44                       down           down     *** to MBCA-LAN ***
+Gi9/0/45                       down           down     *** to MBCA-LAN ***
+Gi9/0/46                       up             up       *** to MBCA-LAN ***
+Gi9/0/47                       up             up       *** to MBCA-LAN ***
+Gi9/0/48                       down           down     *** to MBCA-LAN ***
+Po10                           up             up       Port Channel to MBCA-LAN-D
+MBCA-LAN28-S1#show interfaces status
+
+Port         Name               Status       Vlan       Duplex  Speed Type
+Gi1/0/1      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi1/0/2      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi1/0/3      *** PC Absensi KCK connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/4      *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi1/0/5      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/6      *** Printer KCK ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi1/0/7      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi1/0/8      *** Printer KCK ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi1/0/9      *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi1/0/10     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi1/0/11     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/12     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/13     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi1/0/14     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi1/0/15     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/16     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/17     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi1/0/18     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/19     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi1/0/20     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi1/0/21     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi1/0/22     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/23     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi1/0/24     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi1/0/25     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/26     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/27     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi1/0/28     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi1/0/29     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/30     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi1/0/31     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi1/0/32     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/33     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/34     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/35     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/36     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi1/0/37     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/38     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/39     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi1/0/40     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/41     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/42     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi1/0/43     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi1/0/44     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi1/0/45     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/46     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi1/0/47     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi1/0/48     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/1      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/2      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/3      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/4      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/5      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/6      *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi2/0/7      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/8      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/9      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/10     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi2/0/11     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/12     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/13     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi2/0/14     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/15     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/16     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/17     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/18     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/19     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/20     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/21     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/22     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/23     *** to MBCA-LAN ** notconnect   1596         auto   auto 10/100/1000BaseTX
+Gi2/0/24     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi2/0/25     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/26     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/27     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/28     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/29     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/30     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/31     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/32     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/33     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/34     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/35     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi2/0/36     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/37     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi2/0/38     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi2/0/39     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/40     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/41     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/42     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/43     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/44     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi2/0/45     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/46     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi2/0/47     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi2/0/48     *** to MBCA-LAN ** connected    1490       a-full   a-10 10/100/1000BaseTX
+Gi3/0/1      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi3/0/2      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi3/0/3      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi3/0/4      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi3/0/5      *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi3/0/6      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi3/0/7      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi3/0/8      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi3/0/9      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi3/0/10     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi3/0/11     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi3/0/12     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi3/0/13     *** to MBCA-LAN ** notconnect   1488         auto   auto 10/100/1000BaseTX
+Gi3/0/14     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/15     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/16     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/17     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/18     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/19     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi3/0/20     *** R. Lavender ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi3/0/21     *** R. Lavender ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi3/0/22     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/23     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi3/0/24     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi3/0/25     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/26     *** to MBCA-LAN ** connected    1488       a-full a-1000 10/100/1000BaseTX
+Gi3/0/27     *** to MBCA-LAN ** notconnect   1488         auto   auto 10/100/1000BaseTX
+Gi3/0/28     *** to MBCA-LAN ** connected    1488       a-full   a-10 10/100/1000BaseTX
+Gi3/0/29     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/30     *** to MBCA-LAN ** connected    1488       a-full a-1000 10/100/1000BaseTX
+Gi3/0/31     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/32     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/33     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/34     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/35     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/36     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/37     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/38     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/39     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/40     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/41     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/42     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/43     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/44     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi3/0/45     *** to MBCA-LAN ** connected    1488       a-full a-1000 10/100/1000BaseTX
+Gi3/0/46     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi3/0/47     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi3/0/48     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/1      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/2      *** to MBCA-LAN ** connected    1490       a-full   a-10 10/100/1000BaseTX
+Gi4/0/3      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/4      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/5      *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi4/0/6      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/7      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/8      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/9      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/10     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/11     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/12     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/13     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/14     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/15     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/16     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi4/0/17     *** to MBCA-LAN ** notconnect   1488         auto   auto 10/100/1000BaseTX
+Gi4/0/18     *** to MBCA-LAN ** connected    1488       a-full a-1000 10/100/1000BaseTX
+Gi4/0/19     *** to MBCA-LAN ** connected    1490       a-full   a-10 10/100/1000BaseTX
+Gi4/0/20     *** to MBCA-LAN ** notconnect   1488         auto   auto 10/100/1000BaseTX
+Gi4/0/21     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi4/0/22     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/23     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/24     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/25     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/26     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/27     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi4/0/28     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/29     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/30     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/31     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/32     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/33     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/34     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/35     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/36     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/37     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/38     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/39     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi4/0/40     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/41     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/42     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/43     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/44     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi4/0/45     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/46     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi4/0/47     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi4/0/48     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Te5/0/1      Connection To MBCA connected    trunk        full    10G SFP-10GBase-SR
+Te5/0/2                         notconnect   1            auto  a-10G unknown
+Te5/0/3      Connection to MBCA connected    routed       full   1000 1000BaseSX SFP
+Te5/0/4                         notconnect   1            auto  a-10G unknown
+Te5/0/5                         inactive     1            auto   auto unknown
+Te5/0/6                         inactive     1            auto   auto unknown
+Te5/0/7                         inactive     1            auto   auto unknown
+Te5/0/8                         inactive     1            auto   auto unknown
+Fo5/0/9                         inactive     1            auto   auto unknown
+Fo5/0/10                        inactive     1            auto   auto unknown
+Ap5/0/1                         notconnect   1            auto a-1000 unknown
+Te6/0/1      Connection To MBCA connected    trunk        full    10G SFP-10GBase-SR
+Te6/0/2                         notconnect   1            auto  a-10G unknown
+Te6/0/3                         notconnect   1            auto  a-10G unknown
+Te6/0/4                         notconnect   1            auto  a-10G unknown
+Te6/0/5                         inactive     1            auto   auto unknown
+Te6/0/6                         inactive     1            auto   auto unknown
+Te6/0/7                         inactive     1            auto   auto unknown
+Te6/0/8                         inactive     1            auto   auto unknown
+Fo6/0/9                         inactive     1            auto   auto unknown
+Fo6/0/10                        inactive     1            auto   auto unknown
+Ap6/0/1                         notconnect   1            auto   auto unknown
+Gi7/0/1      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/2      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi7/0/3      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/4      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/5      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/6      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/7      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/8      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi7/0/9      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/10     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/11     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/12     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/13     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi7/0/14     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi7/0/15     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi7/0/16     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/17     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/18     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/19     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/20     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/21     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi7/0/22     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/23     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi7/0/24     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/25     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/26     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/27     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi7/0/28     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/29     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi7/0/30     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi7/0/31     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi7/0/32     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi7/0/33     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi7/0/34     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi7/0/35     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/36     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/37     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/38     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/39     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/40     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/41     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/42     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi7/0/43     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/44     *** CMBAAP02 - CMB connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi7/0/45     *** CMBAAP03 ***   connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi7/0/46     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi7/0/47     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi7/0/48     *** CMBAAP01 - CMB connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi8/0/1      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/2      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/3      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/4      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/5      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/6      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/7      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/8      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/9      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/10     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/11     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/12     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/13     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/14     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi8/0/15     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/16     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi8/0/17     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/18     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi8/0/19     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/20     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/21     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/22     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/23     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/24     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/25     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/26     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/27     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/28     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/29     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/30     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/31     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/32     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/33     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/34     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/35     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/36     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/37     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/38     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi8/0/39     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/40     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/41     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/42     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/43     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/44     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/45     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi8/0/46     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/47     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi8/0/48     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/1      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi9/0/2      *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi9/0/3      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi9/0/4      *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi9/0/5      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi9/0/6      *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/7      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi9/0/8      *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi9/0/9      *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi9/0/10     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/11     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/12     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/13     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi9/0/14     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi9/0/15     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi9/0/16     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi9/0/17     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi9/0/18     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi9/0/19     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi9/0/20     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/21     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/22     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi9/0/23     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/24     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/25     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/26     *** to MBCA-LAN ** connected    1488       a-full a-1000 10/100/1000BaseTX
+Gi9/0/27     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi9/0/28     *** to MBCA-LAN ** connected    1490       a-full a-1000 10/100/1000BaseTX
+Gi9/0/29     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/30     *** to MBCA-LAN ** connected    1488       a-full  a-100 10/100/1000BaseTX
+Gi9/0/31     *** to MBCA-LAN ** connected    1488       a-full a-1000 10/100/1000BaseTX
+Gi9/0/32     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/33     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/34     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/35     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/36     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/37     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/38     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/39     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/40     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/41     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/42     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/43     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/44     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/45     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Gi9/0/46     *** to MBCA-LAN ** connected    1490       a-full  a-100 10/100/1000BaseTX
+Gi9/0/47     *** to MBCA-LAN ** connected    1490       a-full   a-10 10/100/1000BaseTX
+Gi9/0/48     *** to MBCA-LAN ** notconnect   1490         auto   auto 10/100/1000BaseTX
+Po10         Port Channel to MB connected    trunk      a-full  a-10G N/A
+MBCA-LAN28-S1#show inventory
+NAME: "Chassis", DESCR: "Cisco Catalyst 9400 Series 10 Slot Chassis"
+PID: C9410R            , VID: V01  , SN: FXS2316Q1LK
+
+NAME: "Slot 1 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V02  , SN: JAE233704PY
+
+NAME: "Slot 2 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V02  , SN: JAE233316XA
+
+NAME: "Slot 3 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V02  , SN: JAE233704T9
+
+NAME: "Slot 4 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V02  , SN: JAE233704KL
+
+NAME: "Slot 7 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V02  , SN: JAE2333170W
+
+NAME: "Slot 8 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V02  , SN: JAE233704QT
+
+NAME: "Slot 9 Linecard", DESCR: "Cisco Catalyst 9400 Series 48-Port UPOE 10/100/1000 (RJ-45)"
+PID: C9400-LC-48U      , VID: V02  , SN: JAE23220D6L
+
+NAME: "Slot 5 Supervisor", DESCR: "Cisco Catalyst 9400 Series Supervisor 1 Module"
+PID: C9400-SUP-1       , VID: V02  , SN: JAE23360RYL
+
+NAME: "TenGigabitEthernet5/0/1", DESCR: "SFP+ 10GBASE-SR"
+PID: SFP-10G-SR          , VID: V03  , SN: JUR1915G79G     
+
+NAME: "TenGigabitEthernet5/0/3", DESCR: "GE SX"
+PID: FTLF8519P2BCL-CS  , VID:      , SN: FNS11370JAW     
+
+NAME: "Slot 6 Supervisor", DESCR: "Cisco Catalyst 9400 Series Supervisor 1 Module"
+PID: C9400-SUP-1       , VID: V02  , SN: JAE23360RX7
+
+NAME: "TenGigabitEthernet6/0/1", DESCR: "SFP+ 10GBASE-SR"
+PID: SFP-10G-SR          , VID: V03  , SN: JUR1915G79V     
+
+NAME: "Power Supply Module 1", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V01  , SN: DTM231702KE
+
+NAME: "Power Supply Module 2", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V01  , SN: DTM231701MW
+
+NAME: "Power Supply Module 3", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V01  , SN: DTM231701CL
+
+NAME: "Power Supply Module 4", DESCR: "Cisco Catalyst 9400 Series 3200W AC Power Supply"
+PID: C9400-PWR-3200AC  , VID: V01  , SN: DTM231702KA
+
+NAME: "Fan Tray", DESCR: "Cisco Catalyst 9400 Series 10 Slot Chassis Fan Tray"
+PID: C9410-FAN         , VID: V01  , SN: FXS2316Q0L8
+
+
+MBCA-LAN28-S1#show ip arp
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  10.21.216.1             0   0008.e3ff.fc28  ARPA   Vlan1488
+Internet  10.21.216.4             -   00fd.2239.1059  ARPA   Vlan1488
+Internet  10.21.216.12            4   1c7d.2271.da95  ARPA   Vlan1488
+Internet  10.21.216.224         107   e880.8872.c04b  ARPA   Vlan1488
+Internet  10.21.216.227           9   e880.886c.7ba4  ARPA   Vlan1488
+Internet  10.21.216.233         250   e880.8872.bbfd  ARPA   Vlan1488
+Internet  10.21.216.235         250   e880.8859.113f  ARPA   Vlan1488
+Internet  10.21.216.237         131   e880.8872.ba08  ARPA   Vlan1488
+Internet  10.21.216.238         205   489e.bd47.c778  ARPA   Vlan1488
+Internet  10.21.216.244          11   e880.8859.1830  ARPA   Vlan1488
+Internet  10.21.216.245          82   e880.886c.853e  ARPA   Vlan1488
+Internet  10.21.216.248         233   e880.886c.60d9  ARPA   Vlan1488
+Internet  10.21.216.250          11   e880.8872.b849  ARPA   Vlan1488
+Internet  10.21.216.253          91   e880.8859.1a9a  ARPA   Vlan1488
+Internet  10.21.217.55          230   e880.886c.5e52  ARPA   Vlan1488
+Internet  10.21.217.228          38   e880.8872.c168  ARPA   Vlan1488
+Internet  10.21.217.230          11   e880.8859.1bba  ARPA   Vlan1488
+Internet  10.21.217.231          10   246a.0ec9.65af  ARPA   Vlan1488
+Internet  10.21.217.234          12   e880.886f.600f  ARPA   Vlan1488
+Internet  10.21.217.235          11   e880.886c.64d7  ARPA   Vlan1488
+Internet  10.21.217.236          13   e880.886c.64f2  ARPA   Vlan1488
+Internet  10.21.217.237          11   e880.886c.6713  ARPA   Vlan1488
+Internet  10.21.217.238         234   e880.8859.210b  ARPA   Vlan1488
+Internet  10.21.217.239         225   489e.bd2e.ceba  ARPA   Vlan1488
+Internet  10.21.217.240          34   e880.886c.6412  ARPA   Vlan1488
+Internet  10.21.217.242         248   e880.8859.2111  ARPA   Vlan1488
+Internet  10.21.217.243          11   e880.8859.1bb8  ARPA   Vlan1488
+Internet  10.21.217.244          11   e880.886c.6263  ARPA   Vlan1488
+Internet  10.21.217.245          11   e880.886c.898d  ARPA   Vlan1488
+Internet  10.21.217.246          11   e880.886c.84be  ARPA   Vlan1488
+Internet  10.21.217.248          11   e880.886c.5d49  ARPA   Vlan1488
+Internet  10.21.217.249         245   e880.8859.1ff3  ARPA   Vlan1488
+Internet  10.21.217.251          11   e880.8859.210a  ARPA   Vlan1488
+Internet  10.21.217.253          11   489e.bd47.cc41  ARPA   Vlan1488
+Internet  10.21.218.1             0   0008.e3ff.fc28  ARPA   Vlan1490
+Internet  10.21.218.4             -   00fd.2239.1061  ARPA   Vlan1490
+Internet  10.21.218.8             0   5cba.2c5a.fc4e  ARPA   Vlan1490
+Internet  10.21.218.12           14   1c7d.2256.da37  ARPA   Vlan1490
+Internet  10.21.218.14            4   1c7d.2251.8d94  ARPA   Vlan1490
+Internet  10.21.218.16          127   5cba.2c5a.fdc4  ARPA   Vlan1490
+Internet  10.21.218.17            4   1c7d.2256.d9f1  ARPA   Vlan1490
+Internet  10.21.218.20          110   0015.5d71.7201  ARPA   Vlan1490
+Internet  10.21.218.27           10   e880.886c.5d7a  ARPA   Vlan1490
+Internet  10.21.218.44          120   309c.2354.20fa  ARPA   Vlan1490
+Internet  10.21.218.53           14   7020.840f.5587  ARPA   Vlan1490
+Internet  10.21.218.84          116   84a9.3e83.f970  ARPA   Vlan1490
+Internet  10.21.218.221          22   84a9.3e83.fd05  ARPA   Vlan1490
+Internet  10.21.218.222          63   28c5.c838.2035  ARPA   Vlan1490
+Internet  10.21.218.225           7   28c5.c838.212d  ARPA   Vlan1490
+Internet  10.21.218.230          58   28c5.c838.1f37  ARPA   Vlan1490
+Internet  10.21.218.231         241   28c5.c838.20df  ARPA   Vlan1490
+Internet  10.21.218.234           0   489e.bd2e.5923  ARPA   Vlan1490
+Internet  10.21.218.239         126   28c5.c838.1d90  ARPA   Vlan1490
+Internet  10.21.218.240           6   28c5.c838.215e  ARPA   Vlan1490
+Internet  10.21.218.242          13   84a9.3e67.304d  ARPA   Vlan1490
+Internet  10.21.218.243          21   28c5.c838.21a5  ARPA   Vlan1490
+Internet  10.21.218.244          13   e880.886c.70b0  ARPA   Vlan1490
+Internet  10.21.218.247         116   246a.0ec9.6793  ARPA   Vlan1490
+Internet  10.21.218.248          13   28c5.c838.221b  ARPA   Vlan1490
+Internet  10.21.218.249          35   489e.bd2e.c3b5  ARPA   Vlan1490
+Internet  10.21.218.254         193   246a.0ec9.67f8  ARPA   Vlan1490
+Internet  10.21.218.255          13   7c57.5826.1f80  ARPA   Vlan1490
+Internet  10.21.219.9            14   083a.886e.7448  ARPA   Vlan1490
+Internet  10.21.219.12           11   1c7d.2256.d898  ARPA   Vlan1490
+Internet  10.21.219.13            4   1c7d.225d.4e75  ARPA   Vlan1490
+Internet  10.21.219.21            9   489e.bd47.ce0a  ARPA   Vlan1490
+Internet  10.21.219.53          237   083a.886e.8091  ARPA   Vlan1490
+Internet  10.21.219.54           14   e880.886f.6b16  ARPA   Vlan1490
+Internet  10.21.219.55           32   7c57.5826.201d  ARPA   Vlan1490
+Internet  10.21.219.56           89   84a9.3e8b.d858  ARPA   Vlan1490
+Internet  10.21.219.59          236   083a.886e.7de1  ARPA   Vlan1490
+Internet  10.21.219.60          134   246a.0ec9.67b8  ARPA   Vlan1490
+Internet  10.21.219.62          135   7c57.5826.1f8b  ARPA   Vlan1490
+Internet  10.21.219.63          116   246a.0ec9.660c  ARPA   Vlan1490
+Internet  10.21.219.65            3   e880.886c.6aea  ARPA   Vlan1490
+Internet  10.21.219.71          217   e880.8872.b620  ARPA   Vlan1490
+Internet  10.21.219.73           53   5c60.bac8.98c8  ARPA   Vlan1490
+Internet  10.21.219.78           13   489e.bd2e.c403  ARPA   Vlan1490
+Internet  10.21.219.82          189   e880.886c.7812  ARPA   Vlan1490
+Internet  10.21.219.84           57   7020.840f.503f  ARPA   Vlan1490
+Internet  10.21.219.86           39   3013.8be7.edf9  ARPA   Vlan1490
+Internet  10.21.219.92           83   e880.8872.b92c  ARPA   Vlan1490
+Internet  10.21.219.93          191   489e.bd2e.6252  ARPA   Vlan1490
+Internet  10.21.219.97           13   083a.886e.7faf  ARPA   Vlan1490
+Internet  10.21.219.99            0   e880.886c.7f75  ARPA   Vlan1490
+Internet  10.21.219.103           4   7c57.5826.204e  ARPA   Vlan1490
+Internet  10.21.219.104          84   489e.bd2e.c338  ARPA   Vlan1490
+Internet  10.21.219.106           0   e880.8872.c310  ARPA   Vlan1490
+Internet  10.21.219.107          64   e880.8872.ba50  ARPA   Vlan1490
+Internet  10.21.219.109          58   083a.886e.667f  ARPA   Vlan1490
+Internet  10.21.219.111         164   489e.bd2e.624c  ARPA   Vlan1490
+Internet  10.21.219.112         216   083a.886e.866d  ARPA   Vlan1490
+Internet  10.21.219.113          13   6c4b.90f9.6df4  ARPA   Vlan1490
+Internet  10.21.219.114          54   083a.886e.8021  ARPA   Vlan1490
+Internet  10.21.219.117          63   489e.bd2e.c787  ARPA   Vlan1490
+Internet  10.21.219.120          13   7c57.5824.924a  ARPA   Vlan1490
+Internet  10.21.219.122           3   489e.bd2e.5ba7  ARPA   Vlan1490
+Internet  10.21.219.124          82   e880.886c.5f57  ARPA   Vlan1490
+Internet  10.21.219.125           9   e880.886c.7638  ARPA   Vlan1490
+Internet  10.21.219.126           7   6c3c.8c3f.1e98  ARPA   Vlan1490
+Internet  10.21.219.127         190   083a.886e.82a9  ARPA   Vlan1490
+Internet  10.21.219.128          13   083a.886e.66a2  ARPA   Vlan1490
+Internet  10.21.219.129          12   083a.886e.88ea  ARPA   Vlan1490
+Internet  10.21.219.130          13   083a.886e.7e3d  ARPA   Vlan1490
+Internet  10.21.219.131          12   489e.bd2e.c79e  ARPA   Vlan1490
+Internet  10.21.219.132         237   083a.886e.7d9f  ARPA   Vlan1490
+Internet  10.21.219.133          13   083a.886e.8577  ARPA   Vlan1490
+Internet  10.21.219.136          14   083a.886e.63f0  ARPA   Vlan1490
+Internet  10.21.219.138          12   489e.bd2e.c6d3  ARPA   Vlan1490
+Internet  10.21.219.139          78   083a.886e.85ce  ARPA   Vlan1490
+Internet  10.21.219.140         157   083a.886e.66c6  ARPA   Vlan1490
+Internet  10.21.219.142           0   489e.bd2e.c82f  ARPA   Vlan1490
+Internet  10.21.219.143           3   083a.886c.e6a7  ARPA   Vlan1490
+Internet  10.21.219.144          13   84a9.3e6d.7210  ARPA   Vlan1490
+Internet  10.21.219.145         209   e880.886c.6aa6  ARPA   Vlan1490
+Internet  10.21.219.146          12   083a.886e.8af0  ARPA   Vlan1490
+Internet  10.21.219.147         154   489e.bd2e.c357  ARPA   Vlan1490
+Internet  10.21.219.149          13   e880.886c.7357  ARPA   Vlan1490
+Internet  10.21.219.150          59   6c3c.8c58.55c5  ARPA   Vlan1490
+Internet  10.21.219.151         201   083a.886e.7f41  ARPA   Vlan1490
+Internet  10.21.219.152          13   489e.bd2e.6023  ARPA   Vlan1490
+Internet  10.21.219.153          76   489e.bd2e.c838  ARPA   Vlan1490
+Internet  10.21.219.154          81   e073.e72d.1cd3  ARPA   Vlan1490
+Internet  10.21.219.155         173   489e.bd2e.63ca  ARPA   Vlan1490
+Internet  10.21.219.156           2   083a.886e.7ded  ARPA   Vlan1490
+Internet  10.21.219.157         141   489e.bd2e.5ba8  ARPA   Vlan1490
+Internet  10.21.219.158         141   083a.886e.681e  ARPA   Vlan1490
+Internet  10.21.219.159          19   7c57.5826.1fa0  ARPA   Vlan1490
+Internet  10.21.219.160           1   083a.886e.bc1d  ARPA   Vlan1490
+Internet  10.21.219.162          14   083a.886e.8b3d  ARPA   Vlan1490
+Internet  10.21.219.163          54   e880.8872.bd81  ARPA   Vlan1490
+Internet  10.21.219.164         176   083a.886e.7dd3  ARPA   Vlan1490
+Internet  10.21.219.165           5   489e.bd2e.c767  ARPA   Vlan1490
+Internet  10.21.219.166          12   e880.8872.c012  ARPA   Vlan1490
+Internet  10.21.219.169          40   489e.bd2e.63e0  ARPA   Vlan1490
+Internet  10.21.219.170          12   083a.886e.710f  ARPA   Vlan1490
+Internet  10.21.219.171          31   489e.bd2e.6021  ARPA   Vlan1490
+Internet  10.21.219.172           0   083a.886e.662b  ARPA   Vlan1490
+Internet  10.21.219.173          47   083a.886e.83cb  ARPA   Vlan1490
+Internet  10.21.219.174          11   083a.886e.7ef5  ARPA   Vlan1490
+Internet  10.21.219.176          14   083a.886e.856b  ARPA   Vlan1490
+Internet  10.21.219.178          66   489e.bd2e.c6a4  ARPA   Vlan1490
+Internet  10.21.219.179          50   e880.8872.c15b  ARPA   Vlan1490
+Internet  10.21.219.180          14   489e.bd2e.61fb  ARPA   Vlan1490
+Internet  10.21.219.181          16   083a.886e.6638  ARPA   Vlan1490
+Internet  10.21.219.182         208   489e.bd2e.612b  ARPA   Vlan1490
+Internet  10.21.219.183          13   489e.bd2e.c6f8  ARPA   Vlan1490
+Internet  10.21.219.184          13   083a.886e.66dd  ARPA   Vlan1490
+Internet  10.21.219.185         177   083a.886e.6670  ARPA   Vlan1490
+Internet  10.21.219.187          22   489e.bd2e.c6b8  ARPA   Vlan1490
+Internet  10.21.219.188         230   e880.886c.70d4  ARPA   Vlan1490
+Internet  10.21.219.190          78   489e.bd2e.c826  ARPA   Vlan1490
+Internet  10.21.219.193           2   083a.886e.8a6a  ARPA   Vlan1490
+Internet  10.21.219.194          21   083a.886e.6665  ARPA   Vlan1490
+Internet  10.21.219.196          93   083a.886e.67eb  ARPA   Vlan1490
+Internet  10.21.219.197         238   083a.886e.7ee4  ARPA   Vlan1490
+Internet  10.21.219.198         229   489e.bd2e.c2c7  ARPA   Vlan1490
+Internet  10.21.219.199         100   489e.bd2e.614d  ARPA   Vlan1490
+Internet  10.21.219.200          69   489e.bd2e.610d  ARPA   Vlan1490
+Internet  10.21.219.201          13   6c4b.90f9.6f04  ARPA   Vlan1490
+Internet  10.21.219.202         225   083a.886e.67f0  ARPA   Vlan1490
+Internet  10.21.219.203          13   083a.886c.e91c  ARPA   Vlan1490
+Internet  10.21.219.204          27   7c57.5826.1f9b  ARPA   Vlan1490
+Internet  10.21.219.206         242   083a.886e.7da5  ARPA   Vlan1490
+Internet  10.21.219.207          13   e880.886c.80a3  ARPA   Vlan1490
+Internet  10.21.219.208         107   083a.886e.7eb2  ARPA   Vlan1490
+Internet  10.21.219.209          10   489e.bd2e.c90c  ARPA   Vlan1490
+Internet  10.21.219.210         110   083a.886e.65e0  ARPA   Vlan1490
+Internet  10.21.219.211          12   489e.bd2e.cf6a  ARPA   Vlan1490
+Internet  10.21.219.212         217   489e.bd2e.c7ed  ARPA   Vlan1490
+Internet  10.21.219.213           0   083a.886e.6856  ARPA   Vlan1490
+Internet  10.21.219.214          67   083a.886e.807a  ARPA   Vlan1490
+Internet  10.21.219.216          12   5c60.bac8.9869  ARPA   Vlan1490
+Internet  10.21.219.217          29   e880.886c.72b3  ARPA   Vlan1490
+Internet  10.21.219.218           7   e880.886c.6413  ARPA   Vlan1490
+Internet  10.21.219.219          13   083a.886e.7f3d  ARPA   Vlan1490
+Internet  10.21.219.220         195   e880.886c.7443  ARPA   Vlan1490
+Internet  10.21.219.222          13   489e.bd2e.c71f  ARPA   Vlan1490
+Internet  10.21.219.223          46   489e.bd2e.c466  ARPA   Vlan1490
+Internet  10.21.219.224          77   6c4b.90f9.6e56  ARPA   Vlan1490
+Internet  10.21.219.227          13   e880.886c.8483  ARPA   Vlan1490
+Internet  10.21.219.228          13   083a.886c.4445  ARPA   Vlan1490
+Internet  10.21.219.229          26   489e.bd2e.c64a  ARPA   Vlan1490
+Internet  10.21.219.230           0   e880.8872.c1d2  ARPA   Vlan1490
+Internet  10.21.219.234         188   489e.bd2e.cf2f  ARPA   Vlan1490
+Internet  10.21.219.235          49   083a.886e.7ffa  ARPA   Vlan1490
+Internet  10.21.219.236         187   489e.bd2e.c703  ARPA   Vlan1490
+Internet  10.21.219.238          12   e880.886c.74c5  ARPA   Vlan1490
+Internet  10.21.219.239           9   083a.886e.8a7a  ARPA   Vlan1490
+Internet  10.21.219.240           0   489e.bd2e.6352  ARPA   Vlan1490
+Internet  10.21.219.241          14   083a.886e.7f07  ARPA   Vlan1490
+Internet  10.21.219.242         202   083a.886e.7ef3  ARPA   Vlan1490
+Internet  10.21.219.243           1   083a.886e.64e0  ARPA   Vlan1490
+Internet  10.21.219.244           7   489e.bd2e.627e  ARPA   Vlan1490
+Internet  10.21.219.245          13   489e.bd2e.c89d  ARPA   Vlan1490
+Internet  10.21.219.246         215   083a.886e.6636  ARPA   Vlan1490
+Internet  10.21.219.247         198   489e.bd2e.c84c  ARPA   Vlan1490
+Internet  10.21.219.248         125   083a.886e.7e6c  ARPA   Vlan1490
+Internet  10.21.219.249           2   083a.886e.654d  ARPA   Vlan1490
+Internet  10.21.219.250         150   489e.bd2e.5b5c  ARPA   Vlan1490
+Internet  10.21.219.251          60   84a9.3e83.fa64  ARPA   Vlan1490
+Internet  10.21.219.252         111   489e.bd2e.c800  ARPA   Vlan1490
+Internet  192.168.150.46          -   00fd.2239.105d  ARPA   TenGigabitEthernet5/0/3
+MBCA-LAN28-S1#show lldp neighbors
+% LLDP is not enabled
+MBCA-LAN28-S1#show mac address-table
+          Mac Address Table
+-------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       --------    -----
+ All    0100.0ccc.cccc    STATIC      CPU
+ All    0100.0ccc.cccd    STATIC      CPU
+ All    0180.c200.0000    STATIC      CPU
+ All    0180.c200.0001    STATIC      CPU
+ All    0180.c200.0002    STATIC      CPU
+ All    0180.c200.0003    STATIC      CPU
+ All    0180.c200.0004    STATIC      CPU
+ All    0180.c200.0005    STATIC      CPU
+ All    0180.c200.0006    STATIC      CPU
+ All    0180.c200.0007    STATIC      CPU
+ All    0180.c200.0008    STATIC      CPU
+ All    0180.c200.0009    STATIC      CPU
+ All    0180.c200.000a    STATIC      CPU
+ All    0180.c200.000b    STATIC      CPU
+ All    0180.c200.000c    STATIC      CPU
+ All    0180.c200.000d    STATIC      CPU
+ All    0180.c200.000e    STATIC      CPU
+ All    0180.c200.000f    STATIC      CPU
+ All    0180.c200.0010    STATIC      CPU
+ All    0180.c200.0021    STATIC      CPU
+ All    ffff.ffff.ffff    STATIC      CPU
+1488    0008.e3ff.fc28    DYNAMIC     Po10
+1488    00fd.2239.1059    STATIC      Vl1488 
+1488    1c7d.2271.da95    STATIC      Gi9/0/31 
+1488    246a.0ec9.65af    STATIC      Gi3/0/40 
+1488    489e.bd2e.ceba    STATIC      Gi3/0/30 
+1488    489e.bd47.c778    STATIC      Gi4/0/18 
+1488    489e.bd47.cc41    STATIC      Gi3/0/26 
+1488    a023.9f05.aa6f    DYNAMIC     Po10
+1488    e880.8859.113f    STATIC      Gi3/0/36 
+1488    e880.8859.1830    STATIC      Gi3/0/38 
+1488    e880.8859.1a9a    STATIC      Gi3/0/16 
+1488    e880.8859.1bb8    STATIC      Gi3/0/42 
+1488    e880.8859.1bba    STATIC      Gi3/0/44 
+1488    e880.8859.1ff3    STATIC      Gi4/0/21 
+1488    e880.8859.210a    STATIC      Gi9/0/26 
+1488    e880.8859.210b    STATIC      Gi3/0/39 
+1488    e880.8859.2111    STATIC      Gi9/0/27 
+1488    e880.886c.5d49    STATIC      Gi3/0/31 
+1488    e880.886c.5e52    STATIC      Gi3/0/43 
+1488    e880.886c.60d9    STATIC      Gi3/0/18 
+1488    e880.886c.6263    STATIC      Gi3/0/17 
+1488    e880.886c.64d7    STATIC      Gi3/0/15 
+1488    e880.886c.64f2    STATIC      Gi3/0/45 
+1488    e880.886c.6713    STATIC      Gi3/0/22 
+1488    e880.886c.7ba4    STATIC      Gi9/0/30 
+1488    e880.886c.84be    STATIC      Gi3/0/25 
+1488    e880.886c.853e    STATIC      Gi3/0/41 
+1488    e880.886c.898d    STATIC      Gi3/0/34 
+1488    e880.886f.600f    STATIC      Gi3/0/32 
+1488    e880.8872.b849    STATIC      Gi3/0/33 
+1488    e880.8872.ba08    STATIC      Gi3/0/37 
+1488    e880.8872.bbfd    STATIC      Gi3/0/35 
+1488    e880.8872.c04b    STATIC      Gi3/0/14 
+1488    e880.8872.c168    STATIC      Gi3/0/29 
+1490    0008.e3ff.fc28    DYNAMIC     Po10
+1490    0015.5d71.7201    STATIC      Gi7/0/48 
+1490    00fd.2239.1061    STATIC      Vl1490 
+1490    083a.886c.4445    STATIC      Gi7/0/25 
+1490    083a.886c.e6a7    STATIC      Gi1/0/12 
+1490    083a.886c.e91c    STATIC      Gi4/0/6 
+1490    083a.886e.63f0    STATIC      Gi8/0/18 
+1490    083a.886e.64e0    STATIC      Gi1/0/14 
+1490    083a.886e.654d    STATIC      Gi1/0/36 
+1490    083a.886e.65e0    STATIC      Gi1/0/47 
+1490    083a.886e.662b    STATIC      Gi1/0/11 
+1490    083a.886e.6636    STATIC      Gi1/0/18 
+1490    083a.886e.6638    STATIC      Gi4/0/26 
+1490    083a.886e.6665    STATIC      Gi8/0/41 
+1490    083a.886e.6670    STATIC      Gi3/0/8 
+1490    083a.886e.667f    STATIC      Gi2/0/44 
+1490    083a.886e.66a2    STATIC      Gi9/0/16 
+1490    083a.886e.66c6    STATIC      Gi9/0/18 
+1490    083a.886e.66dd    STATIC      Gi1/0/45 
+1490    083a.886e.67eb    STATIC      Gi3/0/11 
+1490    083a.886e.67f0    STATIC      Gi3/0/7 
+1490    083a.886e.681e    STATIC      Gi7/0/30 
+1490    083a.886e.6856    STATIC      Gi4/0/37 
+1490    083a.886e.710f    STATIC      Gi8/0/14 
+1490    083a.886e.7448    STATIC      Gi4/0/45 
+1490    083a.886e.7d9f    STATIC      Gi8/0/39 
+1490    083a.886e.7da5    STATIC      Gi3/0/9 
+1490    083a.886e.7dd3    STATIC      Gi7/0/9 
+1490    083a.886e.7de1    STATIC      Gi2/0/36 
+1490    083a.886e.7ded    STATIC      Gi2/0/40 
+1490    083a.886e.7e3d    STATIC      Gi7/0/41 
+1490    083a.886e.7e6c    STATIC      Gi8/0/40 
+1490    083a.886e.7eb2    STATIC      Gi7/0/40 
+1490    083a.886e.7ee4    STATIC      Gi3/0/12 
+1490    083a.886e.7ef3    STATIC      Gi8/0/43 
+1490    083a.886e.7ef5    STATIC      Gi8/0/27 
+1490    083a.886e.7f07    STATIC      Gi1/0/38 
+1490    083a.886e.7f3d    STATIC      Gi4/0/42 
+1490    083a.886e.7f41    STATIC      Gi1/0/34 
+1490    083a.886e.7faf    STATIC      Gi7/0/16 
+1490    083a.886e.7ffa    STATIC      Gi4/0/40 
+1490    083a.886e.807a    STATIC      Gi7/0/17 
+1490    083a.886e.8091    STATIC      Gi1/0/31 
+1490    083a.886e.82a9    STATIC      Gi7/0/12 
+1490    083a.886e.83cb    STATIC      Gi7/0/3 
+1490    083a.886e.856b    STATIC      Gi7/0/26 
+1490    083a.886e.8577    STATIC      Gi1/0/41 
+1490    083a.886e.85ce    STATIC      Gi8/0/3 
+1490    083a.886e.866d    STATIC      Gi7/0/4 
+1490    083a.886e.88ea    STATIC      Gi1/0/5 
+1490    083a.886e.8a6a    STATIC      Gi9/0/7 
+1490    083a.886e.8a7a    STATIC      Gi2/0/4 
+1490    083a.886e.8af0    STATIC      Gi4/0/46 
+1490    083a.886e.8b3d    STATIC      Gi1/0/32 
+1490    083a.886e.bc1d    STATIC      Gi3/0/10 
+1490    1c7d.2251.8d94    STATIC      Gi1/0/24 
+1490    1c7d.2256.d9f1    STATIC      Gi2/0/35 
+1490    246a.0ec9.660c    STATIC      Gi1/0/15 
+1490    246a.0ec9.6793    STATIC      Gi8/0/37 
+1490    246a.0ec9.67b8    STATIC      Gi7/0/37 
+1490    246a.0ec9.67f8    STATIC      Gi7/0/11 
+1490    28c5.c838.1d90    STATIC      Gi8/0/23 
+1490    28c5.c838.1f37    STATIC      Gi7/0/29 
+1490    28c5.c838.20df    STATIC      Gi2/0/6 
+1490    28c5.c838.212d    STATIC      Gi4/0/44 
+1490    28c5.c838.215e    STATIC      Gi7/0/20 
+1490    28c5.c838.21a5    STATIC      Gi4/0/23 
+1490    28c5.c838.221b    STATIC      Gi4/0/13 
+1490    309c.2354.20fa    STATIC      Gi7/0/45 
+1490    489e.bd2e.5923    STATIC      Gi2/0/39 
+1490    489e.bd2e.5b5c    STATIC      Gi2/0/43 
+1490    489e.bd2e.5ba8    STATIC      Gi9/0/15 
+1490    489e.bd2e.6021    STATIC      Gi2/0/42 
+1490    489e.bd2e.6023    STATIC      Gi2/0/8 
+1490    489e.bd2e.610d    STATIC      Gi4/0/14 
+1490    489e.bd2e.612b    STATIC      Gi4/0/43 
+1490    489e.bd2e.614d    STATIC      Gi7/0/43 
+1490    489e.bd2e.61fb    STATIC      Gi2/0/3 
+1490    489e.bd2e.624c    STATIC      Gi2/0/47 
+1490    489e.bd2e.6252    STATIC      Gi8/0/46 
+1490    489e.bd2e.627e    STATIC      Gi1/0/25 
+1490    489e.bd2e.6352    STATIC      Gi1/0/26 
+1490    489e.bd2e.63ca    STATIC      Gi1/0/3 
+1490    489e.bd2e.63e0    STATIC      Gi7/0/19 
+1490    489e.bd2e.c2c7    STATIC      Gi7/0/36 
+1490    489e.bd2e.c338    STATIC      Gi7/0/24 
+1490    489e.bd2e.c357    STATIC      Gi8/0/19 
+1490    489e.bd2e.c3b5    STATIC      Gi1/0/39 
+1490    489e.bd2e.c403    STATIC      Gi7/0/5 
+1490    489e.bd2e.c466    STATIC      Gi9/0/13 
+1490    489e.bd2e.c64a    STATIC      Gi2/0/18 
+1490    489e.bd2e.c6a4    STATIC      Gi2/0/22 
+1490    489e.bd2e.c6b8    STATIC      Gi8/0/24 
+1490    489e.bd2e.c6d3    STATIC      Gi4/0/36 
+1490    489e.bd2e.c6f8    STATIC      Gi8/0/47 
+1490    489e.bd2e.c703    STATIC      Gi8/0/1 
+1490    489e.bd2e.c71f    STATIC      Gi1/0/40 
+1490    489e.bd2e.c767    STATIC      Gi9/0/9 
+1490    489e.bd2e.c79e    STATIC      Gi7/0/28 
+1490    489e.bd2e.c7ed    STATIC      Gi8/0/2 
+1490    489e.bd2e.c800    STATIC      Gi2/0/20 
+1490    489e.bd2e.c826    STATIC      Gi8/0/33 
+1490    489e.bd2e.c82f    STATIC      Gi7/0/6 
+1490    489e.bd2e.c838    STATIC      Gi2/0/37 
+1490    489e.bd2e.c84c    STATIC      Gi7/0/38 
+1490    489e.bd2e.c89d    STATIC      Gi1/0/42 
+1490    489e.bd2e.c90c    STATIC      Gi7/0/22 
+1490    489e.bd2e.cf2f    STATIC      Gi7/0/35 
+1490    489e.bd2e.cf6a    STATIC      Gi2/0/2 
+1490    489e.bd47.ce0a    STATIC      Gi4/0/25 
+1490    5c60.bac8.9869    STATIC      Gi9/0/14 
+1490    5c60.bac8.98c8    STATIC      Gi1/0/37 
+1490    5cba.2c5a.fc4e    STATIC      Gi7/0/44 
+1490    5cba.2c5a.fdc4    STATIC      Gi7/0/48 
+1490    5cba.2c5a.fdc6    STATIC      Gi7/0/46 
+1490    6c3c.8c3f.1e98    STATIC      Gi4/0/24 
+1490    6c3c.8c58.55c5    STATIC      Gi4/0/35 
+1490    6c4b.90f9.6df4    STATIC      Gi3/0/21 
+1490    6c4b.90f9.6e56    STATIC      Gi8/0/45 
+1490    6c4b.90f9.6f04    STATIC      Gi2/0/38 
+1490    7020.840f.503f    STATIC      Gi9/0/8 
+1490    7020.840f.5587    STATIC      Gi9/0/28 
+1490    7c57.5824.924a    STATIC      Gi2/0/12 
+1490    7c57.5826.1f80    STATIC      Gi9/0/2 
+1490    7c57.5826.1f8b    STATIC      Gi3/0/5 
+1490    7c57.5826.1f9b    STATIC      Gi8/0/22 
+1490    7c57.5826.1fa0    STATIC      Gi1/0/22 
+1490    7c57.5826.201d    STATIC      Gi7/0/1 
+1490    7c57.5826.204e    STATIC      Gi7/0/7 
+1490    84a9.3e67.304d    STATIC      Gi8/0/30 
+1490    84a9.3e6d.7210    STATIC      Gi2/0/10 
+1490    84a9.3e83.f970    STATIC      Gi4/0/39 
+1490    84a9.3e83.fa64    STATIC      Gi4/0/15 
+1490    84a9.3e83.fd05    STATIC      Gi4/0/16 
+1490    a023.9f05.aa6f    DYNAMIC     Po10
+1490    c8d9.d209.a707    DYNAMIC     Gi2/0/24
+1490    e073.e72d.1cd3    STATIC      Gi7/0/42 
+1490    e880.886c.5d7a    STATIC      Gi7/0/39 
+1490    e880.886c.5f57    STATIC      Gi8/0/16 
+1490    e880.886c.6413    STATIC      Gi2/0/41 
+1490    e880.886c.6aa6    STATIC      Gi7/0/23 
+1490    e880.886c.6aea    STATIC      Gi1/0/29 
+1490    e880.886c.70b0    STATIC      Gi1/0/46 
+1490    e880.886c.70d4    STATIC      Gi8/0/44 
+1490    e880.886c.72b3    STATIC      Gi2/0/21 
+1490    e880.886c.7357    STATIC      Gi9/0/46 
+1490    e880.886c.7443    STATIC      Gi3/0/24 
+1490    e880.886c.74c5    STATIC      Gi2/0/1 
+1490    e880.886c.7638    STATIC      Gi2/0/7 
+1490    e880.886c.7812    STATIC      Gi8/0/20 
+1490    e880.886c.7f75    STATIC      Gi4/0/34 
+1490    e880.886c.80a3    STATIC      Gi8/0/32 
+1490    e880.886c.8483    STATIC      Gi1/0/33 
+1490    e880.886f.6b16    STATIC      Gi1/0/9 
+1490    e880.8872.b620    STATIC      Gi2/0/5 
+1490    e880.8872.ba50    STATIC      Gi8/0/42 
+1490    e880.8872.bd81    STATIC      Gi4/0/41 
+1490    e880.8872.c012    STATIC      Gi7/0/10 
+1490    e880.8872.c15b    STATIC      Gi9/0/5 
+1490    e880.8872.c1d2    STATIC      Gi4/0/27 
+1490    e880.8872.c310    STATIC      Gi9/0/22 
+1272    0008.e3ff.fc28    DYNAMIC     Po10
+1272    001b.d460.57a8    STATIC      Gi3/0/18 
+1272    001b.d52c.bbca    STATIC      Gi3/0/42 
+1272    001b.d52c.efda    STATIC      Gi3/0/12 
+1272    001b.d52c.efdc    STATIC      Gi3/0/25 
+1272    001b.d52c.efef    STATIC      Gi3/0/10 
+1272    001b.d52c.f906    STATIC      Gi3/0/44 
+1272    001b.d52c.f996    STATIC      Gi3/0/14 
+1272    001b.d52c.fa4d    STATIC      Gi3/0/16 
+1272    001b.d52c.fbc9    STATIC      Gi4/0/21 
+1272    001b.d52c.fd20    STATIC      Gi4/0/43 
+1272    001b.d52c.fe8d    STATIC      Gi3/0/34 
+1272    001b.d52d.05c6    STATIC      Gi7/0/40 
+1272    001b.d52d.0722    STATIC      Gi3/0/38 
+1272    001b.d52d.0732    STATIC      Gi3/0/29 
+1272    001b.d52d.073f    STATIC      Gi3/0/35 
+1272    001d.a219.88eb    STATIC      Gi2/0/44 
+1272    001d.a290.cfb2    STATIC      Gi7/0/25 
+1272    001f.9ead.b8cc    STATIC      Gi1/0/22 
+1272    0023.049b.6a82    STATIC      Gi3/0/31 
+1272    0027.0dbd.5568    STATIC      Gi3/0/43 
+1272    0038.dfa2.1a45    STATIC      Gi4/0/25 
+1272    0059.dc5a.dd83    STATIC      Gi9/0/30 
+1272    0059.dc5a.ddd2    STATIC      Gi2/0/17 
+1272    0059.dc5a.de15    STATIC      Gi3/0/41 
+1272    0072.7827.ad3c    STATIC      Gi7/0/17 
+1272    0072.7827.ad63    STATIC      Gi4/0/13 
+1272    0072.7827.ad6c    STATIC      Gi7/0/12 
+1272    0072.7827.ad95    STATIC      Gi7/0/10 
+1272    0072.7827.adbb    STATIC      Gi9/0/46 
+1272    0072.7827.af4a    STATIC      Gi7/0/38 
+1272    0072.7827.af5e    STATIC      Gi3/0/24 
+1272    0072.7827.af87    STATIC      Gi4/0/26 
+1272    0072.7827.afe3    STATIC      Gi1/0/41 
+1272    0072.7827.b0d2    STATIC      Gi4/0/4 
+1272    00cc.fc17.eaaa    STATIC      Gi2/0/43 
+1272    00cc.fca6.74db    STATIC      Gi4/0/48 
+1272    00cc.fca6.898e    STATIC      Gi3/0/32 
+1272    00cc.fca6.9c8b    STATIC      Gi8/0/1 
+1272    00cc.fca6.9c91    STATIC      Gi9/0/18 
+1272    00cc.fca6.9ca7    STATIC      Gi2/0/39 
+1272    00cc.fca6.9de6    STATIC      Gi8/0/44 
+1272    00cc.fca6.9e86    STATIC      Gi4/0/36 
+1272    00cc.fca6.9ec5    STATIC      Gi7/0/24 
+1272    00cc.fca6.9f0e    STATIC      Gi2/0/8 
+1272    00cc.fca6.9fdd    STATIC      Gi2/0/41 
+1272    00cc.fca6.a28a    STATIC      Gi8/0/2 
+1272    0817.3514.9a0f    STATIC      Gi3/0/33 
+1272    0817.3514.b076    STATIC      Gi4/0/5 
+1272    0cd5.d39e.5274    STATIC      Gi1/0/15 
+1272    0cd5.d39e.565e    STATIC      Gi2/0/5 
+1272    0cd5.d39e.5663    STATIC      Gi1/0/37 
+1272    0cd5.d39e.5677    STATIC      Gi7/0/5 
+1272    2481.3bb1.a904    STATIC      Gi1/0/29 
+1272    2481.3bb1.a917    STATIC      Gi4/0/45 
+1272    2481.3bb1.a91a    STATIC      Gi8/0/43 
+1272    2481.3bb1.a944    STATIC      Gi1/0/11 
+1272    2481.3bb1.a949    STATIC      Gi7/0/1 
+1272    2481.3bb1.a9a3    STATIC      Gi3/0/9 
+1272    2481.3bb1.a9ac    STATIC      Gi4/0/24 
+1272    2481.3bb1.a9ad    STATIC      Gi8/0/40 
+1272    2c36.f858.d038    STATIC      Gi3/0/36 
+1272    34a8.4e61.5c3b    STATIC      Gi9/0/15 
+1272    3820.560d.1a73    STATIC      Gi7/0/6 
+1272    4488.1649.f01d    STATIC      Gi1/0/27 
+1272    4488.1649.f118    STATIC      Gi9/0/13 
+1272    488b.0a2e.be08    STATIC      Gi4/0/35 
+1272    488b.0a2e.be35    STATIC      Gi1/0/46 
+1272    488b.0a2e.be45    STATIC      Gi8/0/23 
+1272    488b.0a2e.be50    STATIC      Gi1/0/33 
+1272    488b.0a2e.c31b    STATIC      Gi8/0/37 
+1272    488b.0a2e.c518    STATIC      Gi7/0/20 
+1272    488b.0a2e.c584    STATIC      Gi4/0/23 
+1272    5ce1.7611.1e87    STATIC      Gi3/0/7 
+1272    5ce1.7611.1eff    STATIC      Gi1/0/40 
+1272    5ce1.7611.1f20    STATIC      Gi7/0/3 
+1272    5ce1.7611.1f29    STATIC      Gi1/0/38 
+1272    5ce1.7611.1f32    STATIC      Gi8/0/20 
+1272    5ce1.7611.1f75    STATIC      Gi7/0/28 
+1272    5ce1.7611.1f87    STATIC      Gi2/0/3 
+1272    5ce1.7611.1f8a    STATIC      Gi4/0/46 
+1272    5ce1.7611.1fb2    STATIC      Gi2/0/40 
+1272    5ce1.7611.2b5f    STATIC      Gi2/0/21 
+1272    5ce1.7611.2b65    STATIC      Gi9/0/5 
+1272    5ce1.7611.2bc7    STATIC      Gi7/0/19 
+1272    5ce1.7611.2be5    STATIC      Gi3/0/8 
+1272    5ce1.7611.2beb    STATIC      Gi9/0/3 
+1272    5ce1.7611.2bee    STATIC      Gi2/0/1 
+1272    5ce1.7611.2bf6    STATIC      Gi4/0/34 
+1272    5ce1.7611.2bfe    STATIC      Gi8/0/39 
+1272    5ce1.7611.2c0c    STATIC      Gi4/0/41 
+1272    5ce1.7611.2c2f    STATIC      Gi7/0/43 
+1272    5ce1.7611.2c3d    STATIC      Gi4/0/40 
+1272    5ce1.7611.2c97    STATIC      Gi7/0/37 
+1272    6073.5c11.4382    STATIC      Gi9/0/14 
+1272    6073.5c11.4383    STATIC      Gi1/0/35 
+1272    6073.5c11.4387    STATIC      Gi7/0/41 
+1272    6073.5c11.4388    STATIC      Gi2/0/31 
+1272    6c8d.77d1.dd2b    STATIC      Gi1/0/14 
+1272    6c8d.77d1.ddfa    STATIC      Gi1/0/31 
+1272    6c8d.77d1.de30    STATIC      Gi8/0/16 
+1272    70f3.5ad2.9b9e    STATIC      Gi8/0/24 
+1272    70f3.5ad2.9c3e    STATIC      Gi8/0/46 
+1272    70f3.5ad2.9db0    STATIC      Gi9/0/19 
+1272    70f3.5ad2.b79d    STATIC      Gi4/0/42 
+1272    70f3.5ad2.b7b6    STATIC      Gi8/0/30 
+1272    70f3.5ad2.b7c7    STATIC      Gi7/0/9 
+1272    70f3.5ad2.b7d4    STATIC      Gi2/0/42 
+1272    70f3.5ad2.b7e6    STATIC      Gi2/0/36 
+1272    70f3.5ad2.b7fa    STATIC      Gi7/0/26 
+1272    70f3.5ad2.b862    STATIC      Gi7/0/18 
+1272    70f3.5ad2.b8ca    STATIC      Gi8/0/42 
+1272    80e8.6f22.309e    STATIC      Gi2/0/20 
+1272    88f0.7788.1c67    STATIC      Gi3/0/17 
+1272    9c57.adb4.68bb    STATIC      Gi7/0/35 
+1272    9c57.adb4.a2a4    STATIC      Gi1/0/26 
+1272    9c57.adb4.b510    STATIC      Gi3/0/37 
+1272    9c57.adb4.f931    STATIC      Gi7/0/16 
+1272    9c57.adb4.f97a    STATIC      Gi3/0/11 
+1272    9c57.adb4.f9a6    STATIC      Gi7/0/22 
+1272    9c57.adb4.fa7c    STATIC      Gi8/0/19 
+1272    a023.9f05.aa6f    DYNAMIC     Po10
+1272    a418.7528.357e    STATIC      Gi3/0/22 
+1272    a456.30ba.3964    STATIC      Gi3/0/40 
+1272    a4b2.3949.232a    STATIC      Gi2/0/22 
+1272    ac4a.5610.1086    STATIC      Gi1/0/18 
+1272    ac4a.5610.4b04    STATIC      Gi2/0/12 
+1272    ac4a.5610.4e9e    STATIC      Gi7/0/7 
+1272    ac4a.5610.50a2    STATIC      Gi8/0/22 
+1272    ac4a.5611.0014    STATIC      Gi9/0/17 
+1272    ac4a.5611.04c4    STATIC      Gi1/0/16 
+1272    ac4a.5611.06c2    STATIC      Gi2/0/4 
+1272    ac4a.5611.070b    STATIC      Gi1/0/45 
+1272    ac4a.5611.0716    STATIC      Gi1/0/32 
+1272    ac4a.5611.0749    STATIC      Gi7/0/4 
+1272    ac7e.8a2b.8455    STATIC      Gi1/0/36 
+1272    b838.6157.1ea2    STATIC      Gi3/0/30 
+1272    b838.6157.2463    STATIC      Gi3/0/45 
+1272    b838.6158.7dc8    STATIC      Gi9/0/7 
+1272    cc7f.7505.47c6    STATIC      Gi1/0/42 
+1272    d0ec.3584.104b    STATIC      Gi7/0/11 
+1272    d0ec.3584.106e    STATIC      Gi7/0/39 
+1272    d0ec.3584.107e    STATIC      Gi4/0/37 
+1272    d0ec.3584.10e2    STATIC      Gi9/0/9 
+1272    d0ec.3584.1140    STATIC      Gi8/0/3 
+1272    d0ec.3584.11b5    STATIC      Gi4/0/6 
+1272    d0ec.3584.11b6    STATIC      Gi1/0/12 
+1272    d0ec.3584.1214    STATIC      Gi1/0/5 
+1272    d0ec.3584.1290    STATIC      Gi2/0/2 
+1272    d0ec.3584.13ae    STATIC      Gi8/0/27 
+1272    d0ec.3584.15f7    STATIC      Gi8/0/32 
+1272    d0ec.3584.2107    STATIC      Gi9/0/27 
+1272    d0ec.3584.2218    STATIC      Gi4/0/14 
+1272    d867.d9a0.6215    STATIC      Gi1/0/34 
+1272    d867.d9a0.80a0    STATIC      Gi9/0/1 
+1272    d867.d9a0.8a16    STATIC      Gi1/0/25 
+1272    d867.d9a0.8a20    STATIC      Gi9/0/16 
+1272    dcce.c1d4.ee78    STATIC      Gi4/0/15 
+1272    dcce.c1d4.fc53    STATIC      Gi7/0/36 
+1272    dcce.c1d4.fca9    STATIC      Gi2/0/18 
+1272    dcce.c1d4.fcd8    STATIC      Gi8/0/47 
+1272    dcce.c1d4.fd70    STATIC      Gi8/0/41 
+1272    dcce.c1d4.fd74    STATIC      Gi2/0/7 
+1272    e8ba.7007.f5b6    STATIC      Gi3/0/39 
+1272    ec44.761f.88d6    STATIC      Gi3/0/15 
+1272    f0b2.e579.6bd3    STATIC      Gi1/0/3 
+1096    0008.e3ff.fc28    DYNAMIC     Po10
+1096    a023.9f05.aa6f    DYNAMIC     Po10
+ 617    a023.9f05.aa6f    DYNAMIC     Po10
+1596    0008.e3ff.fc28    DYNAMIC     Po10
+1596    a023.9f05.aa6f    DYNAMIC     Po10
+Total Mac Addresses for this criterion: 387
+MBCA-LAN28-S1#show etherchannel summary
+Flags:  D - down        P - bundled in port-channel
+        I - stand-alone s - suspended
+        H - Hot-standby (LACP only)
+        R - Layer3      S - Layer2
+        U - in use      f - failed to allocate aggregator
+
+        M - not in use, minimum links not met
+        u - unsuitable for bundling
+        w - waiting to be aggregated
+        d - default port
+
+        A - formed by Auto LAG
+
+
+Number of channel-groups in use: 1
+Number of aggregators:           1
+
+Group  Port-channel  Protocol    Ports
+------+-------------+-----------+-----------------------------------------------
+10     Po10(SU)        LACP        Te5/0/1(P)      Te6/0/1(P)      
+
+Stop recording MBCA-LAN28-S1 (10.21.218.4) – 2025-06-19 - 16:38:03

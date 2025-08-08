@@ -1,0 +1,483 @@
+RMP-SF-AGG02# show interface description
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+mgmt0                    --
+
+-------------------------------------------------------------------------------
+Port          Type   Speed   Description
+-------------------------------------------------------------------------------
+Eth1/1        eth    40G     #RMP-CORE-SW01 Eth1/2#
+Eth1/2        eth    40G     #RMP-CORE-SW02 Eth2/2#
+Eth1/3        eth    40G     --
+Eth1/4        eth    40G     #to RMP-CORE-SW01 Standby(bypass)#
+Eth1/5        eth    40G     #RMP-SF-ACSAIX03 Eth1/3#
+Eth1/6        eth    40G     #RMP-SF-ACSAIX04 Eth1/3#
+Eth1/7        eth    40G     #RMP-SF-ACSCORE01 Eth1/3#
+Eth1/8        eth    40G     #RMP-SF-ACSCORE02 Eth1/3#
+Eth1/9        eth    40G     #RMP-SF-ACSORACLE-01 Eth2/3#
+Eth1/10       eth    40G     #RMP-SF-ACSORACLE-02 Eth2/4#
+Eth1/11       eth    40G     DC2-BDR-LEAF-01
+Eth1/12       eth    40G     --
+Eth1/13       eth    40G     --
+Eth1/14       eth    40G     --
+Eth1/15       eth    40G     --
+Eth1/16       eth    40G     --
+Eth1/17       eth    40G     --
+Eth1/18       eth    40G     --
+Eth1/19       eth    40G     link #1 to RMP-SF-ACSBLD11 
+Eth1/20       eth    40G     link #1 to RMP-SF-ACSBLD15
+Eth1/21       eth    40G     --
+Eth1/22       eth    40G     --
+Eth1/23       eth    40G     link #1 to RMP-SF-ACSBLD12
+Eth1/24       eth    40G     link #1 to RMP-SF-ACSBLD16
+Eth1/25       eth    40G     --
+Eth1/26       eth    40G     link #1 to RMP-SF-ACSCORE04
+Eth1/27       eth    40G     --
+Eth1/28       eth    40G     --
+Eth1/29       eth    40G     --
+Eth1/30       eth    40G     --
+Eth1/31       eth    40G     --
+Eth1/32       eth    40G     --
+Eth1/33       eth    40G     --
+Eth1/34       eth    40G     --
+Eth1/35       eth    40G     #RMP-SF-AGG01 Eth1/35 (L3)#
+Eth1/36       eth    40G     #RMP-SF-AGG01 Eth1/36 (vPC PL)#
+Eth2/1        eth    40G     #RMP-CORE-SW01 Eth2/2#
+Eth2/2        eth    40G     #RMP-CORE-SW02 Eth2/2#
+Eth2/3        eth    40G     #RMP-SF-ACSAIX01 Eth1/4#
+Eth2/4        eth    40G     #to RMP-CORE-SW02 Standby(bypass)#
+Eth2/5        eth    40G     #RMP-SF-ACSAIX03 Eth1/4#
+Eth2/6        eth    40G     #RMP-SF-ACSAIX04 Eth1/4#
+Eth2/7        eth    40G     #RMP-SF-ACSCORE01 Eth1/4#
+Eth2/8        eth    40G     #RMP-SF-ACSCORE02 Eth1/4#
+Eth2/9        eth    40G     #RMP-SF-ACSORACLE-02 Eth2/3#
+Eth2/10       eth    40G     #RMP-SF-ACSORACLE-01 Eth2/4#
+Eth2/11       eth    40G     DC2-BDR-LEAF-02
+Eth2/12       eth    40G     --
+Eth2/13       eth    40G     --
+Eth2/14       eth    40G     --
+Eth2/15       eth    40G     --
+Eth2/16       eth    40G     --
+Eth2/17       eth    40G     --
+Eth2/18       eth    40G     --
+Eth2/19       eth    40G     link #1 to RMP-SF-ACSBLD11 
+Eth2/20       eth    40G     link #1 to RMP-SF-ACSBLD13
+Eth2/21       eth    40G     --
+Eth2/22       eth    40G     --
+Eth2/23       eth    40G     link #1 to RMP-SF-ACSBLD12
+Eth2/24       eth    40G     link #1 to RMP-SF-ACSBLD14
+Eth2/25       eth    40G     --
+Eth2/26       eth    40G     --
+Eth2/27       eth    40G     --
+Eth2/28       eth    40G     --
+Eth2/29       eth    40G     --
+Eth2/30       eth    40G     --
+Eth2/31       eth    40G     --
+Eth2/32       eth    40G     --
+Eth2/33       eth    40G     --
+Eth2/34       eth    40G     --
+Eth2/35       eth    40G     #RMP-SF-AGG01 Eth2/35 (L3)#
+Eth2/36       eth    40G     #RMP-SF-AGG01 Eth1/36 (vPC PL)#
+Eth3/1        eth    10G     #RMP-DCI-OTV01-SF Eth1/4#
+Eth3/2        eth    10G     #RMP-DCI-OTV02-SF Eth1/4#
+Eth3/3        eth    10G     "TANDEM-NX-B"
+Eth3/4        eth    10G     "TANDEM-NX-B"
+Eth3/5        eth    10G     --
+Eth3/6        eth    10G     --
+Eth3/7        eth    1000    --
+Eth3/8        eth    1000    --
+Eth3/9        eth    1000    --
+Eth3/10       eth    1000    --
+Eth3/11       eth    1000    #RMP-SF-ACSBLD03#
+Eth3/12       eth    1000    #RMP-SF-ACSBLD03#
+Eth3/13       eth    1000    --
+Eth3/14       eth    1000    --
+Eth3/15       eth    1000    --
+Eth3/16       eth    1000    --
+Eth3/17       eth    1000    --
+Eth3/18       eth    1000    --
+Eth3/19       eth    10G     Fabric_Interconnect_1A
+Eth3/20       eth    10G     Fabric_Interconnect_1B
+Eth3/21       eth    10G     Fabric_Interconnect_1B
+Eth3/22       eth    10G     Fabric_Interconnect_2A
+Eth3/23       eth    10G     Fabric_Interconnect_2B
+Eth3/24       eth    10G     Fabric_Interconnect_2B
+Eth3/25       eth    1000    #RMP-SF-ACSBLD03#
+Eth3/26       eth    1000    #RMP-SF-ACSBLD03#
+Eth3/27       eth    1000    #RMP-SF-ACSBLD03#
+Eth3/28       eth    1000    #RMP-SF-ACSBLD03#
+Eth3/29       eth    10G     Fabric_Interconnect_1A
+Eth3/30       eth    10G     Fabric_Interconnect_1A
+Eth3/31       eth    10G     Fabric_Interconnect_2A
+Eth3/32       eth    10G     Fabric_Interconnect_2A
+Eth3/33       eth    10G     DRC-LBHOST-SVRF-01 (vPC 22) via NETSCOUT
+Eth3/34       eth    10G     DRC-LBHOST-SOA-01 (vPC 20) via NETSCOUT
+Eth3/35       eth    10G     DRC-LBHOST-SVRF-02
+Eth3/36       eth    10G     DRC-LBHOST-SOA-02
+Eth3/37       eth    10G     DRC-LBHOST-SVRF-01 (vPC 22) via NETSCOUT
+Eth3/38       eth    10G     DRC-LBHOST-SOA-01 (vPC 20) via NETSCOUT
+Eth3/39       eth    10G     DRC-LBHOST-SVRF-02
+Eth3/40       eth    10G     DRC-LBHOST-SOA-02
+Eth3/41       eth    10G     --
+Eth3/42       eth    10G     --
+Eth3/43       eth    10G     --
+Eth3/44       eth    10G     --
+Eth3/45       eth    10G     --
+Eth3/46       eth    10G     description #RMP-SF-AGG01 Eth4/48 (vPC PK)#
+Eth3/47       eth    10G     HSM
+Eth3/48       eth    10G     #RMP-SF-AGG01 Eth3/48 (vPC PK)#
+Eth3/49       eth    40G     --
+Eth3/50       eth    40G     --
+Eth3/51       eth    40G     --
+Eth3/52       eth    40G     --
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Po1                      #RMP-SF-AGG01 Po1 (vPC PL)#
+Po2                      #RMP-SF-AGG01 Po2 (L3)#
+Po3                      #RMP-CORE-SW01 Po3# via Palo Standby
+Po4                      #RMP-CORE-SW02 Po3# via Palo Active
+Po5                      #RMP-DCI-OTV01-SF Po4#
+Po6                      #RMP-DCI-OTV02-SF Po4#
+Po8                      #RMP-SF-ACSAIX0304 Po3#
+Po9                      #RMP-SF-ACSCORE0102 Po3#
+Po10                     #RMP-SF-ACSORACLE-0102 Po3#
+Po11                     #RMP-SF-AGG01 Po11 (vPC PK)#
+Po13                     #RMP-SF-ACSBLD03 Po3#
+Po14                     #RMP-SF-ACSBLD04 Po3#
+Po15                     #RMP-SF-ACSBLD0506 Po3#
+Po16                     #RMP-SF-ACSBLD0708 Po3#
+Po17                     #RMP-SF-ACSBLD0910 Po3#
+Po19                     #RMP-SF-ACSTDM0102 Po3#
+Po20                     DRC-LBHOST-SOA-01
+Po21                     DRC-LBHOST-SOA-02
+Po22                     DRC-LBHOST-SVRF-01
+Po23                     DRC-LBHOST-SVRF-02
+Po24                     Fabric Interconnect 1 A
+Po25                     Fabric Interconnect 1 B
+Po26                     Fabric Interconnect 2 A
+Po27                     Fabric Interconnect 2 B
+Po28                     # RMP-SF-ACSBLD11/ RMP-SF-ACSBLD12 Po28#
+Po29                     # RMP-SF-ACSBLD13/ RMP-SF-ACSBLD14 Po29#
+Po30                     # RMP-SF-ACSCORE03/RMP-SF-ACSCORE04 #
+Po31                     # RMP-SF-ACSBLD15/ RMP-SF-ACSBLD16 Po31#
+Po32                     DC2-BDR-LEAF-01/DC2-BDR-LEAF-02 
+Po101                    "TANDEM-NX-B"
+Po198                    --
+Po199                    --
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Lo0                      #Management#
+
+-------------------------------------------------------------------------------
+Interface                Description                                            
+-------------------------------------------------------------------------------
+Vlan1                    --
+Vlan11                   #Management Network#
+Vlan26                   VLAN_TANDEM_NNMMDI(10.204.2.161/27)
+Vlan39                   AS/400 eMAS0001 HSM PRODUCTION
+Vlan40                   AS/400 eMAS0001 ATM PRODUCTION
+Vlan41                   AS/400 eMAS0001 BDS PRODUCTION
+Vlan43                   OPICS(10.204.4.64/27)
+Vlan44                   VLAN_CPS&ISA(10.204.4.96/27)
+Vlan47                   PINPAD
+Vlan48                   VLAN_TANDEM_HIMBARA
+Vlan53                   VLAN_SVS
+Vlan56                   VVLAN_TANDEM_TO_AS400(10.204.5.161/27)
+Vlan68                   Vlan_AADC_Mandol
+Vlan69                   AADC_MANDOL_DRC
+Vlan72                   AS/400 eMAS0001 MASTER dan VISA PRODUCTION
+Vlan74                   MCS(KLN)
+Vlan76                   VLAN_TANDEM_MONITOR(10.204.7.161/27)
+Vlan118                  VLAN_SAP-APP-DB-PRIV_REP
+Vlan131                  --
+Vlan165                  New_Segment_Load_balancing_IP_Address_SOA
+Vlan167                  VLAN_PRODUCTION_ESB
+Vlan182                  P2P_TETRATION_1
+Vlan183                  P2P_TETRATION_2
+Vlan222                  PMS_DWH(10.204.120.224/27)
+Vlan232                  Prod_Pega_DC
+Vlan233                  Pega_DC
+Vlan234                  VLAN_BSM
+Vlan235                  Dokumentum_DC
+Vlan236                  Experian_DC
+Vlan237                  MCM_APP_DC
+Vlan267                  Rep_Predictive_Dialer
+Vlan271                  DRC_ICLS(10.254.120.192/27)
+Vlan272                  DRC_PMS-DWH(10.254.120.224/27)
+Vlan273                  DRC_MPS(10.254.121.32/27)
+Vlan277                  FRMS_DRC
+Vlan279                  REP_iRMG
+Vlan281                  DWH_DRC
+Vlan282                  Prod_Pega_DRC
+Vlan283                  Pega_DRC
+Vlan285                  Dukumentum_DRC
+Vlan286                  Experian_DRC
+Vlan287                  MCM_APP_DRC
+Vlan288                  MCM_DB_DRC
+Vlan289                  SAN_Storage_HITACHI
+Vlan308                  FiestaPoinDB
+Vlan313                  POC-AUTOMATION-DC
+Vlan329                  SOA_Biru_ISO_Listener
+Vlan349                  DBSOAMANDOL
+Vlan353                  HSM
+Vlan354                  OBJ_Storage_DC
+Vlan355                  OBJ_Storage_DRC_REP
+Vlan356                  Dataguard DB New SOA
+Vlan360                  Vlan_SAMS_DB_DRC
+Vlan361                  Quorum_DRC
+Vlan362                  DB_QRADAR-DRC
+Vlan364                  BPR_Release3-DRC
+Vlan365                  ECH-CASH-JISDOR-DRC
+Vlan366                  DRC_NEW_MIMIX
+Vlan371                  SAMSDBREP_DRC
+Vlan372                  DB_Bansos-PKH 
+Vlan373                  POC2-AUTOMATION-DC
+Vlan374                  PROD-SOABIRU-DRC
+Vlan376                  ECASH & BRANCHLESS DRC
+Vlan378                  IRIS-DRC
+Vlan379                  DRC-SOA_Biru_ISO_Listener
+Vlan380                  DB_MFT_DRC
+Vlan381                  SOA-MANDOL-AADC-DRC
+Vlan392                  LB_AADC_MANDOL_DRC
+Vlan404                  SDS_PROD_DC
+Vlan407                  nRetina_Prod
+Vlan413                  Ivanti_Landesk_DC
+Vlan419                  vlan-security
+Vlan451                  Network_F5_DRC
+Vlan453                  APP_DTS_DRC
+Vlan456                  Smart_edc_drc
+Vlan459                  NEW_TF_2018_DRC
+Vlan460                  ***Treasury Advanced Matching(TRAM) DRC***
+Vlan463                  Ivanti_Landesk_DRC
+Vlan464                  DLP_DRC
+Vlan471                  SIEM_Security_DRC
+Vlan472                  NBU-Server-DRC
+Vlan473                  DC-RMP_PRD_FORESCOUT
+Vlan475                  NICE_AIR_DRC
+Vlan477                  JUMP_HOST-DRC
+Vlan481                  RSA-CYBERARK-DRC
+Vlan484                  DB-SOA-MTI-DRC
+Vlan506                  SLIK_PROD
+Vlan521                  CA_Virtual_Appliance_2
+Vlan528                  Openshift_Prod
+Vlan531                  NEW_UBP
+Vlan536                  DRC_NEW_ADAPTER_FRMS
+Vlan541                  MPS-LB
+Vlan551                  HSM_MANDOL
+Vlan553                  NEW_MCM_DRC
+Vlan561                  EDR_SERVER_DRC
+Vlan563                  HSM_SOABIRU
+Vlan564                  HSM_SWIFT
+Vlan566                  PMS-BI- DRC
+Vlan567                  WEB_EAI_FX_NOP_DRC
+Vlan568                  GTM_DRC
+Vlan570                  WEB_MAKSI_DRC
+Vlan575                  DEV_VM_SVR(10.254.107.0/24)
+Vlan576                  SIT_VM_SVR(10.254.108.0/24)
+Vlan579                  LMS_SVR_DRC
+Vlan581                  NEW_UBP_DRC
+Vlan582                  DBSOABIRU-DRC
+Vlan583                  DBSOABIRUREP-DRC
+Vlan586                  DRC_NEW_ADAPTER_FRMS
+Vlan587                  MCM-AA-DRC
+Vlan589                  DB_cluster_OVM_DRC
+Vlan590                  DB_vcrc-cluster_OVM_DRC
+Vlan594                  IP_Notification_Engine_DRC
+Vlan622                  VLAN_MQSeries
+Vlan632                  CPS_KLN
+Vlan633                  AS/400 eMAS0007-COREKLN PRODUCTION
+Vlan634                  MQ_KLN
+Vlan641                  CITRIX_KLN
+Vlan642                  GW_PROD_EXIMBILL_KLN
+Vlan651                  SWIFT_DOM
+Vlan652                  --
+Vlan671                  VLAN_HIPORT
+Vlan674                  Migrasi_AD
+Vlan682                  VLAN-KSEI
+Vlan708                  --
+Vlan709                  VLAN_709
+Vlan727                  --
+Vlan741                  AS/400 eMAS0001 BDS REPLICATION
+Vlan744                  VLAN_ML_CPS
+Vlan746                  --
+Vlan934                  VLAN_EDI(10.204.9.152/29)
+Vlan941                  ESXi_OTV_ Mgmt_Clust
+Vlan943                  Vmotion_Mgmt_Clust
+Vlan944                  VXLAN_Mgmt_Clust
+Vlan949                  ESXi_Edge_Clust
+Vlan950                  VMotion_Edge_Clust
+Vlan951                  VXLAN_Edge_Clust
+Vlan956                  ESXi_Payload_Clust
+Vlan957                  VMotion_ Payload _Clust
+Vlan958                  VXLAN_ Payload _Clust
+Vlan959                  Vsphere_Rep_ Payload _Clust
+Vlan960                  NSX_Backup_ Payload _Clust
+Vlan961                  PALO_NSX
+Vlan978                  --
+Vlan980                  NSX-T_EDGE_OVERLAY
+Vlan981                  ESXi_PaaS
+Vlan982                  vSphere_vMotion_PaaS
+Vlan983                  NSX-T_HOST_OVERLAY_PaaS
+Vlan1110                 CHSM
+Vlan1125                 --
+Vlan1129                 PROD-LOYALTY_DEBIT
+Vlan1151                 NEW_VMWARE
+Vlan1165                 VLAN_PRODUCTION_NEW_SOA_01
+Vlan1172                 Blade_SVR_2016(10.254.94.0/24)
+Vlan1173                 MPS(10.254.48.177/28)
+Vlan1175                 TSM-SERVER(10.254.48.192/28)
+Vlan1177                 MPS(10.254.48.209/29)
+Vlan1179                 Production Loyalty Debit
+Vlan1204                 PROD-FRAUD_CONTROL_SYSTEM
+Vlan1219                 VLAN_MMBS_SMS_BANKING
+Vlan1221                 PROD_SIT/UAT 
+Vlan1233                 MUFF
+Vlan1243                 Prod_VM_KLN
+Vlan1247                 Vlan_Improvement_LF
+Vlan1248                 REP-RTGS-S4
+Vlan1250                 SLIK
+Vlan1269                 REP-MOBILE_CONNECTION_ 
+Vlan1271                 HIPORT
+Vlan1283                 MUFF
+Vlan1293                 Prod_VM_KLN
+Vlan1310                 PROD_ATS_DILI
+Vlan1313                 REP_PP-RTGS-Gen-2
+Vlan1321                 PROD_LOS_MICRO
+Vlan1332                 TREP (treasury portal)
+Vlan1334                 --
+Vlan1336                 REP-PROD-PPATK
+Vlan1351                 Enhance_Backup_Mgmt
+Vlan1363                 RTGS_GEN2
+Vlan1368                 --
+Vlan1376                 --
+Vlan1404                 APP-SID-BI
+Vlan1450                 PROD_Improve Reliability of Scorecard
+Vlan1456                 HSM_Safenet
+Vlan1504                 ICLSORA1(10.204.53.16/28)
+Vlan1507                 Aplikasi Project Enhancement Aplikasi IRSRS Regulatory Reporting
+Vlan1537                 name SUMMIT(10.204.53.168/29)
+Vlan1542                 Collateral_Management_System
+Vlan1562                 POS-Pak-Erol
+Vlan1565                 SAP
+Vlan1572                 ICLSORA2-DRC(10.254.53.64/28) 
+Vlan1587                 SUMMIT
+Vlan1588                 Custodian-Prod
+Vlan1601                 Manangement-VMWare
+Vlan1611                 VLAN_ALM
+Vlan1619                 LSMK(10.204.65.176/28)
+Vlan1640                 ETLConnector
+Vlan1658                 ATM-CRS
+Vlan1660                 CRS
+Vlan1661                 ATM-CRS
+Vlan1667                 VTL
+Vlan1671                 Active_Directory_NewCPS
+Vlan1672                 WMS PROD
+Vlan1687                 GOLDEN_GATE_DRC
+Vlan1689                 BWRI_DQA_DRC
+Vlan1691                 Exadata
+Vlan1692                 SIT-WEB-Exadata
+Vlan1696                 Rep-DC-DRC-Exadata
+Vlan1699                 AML-APPS-Prod
+Vlan1851                 --
+Vlan1931                 DRC_TEMP_NEW_HSM_TANDEM
+Vlan1982                 TestingBackupRestore(10.254.62.0/29)
+Vlan1983                 --
+Vlan2007                 SOA-ISO-Gateway
+Vlan2031                 VLAN_MOS
+Vlan2059                 VLAN_SOA_ERM_PMS_REP
+Vlan2060                 VLAN_SOA_Pink_Emoney
+Vlan2061                 VLAN_SOA_ERM_PMS_MON_REP
+Vlan2075                 VLAN_FC_BROCADE_REP
+Vlan2076                 VLAN_FC2_BROCADE_REP
+Vlan2101                 VLAN_VM_MANAGEMENT
+Vlan2220                 VLAN_KARTU_KREDIT_ONLINE
+Vlan2270                 VLAN_KARTU_KREDIT_ONLINE_DRC
+Vlan2302                 VLAN_GENERIC_PAYMENT_TELCO
+Vlan2303                 VLAN_LOAN_FACTORY_2011
+Vlan2305                 VLAN_MODERNISASI_SMS_2011(10.204.44.31/27)
+Vlan2317                 VVLAN_COLLECTION_SYSTEM
+Vlan2319                 VLAN_FRAUD_CONTROL
+Vlan2352                 VLAN_GENERIC_PAYMENT_TELCO
+Vlan2353                 LOAN_FACTORY_2011_REP
+Vlan2480                 DEV_BGT
+Vlan2516                 VLAN-SAP-APP
+Vlan2560                 VLAN_MONITORING_NEW_SOA_REP_DRC
+Vlan2566                 VLAN_New-SAP-APP
+Vlan2568                 VLAN_New-SAP-SOL-NET_REP
+Vlan2620                 OPICS_KLN_PHASE12
+Vlan2623                 LOSIPS
+Vlan2626                 LOS-Consumer
+Vlan2627                 SUMMIT_KLN_PHASE12
+Vlan2629                 ECASH_INTEG
+Vlan2631                 DOM_KLN
+Vlan2633                 # DRC eMas7#
+Vlan2634                 VLAN_IFTI
+Vlan2635                 VLAN_Loyalty-Program
+Vlan2639                 DC_DMS_DESCY
+Vlan2643                 VLAN_USSD_Engine 
+Vlan2644                 SWIFT_SAG_DRC_OPR
+Vlan2646                 REP-PROD-SKN_GEN2
+Vlan2652                 SWIFT_KLN
+Vlan2667                 VLAN Phase 9 REP
+Vlan2674                 Datastage
+Vlan2678                 LOSCCAPP_DRC (10.254.71.0/27)
+Vlan2680                 PMS_Data_Virtualization_DRC
+Vlan2686                 VLAN_MAKSI
+Vlan2694                 Vlan2694
+Vlan2696                 SKN_GEN2
+Vlan2708                 Development
+Vlan2741                 DC_NEW_TREASURY
+Vlan2777                 TEST ACI
+Vlan2862                 MIMIX-eMas1-DRC(10.254.61.0/29)
+Vlan2871                 MIMIXeXIMDOMDRC(10.254.61.32/29)
+Vlan2903                 VLAN_EDC_P.AMIRu
+Vlan2918                 VLAN_HELPDESK_SPOC
+Vlan2919                 --
+Vlan2923                 VLAN_INT_COLLECTION_SYSTEM
+Vlan2927                 --
+Vlan2958                 VLAN_VELIS
+Vlan2968                 --
+Vlan2973                 VLAN_INT_COLLECTION_SYSTEM
+Vlan2977                 --
+Vlan2980                 VLAN_SIMB_PROD_DC
+Vlan3009                 PRM_ER
+Vlan3010                 VLAN_IRRS_3
+Vlan3101                 VLAN_AS400-EXIMBILL_DRC_DOMESTIK
+Vlan3105                 VLAN_AS400-EXIMBILL_DRC_DOMESTIK
+Vlan3109                 GW_PROD_SDS_KLN
+Vlan3151                 # EXIMBILLS_KLN_AS400#
+Vlan3155                 EXIMBILL_DOMESTIK_REP
+Vlan3158                 VLAN_BANKWIDE_LOYALTY(
+Vlan3215                 VLAN_CRM(10.204.32.104/29)
+Vlan3223                 Mandiri Investasi (MAKSI)
+Vlan3265                 VLAN_CRM_REP
+Vlan3268                 --
+Vlan3273                 --
+Vlan3306                 VLAN_CPS_KLN_SHANGHAI
+Vlan3308                 VLAN_CITRIX_KLN_SHANGHAI
+Vlan3317                 MPS
+Vlan3358                 VLAN_CITRIX_KLN_SHANGHAI
+Vlan3367                 VLAN_MASS_PREPAID
+Vlan3376                 --
+Vlan3616                 --
+Vlan3631                 Server_FLPP-DQA
+Vlan3655                 VLAN SUNMC_REP
+Vlan3673                 --
+Vlan3674                 NTP
+Vlan3705                 VLAN_STK_SMS_BANKING
+Vlan3707                 VLAN_MMBS_SMS_BANKING
+Vlan3719                 PSAK
+Vlan3767                 VLAN_ERM_SUN_SOLARIS_DRC
+Vlan3781                 VLAN_NEW_TRM
+Vlan3854                 eCash_API_MGMT(10.204.93.32/27)
+Vlan3871                 VLAN_TLE_SERVER_DRC_Ghifi
+Vlan3932                 PrimeCash_WEB_DC
+Vlan3933                 PrimeCash_APP_DC
+Vlan3937                 Statement_DB_DC
+Vlan3944                 Prod_Mon_NICE(10.254.97.224/28)
